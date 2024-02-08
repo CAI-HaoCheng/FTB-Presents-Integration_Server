@@ -1,3 +1,5 @@
+@echo off
+
 chcp 65001
 
 git add .
@@ -11,5 +13,3 @@ git pull origin main
 git push -u origin main
 
 echo 上傳成功
-
-pause
