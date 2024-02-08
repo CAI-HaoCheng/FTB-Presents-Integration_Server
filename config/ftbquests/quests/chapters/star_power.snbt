@@ -1,0 +1,1303 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "03596E37F85B2325"
+	filename: "star_power"
+	default_quest_shape: ""
+	icon: "astralsorcery:starmetal"
+	title: "Star Power"
+	order_index: 2
+	quests: [
+		{
+			size: 2.0d
+			description: [
+				""
+				"The &bResonating Wand&r is a tool that lets you activate the &6Luminous Crafting Table&r, as well as showing where &6Rock Crystals&r spawn underground at night."
+			]
+			id: "078E195012579DE3"
+			x: -7.0d
+			y: -4.5d
+			shape: "pentagon"
+			title: "Let This Resonate With You"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "02AB3BA88FC203D9"
+					item: "astralsorcery:aquamarine"
+				}
+				{
+					id: "51BF08107E8ECEE2"
+					type: "item"
+					item: {
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "42A1525E63B15607"
+					item: "ibpdx:night_summoner"
+				}
+			]
+			dependencies: [
+				"43B4F7D8C3642E7C"
+				"04017143CD3E2283"
+			]
+			tasks: [{
+				id: "4F7A93364021281C"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+		}
+		{
+			tasks: [{
+				id: "64A1B4941263F2F7"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			description: [
+				"The &bLuminous Crafting Table&r requires a clear view of the night sky and a decent elevation above sea level to work. Max efficiency is at y=128, any higher will not give better results."
+				""
+				"To create the &bLuminous Crafting Table&r, you will need to place a &6Crafting Table&r next to a &6Collector Crystal&r inside of a large marble structure found in &6Mountain&r or &6Desert&r biomes. Remember you have &6Nature's Compass!&r"
+			]
+			id: "5FD6DC6712D24FA7"
+			x: -3.5d
+			y: -4.5d
+			title: "Doesn't Actually Glow"
+			rewards: [{
+				type: "item"
+				count: 16
+				team_reward: true
+				id: "57CEFC5267242A06"
+				item: "ibpdx:duskstone_ingot"
+			}]
+			dependencies: ["078E195012579DE3"]
+		}
+		{
+			tasks: [{
+				id: "00900E65C8FA97E5"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+			description: ["Once you have acquired the &6Constellation Papers&r for a specific constellation, that constellation will appear in the night sky from then on. "]
+			id: "0D989A3AE674950E"
+			x: -3.5d
+			y: -6.0d
+			title: "Looking Up"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1FD25B584F959122"
+					item: "botania:livingwood"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "3B7B4F6BAEE1F6A8"
+					item: "botania:manasteel_ingot"
+				}
+			]
+			dependencies: ["5FD6DC6712D24FA7"]
+		}
+		{
+			tasks: [{
+				id: "3E791A8EA7615C2F"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+			description: ["The &bLightwell&r is used to collect &6Starlight&r in a liquid form. Simply place it down and put an &6Aquamarine&r or &6Rock Crystal&r on top of it."]
+			id: "13046109B3419EEB"
+			x: -2.0d
+			y: -4.5d
+			title: "Well... "
+			rewards: [
+				{
+					type: "item"
+					count: 9
+					team_reward: true
+					id: "3148983AAC55C021"
+					item: "astralsorcery:aquamarine"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "6265B46D118DCC75"
+					item: "astralsorcery:well"
+				}
+			]
+			dependencies: ["5FD6DC6712D24FA7"]
+		}
+		{
+			size: 1.25d
+			description: ["The &bStarlight Crafting Altar&r is the first upgraded altar in &eAstral Sorcery&r. Crafting it transforms the &6Luminous Crafting Table&r instead of actually making a new item. The Bucket is returned on use."]
+			id: "4A9815B41BD564B0"
+			x: -0.5d
+			y: -4.5d
+			shape: "pentagon"
+			title: "Many, Many Altars"
+			rewards: [
+				{
+					id: "160CB8BE3DACB421"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:rock_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "2857801B17C29FC3"
+					item: "astralsorcery:black_marble_raw"
+				}
+				{
+					id: "0A733DD3603AF194"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["13046109B3419EEB"]
+			tasks: [{
+				id: "4DAB67189C1CE143"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+		}
+		{
+			tasks: [{
+				id: "60AEB6561D1DBABD"
+				type: "item"
+				item: "astralsorcery:spectral_relay"
+			}]
+			description: ["The &bAstral Relay&r will provide extra &6Starlight&r to a nearby altar. Build its mini-structure, place the Relay on top, and a &6Glass Lens&r inside of it, and it will activate."]
+			id: "15A901953366EB69"
+			x: -0.5d
+			y: -3.0d
+			title: "More Starlight"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "4260509BA47CAD4C"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+				{
+					id: "309065F7BE4ADCF5"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+					count: 3
+				}
+			]
+			dependencies: ["4A9815B41BD564B0"]
+		}
+		{
+			tasks: [{
+				id: "4B2DCB44FA725BF9"
+				type: "item"
+				item: "astralsorcery:attunement_altar"
+			}]
+			description: ["The &bAttunement Altar&r lets you augment yourself and your items to have unique abilities. To use it you will need to create the multiblock shown in the &6Astral Tome&r, and then create the shape of the constellation you want using &6Spectral Relays&r. Finally, stand on the &bAttunement Altar&r. To see where to place each relay, hold the &6Constellation Paper&r for the constellation you want in your off-hand."]
+			id: "7BBDD841C7F4B52F"
+			x: -0.5d
+			y: -1.5d
+			title: "Sing a New Tune"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "4CF5A3630E38E7D5"
+					item: "mysticalagriculture:marble_seeds"
+				}
+				{
+					id: "3973FBBF2D4C3BAD"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:inferium_growth_accelerator"
+				}
+				{
+					id: "313ED7B0F4872DC1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["15A901953366EB69"]
+		}
+		{
+			tasks: [{
+				id: "30243EE61AE9F709"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+			description: ["Like most mods, &eAstral Sorcery&r has a guidebook which provides additional information on the progression of this mod than the Quest Book can alone.  "]
+			id: "43B4F7D8C3642E7C"
+			x: -7.0d
+			y: -6.5d
+			title: "A Supplementary Guide"
+			rewards: [
+				{
+					id: "0FD6DB5F84453359"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "55796B395537277F"
+					type: "item"
+					item: "pamhc2foodcore:applepieitem"
+				}
+			]
+			dependencies: ["07D35F22FBF6FB0C"]
+		}
+		{
+			tasks: [{
+				id: "409DC546782DB7D4"
+				type: "checkmark"
+			}]
+			description: ["Some of &6Botania's Baubles&r are craftable in the &bAstral Sorcery Altars&r, earlier than they would be otherwise. You can craft them the traditional way, if you wish, as well. Check the last pages of JEI for the tables to find the recipes."]
+			id: "495D8481AC479DD3"
+			icon: {
+				id: "botania:travel_belt"
+				Count: 1b
+				tag: { }
+			}
+			x: -3.5d
+			y: -3.0d
+			title: "Neat Trinkets"
+			rewards: [{
+				id: "1633D13E4CA8B5E0"
+				type: "xp"
+				xp: 10
+			}]
+			dependencies: ["5FD6DC6712D24FA7"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "13CEE030D7D6749C"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+			description: ["The &bTelescope&r allows for easier viewing of the stars. "]
+			id: "1A929CDC20B87094"
+			x: -2.0d
+			y: -6.0d
+			title: "Tele-vision"
+			rewards: [{
+				type: "item"
+				count: 8
+				team_reward: true
+				id: "4C199B44422A3208"
+				item: "botania:black_lotus"
+			}]
+			dependencies: ["0D989A3AE674950E"]
+		}
+		{
+			tasks: [{
+				id: "6B851C7CAFB627D5"
+				type: "item"
+				item: "astralsorcery:linking_tool"
+			}]
+			description: ["The &bLinking Tool&r links sources of &6Starlight&r together. Simple enough."]
+			id: "094749EE5772B619"
+			x: 1.0d
+			y: -4.5d
+			title: "Linking It Up"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "0585DF51FC7B47EB"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "7A67CCAC3CCA84F6"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:lens"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "42DB3B1DC3966F75"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["4A9815B41BD564B0"]
+		}
+		{
+			tasks: [
+				{
+					id: "16FDE381C0392DBB"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+				}
+				{
+					id: "0825F0FA8E6B2C6E"
+					type: "item"
+					item: {
+						id: "astralsorcery:chisel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			description: [
+				"&bStarmetal&r is a infused with the power of &6Starlight&r. You will need to link a &6Floating Crystal&r to &6Iron Ore&r to make &bStarmetal Ore&r. Then smelt a bunch of those down for &bStarmetal Nuggets&r. You will be able to get more later."
+				""
+				"Using the &bStarmetal Cutter&r, you can click on dropped &bStarmetal Ingots&r to turn it into &bStardust&r."
+			]
+			id: "70171CC07F33789E"
+			icon: "astralsorcery:starmetal_ingot"
+			x: 2.5d
+			y: -4.5d
+			title: "Starmetal Crusaders"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "77629678374CA5FF"
+					item: "minecraft:iron_ore"
+				}
+				{
+					id: "53692025CE05D51B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Plus, it twinkles!"
+			dependencies: ["094749EE5772B619"]
+		}
+		{
+			size: 1.25d
+			description: ["The &bCelestial Altar&r has an even larger grid than before, and as a result requires a larger structure with more blocks and more &6Starlight&r. It also opens up more of &eBotania&r."]
+			id: "6D2932884A981777"
+			x: 4.0d
+			y: -3.0d
+			shape: "pentagon"
+			title: "More Starlight! More Crafting!"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "3D4305614E226379"
+					item: "astralsorcery:marble_runed"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "77BECE0FCB3C663C"
+					item: "astralsorcery:black_marble_raw"
+				}
+				{
+					id: "2481C4743223AEC7"
+					type: "item"
+					team_reward: true
+					item: "botania:blacker_lotus"
+				}
+				{
+					id: "5989EC38C154026A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["38A0F8C5A32B4B81"]
+			tasks: [{
+				id: "5EB90BFF631D75A8"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+		}
+		{
+			tasks: [{
+				id: "3F14BC2208E23164"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+			description: ["&bStarlight Infusion&r makes several resources in &eAstral Sorcery&r that you will need later on. It also needs its own multiblock, keep that in mind."]
+			id: "0FFF395FFEB4BA29"
+			x: 4.0d
+			y: -1.5d
+			title: "Infusion Power"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "3969CE1F64596BE2"
+					item: "mysticalagriculture:gold_seeds"
+				}
+				{
+					id: "38AB080FB0E8E773"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "mekanism:basic_fluid_tank"
+						Count: 1b
+						tag: {
+							mekData: {
+								owner: [I;
+									1322214020
+									-1310177861
+									-1296886500
+									-1782337265
+								]
+								FluidTanks: [{
+									Tank: 0b
+									stored: {
+										FluidName: "astralsorcery:liquid_starlight"
+										Amount: 32000
+									}
+								}]
+								securityMode: 0
+								Items: [ ]
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["6D2932884A981777"]
+		}
+		{
+			size: 2.0d
+			description: ["The &bIridescent Altar&r is able to make very large crafts at the expense of a large amount of &6Starlight&r."]
+			id: "007D25A62689FF1D"
+			x: 4.0d
+			y: 0.5d
+			shape: "pentagon"
+			title: "A Huge Table"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "7E91EB74B6438539"
+					item: "astralsorcery:resonating_gem"
+				}
+				{
+					id: "192340EDCAD0E7C7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5763B1F49FC5579A"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_collector_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								constellation: "astralsorcery:aevitas"
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 1
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:purity"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:collector.rate"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:constellation.aevitas"
+											pLevel: 1
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["0FFF395FFEB4BA29"]
+			tasks: [{
+				id: "29DF7D50D20D48BD"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+		}
+		{
+			tasks: [{
+				id: "0E1FF2459FF9EAE7"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_gateway"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			description: ["The &bCelestial Gateway&r is a useful tool for linking areas together."]
+			id: "02C30878BB717E56"
+			x: 6.0d
+			y: 0.5d
+			title: "Whoosh!"
+			rewards: [
+				{
+					id: "7C158384098C29AA"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "69831DB0EAC4A9E9"
+					item: "xreliquary:interdiction_torch"
+				}
+				{
+					id: "3D21BF608518FC42"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["007D25A62689FF1D"]
+		}
+		{
+			tasks: [{
+				id: "66ADCD517A1D4502"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			description: ["&bWaystones&r are a more MP-friendly alternative to &6Celestial Gateways&r. Use what suits your situation best."]
+			id: "041730FBDEED447E"
+			x: 7.5d
+			y: 0.5d
+			title: "Another Way"
+			rewards: [
+				{
+					id: "0D8DA94CB6F90949"
+					type: "item"
+					team_reward: true
+					item: "waystones:waystone"
+				}
+				{
+					id: "5BBD0CEFB55489C8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["02C30878BB717E56"]
+		}
+		{
+			size: 1.5d
+			description: [
+				"&5Welcome to the Remix!"
+				"&a&5Reward:"
+				"&r2 Perfected &6Horolgium Celestial Crystals&r!"
+				""
+				"&5Tips:"
+				"Even if you do not plan on doing this now, you might want to automate &6Celestial Crystal&r  splitting anyway. "
+				""
+				"You can output the Liquid Starlight from the bottom of Lightwells using any fluid pipe. "
+				""
+				"You can also place a &6Containment Chalice&r next to a Lightwell to automatically output to the chalice. "
+				""
+				"&6Floating Crystals&r can be linked to more than just crafting &6Altars&r. Containment Chalices can form many different results when you place two with different fluids near each other! "
+			]
+			id: "21024F4FAE314904"
+			x: 4.0d
+			y: 3.0d
+			shape: "octagon"
+			title: "Astral Remix"
+			rewards: [
+				{
+					id: "20FE8A43E1A1E20A"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:attuned_celestial_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:shape"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 1
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:ritual.range"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:constellation.discidia"
+											pLevel: 1
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:constellation.armara"
+											pLevel: 2
+											discovered: 1b
+										}
+									]
+								}
+								constellationName: "astralsorcery:horologium"
+							}
+						}
+					}
+				}
+				{
+					id: "1850451BD882886C"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:attuned_celestial_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 1
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:ritual.effect"
+											pLevel: 1
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:constellation.evorsio"
+											pLevel: 2
+											discovered: 1b
+										}
+									]
+								}
+								constellationName: "astralsorcery:horologium"
+							}
+						}
+					}
+				}
+				{
+					id: "35BD3B96B5762A6F"
+					type: "item"
+					team_reward: true
+					item: "astralsorcery:ritual_pedestal"
+				}
+				{
+					id: "5F38234E1F1C62CF"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_collector_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								constellation: "astralsorcery:horologium"
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:collector.rate"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:constellation.horologium"
+											pLevel: 2
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "01E24A58D79C21EA"
+					type: "item"
+					item: "comforts:hammock_white"
+				}
+			]
+			dependencies: ["007D25A62689FF1D"]
+			hide_dependency_lines: false
+			tasks: [{
+				type: "item"
+				count: 200L
+				consume_items: true
+				id: "5DB49795F898F390"
+				item: "ibpdx:resonated_plated_growth_lens"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "687D4DC9EA26FEBE"
+					type: "item"
+					item: "masterfulmachinery:starlight_factory_controller"
+					consume_items: true
+				}
+				{
+					id: "01AAC7C446397232"
+					type: "item"
+					item: "masterfulmachinery:starlight_factory_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "3FEA3CF17A68C858"
+					type: "item"
+					item: "masterfulmachinery:starlight_factory_item_port_items_output"
+					consume_items: true
+				}
+				{
+					id: "5B26EC0408C9BB28"
+					type: "item"
+					item: "masterfulmachinery:starlight_factory_fluid_port_fluids_input"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 16L
+					consume_items: true
+					id: "550BE34180DB69A0"
+					item: "ibpdx:blockcasing_starmetal"
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "113DDD5C087AA354"
+					item: "minecraft:glowstone"
+				}
+				{
+					type: "item"
+					count: 26L
+					consume_items: true
+					id: "6B4F05CBACD66B3B"
+					item: "astralsorcery:marble_raw"
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "6CD057678B02EE10"
+					item: "astralsorcery:black_marble_raw"
+				}
+			]
+			description: ["The &bStarlight Factory&r requires a fair amount of &6Starmetal&r to construct, but in return, you get a way to make Starmetal from &6Liquid Starlight&r and &6Manasteel&r."]
+			icon: "masterfulmachinery:starlight_factory_controller"
+			id: "38A0F8C5A32B4B81"
+			x: 4.0d
+			y: -4.5d
+			title: "A Pricey Investment"
+			rewards: [
+				{
+					id: "08E3802B8ABCA131"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "thermal:fluid_cell"
+						Count: 1b
+						tag: {
+							Properties: { }
+							BlockEntityTag: {
+								Sides: [B;
+									0b
+									0b
+									0b
+									0b
+									0b
+									0b
+								]
+								RSControl: {
+									RSThreshold: 0b
+									RSMode: 0b
+								}
+								AmountOut: 1000
+								TankInv: [{
+									FluidName: "astralsorcery:liquid_starlight"
+									Capacity: 32000
+									Tank: 0b
+									Amount: 8000
+								}]
+								AmountIn: 1000
+								Xfer: {
+									XferOut: 1b
+									XferIn: 0b
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "14E30A5EB4BC77A7"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 14714914
+							author: "?"
+							label: "Starlight Factory.nbt"
+							structureName: "config/capsule/rewards/starlight_factory.nbt"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1
+							state: 5
+						}
+					}
+				}
+				{
+					id: "2585826FA90CCAC2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["70171CC07F33789E"]
+		}
+		{
+			tasks: [
+				{
+					id: "15E606D3D1244BA0"
+					type: "item"
+					item: "masterfulmachinery:starlight_enchanter_controller"
+					consume_items: true
+				}
+				{
+					id: "5A00596506AE00C0"
+					type: "item"
+					item: "masterfulmachinery:starlight_enchanter_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "4584722B5C0301FA"
+					item: "masterfulmachinery:starlight_enchanter_fluid_port_fluids_input"
+				}
+				{
+					id: "7A0A64D5DA2D21A5"
+					type: "item"
+					item: "masterfulmachinery:starlight_enchanter_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "1264B73FF0A18847"
+					type: "item"
+					item: "masterfulmachinery:starlight_enchanter_item_port_items_output"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "0EDC27E5A2AAC6F4"
+					item: "minecraft:blue_stained_glass"
+				}
+				{
+					type: "item"
+					count: 14L
+					consume_items: true
+					id: "27098802E1841244"
+					item: "astralsorcery:marble_pillar"
+				}
+				{
+					type: "item"
+					count: 6L
+					consume_items: true
+					id: "33BB14781B2C1E78"
+					item: "minecraft:obsidian"
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "564263CBEB0C1CD5"
+					item: "astralsorcery:marble_arch"
+				}
+				{
+					type: "item"
+					count: 16L
+					consume_items: true
+					id: "28B369B7AE324E3D"
+					item: "ibpdx:blockcasing_starmetal"
+				}
+			]
+			description: [
+				"The &bStarlight Enchanter&r makes &6Enchanted Books&r using the item, a book, power, &6Starlight&r and experience."
+				""
+				"It requires &6Essence of Knowledge&r as its experience source, obtained from an &6Insightful Crystal&r. Right click the crystal on the fluid port to fill it."
+				""
+				"In addition, if you want to know how to make the books, search \"Dummy\" in JEI."
+			]
+			icon: "masterfulmachinery:starlight_enchanter_controller"
+			id: "6B30C9729A3BD45D"
+			x: 4.0d
+			y: -6.0d
+			rewards: [
+				{
+					id: "52E218BC937106B9"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 7
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "starlight_enchanter"
+							structureName: "config/capsule/rewards/starlight_enchanter"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1
+							state: 5
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "6875B75383CB7A6E"
+					item: "astralsorcery:starmetal_ingot"
+				}
+				{
+					id: "5B572D64750E1398"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["38A0F8C5A32B4B81"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "6E17EFE94182F748"
+				type: "item"
+				item: "astralsorcery:chalice"
+				count: 2L
+			}]
+			description: [
+				"The &bContainment Chalice&r is an efficient way of using fluid mixing recipes with a much lower consumption rate! You will need a couple Containment Chalices placed near each other for them to work. Also, this is how you get your initial &6Wills&r for &eBlood Magic&r."
+				""
+				"{image:ibpdx:textures/questbook/chalices.png width:200 height:160 align:1}"
+			]
+			id: "1C90C3EBEB93D2A8"
+			x: 1.0d
+			y: 0.5d
+			title: "Interdripper"
+			rewards: [{
+				id: "4FD019F026FF53D1"
+				type: "item"
+				team_reward: true
+				item: "mysticalagriculture:starmetal_seeds"
+			}]
+			dependencies: ["007D25A62689FF1D"]
+		}
+		{
+			tasks: [{
+				id: "3F748AF7DB368556"
+				type: "item"
+				title: "Any Lens"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "astralsorcery:colored_lens_fire"
+								Count: 1b
+							}
+							{
+								id: "astralsorcery:colored_lens_break"
+								Count: 1b
+							}
+							{
+								id: "astralsorcery:colored_lens_growth"
+								Count: 1b
+							}
+							{
+								id: "astralsorcery:colored_lens_damage"
+								Count: 1b
+							}
+							{
+								id: "astralsorcery:colored_lens_regeneration"
+								Count: 1b
+							}
+							{
+								id: "astralsorcery:colored_lens_push"
+								Count: 1b
+							}
+							{
+								id: "astralsorcery:colored_lens_spectral"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			description: [
+				"When visible light is slowed down to just the right frequency, it becomes a particular color."
+				""
+				"In the case of starlight, it will imbue the light with a unique property for each color. The name makes each's function more or less self-explanatory, but to list them:"
+				""
+				"The &6Ignition Lens&r lights fires and smelts blocks in the world."
+				"The &eBreak Lens&r breaks blocks at the coordinates it is set to."
+				"The &aGrowth Lens&r speeds up crop growth."
+				"The &cDamaging Lens&r damages entities it comes in contact with."
+				"The &dRegeneration Lens&r gives entities a regeneration status effect."
+				"The &bPush Lens&r pushes blocks in the direction the light is \"pushing\" it towards."
+				"The &5Spectral Lens&r lets starlight beams pass through blocks to other lenses and prisms."
+			]
+			icon: "astralsorcery:glass_lens"
+			id: "1509210815FF6AB4"
+			x: 6.0d
+			y: -3.0d
+			title: "The Colors Feel So Right"
+			rewards: [
+				{
+					id: "1C334A25C5BB4CBE"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:lens"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "20905E46016D995C"
+					type: "item"
+					team_reward: true
+					item: "astralsorcery:colored_lens_spectral"
+				}
+			]
+			dependencies: ["6D2932884A981777"]
+		}
+		{
+			tasks: [
+				{
+					id: "2BFF659FFEBCCEDE"
+					type: "item"
+					item: "masterfulmachinery:auto_starlight_infuser_controller"
+				}
+				{
+					id: "0B71F429E009C9C9"
+					type: "item"
+					item: "masterfulmachinery:auto_starlight_infuser_item_port_items_input"
+				}
+				{
+					id: "04FD164BD15397D7"
+					type: "item"
+					item: "masterfulmachinery:auto_starlight_infuser_item_port_items_output"
+				}
+				{
+					id: "7FE752FA8785F5EE"
+					type: "item"
+					item: "masterfulmachinery:auto_starlight_infuser_fluid_port_fluids_input"
+				}
+				{
+					id: "76A373D48FE75304"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 9L
+				}
+			]
+			description: [
+				"The &6Starlight Infuser&r cannot be automated using regular means, but this can be fixed with just a few extra components."
+				""
+				"The &6Runed Marble&r fills in the space on the bottom&r. If you used the capsule in the first place, don't worry about it."
+				""
+				"If you forgot, you can press \"U\" on a controller to see the multiblock structure."
+				""
+				"THIS DOES NOT AUTOMATE EVERY RECIPE, ONLY ONES THAT ARE BOTH USEFUL AND UNIQUE TO THE INFUSER, SO NO ORE PROCESSING."
+			]
+			icon: "masterfulmachinery:auto_starlight_infuser_controller"
+			id: "0CD18D449FA26B82"
+			x: 6.0d
+			y: -1.5d
+			title: "Infuse on Loop"
+			rewards: [{
+				id: "3A2E5596F0EAE8E2"
+				type: "item"
+				item: {
+					id: "thermal:fluid_cell"
+					Count: 1b
+					tag: {
+						Properties: { }
+						BlockEntityTag: {
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							RSControl: {
+								RSThreshold: 0b
+								RSMode: 0b
+							}
+							AmountOut: 1000
+							TankInv: [{
+								FluidName: "astralsorcery:liquid_starlight"
+								Capacity: 32000
+								Tank: 0b
+								Amount: 8000
+							}]
+							AmountIn: 1000
+							Xfer: {
+								XferOut: 1b
+								XferIn: 0b
+							}
+						}
+					}
+				}
+			}]
+			dependencies: ["0FFF395FFEB4BA29"]
+		}
+		{
+			tasks: [{
+				id: "06CA8FF5A6EDFD61"
+				type: "checkmark"
+				title: "Lost Papers"
+			}]
+			description: ["If you somehow lost your Constellation Papers before you can craft more, you can use this one to progress to that point."]
+			icon: {
+				id: "astralsorcery:constellation_paper"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+			id: "3D0727BB92F31EA6"
+			x: -0.5d
+			y: -6.0d
+			rewards: [{
+				id: "4E541C0E48AEBFDE"
+				type: "item"
+				item: {
+					id: "astralsorcery:constellation_paper"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							constellationName: "astralsorcery:discidia"
+						}
+					}
+				}
+			}]
+			dependencies: ["1A929CDC20B87094"]
+		}
+	]
+}

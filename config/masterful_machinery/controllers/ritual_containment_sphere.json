@@ -1,0 +1,24 @@
+{
+  "controllerId": "ritual_containment_sphere",
+  "name": "Ritual Containment Sphere",
+  "textureOverride": "bloodmagic:block/ritualstone",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 9
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 20000
+      }
+    }
+  ]
+}

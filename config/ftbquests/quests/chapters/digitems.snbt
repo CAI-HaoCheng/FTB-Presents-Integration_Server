@@ -1,0 +1,524 @@
+{
+	default_hide_dependency_lines: false
+	group: "3838AB5A3188522F"
+	id: "25D81B195D25DE7F"
+	filename: "digitems"
+	default_quest_shape: ""
+	icon: "refinedstorage:controller"
+	title: "Storage Stuffer"
+	order_index: 7
+	quests: [
+		{
+			size: 1.25d
+			description: [
+				"&bQuartz Enriched Iron&r is a primary component for your storage needs. It will be essential for &eRefined Storage&r. It is made in the &6Induction Smelter&r."
+				""
+				""
+			]
+			id: "57567AF96A8DD9AB"
+			x: -8.0d
+			y: -3.0d
+			shape: "pentagon"
+			title: "Lots of Quartz"
+			rewards: [{
+				type: "item"
+				count: 2
+				team_reward: true
+				id: "20CCD512BCF28F00"
+				item: "mysticalagriculture:quartz_enriched_iron_seeds"
+			}]
+			dependencies: ["6ACA6B128CF6CBEC"]
+			tasks: [{
+				id: "0F2923403B33D942"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				count: 16L
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "15499CE857B12BB2"
+					type: "item"
+					item: "masterfulmachinery:processor_cutter_controller"
+				}
+				{
+					id: "19B8DDB796F57A49"
+					type: "item"
+					item: "minecraft:end_rod"
+				}
+				{
+					id: "4255C287BBD7911E"
+					type: "item"
+					item: "minecraft:stonecutter"
+				}
+				{
+					id: "7CEBDC1FC3D62C88"
+					type: "item"
+					item: "masterfulmachinery:processor_cutter_item_port_items_input"
+				}
+				{
+					id: "7EA38AA97153B95A"
+					type: "item"
+					item: "masterfulmachinery:processor_cutter_item_port_items_output"
+				}
+				{
+					id: "23754683AC524894"
+					type: "item"
+					item: "masterfulmachinery:processor_cutter_energy_port_energy_input"
+				}
+				{
+					id: "6310329AFBE3A156"
+					type: "item"
+					item: "ibpdx:blockcasing_empowered_diamond"
+					count: 4L
+				}
+				{
+					id: "7A56F31BC9A588DA"
+					type: "item"
+					item: "ibpdx:blockcasing_steel"
+					count: 15L
+				}
+			]
+			description: ["The &bProcessor Cutter&r is a step in assembling your various RS processors."]
+			icon: "masterfulmachinery:processor_cutter_controller"
+			id: "59FF3EAC5515FF77"
+			x: -6.0d
+			y: -3.0d
+			title: "Cut Man"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "2D20ED47B73F4692"
+					item: "boss_tools:desh_ingot"
+				}
+				{
+					id: "7C5788FCE827378B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["57567AF96A8DD9AB"]
+		}
+		{
+			size: 1.25d
+			description: ["The centerpiece of any &eRefined Storage&r system. Note that only one can be present per system, and it will be where the energy is accepted from."]
+			id: "1C8F75EF987A0A09"
+			x: -4.0d
+			y: -3.0d
+			shape: "pentagon"
+			title: "Mother Brain"
+			rewards: [{
+				type: "item"
+				count: 32
+				team_reward: true
+				id: "13AF5AB39FEC775B"
+				item: "refinedstorage:processor_binding"
+			}]
+			dependencies: ["59FF3EAC5515FF77"]
+			tasks: [{
+				id: "16BB5E3102894212"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+		}
+		{
+			tasks: [{
+				id: "2ACE2CA9E6560CE3"
+				type: "item"
+				item: "refinedstorage:cable"
+			}]
+			description: ["Connects parts of your RS network together."]
+			id: "29D8E0C698C45B38"
+			x: -8.0d
+			y: -1.5d
+			title: "Fiber Optics"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "12435FCCAA67DA7D"
+					item: {
+						id: "compactmachines:tunnel"
+						Count: 1b
+						tag: {
+							definition: {
+								id: "compactmachines:item"
+							}
+						}
+					}
+				}
+				{
+					id: "53313C6FCCF675E5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["57567AF96A8DD9AB"]
+		}
+		{
+			tasks: [{
+				id: "1A9B96F9B2322B69"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+			description: ["Stores RS drives. They each hold a designated number of items, and are typically better than storing items externally."]
+			id: "09DA658D925394BA"
+			x: -4.0d
+			y: -4.5d
+			title: "Disks, Not Discs"
+			rewards: [{
+				id: "4725E4046159BAFE"
+				type: "item"
+				item: "refinedstorage:1k_storage_disk"
+			}]
+			dependencies: ["1C8F75EF987A0A09"]
+		}
+		{
+			tasks: [{
+				id: "38B3A02AF9AA2D20"
+				type: "item"
+				item: "refinedstorage:interface"
+			}]
+			description: ["Can transport items both ways from an inventory."]
+			id: "7438DEAA71FEC1A0"
+			x: -1.5d
+			y: -1.5d
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "7CB724B30208D38C"
+				item: "refinedstorage:machine_casing"
+			}]
+			dependencies: [
+				"4522C0150418EE51"
+				"52E3B5C8EEBC4DE4"
+			]
+		}
+		{
+			tasks: [{
+				id: "0856E765C7F6B310"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			description: ["Same as the Grid, but you can craft items."]
+			id: "59B0D08A03BB7734"
+			x: -1.5d
+			y: -6.0d
+			title: "Better than Grids"
+			dependencies: ["49D54EE7BEC04408"]
+		}
+		{
+			tasks: [{
+				id: "79A6572D80027BD2"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+			description: ["Point at a block to \"use\" it for crafting recipes, or point at air to function for regular crafting recipes."]
+			id: "10B4B876832364FC"
+			x: 0.5d
+			y: -3.0d
+			title: "How Do I Craft This Again?"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "44B058F81435FDCB"
+				item: "refinedstorage:crafter"
+			}]
+			dependencies: ["4522C0150418EE51"]
+		}
+		{
+			tasks: [{
+				id: "4D543334F0077E27"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+			description: ["Lets you access your items in your storage network."]
+			id: "49D54EE7BEC04408"
+			x: -1.5d
+			y: -4.5d
+			title: "On the Grid"
+			rewards: [{
+				type: "item"
+				count: 8
+				team_reward: true
+				id: "01E29BEE2C792B72"
+				item: "refinedstorage:basic_processor"
+			}]
+			dependencies: ["4522C0150418EE51"]
+		}
+		{
+			tasks: [
+				{
+					id: "7BDA2F8390C64EDA"
+					type: "item"
+					item: "refinedstorage:importer"
+				}
+				{
+					id: "24C07DD45D49BFA2"
+					type: "item"
+					item: "refinedstorage:exporter"
+				}
+			]
+			description: ["&bImporters&r and &bExporters&r are crucial to automatically move items in and out of your &eRefined Storage&r Network"]
+			icon: "refinedstorage:exporter"
+			id: "52E3B5C8EEBC4DE4"
+			x: -4.0d
+			y: -1.5d
+			title: "In and Out"
+			rewards: [{
+				type: "item"
+				count: 16
+				team_reward: true
+				id: "1FC254B024B9508E"
+				item: "refinedstorage:cable"
+			}]
+			dependencies: ["1C8F75EF987A0A09"]
+		}
+		{
+			tasks: [
+				{
+					id: "5D7ACC8E63688E00"
+					type: "item"
+					item: "refinedstorageaddons:wireless_crafting_grid"
+				}
+				{
+					id: "4074CF1B280451F9"
+					type: "item"
+					item: "refinedstorage:wireless_transmitter"
+				}
+			]
+			description: ["&bWireless&r crafting access to your grid. Requires a &6Transmitter&r to be somewhere on the network, then shift-right-click on the &6Controller&r to connect."]
+			icon: "refinedstorage:wireless_grid"
+			id: "6F28477B0D2CDA7B"
+			x: 0.5d
+			y: -6.0d
+			title: "Off the Grid"
+			rewards: [{
+				id: "08874B77C5BF2187"
+				type: "item"
+				team_reward: true
+				item: "refinedstorage:range_upgrade"
+			}]
+			dependencies: ["59B0D08A03BB7734"]
+		}
+		{
+			tasks: [{
+				id: "7A0BCC0853B07E8F"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+			description: ["&bDanks&r store large quantities of a small number of items. The storage capacity and number of different items increases with the tier."]
+			id: "7BF54448C5E22A27"
+			x: 2.0d
+			y: -4.5d
+			title: "It's Dank"
+			rewards: [{
+				id: "17F99F874EFED526"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+			dependencies: ["70002CA6BFF5CF52"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "49B9D6A8E7ADC000"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			description: [
+				"&bBackpacks&r are a useful way to store items on your player. They can accept various &6Upgrades&r which help make the &bBackpack&r more useful. In addition, you can place it in the world to function like a chest."
+				""
+				"Did you know that with a &6Magnetizing Upgrade&r, the &bBackpack&r can act as an item vacuum?"
+			]
+			id: "6CF9137FB2515BB3"
+			x: 2.0d
+			y: -3.0d
+			shape: "circle"
+			title: "Backpacking in the Mountains"
+			rewards: [{
+				id: "4FFF042A1B53FF5A"
+				type: "item"
+				item: "sophisticatedbackpacks:void_upgrade"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "30B018CEE4C10598"
+				type: "item"
+				item: "refinedstorage:machine_casing"
+			}]
+			description: ["A central structure for computer parts."]
+			id: "4522C0150418EE51"
+			x: -1.5d
+			y: -3.0d
+			rewards: [{
+				id: "1E71AF4D83F7A83E"
+				type: "item"
+				team_reward: true
+				item: "refinedstorage:machine_casing"
+			}]
+			dependencies: [
+				"1C8F75EF987A0A09"
+				"452CD6ADF4E2FDC3"
+			]
+		}
+		{
+			tasks: [{
+				id: "08AAC0201A60FF9B"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+			description: [
+				"&bBlack Iron&r is forged from the presence of hostility on a Block of Iron."
+				""
+				"It can be made when a hostile mob spawns on a &6Block of Iron&r. If you need to force one to spawn, &6Nocturnal Powder&r might help."
+				""
+				"{image:ibpdx:textures/questbook/black_iron.png width:200 height:150 align:1}"
+			]
+			id: "70002CA6BFF5CF52"
+			x: 2.0d
+			y: -6.0d
+			title: "Forged in Darkness"
+			rewards: [{
+				id: "2BE08BBCA5B5ED0E"
+				type: "item"
+				item: "extendedcrafting:black_iron_block"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "5EBAAA7B40BC17D0"
+				type: "item"
+				item: "metalbarrels:wood_to_copper"
+			}]
+			description: ["&bBarrel Upgrades&r allow &6Barrels&r and &6Chests&r to store more stacks of items."]
+			id: "3F6BD16C9EBC8722"
+			x: 2.0d
+			y: -1.5d
+			title: "Bigger Inside, Same Outside"
+			rewards: [{
+				id: "2E28C318D0319F72"
+				type: "item"
+				team_reward: true
+				item: "metalbarrels:wood_to_copper"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "15E95881E803A48B"
+				type: "item"
+				item: "quark:crate"
+			}]
+			description: [
+				"The &bCrate&r only holds 640 items, which is only 10 stacks."
+				""
+				"If you store stackable items, that is."
+				""
+				"It holds many more slots than a chest, meaning it is ideal for unstackable items. You can fill it with tools, weapons, and other stuff."
+			]
+			id: "25F74AE85137D2D2"
+			x: 0.5d
+			y: -4.5d
+			title: "Almost Like a Filing Cabinet"
+			rewards: [{
+				id: "1C69C62D691090BF"
+				type: "item"
+				item: "quark:crate"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "56FB519682968009"
+				type: "item"
+				item: "automationbuffers:multibuffer"
+			}]
+			description: ["For tasks that use both a fluid and item in their recipe, the &bMulti Buffer&r might be of use. "]
+			id: "710AD122B95CA93B"
+			x: 0.5d
+			y: -1.5d
+			title: "Liquid or Solid?"
+			rewards: [{
+				id: "08FC65A5A32429F7"
+				type: "item"
+				item: "automationbuffers:multibuffer"
+			}]
+			dependencies: ["10B4B876832364FC"]
+		}
+		{
+			tasks: [{
+				id: "270A942BA11706AF"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			description: [
+				"&bDrawers&r are known for their ability to store many of one type of item."
+				""
+				"If locked, they can act as a primitive item filter."
+			]
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "4331D84C22A9A619"
+			x: 3.5d
+			y: -6.0d
+			title: "The Classic Super Stacker"
+			rewards: [
+				{
+					id: "411BC55A0566A087"
+					type: "item"
+					item: "storagedrawers:drawer_key"
+				}
+				{
+					id: "2E94AF40ACBBBE19"
+					type: "item"
+					item: "storagedrawers:quantify_key"
+				}
+				{
+					id: "75EF2D75316184BE"
+					type: "item"
+					item: "storagedrawers:shroud_key"
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "6B5FE77F9FDDE3C1"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			description: ["&bDrawer Controllers&r will distribute items inserted into them into the drawers connected to the Controller itself or a Drawer touching it. It prioritizes filled drawers over empty drawers."]
+			id: "094BD4F3C8CF84D8"
+			x: 3.5d
+			y: -4.5d
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "6FA96DDF9278403B"
+				item: "storagedrawers:controller_slave"
+			}]
+			dependencies: [
+				"4331D84C22A9A619"
+				"48639F567DBAD564"
+			]
+		}
+	]
+}

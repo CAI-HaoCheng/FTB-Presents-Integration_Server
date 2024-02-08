@@ -1,0 +1,1069 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "0B407E8656058B9B"
+	filename: "de"
+	default_quest_shape: ""
+	icon: "draconicevolution:awakened_draconium_ingot"
+	title: "DE"
+	order_index: 9
+	quests: [
+		{
+			tasks: [{
+				id: "1E57A4C4621E2B21"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+			}]
+			description: ["You'll need to fight a lot of dragons... Or simulate fighting them if you prefer. We won't judge. Really."]
+			id: "0B0163A519B538A1"
+			x: -5.0d
+			y: -4.0d
+			title: "Dragon Soul"
+			rewards: [
+				{
+					id: "404C26DA5D02170A"
+					type: "item"
+					team_reward: true
+					item: "draconicevolution:dragon_heart"
+				}
+				{
+					id: "048A8BBDA278EC76"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["76E93D7195424420"]
+		}
+		{
+			tasks: [{
+				id: "7BA2F4D4095FF708"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-7507347
+									-2145563545
+									-1100536553
+									782957108
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			description: ["To fight the &6Chaos Guardian&r, you will need bonus shielding. &bDraconic Evolution&r's armor can work for this. It needs modules to function properly, though."]
+			id: "5C19DF5E4CB8D057"
+			x: -5.0d
+			y: -8.0d
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "1FB8AA2DDB240D24"
+					item: "draconicevolution:wyvern_energy_core"
+				}
+				{
+					id: "56EE3A5EDBF06262"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "75D6F88AE73D3295"
+					type: "item"
+					team_reward: true
+					item: "ibpdx:dragon_base"
+				}
+			]
+			dependencies: ["76E93D7195424420"]
+		}
+		{
+			size: 1.25d
+			description: ["These are similar to other infusion-style crafting methods."]
+			id: "76E93D7195424420"
+			icon: "draconicevolution:crafting_core"
+			x: -5.0d
+			y: -6.0d
+			shape: "hexagon"
+			title: "Injection Time"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "11DB804967AAE8BF"
+					item: "rftoolsbase:dimensionalshard_nether"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "58B781127F7912B4"
+					item: "rftoolsbase:dimensionalshard_end"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "712B1D7C1B73A230"
+					item: "draconicevolution:wyvern_crafting_injector"
+				}
+			]
+			dependencies: ["1B0F04C85A032B67"]
+			tasks: [
+				{
+					id: "67AD289F99FBA768"
+					type: "item"
+					item: "draconicevolution:wyvern_crafting_injector"
+					count: 4L
+				}
+				{
+					id: "40DF236328879481"
+					type: "item"
+					item: "draconicevolution:crafting_core"
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "2A784DEC11D8A71E"
+				type: "item"
+				item: "draconicevolution:awakened_crafting_injector"
+			}]
+			description: ["The highest tier crafting injector that is needed."]
+			id: "18C18F2D9D51F9F8"
+			x: -3.0d
+			y: -4.0d
+			rewards: [
+				{
+					id: "6F4518400B28C074"
+					type: "item"
+					team_reward: true
+					item: "mysticalagradditions:awakened_draconium_crux"
+				}
+				{
+					id: "691790B81AC01D1D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["0B0163A519B538A1"]
+		}
+		{
+			tasks: [{
+				id: "1C9F373AACEF15FF"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									413268769
+									137842416
+									-1991525120
+									301880598
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			description: ["The ultimate multitool. Or keep using the &6MekaTool&r, that works too."]
+			id: "1F81EC92AD24913D"
+			x: -2.0d
+			y: -8.0d
+			rewards: [
+				{
+					id: "7C755724CB37E727"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "21545212A0F2586B"
+					item: "mysticalagriculture:draconium_seeds"
+				}
+			]
+			dependencies: [
+				"2662086BE1884E6E"
+				"5F4BD5A1E10DCB70"
+				"112828C638E1A187"
+			]
+		}
+		{
+			size: 1.5d
+			description: ["Get crafting. You'll need a lot."]
+			x: -14.0d
+			id: "4B92473A8994CDE7"
+			y: -6.0d
+			shape: "pentagon"
+			rewards: [{
+				id: "3853321D4E1F85E8"
+				type: "xp"
+				xp: 10
+			}]
+			dependencies: ["339867861185A852"]
+			tasks: [{
+				id: "1CD465E5430416EC"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+			}]
+		}
+		{
+			tasks: [{
+				id: "7779614BB1283A9B"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+			description: [
+				"A &bDraconium Core&r is a basic crafting component."
+				""
+				"It can also be used on a &6Mob Spawner&r to destabilize it. Be careful, as you cannot move these spawners without a &6Cardboard Box, Teleposer,&r or other block relocation method."
+				""
+				"&6Destabilized Spawners&r can be made much faster than regular spawners."
+			]
+			id: "484E1D69A63F15D7"
+			x: -12.0d
+			y: -6.0d
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "278830623CDBC580"
+					item: "draconicevolution:draconium_core"
+				}
+				{
+					id: "302F048FC540D708"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: [
+				"4B92473A8994CDE7"
+				"339867861185A852"
+			]
+		}
+		{
+			tasks: [{
+				id: "126C0D67EB12AD88"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_shovel"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-583564037
+									-45528100
+									-1286625276
+									1176852351
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			description: ["A super strong shovel."]
+			id: "112828C638E1A187"
+			x: -3.0d
+			y: -6.0d
+			rewards: [
+				{
+					id: "39531D2CEAD9B91C"
+					type: "item"
+					item: "draconicevolution:wyvern_energy_core"
+				}
+				{
+					id: "548BA603E4835100"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["76E93D7195424420"]
+		}
+		{
+			tasks: [{
+				id: "5CCB3AD1D64D9DC9"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_axe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1959679558
+									226577006
+									-1494087668
+									-967389173
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			description: ["An amazing, aerodynamic axe."]
+			id: "2662086BE1884E6E"
+			x: -1.0d
+			y: -6.0d
+			rewards: [
+				{
+					id: "3E39199A874E58E6"
+					type: "item"
+					item: "draconicevolution:wyvern_energy_core"
+				}
+				{
+					id: "00F865F855356471"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["76E93D7195424420"]
+		}
+		{
+			tasks: [{
+				id: "46895C0D25E454BF"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_pickaxe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1708181138
+									1049251679
+									-1997926608
+									577154392
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			description: ["A practical, powerful pickaxe."]
+			id: "5F4BD5A1E10DCB70"
+			x: -2.0d
+			y: -6.0d
+			rewards: [
+				{
+					id: "29727F1D5E8C0CDA"
+					type: "item"
+					item: "draconicevolution:wyvern_energy_core"
+				}
+				{
+					id: "30BE8ADFC09EB656"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["76E93D7195424420"]
+		}
+		{
+			size: 1.25d
+			description: [
+				"The &bAlchemy Reactor&r! This massive machine has seven mini-modules and one main base. To be nice, &bALL PORTS FOR THIS MACHINE ARE PROVIDED FOR YOU&r."
+				""
+				"The outer ring is a cycle that starts in the red node and works its way around the system counterclockwise, bombarding the element in the cycle with extra protons and other materials until it reaches the desired element."
+				""
+				"These elements can be compressed to produce singularities that provide 256 blocks of the given element used to make it."
+				""
+				"In addition, &6Infinity Fragments&r are produced as a byproduct. Hold onto those for later."
+			]
+			id: "2A68ABA2C8C227E6"
+			icon: "masterfulmachinery:alchemy_reactor_core_controller"
+			x: -5.0d
+			y: -2.0d
+			shape: "hexagon"
+			title: "Loopular Fusion"
+			rewards: [
+				{
+					id: "13C94FAA00A4BCA5"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "4D0D9550D736A947"
+					item: "avaritia:crystal_matrix_ingot"
+				}
+				{
+					id: "10FB6BE96BEF1A08"
+					type: "item"
+					item: "chemlib:element_hydrogen"
+					count: 16
+				}
+				{
+					id: "47F99E21F6E49259"
+					type: "item"
+					item: "ibpdx:singular_double_gearbox"
+					count: 4
+				}
+				{
+					id: "1BCBCDFE87C56CB3"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "alchemy_reactor"
+							structureName: "config/capsule/rewards/alchemy_reactor"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 23
+						}
+					}
+				}
+			]
+			dependencies: [
+				"0B0163A519B538A1"
+				"6A371D59F6C12829"
+			]
+			tasks: [
+				{
+					id: "29F5E9171BED9935"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_red_controller"
+					consume_items: true
+				}
+				{
+					id: "7CD3324EBAAB0888"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_orange_controller"
+					consume_items: true
+				}
+				{
+					id: "6701F124ABB5D665"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_yellow_controller"
+					consume_items: true
+				}
+				{
+					id: "0D24622CBE8CC0D6"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_green_controller"
+					consume_items: true
+				}
+				{
+					id: "2FA4E64AAA05555D"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_cyan_controller"
+					consume_items: true
+				}
+				{
+					id: "201FBCC38D500F4A"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_blue_controller"
+					consume_items: true
+				}
+				{
+					id: "1D6E170DC44004CA"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_violet_controller"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 19L
+					consume_items: true
+					id: "11414790AC038208"
+					item: "avaritia:infinity_block"
+				}
+				{
+					type: "item"
+					count: 224L
+					consume_items: true
+					id: "5FB7BB2561066251"
+					item: { id: "mekanism:sps_casing", Count: 64b }
+				}
+				{
+					type: "item"
+					count: 204L
+					consume_items: true
+					id: "4BB543995455D335"
+					item: "ibpdx:blockcasing_bedrock"
+				}
+				{
+					id: "4B19C45CC964D5E5"
+					type: "item"
+					item: "ibpdx:blockcasing_empowered_steel"
+					count: 3L
+				}
+				{
+					id: "3B75EF5E808B4BBC"
+					type: "item"
+					item: "ibpdx:blockcasing_awakened"
+					count: 3L
+				}
+				{
+					id: "2E156ED14D04E042"
+					type: "item"
+					item: "ibpdx:blockcasing_refined_glowstone"
+					count: 3L
+				}
+				{
+					id: "3C340DF255A791BC"
+					type: "item"
+					item: "ibpdx:blockcasing_terrasteel"
+					count: 3L
+				}
+				{
+					id: "0944DA317AF2FE80"
+					type: "item"
+					item: "ibpdx:blockcasing_manasteel"
+					count: 3L
+				}
+				{
+					id: "39E5B29F5D0C9DD3"
+					type: "item"
+					item: "ibpdx:blockcasing_starmetal"
+					count: 3L
+				}
+				{
+					id: "1CDA818DB381B770"
+					type: "item"
+					item: "ibpdx:blockcasing_duskstone"
+					count: 3L
+				}
+				{
+					id: "778BB98C7F54261A"
+					type: "item"
+					item: "chisel:futura/wavy"
+					count: 2L
+				}
+				{
+					id: "502B976BB06B12BA"
+					type: "item"
+					item: "chisel:futura/screen_metallic"
+					count: 16L
+				}
+				{
+					id: "6372DB64543A6106"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_core_controller"
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "3CCC03D84147EEFE"
+				type: "item"
+				item: "avaritia:infinity_ingot"
+			}]
+			description: ["The activated ultimate alloy!"]
+			id: "6A371D59F6C12829"
+			x: -9.0d
+			y: -2.0d
+			rewards: [
+				{
+					type: "toast"
+					description: ""
+					id: "5CD515BBBB3BAB37"
+					icon: "minecraft:clay_ball"
+					title: "Perfectly Balanced."
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "3766EB1A5546E4E0"
+					item: "ibpdx:inert_infinity_ingot"
+				}
+				{
+					id: "2D9B8187F10AA206"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			dependencies: ["18A6FCC5E23EE040"]
+		}
+		{
+			tasks: [{
+				id: "3AEC735466C7513C"
+				type: "item"
+				item: "ibpdx:inert_infinity_ingot"
+			}]
+			description: ["The base for the ultimate alloy..."]
+			id: "18A6FCC5E23EE040"
+			x: -10.5d
+			y: -2.0d
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "5216A472949FD42B"
+					item: "mysticalagradditions:insanium_ingot"
+				}
+				{
+					id: "5224B4EACDE0D867"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["31EB44AE86F5AD22"]
+		}
+		{
+			size: 1.5d
+			description: ["Same as the lower tier, but with infinite durability."]
+			x: -1.5d
+			id: "4CF53425F3C07473"
+			y: 0.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "01585A5CB4133F70"
+					item: "mysticalagriculture:supremium_growth_accelerator"
+				}
+				{
+					id: "5E84342969CA2759"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "62A4D67F8DC546DF"
+					type: "item"
+					team_reward: true
+					item: "miniutilities:reversing_hoe"
+				}
+			]
+			dependencies: ["46295F0C78C42BBC"]
+			tasks: [{
+				id: "5DE611D47DB0C0D8"
+				type: "item"
+				item: "mysticalagriculture:master_infusion_crystal"
+			}]
+		}
+		{
+			tasks: [{
+				id: "59B38A8A040B4647"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			description: ["For upgrading your essence into higher tiers."]
+			id: "31EB44AE86F5AD22"
+			x: -12.0d
+			y: -2.0d
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "35C762DC935C22E8"
+					item: "mysticalagradditions:insanium_farmland"
+				}
+				{
+					id: "684831A65675F5EB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 64
+					team_reward: true
+					id: "33DD2F0A9B4E247D"
+					item: "mysticalagriculture:fertilized_essence"
+				}
+			]
+			dependencies: ["5D471A1744888913"]
+		}
+		{
+			size: 1.5d
+			description: ["A bigger crafting table for bigger crafting."]
+			x: -14.0d
+			id: "5D471A1744888913"
+			y: -2.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					id: "5A33233A20CC51F2"
+					type: "item"
+					team_reward: true
+					item: "avaritia:crystal_matrix_ingot"
+				}
+				{
+					id: "7B0E3E27815433F4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["5C7DE8E4707C5F3B"]
+			tasks: [{
+				id: "310C212DCF1FBD03"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			tasks: [{
+				id: "6BC9096A9F889F46"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+			}]
+			description: ["Going right into a medium crafting component."]
+			id: "1B0F04C85A032B67"
+			x: -9.0d
+			y: -6.0d
+			rewards: [{
+				id: "504EACE7D33B1BAC"
+				type: "item"
+				team_reward: true
+				item: "draconicevolution:wyvern_core"
+			}]
+			dependencies: ["484E1D69A63F15D7"]
+		}
+		{
+			tasks: [{
+				id: "28CE57E8D719486C"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+			description: ["Another larger crafting table. The end is close!"]
+			x: -1.5d
+			id: "46295F0C78C42BBC"
+			y: -2.0d
+			shape: "circle"
+			title: "7x7"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "0A844721B9405069"
+					item: "draconicevolution:awakened_core"
+				}
+				{
+					id: "35AA7C63DFCC88D1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			dependencies: ["2195020C0F40D8E6"]
+		}
+		{
+			size: 1.5d
+			description: ["To make use of the &bAlchemy Reactor&r, you will need to compress your products down into singularities, then explode them to get the products."]
+			x: 1.0d
+			id: "50804D7BB06B1123"
+			y: -2.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					id: "3B5B13E2DC2F00EE"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:supremium_block"
+				}
+				{
+					id: "5FC47CC09492B662"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5E4A697078CF0C85"
+					type: "item"
+					team_reward: true
+					item: "avaritia:neutronium_block"
+				}
+			]
+			dependencies: ["46295F0C78C42BBC"]
+			tasks: [{
+				id: "624DC1F22DBC0359"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+		}
+		{
+			tasks: [{
+				id: "2C5296AD32C6D6DA"
+				type: "item"
+				item: "draconicevolution:draconic_shield_capacity_module"
+			}]
+			description: ["Each one you install increases your shield capacity."]
+			id: "31C9870257C34C68"
+			x: -4.0d
+			y: -11.5d
+			rewards: [
+				{
+					id: "7305B79DC0F19752"
+					type: "item"
+					item: "fluxnetworks:gargantuan_flux_storage"
+				}
+				{
+					id: "69667D6A2CDC9D04"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["68F35476AB122FDB"]
+		}
+		{
+			tasks: [{
+				id: "007AE81F12B556FF"
+				type: "item"
+				item: "draconicevolution:draconic_shield_recovery_module"
+			}]
+			description: ["Each one you install increases your shield regeneration rate."]
+			id: "369A85840E0C7F4C"
+			x: -3.0d
+			y: -11.5d
+			rewards: [
+				{
+					id: "166703F2D4889F39"
+					type: "item"
+					item: "draconicevolution:draconic_undying_module"
+				}
+				{
+					id: "1D7968E2DE8C3C95"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["68F35476AB122FDB"]
+		}
+		{
+			tasks: [{
+				id: "7039089E6E1CFD88"
+				type: "item"
+				item: "draconicevolution:draconic_shield_control_module"
+			}]
+			description: ["A &bDraconic Shield Control Module&r is needed to have any shielding."]
+			id: "68F35476AB122FDB"
+			x: -5.0d
+			y: -11.5d
+			rewards: [
+				{
+					id: "0EF1FEB942C195C3"
+					type: "item"
+					item: "draconicevolution:awakened_core"
+				}
+				{
+					id: "720135EF6E77BD58"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["5C19DF5E4CB8D057"]
+		}
+		{
+			tasks: [{
+				id: "378FF582E94E5976"
+				type: "item"
+				item: "draconicevolution:draconic_speed_module"
+			}]
+			description: ["Lets you move faster."]
+			id: "491C909D83E24E28"
+			x: -5.0d
+			y: -9.5d
+			rewards: [
+				{
+					id: "4AFBC4BD34AD705D"
+					type: "item"
+					item: "draconicevolution:module_core"
+					count: 8
+				}
+				{
+					id: "46A02179A105ECA2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["5C19DF5E4CB8D057"]
+		}
+		{
+			tasks: [{
+				id: "4A5EA7AC12840DA3"
+				type: "item"
+				item: "draconicevolution:draconic_energy_module"
+			}]
+			description: ["Allows more energy storage."]
+			id: "0E1109F3AEC12EAF"
+			x: -5.0d
+			y: -10.5d
+			rewards: [
+				{
+					id: "22BADA8475690F98"
+					type: "item"
+					item: "draconicevolution:draconic_io_crystal"
+					count: 2
+				}
+				{
+					id: "55DE7D37A6E2A190"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["5C19DF5E4CB8D057"]
+		}
+		{
+			size: 1.5d
+			description: ["A crafting component for the final challenge."]
+			x: -5.0d
+			id: "257C7433ABC63E2D"
+			y: 0.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					type: "item"
+					count: 64
+					team_reward: true
+					id: "43C9AC3730E932A6"
+					item: "ibpdx:infinity_fragment"
+				}
+				{
+					id: "71F8C2A62A7345F2"
+					type: "item"
+					team_reward: true
+					item: "extradisks:1048576k_fluid_storage_disk"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "1C212C9567AFD5F6"
+					item: "refinedstorage:64k_storage_disk"
+				}
+			]
+			dependencies: ["2A68ABA2C8C227E6"]
+			tasks: [{
+				id: "4878C9047779D536"
+				type: "item"
+				item: "ibpdx:infinity_fragment"
+			}]
+		}
+		{
+			tasks: [{
+				id: "44D1E7D940D89294"
+				type: "item"
+				item: "draconicevolution:chaos_shard"
+			}]
+			description: ["You'll have to track down and defeat a &6Chaos Guardian&r to move forward. They reside at intervals of X:10000 and z:10000 in the End. You might want some of DE's gear to do it, though."]
+			id: "2195020C0F40D8E6"
+			x: -1.5d
+			y: -4.0d
+			title: "Perfect Chaos"
+			rewards: [
+				{
+					id: "424E43C2FA541E63"
+					type: "item"
+					item: {
+						id: "draconicevolution:advanced_dislocator"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3AE515DB0E03CB7D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["18C18F2D9D51F9F8"]
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					count: 256L
+					consume_items: true
+					id: "62D1762DBB0F2B2A"
+					item: "ftbic:nuke"
+				}
+				{
+					type: "item"
+					count: 4L
+					consume_items: true
+					id: "319B91E23E5A98EC"
+					item: "draconicevolution:infused_obsidian"
+				}
+			]
+			description: ["If you really do not want to fight one Chaos Guardian, this is somewhat of an alternative. You do have to make it to the arena, and get into the core in the center, but once you submit this quest and claim the reward it will end the fight immediately and you can pick up the Chaos Shards and go home."]
+			id: "19AD13647B0CA729"
+			icon: "ftbic:nuke"
+			x: -3.0d
+			y: -2.0d
+			title: "Chaos Killer"
+			rewards: [{
+				id: "4D835BB17CB09841"
+				type: "command"
+				command: "/kill @e[type=draconicevolution:draconic_guardian]"
+				player_command: false
+			}]
+			dependencies: ["18C18F2D9D51F9F8"]
+			optional: true
+		}
+	]
+}

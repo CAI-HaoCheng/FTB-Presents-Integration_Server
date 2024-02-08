@@ -1,0 +1,71 @@
+[
+	{
+		"dimension": "dimdungeons:dungeon_dimension",
+		"result": "allow",
+		"onjoin": true,
+		"healthmultiply": 4,
+		"damagemultiply": 3,
+		"angry": true,
+		"potion": [ "minecraft:resistance,100000,1", "minecraft:fire_resistance,100000,1", "minecraft:strength,1000000,1" ],
+    		"random": 0.1
+	},
+
+	{
+		"dimension": "dimdungeons:dungeon_dimension",
+		"result": "allow",
+		"onjoin": true,
+		"healthmultiply": 2,
+		"damagemultiply": 4,
+		"angry": true,
+    		"random": 0.3
+	},
+
+  {
+		"dimension": "dimdungeons:dungeon_dimension",
+		"result": "allow",
+		"onjoin": true,
+		"healthmultiply": 4,
+		"damagemultiply": 2,
+		"angry": true,
+   		 "random": 0.3
+	},
+
+  {
+		"dimension": "dimdungeons:dungeon_dimension",
+		"result": "allow",
+		"onjoin": true,
+		"healthmultiply": 2,
+		"damagemultiply": 2,
+    		"damageadd": 2,
+		"angry": true,
+    		"random": 0.3
+	},
+  
+  {
+		"dimension": "dimdungeons:dungeon_dimension",
+		"result": "allow",
+		"onjoin": true,
+		"healthmultiply": 6,
+		"damagemultiply": 1,
+    		"potion": [ "minecraft:resistance,100000,1", "minecraft:fire_resistance,100000,1"],
+		"angry": true,
+    		"random": 0.5 
+	},
+
+	{
+		"dimension": "dimdungeons:dungeon_dimension",
+		"result": "allow",
+		"onjoin": true,
+		"healthmultiply": 2,
+		"damagemultiply": 2,
+		"angry": true
+	},
+
+
+  {
+    "mob": "mekanismadditions:baby_enderman",
+    "result": "deny"
+  }
+
+
+  ]

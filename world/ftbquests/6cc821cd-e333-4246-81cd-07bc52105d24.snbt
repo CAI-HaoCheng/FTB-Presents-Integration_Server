@@ -1,0 +1,13 @@
+{
+	name: "darkhome"
+	started: { }
+	lock: false
+	task_progress: { }
+	completed: { }
+	auto_pin: false
+	uuid: "6cc821cde333424681cd07bc52105d24"
+	version: 1
+	can_edit: false
+	pinned_quests: [ ]
+	claimed_rewards: { }
+}

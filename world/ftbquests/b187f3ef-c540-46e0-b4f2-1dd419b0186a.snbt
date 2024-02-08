@@ -1,0 +1,13 @@
+{
+	name: "HiddenMW"
+	started: { }
+	lock: false
+	task_progress: { }
+	completed: { }
+	auto_pin: false
+	uuid: "b187f3efc54046e0b4f21dd419b0186a"
+	version: 1
+	can_edit: false
+	pinned_quests: [ ]
+	claimed_rewards: { }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.gold",
+  "colors": [
+    "ffbc5e",
+    "b47140"
+  ],
+  "ingredient": {
+    "item": "chemlib:element_gold"
+  }
+}

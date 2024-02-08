@@ -1,0 +1,19 @@
+{
+	type: "player"
+	id: "b187f3ef-c540-46e0-b4f2-1dd419b0186a"
+	properties: {
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:display_name": "HiddenMW"
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_fake_players": 1b
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:color": "#FF595D"
+	}
+	extra: { }
+	player_name: "HiddenMW"
+	message_history: [ ]
+	ranks: { }
+}

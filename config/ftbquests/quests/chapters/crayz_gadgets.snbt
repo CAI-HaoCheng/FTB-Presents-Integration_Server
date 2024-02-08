@@ -1,0 +1,321 @@
+{
+	default_hide_dependency_lines: false
+	group: "3838AB5A3188522F"
+	id: "0678AB6D5E7D1225"
+	filename: "crayz_gadgets"
+	default_quest_shape: ""
+	icon: {
+		id: "buildinggadgets:gadget_building"
+		Count: 1b
+		tag: {
+			state: {
+				serializer: "buildinggadgets:dummy_serializer"
+				state: {
+					Name: "minecraft:air"
+				}
+				data: { }
+			}
+		}
+	}
+	title: "Crazy Gadgets"
+	order_index: 6
+	quests: [
+		{
+			tasks: [{
+				id: "05FC02CE63919B71"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+			description: ["&bCompact Machines&r allows you to store your multiblocks (or just several machines) into a nice small space of a single block."]
+			icon: "compactmachines:personal_shrinking_device"
+			id: "3B7A9D6E1069EA93"
+			x: 2.5d
+			y: -1.5d
+			title: "Nice and Compact"
+			rewards: [{
+				id: "25AAFF1028F3F748"
+				type: "item"
+				team_reward: true
+				item: "minecraft:iron_block"
+			}]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "4FD83F75457E54DA"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+			description: ["Well, not the smallest, but the first that can hold some of the smaller multiblocks and still let you move inside of it. It has a 5x5x5 inside."]
+			id: "74B2CDB516FF913B"
+			x: 2.5d
+			y: -3.0d
+			title: "First Level of Compaction"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1F28165E3CFFE13B"
+					item: "compactmachines:wall"
+				}
+				{
+					id: "68138B2DF4AC3DD9"
+					type: "item"
+					item: {
+						id: "compactmachines:tunnel"
+						Count: 1b
+						tag: {
+							definition: {
+								id: "compactmachines:item"
+							}
+						}
+					}
+					count: 16
+				}
+			]
+			dependencies: ["3B7A9D6E1069EA93"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "6E0E2BDDF5D73B33"
+				type: "item"
+				item: {
+					id: "thermal:fluid_reservoir"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			description: ["&bReservoirs&r are basically just bigger buckets."]
+			id: "0DB2134DDF5E5D54"
+			x: 4.5d
+			y: -3.0d
+			title: "A Better Bucket"
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "4CCC0222F9120407"
+				type: "item"
+				item: "botania:horn_grass"
+			}]
+			description: ["The &bHorn of the Wild&r is a lawn mower taped to a flute. Don't ask how it works. (Hold right click to harvest crops and break grass)"]
+			id: "3E1DFC8218EA4AC6"
+			x: 0.5d
+			y: -3.0d
+			title: "Breath of the Wild"
+			rewards: [{
+				id: "3FEA29DCDAF4078D"
+				type: "item"
+				team_reward: true
+				item: "botania:redstone_spreader"
+			}]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "2FB276BDE2C772DC"
+				type: "item"
+				item: "cyclic:crafting_stick"
+			}]
+			description: ["The &bCrafting Stick&r is a portable Crafting Table."]
+			id: "666C355089B7EE0C"
+			x: -1.5d
+			y: -3.0d
+			title: "Crafting on the Go"
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "0D638895F3136102"
+				type: "item"
+				item: {
+					id: "powah:battery_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			description: ["&bBatteries&r do exactly what you would expect them to do. Shift Right Click to activate their charge."]
+			id: "2DCD47DA0F967A32"
+			x: 6.5d
+			y: -3.0d
+			title: "Battery Man"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "78AADCC7F4F537D3"
+				item: "powah:capacitor_basic_tiny"
+			}]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "6EE88027F9492984"
+				type: "item"
+				item: {
+					id: "thermal:flux_capacitor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			description: ["&bCapacitors&r store RF (and equivalent) energy inside of them and can charge tools that use it."]
+			id: "69561ECD5B84E7F0"
+			x: 6.5d
+			y: -1.5d
+			title: "Charge It!"
+			rewards: [
+				{
+					id: "22B6E16667E6F650"
+					type: "item"
+					team_reward: true
+					item: "ibpdx:dummy_holding_book"
+				}
+				{
+					id: "0517F5F35CD1883C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["2DCD47DA0F967A32"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "7836962188F527A5"
+				type: "item"
+				item: {
+					id: "botania:mana_gun"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			description: [
+				"P e w"
+				""
+				"Lenses of note are &6Flash&r (for a light gun), &6Bore&r (for a mining laser), &6Damaging&r (as an attack), and &6Entropic&r (in case you want to fire missiles at your enemies)."
+				""
+				"You can fire faster if you have a haste effect for what is basically a magic laser gun."
+			]
+			id: "6D68E9AADCB59DF6"
+			x: 0.5d
+			y: -1.5d
+			title: "G u n"
+			rewards: [{
+				type: "item"
+				count: 2
+				team_reward: true
+				id: "1A9299C3519852AC"
+				item: {
+					id: "botania:lens_normal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "41A9F16C608F7EDF"
+				type: "item"
+				item: "thermal:prismarine_rail"
+			}]
+			description: ["&bPrismarine Rails&r are essentially tracks that function underwater. While that might not sound like much, it makes underwater builds that much more viable! They even come with a minecart that will let you ride underwater for longer!"]
+			id: "380BB2FECBAAC7AD"
+			x: 4.5d
+			y: -1.5d
+			title: "It Even Works Underwater!"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "427131CD2746F63E"
+					item: "thermal:prismarine_powered_rail"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "0C1F4EF74069DF5F"
+					item: "thermal:prismarine_rail"
+				}
+			]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "67B58C762E9E4AA9"
+				type: "item"
+				item: "quark:abacus"
+			}]
+			description: [
+				"One, two, three..."
+				""
+				"This lets you determine length from the block you clicked on."
+			]
+			id: "1165E819716CA5A0"
+			x: -1.5d
+			y: -1.5d
+			title: "Count the Grains of Sand in the Desert"
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "42443805A62C483F"
+				type: "item"
+				item: "cyclic:magic_net"
+			}]
+			description: ["The &bMonster Ball&r can transport mobs from one location to another."]
+			id: "4DC0CB1B40942CFD"
+			x: -1.5d
+			y: 0.0d
+			title: "Go! Zombie!"
+			rewards: [{
+				id: "4859A180CD192ED8"
+				type: "item"
+				item: "cyclic:magic_net"
+			}]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "1E29662CB9444EC6"
+				type: "item"
+				item: {
+					id: "shrink:shrinking_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			description: ["The &bShrinking Device&r lets you shrink down so you can fit inbetween your cables."]
+			id: "000C8F50AA073A41"
+			x: 2.5d
+			y: 0.0d
+			title: "Who You Calling So Tiny?"
+			dependencies: ["3B7A9D6E1069EA93"]
+		}
+		{
+			tasks: [{
+				id: "6393B6B65AB84A6F"
+				type: "item"
+				item: "notenoughwands:acceleration_wand"
+			}]
+			description: ["The &bAcceleration Wand&r increases the speed at which a block operates in an instant. It uses a lot of power, though. If you're struggling to run your early Mekanism machines, this might help."]
+			id: "33070AA3410F2291"
+			x: 0.5d
+			y: 0.0d
+			title: "Speedy Speed Boy"
+			rewards: [{
+				id: "1FBCA151E3922F31"
+				type: "item"
+				item: {
+					id: "powah:battery_basic"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

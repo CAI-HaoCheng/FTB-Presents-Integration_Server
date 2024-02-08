@@ -1,0 +1,98 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = FTB Presents Integration by Parts DX
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  hidden = true
+  original_pos_size_calculation = false
+  x = -111
+  width = 223
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = 6b5e9a3a-6954-4f75-81a5-27d2e10830b91682621199117
+  y = 55
+  height = 44
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 10
+  width = 300
+  action = deep_customization_element:drippy_overlay_forge_memory
+  actionid = 5741211c-f0a7-4cf5-843f-ca7434b7b89f1682621199132
+  y = 10
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 10
+  width = 300
+  action = deep_customization_element:drippy_overlay_forge_log
+  actionid = f9992411-9433-4873-8300-414f0a2ab47d1682621199132
+  y = 228
+  height = 50
+}
+
+customization {
+  custom_color_hex = #000000
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = c277c9d5-7b04-4637-aed2-20829a8ad9fc1682621199132
+  y = -1000000
+  height = 0
+}
+
+customization {
+  custom_color_hex = #279dba
+  orientation = top-centered
+  hidden = false
+  original_pos_size_calculation = false
+  x = -127
+  width = 256
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = ccdb621b-80fa-4b9c-a55e-666f289617de1682621199132
+  y = 180
+  height = 10
+}
+
+customization {
+  path = kubejs/assets/ibpdx/ui/infinite.gif
+  orientation = element
+  orientation_element = 441cdb68-ec56-4350-bcb7-65d7b0f73ca31682622526858
+  x = 76
+  width = 104
+  action = addtexture
+  actionid = 44e7f6bc-0f83-4a4a-80cc-97c153b8c3d91682621993436
+  y = 72
+  height = 61
+}
+
+customization {
+  path = kubejs/assets/ibpdx/ui/mojang.png
+  orientation = top-centered
+  x = -132
+  width = 264
+  action = addtexture
+  actionid = 441cdb68-ec56-4350-bcb7-65d7b0f73ca31682622526858
+  y = 47
+  height = 77
+}
+

@@ -1,0 +1,112 @@
+[21:41:32] [INFO ] Loaded script server_scripts:fancyibp.js in 0.022 s
+[21:41:32] [INFO ] Loaded script server_scripts:unify/missingrecipes.js in 0.003 s
+[21:41:32] [INFO ] Loaded script server_scripts:functions.js in 0.0 s
+[21:41:32] [INFO ] Loaded script server_scripts:constants.js in 0.001 s
+[21:41:32] [INFO ] Loaded script server_scripts:shapedrecipes.js in 0.012 s
+[21:41:32] [INFO ] Loaded script server_scripts:oreprocessingnew.js in 0.002 s
+[21:41:32] [INFO ] Loaded script server_scripts:removalsibp.js in 0.002 s
+[21:41:32] [INFO ] Loaded script server_scripts:alchemyrecipes.js in 0.002 s
+[21:41:32] [INFO ] Loaded script server_scripts:bootlegcompactmachines.js in 0.002 s
+[21:41:32] [INFO ] Loaded script server_scripts:crafttweakerconvert.js in 0.002 s
+[21:41:32] [INFO ] Loaded script server_scripts:essencerecipes.js in 0.0 s
+[21:41:32] [INFO ] Loaded script server_scripts:forestry_rewrite.js in 0.002 s
+[21:41:32] [INFO ] Loaded script server_scripts:loginmessage.js in 0.001 s
+[21:41:32] [INFO ] Loaded script server_scripts:lootjs.js in 0.007 s
+[21:41:32] [INFO ] Loaded script server_scripts:multiblockenchanting.js in 0.001 s
+[21:41:32] [INFO ] Loaded script server_scripts:multiblockmachines.js in 0.001 s
+[21:41:32] [INFO ] Loaded script server_scripts:multiblockmachinesduplicators.js in 0.0 s
+[21:41:32] [INFO ] Loaded script server_scripts:multiblockmachines_upgrades.js in 0.001 s
+[21:41:32] [INFO ] Loaded script server_scripts:multiblockrecipes.js in 0.005 s
+[21:41:32] [INFO ] Loaded script server_scripts:shapelessrecipes.js in 0.0 s
+[21:41:32] [INFO ] Loaded script server_scripts:smithingcrafting.js in 0.0 s
+[21:41:32] [INFO ] Loaded script server_scripts:stands.js in 0.001 s
+[21:41:32] [INFO ] Loaded script server_scripts:tags.js in 0.0 s
+[21:41:32] [INFO ] Loaded script server_scripts:unify/unifyremove.js in 0.003 s
+[21:41:32] [INFO ] Loaded script server_scripts:unify/unifytagremove.js in 0.001 s
+[21:41:32] [INFO ] Loaded script server_scripts:worldevents.js in 0.003 s
+[21:41:32] [INFO ] Loaded 26/26 KubeJS server scripts in 0.083 s
+[21:41:32] [INFO ] Scripts loaded
+[21:41:32] [INFO ] Scanning recipes...
+[21:41:33] [INFO ] [blocks] Found 670 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [blocks] Found 677 tags, added 182 objects, removed 0 objects
+[21:41:33] [INFO ] [items] Found 1574 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [items] Found 1589 tags, added 241 objects, removed 1 objects
+[21:41:33] [INFO ] [fluids] Found 155 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [fluids] Found 159 tags, added 4 objects, removed 0 objects
+[21:41:33] [INFO ] [entity_types] Found 28 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [entity_types] Found 28 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [tunnel_types] Found 0 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [tunnel_types] Found 0 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[21:41:33] [INFO ] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[21:41:33] [WARN ] Failed to parse recipe 'industrialagriculture:crops/temp/diamond[botanypots:crop]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: botanypots:crop
+[21:41:33] [WARN ] Failed to parse recipe industrialagriculture:crops/temp/diamond[botanypots:crop]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+[21:41:33] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[21:41:33] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[21:41:33] [WARN ] Failed to parse recipe 'ftbic:macerating/charcoal_dust[ftbic:macerating]': {"item":"emendatusenigmatica:charcoal_dust"} is not a valid result!
+[21:41:34] [WARN ] Failed to parse recipe 'industrialagriculture:crops/temp/netherite[botanypots:crop]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: botanypots:crop
+[21:41:34] [WARN ] Failed to parse recipe industrialagriculture:crops/temp/netherite[botanypots:crop]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+[21:41:34] [WARN ] Failed to parse recipe 'ftbic:macerating/ender_dust[ftbic:macerating]': {"item":"emendatusenigmatica:ender_dust"} is not a valid result!
+[21:41:34] [WARN ] Failed to parse recipe 'industrialagriculture:crops/temp/nether_star[botanypots:crop]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: botanypots:crop
+[21:41:34] [WARN ] Failed to parse recipe industrialagriculture:crops/temp/nether_star[botanypots:crop]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+[21:41:34] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_orange_oak_sapling[thermal:insolator]': {"item":"minecraft:orange_oak_sapling"} is not a valid ingredient!
+[21:41:34] [WARN ] Failed to parse recipe 'ftbic:macerating/coal_dust[ftbic:macerating]': {"item":"emendatusenigmatica:coal_dust"} is not a valid result!
+[21:41:34] [WARN ] Failed to parse recipe 'ftbic:macerating/obsidian_dust[ftbic:macerating]': {"item":"emendatusenigmatica:obsidian_dust"} is not a valid result!
+[21:41:34] [WARN ] Failed to parse recipe 'bloodmagic:meteor/create[bloodmagic:meteor]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create:andesite_alloy'
+[21:41:34] [WARN ] Failed to parse recipe bloodmagic:meteor/create[bloodmagic:meteor]: com.google.gson.JsonSyntaxException: Unknown item 'create:andesite_alloy'
+[21:41:34] [WARN ] Failed to parse recipe 'infused_crystals:coalium_shovel[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'infused_crystals:deleted_mod_element'
+[21:41:34] [WARN ] Failed to parse recipe infused_crystals:coalium_shovel[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'infused_crystals:deleted_mod_element'
+[21:41:34] [WARN ] Failed to parse recipe 'ftbic:shapeless/sulfur_from_hammer[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'emendatusenigmatica:enigmatic_hammer'
+[21:41:34] [WARN ] Failed to parse recipe ftbic:shapeless/sulfur_from_hammer[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'emendatusenigmatica:enigmatic_hammer'
+[21:41:34] [WARN ] Failed to parse recipe 'ftbic:separating/sulfur_from_gunpowder[ftbic:separating]': {"item":"emendatusenigmatica:coal_dust"} is not a valid result!
+[21:41:34] [WARN ] Failed to parse recipe 'thermal:compat/betterendforge/insolator_betterendforge_jellyshroom_sapling[thermal:insolator]': {"item":"betterendforge:jellyshroom_sapling"} is not a valid ingredient!
+[21:41:34] [WARN ] Failed to parse recipe 'industrialagriculture:eggs/minecraft/zombie_pigman_egg[mysticalagriculture:infusion]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mysticalagriculture:zombie_pigman_essence'
+[21:41:34] [WARN ] Failed to parse recipe industrialagriculture:eggs/minecraft/zombie_pigman_egg[mysticalagriculture:infusion]: com.google.gson.JsonSyntaxException: Unknown item 'mysticalagriculture:zombie_pigman_essence'
+[21:41:34] [WARN ] Failed to parse recipe 'thermal:fuels/compression/compression_creosote[thermal:compression_fuel]': {"fluid_tag":"forge:creosote","amount":1000} is not a valid ingredient!
+[21:41:34] [WARN ] Failed to parse recipe 'industrialagriculture:crops/temp/gold[botanypots:crop]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: botanypots:crop
+[21:41:34] [WARN ] Failed to parse recipe industrialagriculture:crops/temp/gold[botanypots:crop]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+[21:41:34] [WARN ] Failed to parse recipe 'ftbic:shaped/roller[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'emendatusenigmatica:enigmatic_hammer'
+[21:41:34] [WARN ] Failed to parse recipe ftbic:shaped/roller[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'emendatusenigmatica:enigmatic_hammer'
+[21:41:34] [WARN ] Failed to parse recipe 'ftbic:macerating/sawdust[ftbic:macerating]': {"item":"emendatusenigmatica:wood_dust"} is not a valid result!
+[21:41:34] [WARN ] Failed to parse recipe 'industrialagriculture:crops/temp/iron[botanypots:crop]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: botanypots:crop
+[21:41:34] [WARN ] Failed to parse recipe industrialagriculture:crops/temp/iron[botanypots:crop]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+[21:41:34] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_yellow_birch_sapling[thermal:insolator]': {"item":"minecraft:yellow_birch_sapling"} is not a valid ingredient!
+[21:41:34] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_orange_birch_sapling[thermal:insolator]': {"item":"minecraft:orange_birch_sapling"} is not a valid ingredient!
+[21:41:34] [WARN ] Failed to parse recipe 'ftbic:separating/silicon_from_quartz[ftbic:separating]': {"item":"emendatusenigmatica:silicon_gem","count":3} is not a valid result!
+[21:41:34] [WARN ] Failed to parse recipe 'ftbic:separating/silicon_from_sand[ftbic:separating]': {"item":"emendatusenigmatica:silicon_gem","chance":0.2} is not a valid result!
+[21:41:34] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_yellow_oak_sapling[thermal:insolator]': {"item":"minecraft:yellow_oak_sapling"} is not a valid ingredient!
+[21:41:34] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_red_oak_sapling[thermal:insolator]': {"item":"minecraft:red_oak_sapling"} is not a valid ingredient!
+[21:41:34] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_flowering_oak_sapling[thermal:insolator]': {"item":"minecraft:flowering_oak_sapling"} is not a valid ingredient!
+[21:41:34] [INFO ] Found 17683 recipes and 0 failed recipes in 516.7 ms
+[21:41:35] [INFO ] Posted recipe events in 1.379 s
+[21:41:35] [WARN ] Error parsing recipe immersivepetroleum:distillationtower/oilcracking[immersivepetroleum:distillation]: {"type":"immersivepetroleum:distillation","byproducts":[{"item":"immersivepetroleum:bitumen"}],"results":[{"fluid":"immersivepetroleum:lubricant","amount":9},{"fluid":"immersivepetroleum:diesel_sulfur","amount":14},{"fluid":"immersivepetroleum:gasoline","amount":39}],"input":{"tag":"forge:crude_oil","amount":75},"time":1,"energy":2048}: java.lang.IllegalArgumentException: Unexpected json object.
+[21:41:35] [INFO ] Modified & removed recipes in 157.9 ms
+[21:41:36] [WARN ] Error creating recipe boss_tools_giselle_addon:kjs_7z4ndoisuacg06ctqlbm9i40g[boss_tools_giselle_addon:alien_trading_itemstack]: {"type":"boss_tools_giselle_addon:alien_trading_itemstack","job":"minecraft:fletcher","level":1,"xp":3,"costA":{"item":"thermal:enderium_coin","count":1},"result":{"item":{"item":"minecraft:tipped_arrow","count":1,"nbt":"{Potion:\"minecraft:long_poison\"}"},"count":4}}: com.google.gson.JsonSyntaxException: Expected item to be a string, was an object ({"it...}"})
+[21:41:36] [WARN ] Error creating recipe mekanism:kjs_1uhbbwq8w44dz8y0ng36pzzw0[mekanism:nucleosynthesizing]: {"type":"mekanism:nucleosynthesizing","itemInput":{"ingredient":{"item":"ftbic:machine_block"}},"gasInput":{"amount":1,"gas":"mekanism:antimatter"},"output":{"item":"ftbic:advaned_machine_block"},"duration":500}: com.google.gson.JsonSyntaxException: Unknown item 'ftbic:advaned_machine_block'
+[21:41:36] [WARN ] Error creating recipe tconstruct:kjs_eewka4r82cw0sjyrtk5a9ubzr[tconstruct:casting_table]: {"type":"tconstruct:casting_table","conditions":[{"value":{"tag":"forge:gears/lapis","type":"forge:tag_empty"},"type":"forge:not"}],"cast":{"tag":"tconstruct:casts/multi_use/gear"},"fluid":{"name":"jaopca:molten.lapis","amount":576},"result":{"item":"thermal:lapis_gear"},"cooling_time":100}: com.google.gson.JsonSyntaxException: Unknown fluid 'jaopca:molten.lapis'
+[21:41:36] [WARN ] Error creating recipe tconstruct:kjs_ai776vffs6iuiw8bo6h1zuhv9[tconstruct:casting_table]: {"type":"tconstruct:casting_table","conditions":[{"value":{"tag":"forge:gears/lapis","type":"forge:tag_empty"},"type":"forge:not"}],"cast":{"tag":"tconstruct:casts/single_use/gear"},"fluid":{"name":"jaopca:molten.lapis","amount":576},"result":{"item":"thermal:lapis_gear"},"cooling_time":100}: com.google.gson.JsonSyntaxException: Unknown fluid 'jaopca:molten.lapis'
+[21:41:36] [WARN ] Error creating recipe bloodmagic:kjs_17b3itdx8e7lske4tq5gizd3n[bloodmagic:soulforge]: {"type":"bloodmagic:soulforge","input0":{"ingredient":{"item":"ibpdx:redstone_shard"},"count":2},"input1":{"item":"bloodmagic:reagentgrowth"},"output":{"item":"ibpdx:redstone_crystal","count":4},"minimumDrain":800,"drain":25}: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[21:41:36] [WARN ] Error creating recipe bloodmagic:kjs_3p1fbylgnyr2f1bgxmuym52bh[bloodmagic:soulforge]: {"type":"bloodmagic:soulforge","input0":{"ingredient":{"item":"ibpdx:diamond_shard"},"count":2},"input1":{"item":"bloodmagic:reagentgrowth"},"output":{"item":"ibpdx:diamond_crystal","count":4},"minimumDrain":800,"drain":25}: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[21:41:36] [WARN ] Error creating recipe bloodmagic:kjs_25z6xvwsh61fv9u6c7codxd66[bloodmagic:soulforge]: {"type":"bloodmagic:soulforge","input0":{"ingredient":{"item":"ibpdx:emerald_shard"},"count":2},"input1":{"item":"bloodmagic:reagentgrowth"},"output":{"item":"ibpdx:emerald_crystal","count":4},"minimumDrain":800,"drain":25}: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[21:41:36] [WARN ] Error creating recipe bloodmagic:kjs_8nogvot31kw1h07cw6a7vwi6r[bloodmagic:soulforge]: {"type":"bloodmagic:soulforge","input0":{"ingredient":{"item":"ibpdx:lapis_shard"},"count":2},"input1":{"item":"bloodmagic:reagentgrowth"},"output":{"item":"ibpdx:lapis_crystal","count":4},"minimumDrain":800,"drain":25}: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[21:41:36] [WARN ] Error creating recipe bloodmagic:kjs_6exs7du6d3d35zwdasr8jlp3b[bloodmagic:soulforge]: {"type":"bloodmagic:soulforge","input0":{"ingredient":{"item":"ibpdx:fluorite_shard"},"count":2},"input1":{"item":"bloodmagic:reagentgrowth"},"output":{"item":"ibpdx:fluorite_crystal","count":4},"minimumDrain":800,"drain":25}: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[21:41:36] [WARN ] Error creating recipe bloodmagic:kjs_d5iqy5nkvdq1cx6e4tud9f9wr[bloodmagic:soulforge]: {"type":"bloodmagic:soulforge","input0":{"ingredient":{"item":"ibpdx:quartz_shard"},"count":2},"input1":{"item":"bloodmagic:reagentgrowth"},"output":{"item":"ibpdx:quartz_crystal","count":4},"minimumDrain":800,"drain":25}: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[21:41:36] [WARN ] Error creating recipe bloodmagic:kjs_6xae49qaw6csn11ydhofzjk40[bloodmagic:soulforge]: {"type":"bloodmagic:soulforge","input0":{"ingredient":{"item":"ibpdx:niter_shard"},"count":2},"input1":{"item":"bloodmagic:reagentgrowth"},"output":{"item":"ibpdx:niter_crystal","count":4},"minimumDrain":800,"drain":25}: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[21:41:36] [INFO ] Added recipes in 135.8 ms
+[21:41:36] [INFO ] Added 3085 recipes, removed 1818 recipes, modified 21 recipes, with 12 failed recipes and 0 fall-backed recipes
+[21:41:36] [INFO ] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[21:41:36] [INFO ] [functions] Found 0 tags, added 0 objects, removed 0 objects

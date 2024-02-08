@@ -1,0 +1,19 @@
+{
+	type: "player"
+	id: "6cc821cd-e333-4246-81cd-07bc52105d24"
+	properties: {
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:display_name": "darkhome"
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_fake_players": 1b
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:color": "#59FF7E"
+	}
+	extra: { }
+	player_name: "darkhome"
+	message_history: [ ]
+	ranks: { }
+}

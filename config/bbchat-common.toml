@@ -1,0 +1,10 @@
+botToken = "<token>"
+guildId = "0"
+channelId = "0"
+#Staff can run all commands with OP level defined in server.properties.
+staffRoleId = "0"
+#Commands must be prefixed with this (can also start with a direct mention).
+commandPrefix = "!"
+#Anyone can use these commands. Will be run with OP Level 0 (non-operator) if not staff.
+anyCommands = ["list", "forge"]
+

@@ -1,0 +1,69 @@
+{
+  "values": [
+    {
+      "type": "block",
+      "block": "minecraft:coal_ore",
+      "weight": 67415
+    },
+    {
+      "type": "block",
+      "block": "minecraft:iron_ore",
+      "weight": 29371
+    },
+    {
+      "type": "block",
+      "block": "minecraft:redstone_ore",
+      "weight": 7654
+    },
+    {
+      "type": "block",
+      "block": "minecraft:gold_ore",
+      "weight": 2647
+    },
+    {
+      "type": "block",
+      "block": "minecraft:emerald_ore",
+      "weight": 1239
+    },
+    {
+      "type": "block",
+      "block": "minecraft:lapis_ore",
+      "weight": 1079
+    },
+    {
+      "type": "block",
+      "block": "minecraft:diamond_ore",
+      "weight": 883
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/aluminium",
+      "weight": 13762
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/aluminum",
+      "weight": 13762
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/copper",
+      "weight": 5567
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/ferrous",
+      "weight": 558
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/galena",
+      "weight": 4096
+    },
+    {
+      "type": "tag",
+      "tag": "forge:ores/lead",
+      "weight": 4093
+    }
+  ]
+}

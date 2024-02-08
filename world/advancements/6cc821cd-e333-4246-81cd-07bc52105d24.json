@@ -1,0 +1,78 @@
+{
+  "astralsorcery:root": {
+    "criteria": {
+      "astralsorcery_present": "2024-02-08 22:10:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2024-02-08 22:18:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-02-08 22:15:01 +0800"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_recipe": "2024-02-08 22:10:30 +0800"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2024-02-08 22:10:30 +0800"
+    },
+    "done": true
+  },
+  "architects_palette:main/root": {
+    "criteria": {
+      "craftingtable": "2024-02-08 22:10:30 +0800"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_recipe": "2024-02-08 22:10:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2024-02-08 22:30:45 +0800"
+    },
+    "done": true
+  },
+  "simplyjetpacks:root": {
+    "criteria": {
+      "any": "2024-02-08 22:10:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mountains": "2024-02-08 22:13:10 +0800",
+      "minecraft:taiga": "2024-02-08 22:10:30 +0800",
+      "minecraft:taiga_hills": "2024-02-08 22:24:51 +0800",
+      "minecraft:dark_forest": "2024-02-08 22:26:39 +0800"
+    },
+    "done": false
+  },
+  "naturescompass:natures_compass": {
+    "criteria": {
+      "has_recipe": "2024-02-08 22:10:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-02-08 22:13:59 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}

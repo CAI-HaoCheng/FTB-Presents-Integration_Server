@@ -1,0 +1,8 @@
+
+["vein mining"]
+	#Whether to activate vein mining by standing, crouching, or holding down the keybind
+	#Allowed Values: STANDING, CROUCHING, KEYBINDING
+	activationState = "KEYBINDING"
+
+blocks = ["#forge:ores","#minecraft:logs"]
+blocksPermission = "WHITELIST"

@@ -1,0 +1,24 @@
+{
+  "controllerId": "bedrock_miner",
+  "name": "Bedrock Miner",
+  "textureOverride": "ibpdx:block/blockcasing_livingrock",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:botania_mana",
+      "name": "Mana",
+      "id": "mana",
+      "data": {
+        "capacity": 100000
+      }
+    }
+  ]
+}

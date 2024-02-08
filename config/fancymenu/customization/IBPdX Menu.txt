@@ -1,0 +1,400 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = kubejs/assets/ibpdx/ui/background.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 4
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=8755%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = c971da26-8ad8-4f2b-a9f5-a49f6091b8a81683403697088
+  x = 67
+  action = movebutton
+  y = 1
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/ibpdx/ui/ibp_mphover.png
+  backgroundnormal = kubejs/assets/ibpdx/ui/ibp_mp.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 146
+  action = movebutton
+  y = 21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 90
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/ibpdx/ui/ibp_optionshover.png
+  backgroundnormal = kubejs/assets/ibpdx/ui/ibp_options.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 138
+  action = movebutton
+  y = 42
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 40
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/ibpdx/ui/ibp_exithover.png
+  backgroundnormal = kubejs/assets/ibpdx/ui/ibp_exit.png
+}
+
+customization {
+  identifier = %id=5023461%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=5023461%
+  orientation = element
+  orientation_element = c971da26-8ad8-4f2b-a9f5-a49f6091b8a81683403697088
+  x = -11
+  action = movebutton
+  y = 78
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = element
+  orientation_element = c971da26-8ad8-4f2b-a9f5-a49f6091b8a81683403697088
+  x = -53
+  action = movebutton
+  y = 42
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 40
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/ibpdx/ui/ibp_languagehover.png
+  backgroundnormal = kubejs/assets/ibpdx/ui/ibp_language.png
+}
+
+customization {
+  identifier = %id=8955%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = element
+  orientation_element = c971da26-8ad8-4f2b-a9f5-a49f6091b8a81683403697088
+  x = -90
+  action = movebutton
+  y = 1
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/ibpdx/ui/ibp_sphover.png
+  backgroundnormal = kubejs/assets/ibpdx/ui/ibp_sp.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = element
+  orientation_element = c971da26-8ad8-4f2b-a9f5-a49f6091b8a81683403697088
+  x = -71
+  action = movebutton
+  y = 21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 90
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/ibpdx/ui/ibp_modshover.png
+  backgroundnormal = kubejs/assets/ibpdx/ui/ibp_mods.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 134
+  action = movebutton
+  y = -27
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 2192e5e8-3ed2-45d5-9a06-4411f87c45011681681770123
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 154
+  action = deep_customization_element:title_screen_branding
+  actionid = 8f7bd651-2eb0-4b80-b005-dfd7361cf0d21681681770136
+  y = 218
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 283
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 1ced88bf-6db9-4749-98bf-4af2c158fca61681681770136
+  y = 250
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = c5bf7d3e-a5f9-4bdb-95c5-89dc8f011d051681681770136
+  y = 183
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = f0aaf842-b4ad-4390-afd4-21291a3ff8cd1681681770136
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = e9659094-8b52-4e66-a0f5-af9695fc18da1681681770137
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  x = -43
+  width = 75
+  action = addbutton
+  actionid = c971da26-8ad8-4f2b-a9f5-a49f6091b8a81683403697088
+  y = 106
+  backgroundhovered = kubejs/assets/ibpdx/ui/ibp_centre.png
+  label = 
+  backgroundnormal = kubejs/assets/ibpdx/ui/ibp_centre.png
+  height = 72
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opengui;dev.ftb.mods.ftbauxilium.screens.OptOutScreen%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/ibpdx/ui/ibp_auxiliumhover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = c971da26-8ad8-4f2b-a9f5-a49f6091b8a81683403697088
+  x = 88
+  width = 40
+  action = addbutton
+  actionid = 6dc182fd-3467-4342-a528-b8213127f0241683403646186
+  y = 42
+  backgroundnormal = kubejs/assets/ibpdx/ui/ibp_auxilium.png
+  height = 20
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = 0de55e4e-a906-47d1-af64-2eb6c16e70dd1683403741334
+  y = 5
+  height = 100
+}
+
+customization {
+  path = kubejs/assets/ibpdx/ui/logo.png
+  orientation = element
+  orientation_element = c971da26-8ad8-4f2b-a9f5-a49f6091b8a81683403697088
+  x = -77
+  width = 229
+  action = addtexture
+  actionid = 62f47395-2cfb-4a77-98a4-1cc07fe5249f1683404032541
+  y = -90
+  height = 74
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://go.ftb.team/pvS931%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/ibpdx/ui/ibp_discordhover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = c971da26-8ad8-4f2b-a9f5-a49f6091b8a81683403697088
+  x = -13
+  width = 40
+  action = addbutton
+  actionid = dc712aef-065f-45f5-9fae-388ceb5aa9ed1683403745698
+  y = 42
+  backgroundnormal = kubejs/assets/ibpdx/ui/ibp_discord.png
+  height = 20
+}
+

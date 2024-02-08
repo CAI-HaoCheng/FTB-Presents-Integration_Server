@@ -1,0 +1,143 @@
+
+[biomes]
+	#Spawn weight of mixed maple forest biome (higher number means more frequent)
+	mixed_maple_forest_weight = 4
+	#Spawn weight of mixed forest biome (higher number means more frequent)
+	mixed_forest_weight = 4
+	#Spawn weight of mixed forest biome with vanilla trees (higher number means more frequent)
+	mixed_forest_vanilla_weight = 4
+	#Spawn weight of needle forest biome (higher number means more frequent)
+	needle_forest_weight = 4
+	#Spawn weight of needle forest biome with snow (higher number means more frequent)
+	needle_forest_snow_weight = 4
+
+	[biomes.single_tree]
+		#Spawn weight of Douglas Fir (treemendous:douglas_forest_snow) biome with snow (higher number means more frequent)
+		douglas_forest_snow_weight = 4
+		#Spawn weight of Douglas Fir (treemendous:douglas_forest_hills_snow) biome with snow (higher number means more frequent)
+		douglas_forest_hills_snow_weight = 4
+		#Spawn weight of Douglas Fir (treemendous:douglas_forest) biome (higher number means more frequent)
+		douglas_forest_weight = 4
+		#Spawn weight of Douglas Fir (treemendous:douglas_forest_hills) biome (higher number means more frequent)
+		douglas_forest_hills_weight = 4
+		#Spawn weight of Pine (treemendous:pine_forest_snow) biome with snow (higher number means more frequent)
+		pine_forest_snow_weight = 4
+		#Spawn weight of Pine (treemendous:pine_forest_hills_snow) biome with snow (higher number means more frequent)
+		pine_forest_hills_snow_weight = 4
+		#Spawn weight of Pine (treemendous:pine_forest) biome (higher number means more frequent)
+		pine_forest_weight = 4
+		#Spawn weight of Pine (treemendous:pine_forest_hills) biome (higher number means more frequent)
+		pine_forest_hills_weight = 4
+		#Spawn weight of Larch (treemendous:larch_forest_snow) biome with snow (higher number means more frequent)
+		larch_forest_snow_weight = 4
+		#Spawn weight of Larch (treemendous:larch_forest_hills_snow) biome with snow (higher number means more frequent)
+		larch_forest_hills_snow_weight = 4
+		#Spawn weight of Larch (treemendous:larch_forest) biome (higher number means more frequent)
+		larch_forest_weight = 4
+		#Spawn weight of Larch (treemendous:larch_forest_hills) biome (higher number means more frequent)
+		larch_forest_hills_weight = 4
+		#Spawn weight of Fir (treemendous:fir_forest_snow) biome with snow (higher number means more frequent)
+		fir_forest_snow_weight = 4
+		#Spawn weight of Fir (treemendous:fir_forest_hills_snow) biome with snow (higher number means more frequent)
+		fir_forest_hills_snow_weight = 4
+		#Spawn weight of Fir (treemendous:fir_forest) biome (higher number means more frequent)
+		fir_forest_weight = 4
+		#Spawn weight of Fir (treemendous:fir_forest_hills) biome (higher number means more frequent)
+		fir_forest_hills_weight = 4
+		#Spawn weight of Maple (treemendous:maple_forest) biome (higher number means more frequent)
+		maple_forest_weight = 4
+		#Spawn weight of Maple (treemendous:maple_forest_hills) biome (higher number means more frequent)
+		maple_forest_hills_weight = 4
+		#Spawn weight of Red Maple (treemendous:red_maple_forest) biome (higher number means more frequent)
+		red_maple_forest_weight = 4
+		#Spawn weight of Red Maple (treemendous:red_maple_forest_hills) biome (higher number means more frequent)
+		red_maple_forest_hills_weight = 4
+		#Spawn weight of Brown Maple (treemendous:brown_maple_forest) biome (higher number means more frequent)
+		brown_maple_forest_weight = 4
+		#Spawn weight of Brown Maple (treemendous:brown_maple_forest_hills) biome (higher number means more frequent)
+		brown_maple_forest_hills_weight = 4
+		#Spawn weight of Japanese Maple (treemendous:japanese_forest) biome (higher number means more frequent)
+		japanese_forest_weight = 4
+		#Spawn weight of Japanese Maple (treemendous:japanese_forest_hills) biome (higher number means more frequent)
+		japanese_forest_hills_weight = 4
+		#Spawn weight of Beech (treemendous:beech_forest) biome (higher number means more frequent)
+		beech_forest_weight = 4
+		#Spawn weight of Beech (treemendous:beech_forest_hills) biome (higher number means more frequent)
+		beech_forest_hills_weight = 4
+		#Spawn weight of Cherry (treemendous:cherry_forest) biome (higher number means more frequent)
+		cherry_forest_weight = 4
+		#Spawn weight of Cherry (treemendous:cherry_forest_hills) biome (higher number means more frequent)
+		cherry_forest_hills_weight = 4
+		#Spawn weight of Alder (treemendous:alder_forest) biome (higher number means more frequent)
+		alder_forest_weight = 4
+		#Spawn weight of Alder (treemendous:alder_forest_hills) biome (higher number means more frequent)
+		alder_forest_hills_weight = 4
+		#Spawn weight of Chestnut (treemendous:chestnut_forest_snow) biome with snow (higher number means more frequent)
+		chestnut_forest_snow_weight = 4
+		#Spawn weight of Chestnut (treemendous:chestnut_forest_hills_snow) biome with snow (higher number means more frequent)
+		chestnut_forest_hills_snow_weight = 4
+		#Spawn weight of Chestnut (treemendous:chestnut_forest) biome (higher number means more frequent)
+		chestnut_forest_weight = 4
+		#Spawn weight of Chestnut (treemendous:chestnut_forest_hills) biome (higher number means more frequent)
+		chestnut_forest_hills_weight = 4
+		#Spawn weight of Plane (treemendous:plane_forest) biome (higher number means more frequent)
+		plane_forest_weight = 4
+		#Spawn weight of Plane (treemendous:plane_forest_hills) biome (higher number means more frequent)
+		plane_forest_hills_weight = 4
+		#Spawn weight of Ash (treemendous:ash_forest) biome (higher number means more frequent)
+		ash_forest_weight = 4
+		#Spawn weight of Ash (treemendous:ash_forest_hills) biome (higher number means more frequent)
+		ash_forest_hills_weight = 4
+		#Spawn weight of Linden (treemendous:linden_forest) biome (higher number means more frequent)
+		linden_forest_weight = 4
+		#Spawn weight of Linden (treemendous:linden_forest_hills) biome (higher number means more frequent)
+		linden_forest_hills_weight = 4
+		#Spawn weight of Robinia (treemendous:robinia_forest) biome (higher number means more frequent)
+		robinia_forest_weight = 4
+		#Spawn weight of Robinia (treemendous:robinia_forest_hills) biome (higher number means more frequent)
+		robinia_forest_hills_weight = 4
+		#Spawn weight of Willow (treemendous:willow_forest) biome (higher number means more frequent)
+		willow_forest_weight = 4
+		#Spawn weight of Willow (treemendous:willow_forest_hills) biome (higher number means more frequent)
+		willow_forest_hills_weight = 4
+		#Spawn weight of Pomegranate (treemendous:pomegranate_forest) biome (higher number means more frequent)
+		pomegranate_forest_weight = 4
+		#Spawn weight of Pomegranate (treemendous:pomegranate_forest_hills) biome (higher number means more frequent)
+		pomegranate_forest_hills_weight = 4
+		#Spawn weight of Magnolia (treemendous:magnolia_forest) biome (higher number means more frequent)
+		magnolia_forest_weight = 4
+		#Spawn weight of Magnolia (treemendous:magnolia_forest_hills) biome (higher number means more frequent)
+		magnolia_forest_hills_weight = 4
+		#Spawn weight of Walnut (treemendous:walnut_forest) biome (higher number means more frequent)
+		walnut_forest_weight = 4
+		#Spawn weight of Walnut (treemendous:walnut_forest_hills) biome (higher number means more frequent)
+		walnut_forest_hills_weight = 4
+		#Spawn weight of Cedar (treemendous:cedar_forest_snow) biome with snow (higher number means more frequent)
+		cedar_forest_snow_weight = 4
+		#Spawn weight of Cedar (treemendous:cedar_forest_hills_snow) biome with snow (higher number means more frequent)
+		cedar_forest_hills_snow_weight = 4
+		#Spawn weight of Cedar (treemendous:cedar_forest) biome (higher number means more frequent)
+		cedar_forest_weight = 4
+		#Spawn weight of Cedar (treemendous:cedar_forest_hills) biome (higher number means more frequent)
+		cedar_forest_hills_weight = 4
+		#Spawn weight of Poplar (treemendous:poplar_forest) biome (higher number means more frequent)
+		poplar_forest_weight = 4
+		#Spawn weight of Poplar (treemendous:poplar_forest_hills) biome (higher number means more frequent)
+		poplar_forest_hills_weight = 4
+		#Spawn weight of Elm (treemendous:elm_forest) biome (higher number means more frequent)
+		elm_forest_weight = 4
+		#Spawn weight of Elm (treemendous:elm_forest_hills) biome (higher number means more frequent)
+		elm_forest_hills_weight = 4
+		#Spawn weight of Rainbow Eucalyptus (treemendous:rainbow_eucalyptus_forest) biome (higher number means more frequent)
+		rainbow_eucalyptus_forest_weight = 4
+		#Spawn weight of Rainbow Eucalyptus (treemendous:rainbow_eucalyptus_forest_hills) biome (higher number means more frequent)
+		rainbow_eucalyptus_forest_hills_weight = 4
+		#Spawn weight of Juniper (treemendous:juniper_forest_snow) biome with snow (higher number means more frequent)
+		juniper_forest_snow_weight = 4
+		#Spawn weight of Juniper (treemendous:juniper_forest_hills_snow) biome with snow (higher number means more frequent)
+		juniper_forest_hills_snow_weight = 4
+		#Spawn weight of Juniper (treemendous:juniper_forest) biome (higher number means more frequent)
+		juniper_forest_weight = 4
+		#Spawn weight of Juniper (treemendous:juniper_forest_hills) biome (higher number means more frequent)
+		juniper_forest_hills_weight = 4
+

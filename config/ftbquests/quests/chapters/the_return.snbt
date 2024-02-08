@@ -1,0 +1,1335 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "0523E2CA947673EA"
+	filename: "the_return"
+	default_quest_shape: ""
+	icon: "ftbic:basic_generator"
+	title: "The Return"
+	order_index: 3
+	quests: [
+		{
+			tasks: [{
+				id: "5BE89363328D534F"
+				type: "item"
+				item: "ftbic:basic_generator"
+			}]
+			description: [
+				"A simple &bCoal Generator&r that produces &6Zaps&r, &6FTBIC&r's separate power system. You can upgrade it to a &6Geothermal Generator&r almost immediately if you would like, but you can automate burning generators right now, so you decide for yourself."
+				""
+				"NOTE: You can directly power FE machines with Zap's Energy at a rate of 1 Zaps to 4 FE. This connection does not work to power Zaps devices with FE however."
+			]
+			id: "4D309ADF186482AC"
+			x: -8.5d
+			y: -4.5d
+			title: "Coal Power... Again!"
+			rewards: [
+				{
+					id: "4DCBEDE24E8D5D01"
+					type: "item"
+					item: "ibpdx:bituminous_peat"
+					count: 20
+				}
+				{
+					id: "09E6231512C48D74"
+					type: "item"
+					item: "ftbic:lv_cable"
+					count: 8
+				}
+				{
+					id: "2D047A2CB0703863"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["3369EF0C6AB619C6"]
+		}
+		{
+			tasks: [
+				{
+					id: "1B0C402C415EA3B2"
+					type: "item"
+					item: "masterfulmachinery:carpenter_controller"
+					consume_items: true
+				}
+				{
+					id: "2590F3C29D1DFB6C"
+					type: "item"
+					item: "masterfulmachinery:carpenter_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "797B1BAC1F50D64F"
+					type: "item"
+					item: "masterfulmachinery:carpenter_fluid_port_fluids_input"
+					consume_items: true
+				}
+				{
+					id: "698580CC57A906BF"
+					type: "item"
+					item: "masterfulmachinery:carpenter_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					id: "2C092C6B0F550DBC"
+					type: "item"
+					item: "masterfulmachinery:carpenter_item_port_items_output"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "5850355183FF5AC7"
+					item: "immersiveengineering:sheetmetal_copper"
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "3B86F259FAEE0F0D"
+					item: "minecraft:red_sandstone_stairs"
+				}
+				{
+					id: "1C8D60894681532D"
+					type: "item"
+					item: "minecraft:glass"
+					consume_items: true
+				}
+			]
+			description: ["The &bCarpenter&r is a fluid-based crafting machine. Put the recipe into the slot and the items in and it will function."]
+			id: "7490296EA27A2922"
+			icon: "masterfulmachinery:carpenter_controller"
+			x: -11.0d
+			y: -3.0d
+			shape: "pentagon"
+			title: "Carpenter's Cube"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "0D3BE554A4A0E8A8"
+					item: {
+						id: "industrialforegoing:speed_addon_2"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+				}
+				{
+					id: "5D80F3F04956A37A"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "tconstruct:seared_ingot_tank"
+						Count: 1b
+						tag: {
+							tank: {
+								FluidName: "tconstruct:molten_lead"
+								Amount: 4000
+							}
+						}
+					}
+				}
+				{
+					id: "6E91ED3BF8296E60"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "carpenter"
+							structureName: "config/capsule/rewards/carpenter"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 3
+						}
+					}
+				}
+			]
+			dependencies: ["117BBECA8864CAB1"]
+		}
+		{
+			size: 1.5d
+			description: ["The &bElectronic Circuit&r is a core component to get you started in &eFTB Industrial Contraptions&r."]
+			id: "48639F567DBAD564"
+			x: -8.5d
+			y: -1.5d
+			shape: "pentagon"
+			title: "Soldered Electronic Soldier"
+			rewards: [
+				{
+					id: "0330380F8DBECE28"
+					type: "item"
+					item: "ibpdx:circuit_base_t1"
+					count: 8
+				}
+				{
+					id: "67DA698F5E4B1862"
+					type: "item"
+					item: "ftbic:lv_cable"
+					count: 16
+				}
+				{
+					id: "0B65A32BA5DE4BC9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "52D64810DDD5AB1C"
+					type: "item"
+					item: "mysticalagriculture:rubber_seeds"
+					count: 2
+				}
+			]
+			dependencies: [
+				"7490296EA27A2922"
+				"4D309ADF186482AC"
+				"49E4518D3A006DF5"
+			]
+			tasks: [{
+				id: "3CA5BF7611957D85"
+				type: "item"
+				item: "ftbic:electronic_circuit"
+			}]
+		}
+		{
+			tasks: [{
+				id: "4E287DD4B6F2002B"
+				type: "item"
+				item: "ftbic:powered_furnace"
+			}]
+			description: [
+				"Does exactly what its name describes."
+				""
+				"With enough upgrades this can become the fastest furnace in the pack."
+			]
+			id: "56861CC89F857E98"
+			x: -7.0d
+			y: -3.0d
+			title: "Eponymous"
+			rewards: [{
+				type: "item"
+				count: 2
+				team_reward: true
+				id: "21E22999805987F1"
+				item: "ftbic:overclocker_upgrade"
+			}]
+			dependencies: ["48639F567DBAD564"]
+		}
+		{
+			tasks: [{
+				id: "5DCFB05DC2B1F355"
+				type: "item"
+				item: "ftbic:compressor"
+			}]
+			description: [
+				"Believe it or not, the Compressor is part of the ore processing chain for high-energy ores!"
+				""
+				"It also might interest you for a cheaper Industrial Grade Metal recipe."
+			]
+			id: "7449ADDE3AD2CDDC"
+			x: -5.5d
+			y: 0.0d
+			title: "Tight Squeeze"
+			rewards: [{
+				type: "item"
+				count: 2
+				team_reward: true
+				id: "1ECFA71F077E55A9"
+				item: "ftbic:energy_storage_upgrade"
+			}]
+			dependencies: ["48639F567DBAD564"]
+		}
+		{
+			tasks: [{
+				id: "30E4086EEDE0EB7E"
+				type: "item"
+				item: "ftbic:macerator"
+			}]
+			description: ["Grinds things down, can be used to double your regular ores!"]
+			id: "6CDE27C2D878DAC3"
+			x: -4.0d
+			y: 0.0d
+			title: "Maceratoratorator"
+			rewards: [
+				{
+					id: "321A50C6BA49545D"
+					type: "item"
+					item: "pamhc2foodcore:potroastitem"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "628DB16CF47C3137"
+					item: "ftbic:overclocker_upgrade"
+				}
+			]
+			dependencies: ["48639F567DBAD564"]
+		}
+		{
+			tasks: [{
+				id: "783B16820EF42C28"
+				type: "item"
+				item: "ftbic:centrifuge"
+			}]
+			description: ["The Centrifuge is useful for some miscellaneous recipes, such as processing ores, rubber, or coolant."]
+			id: "5E87D89E41FAAAE8"
+			x: -5.5d
+			y: -3.0d
+			title: "SPEEEEEEEEEEEEEEEEEEN"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "61596B957A01CFED"
+					item: "ftbic:overclocker_upgrade"
+				}
+				{
+					id: "64371F93F298F9FF"
+					type: "item"
+					team_reward: true
+					item: "ftbic:ejector_upgrade"
+				}
+				{
+					id: "68F3E0351BA70D0E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["48639F567DBAD564"]
+		}
+		{
+			tasks: [{
+				id: "77F837D147BA6F57"
+				type: "item"
+				item: "ftbic:canning_machine"
+			}]
+			description: ["It can can things of course! Such as nuclear fuel rods, spray paint, and some other things."]
+			id: "5CDB3A86F820DB24"
+			x: -4.0d
+			y: -3.0d
+			title: "What Can It Do?"
+			rewards: [
+				{
+					id: "68894922729BB8F8"
+					type: "item"
+					item: "ftbic:canned_food"
+				}
+				{
+					id: "32B4D4097DFD93FE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["48639F567DBAD564"]
+		}
+		{
+			tasks: [
+				{
+					id: "39270E5EC71F66E1"
+					type: "item"
+					item: "ftbic:quarry"
+				}
+				{
+					id: "0C6577E9AD199588"
+					type: "item"
+					item: "ftbic:landmark"
+					count: 3L
+				}
+			]
+			description: [
+				"&bQuarries&r are a form of auto-mining."
+				""
+				"To define the area, place down two landmarks on opposite corners, with the quarry itself acting as a third corner between them. It will still extend a bit over on one side if you only use two land marks."
+			]
+			icon: "ftbic:quarry"
+			id: "08C3B3C636EE3698"
+			x: -0.5d
+			y: -4.5d
+			title: "Diggy Diggy Hole"
+			rewards: [
+				{
+					id: "139E90BE0CE9B148"
+					type: "item"
+					team_reward: true
+					item: "pipez:advanced_upgrade"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "436C08B34AC94119"
+					item: "pipez:item_pipe"
+				}
+				{
+					id: "05974C2F82E71548"
+					type: "item"
+					team_reward: true
+					item: "trashcans:item_trash_can"
+				}
+				{
+					id: "41665846A6340A8F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["2450C2D8FE3D910C"]
+		}
+		{
+			tasks: [{
+				id: "6809119699D63383"
+				type: "item"
+				item: "ftbic:lv_transformer"
+			}]
+			description: ["Transformers raise or lower the voltage going through wires. Lower-tier wires and machines will blow a fuse if you try to use a voltage higher than the machine can handle!"]
+			id: "18F6C24BA06FBB9C"
+			x: -0.5d
+			y: 0.0d
+			title: "Transform Mode!"
+			rewards: [
+				{
+					id: "2A284D9F3A6BA8D1"
+					type: "item"
+					team_reward: true
+					item: "ftbic:lv_transformer"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1D4D991B6D322933"
+					item: "ftbic:lv_cable"
+				}
+			]
+			dependencies: ["1730BF2DEE0D057A"]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [
+				{
+					id: "051CCE5F2160B81A"
+					type: "item"
+					item: "betterendforge:infusion_pedestal"
+				}
+				{
+					type: "item"
+					count: 8L
+					id: "005FA994F23129B5"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "betterendforge:sulphuric_rock_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:violecite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:flavolite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:granite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:diorite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:andesite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:purpur_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:quartz_pedestal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					title: "Pedestal"
+				}
+			]
+			description: [
+				"The Infusion Pedestal requires 8 regular pedestals around it to do a form of infusion crafting. If you recall the previous modpack, this is where the Empowerer was, hence the unorthodox recipe."
+				""
+				"{image:ibpdx:textures/questbook/infusion.png width:150 height:100 align:1}"
+			]
+			icon: "betterendforge:infusion_pedestal"
+			id: "1AEE7BF9E10A3801"
+			x: -0.5d
+			y: 1.5d
+			title: "Feeling Empowered"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "29A421E2B7212C51"
+					item: "immersiveengineering:ingot_steel"
+				}
+				{
+					id: "5703D7A8643E1255"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "1E514C482B9B295B"
+					item: "ftbic:energy_crystal"
+				}
+			]
+			dependencies: ["18F6C24BA06FBB9C"]
+		}
+		{
+			tasks: [{
+				id: "0EB921BDFF1FAF93"
+				type: "item"
+				item: "ftbic:geothermal_generator"
+			}]
+			description: ["The &bGeothermal Generator&r takes &6Lava&r as fuel. It could be better than using burnables for energy if you have a large source of lava close to your base."]
+			id: "3D73654B6D1810C7"
+			x: -7.0d
+			y: -4.5d
+			title: "Powers of the Earth"
+			rewards: [
+				{
+					id: "1CEBEBFA648E3FAC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "64904EF6E6C21608"
+					type: "item"
+					item: "botania:floating_thermalily"
+				}
+			]
+			dependencies: ["4D309ADF186482AC"]
+		}
+		{
+			size: 1.25d
+			description: ["The Extruder specializes in making wires and rods. Wires in particular are extra efficient."]
+			id: "1730BF2DEE0D057A"
+			x: -0.5d
+			y: -1.5d
+			shape: "pentagon"
+			title: "Spaghetti Maker 9000"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "2D1E577D16C1782B"
+					item: "ftbic:mv_cable"
+				}
+				{
+					id: "44433010B9A76B75"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "3CC21EB60F3CC974"
+					item: "ftbic:overclocker_upgrade"
+				}
+			]
+			dependencies: ["48639F567DBAD564"]
+			tasks: [{
+				id: "14C20CAA3720EA8F"
+				type: "item"
+				item: "ftbic:extruder"
+			}]
+		}
+		{
+			tasks: [{
+				id: "5E3583AC7F3C7F98"
+				type: "item"
+				item: "immersiveengineering:drillhead_steel"
+			}]
+			description: ["Steel Drill Heads are usable for upgrading your mining prospects. Make handheld drills or automated mining!"]
+			id: "2450C2D8FE3D910C"
+			x: -0.5d
+			y: -3.0d
+			title: "Steel Drill Run"
+			rewards: [
+				{
+					id: "008BFC1AEF10EDE6"
+					type: "item"
+					item: "curios:ring"
+				}
+				{
+					id: "554E9C4B0734E927"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["1730BF2DEE0D057A"]
+		}
+		{
+			tasks: [
+				{
+					id: "3EFC7EA71D83C7FE"
+					type: "item"
+					item: {
+						id: "thermal:flux_drill"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "4F3C36E5623EF523"
+					type: "item"
+					item: {
+						id: "thermal:flux_saw"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			description: ["Fluxbores have an advantage over hammers in that they also mine shovel-compatible blocks. They also use RF rather than standard durability, of course."]
+			icon: {
+				id: "thermal:flux_drill"
+				Count: 1b
+				tag: { }
+			}
+			id: "6FF078F195E0A77B"
+			x: 1.0d
+			y: -3.0d
+			title: "Drill-Saw Man"
+			rewards: [
+				{
+					id: "2F23E000DEB26FD2"
+					type: "item"
+					item: "thermal:area_radius_augment"
+				}
+				{
+					id: "3264C04F653E7B01"
+					type: "item"
+					team_reward: true
+					item: "thermal:tinker_bench"
+				}
+				{
+					id: "62EBE381F5E70CDE"
+					type: "item"
+					item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				}
+				{
+					id: "7F3FF7990D428148"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["2450C2D8FE3D910C"]
+		}
+		{
+			tasks: [{
+				id: "07601256520B4844"
+				type: "item"
+				item: "prettypipes:pipe"
+			}]
+			description: [
+				"&ePretty Pipes&r is an alternative to the &6Logistical Sorters&r if you want to route items. Currently, you only have access to pipes and some basic modules, but some of its truly superior features are just around the corner, so you can get the infrastructure going now."
+				""
+				"The basic &bPipes&r are your standard linking modules, and must be connected to inventories you want in the \"Network\"."
+			]
+			icon: "prettypipes:pipe"
+			id: "614A12FC542696E9"
+			x: -8.5d
+			y: 0.0d
+			title: "Connect It Up!"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "50D82654FED008B2"
+					item: "prettypipes:pipe"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "220F27EDFF8BCF2D"
+					item: "storagedrawers:void_upgrade"
+				}
+			]
+			dependencies: ["117BBECA8864CAB1"]
+		}
+		{
+			tasks: [{
+				id: "62FA4EBAD6C3DFD6"
+				type: "item"
+				item: "prettypipes:low_extraction_module"
+			}]
+			description: ["&bExtraction Modules&r take items out of inventories and send them to other inventories."]
+			id: "29E8078331F5DECD"
+			x: -8.5d
+			y: 1.5d
+			title: "Daily Intake"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "157C87B8F1568A08"
+					item: "prettypipes:low_extraction_module"
+				}
+				{
+					id: "62FB529C3EBB2451"
+					type: "item"
+					item: "prettypipes:wrench"
+				}
+			]
+			dependencies: [
+				"614A12FC542696E9"
+				"48639F567DBAD564"
+			]
+		}
+		{
+			tasks: [{
+				id: "5D8974282DAA9FEA"
+				type: "item"
+				item: "prettypipes:low_filter_module"
+			}]
+			description: ["&bFilter Modules&r define possible destinations for items."]
+			id: "0CE8122B2DC3BD1A"
+			x: -8.5d
+			y: 3.0d
+			title: "Put It Somewhere"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "3258577EE57BB180"
+					item: "prettypipes:low_filter_module"
+				}
+				{
+					id: "18E9EE5840755625"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["29E8078331F5DECD"]
+		}
+		{
+			tasks: [
+				{
+					id: "320D1BEC51C231AA"
+					type: "item"
+					item: "prettypipes:mod_filter_modifier"
+				}
+				{
+					id: "4DE1CF2D4BC28059"
+					type: "item"
+					item: "prettypipes:tag_filter_modifier"
+				}
+			]
+			description: ["Other modules allow for filter specification. These two are probably the most useful for raw sorting, but you might want to give the others a try in specific situation, like say, enchantment sorting or loot sorting."]
+			icon: "prettypipes:mod_filter_modifier"
+			id: "7AF71C085F67370D"
+			x: -8.5d
+			y: 4.5d
+			title: "Sort Out Your Problems"
+			rewards: [
+				{
+					id: "456709CFDD5B7E80"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "4353FE9BBF1583C5"
+					item: "storagedrawers:emerald_storage_upgrade"
+				}
+				{
+					id: "2420D5E80E1FF5C5"
+					type: "item"
+					item: "prettypipes:blank_module"
+					count: 4
+				}
+			]
+			dependencies: ["0CE8122B2DC3BD1A"]
+		}
+		{
+			size: 1.5d
+			description: [
+				"Welcome to the Remix! This is a bonus quest, that, while required for endgame, gives a unique reward upon completion. "
+				""
+				"Tips:"
+				"Need autocrafting? Try IE's Assembler!"
+				"You have everything you need to completely automate this up to this point."
+				""
+				"Reward: An extra radial enhancement for your Fluxbore, as they are uncraftable."
+			]
+			id: "3095414D402F5142"
+			x: -0.5d
+			y: 3.0d
+			shape: "octagon"
+			title: "Industrial Remix!"
+			rewards: [
+				{
+					id: "333AE2D9961F485F"
+					type: "item"
+					item: {
+						id: "thermal:flux_drill"
+						Count: 1b
+						tag: {
+							RepairCost: 15
+							Properties: {
+								BaseMod: 4.0f
+								Radius: 3.0f
+							}
+							Enchantments: [
+								{
+									lvl: 5s
+									id: "minecraft:efficiency"
+								}
+								{
+									lvl: 4s
+									id: "cofh_core:holding"
+								}
+								{
+									lvl: 1s
+									id: "minecraft:silk_touch"
+								}
+								{
+									lvl: 3s
+									id: "minecraft:unbreaking"
+								}
+							]
+							Mode: 3
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								1322214020
+								-1310177861
+								-1296886500
+								-1782337265
+							]
+							Augments: [
+								{
+									id: "thermal:upgrade_augment_3"
+									Count: 1b
+								}
+								{
+									id: "thermal:area_radius_augment"
+									Count: 1b
+								}
+								{
+									id: "thermal:area_radius_augment"
+									Count: 1b
+								}
+								{
+									id: "thermal:area_radius_augment"
+									Count: 1b
+								}
+							]
+							display: {
+								Name: "{\"text\":\"The Ultiminer\"}"
+							}
+							Energy: 600000
+						}
+					}
+				}
+				{
+					id: "5E42B0A1AC0FA74A"
+					type: "item"
+					item: {
+						id: "thermal:flux_capacitor"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							Enchantments: [{
+								lvl: 4s
+								id: "cofh_core:holding"
+							}]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"1.21 Jigawatts\"}"
+							}
+							AS_Amulet_Holder: [I;
+								1322214020
+								-1310177861
+								-1296886500
+								-1782337265
+							]
+							Energy: 1500000
+						}
+					}
+				}
+			]
+			dependencies: ["1AEE7BF9E10A3801"]
+			tasks: [{
+				type: "item"
+				count: 200L
+				consume_items: true
+				id: "5F757FF715BEC35D"
+				item: "ibpdx:bioenriched_circuit"
+			}]
+		}
+		{
+			tasks: [{
+				id: "098B6CD6FCD7169D"
+				type: "item"
+				item: "ftbic:roller"
+			}]
+			description: ["If you did not make the Metal Press, this can also make plates."]
+			id: "59BBC77294CD0901"
+			x: -7.0d
+			y: 0.0d
+			title: "Road- I Mean Plate Roller!"
+			rewards: [{
+				type: "item"
+				count: 2
+				team_reward: true
+				id: "50F099AD38444A18"
+				item: "ftbic:overclocker_upgrade"
+			}]
+			dependencies: ["48639F567DBAD564"]
+		}
+		{
+			tasks: [{
+				id: "006DB5CD08547E26"
+				type: "item"
+				item: "ftbic:rubber"
+			}]
+			description: ["Rubber can be obtained by smelting Slimeballs or Latex. To get Latex, put a Tree Tap on a Latex Tree over a Wooden Bucket."]
+			id: "07F7AF1D3156E746"
+			x: -11.0d
+			y: -1.5d
+			title: "Rubber Bubber Bubber Bubber Bubber"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "3B41F116942304B7"
+					item: "ftbic:rubber"
+				}
+				{
+					id: "20CB2381E3B06ADC"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:rubber_seeds"
+				}
+				{
+					id: "3C5286C6BD586003"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["117BBECA8864CAB1"]
+			hide_dependency_lines: true
+		}
+		{
+			size: 1.5d
+			description: [
+				"Out of the four major machine mods, each has its own purpose."
+				""
+				"Immersive Engineering's multiblocks are large, but are also the most energy efficient."
+				""
+				"FTB Industrial Contraptions' have the highest potential speed, but require their own separate power network, and are the only machines capable of accepting solar energy."
+				""
+				"Thermal's machines are fairly fast, and have a variety of assistive augments and bonus drops."
+				""
+				"Mekanism's machines do not have craftable upgrades, but have factory installers that allow for multiple types of items to be funneled through one block."
+				""
+				"Pick the one best for the situation!"
+			]
+			x: -3.125d
+			id: "6655490137890EBE"
+			y: -4.375d
+			shape: "gear"
+			rewards: [
+				{
+					id: "5EE424FA123B6BF6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0F637C8CC9891564"
+					type: "item"
+					item: "pamhc2foodcore:baconcheeseburgeritem"
+				}
+			]
+			dependencies: ["117BBECA8864CAB1"]
+			tasks: [{
+				id: "2BC542C71F8DA8FE"
+				type: "checkmark"
+				title: "How Are These Different?"
+			}]
+		}
+		{
+			tasks: [{
+				id: "1D2B465C68213FEF"
+				type: "item"
+				item: "ibpdx:copper_electron_tube"
+			}]
+			description: ["&bElectron Tubes&r are a key crafting component in electronics."]
+			id: "49E4518D3A006DF5"
+			x: -11.0d
+			y: 0.0d
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "587DAE3A1A5BF490"
+					item: "infused_crystals:redstonium_crystal"
+				}
+				{
+					id: "03ECBE4BD1F9ED3B"
+					type: "item"
+					team_reward: true
+					item: "quark:red_crystal"
+				}
+			]
+			dependencies: ["144871AFDCF9F014"]
+		}
+		{
+			tasks: [
+				{
+					id: "01A94D70AB2A4C39"
+					type: "item"
+					item: "masterfulmachinery:block_duplicator_controller"
+					consume_items: true
+				}
+				{
+					id: "3464721085673D62"
+					type: "item"
+					item: "masterfulmachinery:block_duplicator_item_port_items_output"
+					consume_items: true
+				}
+				{
+					id: "1C8D62ACE7FA48A7"
+					type: "item"
+					item: "masterfulmachinery:block_duplicator_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					id: "7B573CBD4159C7F0"
+					type: "item"
+					item: "ibpdx:duplication_core"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "7BE1C1897FD98CCC"
+					item: "ibpdx:blockcasing_duskstone"
+				}
+			]
+			description: [
+				"The &bBlock Duplicator&r creates building blocks from nothing but energy. To make it work, you need to place the desired product block in the center of the structure. This can be one of many vanilla and &eChisel&r blocks. To see the full list, press \"U\" on the &bController&r for this multiblock, and browse the selection."
+				""
+				"Something of note is that this machine happens to be able to share component blocks. So long as the structure is proper, you can share one row of blocks. Note that the Controllers will be on different sides, so no, you cannot put 2 Controllers on one structure."
+			]
+			icon: "masterfulmachinery:block_duplicator_controller"
+			id: "0D39222C4D7B38EE"
+			x: 1.0d
+			y: -1.5d
+			title: "Construction Cloner"
+			rewards: [
+				{
+					id: "71B034A4A52B33FA"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 3
+							isReward: 1b
+							oneUse: 1b
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-921288654
+								1861829095
+								-2014526870
+								864766145
+							]
+							author: "?"
+							color: 14714914
+							label: "Block Duplicator.nbt"
+							structureName: "config/capsule/rewards/block_duplicator.nbt"
+							display: {
+								color: 12408663
+							}
+							canRotate: 1
+							state: 5
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "7DC22FC9483BDAC9"
+					item: "minecraft:diamond"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "6217176A02457C88"
+					item: "storagedrawers:diamond_storage_upgrade"
+				}
+			]
+			dependencies: ["48639F567DBAD564"]
+		}
+		{
+			tasks: [{
+				id: "6009AD16DA292948"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+			description: [
+				"&6Ender Tanks&r and &6Ender Chests&r are a bit far off. So how to procure those far-out resources? Fill an inventory and drop it on a &bWarp Plate&r. It will teleport to a linked Warp Plate. Send it back to refill it. You will need to manage the placing and breaking, though."
+				"{image:ibpdx:textures/questbook/warp_plate.png width:300 height:150 align:1}"
+			]
+			rewards: [
+				{
+					id: "34E7B3A9C63EF1B8"
+					type: "item"
+					item: "enderstorage:ender_tank"
+					count: 2
+				}
+				{
+					id: "293A4937F16DF41F"
+					type: "item"
+					item: "waystones:warp_plate"
+				}
+				{
+					id: "46C3F7A58B0B759E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			id: "5A06F3421A7116D5"
+			x: -5.5d
+			y: -4.5d
+			title: "Direct To You"
+			min_width: 300
+			dependencies: ["3D73654B6D1810C7"]
+		}
+		{
+			tasks: [{
+				id: "5483E9A294E21756"
+				type: "item"
+				item: "rftoolsstorage:storage_scanner"
+			}]
+			description: ["If the &6Pretty Pipes&r are not appealing to you due to requiring setup, the &bStorage Scanner&r is an alternative. It allows the detection of all inventories within its radius so you can take out or put in items as needed. It requires power to function, though."]
+			id: "6C7C15263BC7C260"
+			x: -5.5d
+			y: 1.0d
+			title: "Bootleg AE"
+			rewards: [
+				{
+					id: "600774C1D7289789"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "rftoolsutility:inventoryplus_module"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7DB11D7B64310416"
+					type: "item"
+					team_reward: true
+					item: "rftoolsbase:information_screen"
+				}
+				{
+					id: "3417EC834C46C25A"
+					type: "item"
+					team_reward: true
+					item: "rftoolsutility:screen_controller"
+				}
+				{
+					id: "2F00D810B51A85C2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["7449ADDE3AD2CDDC"]
+		}
+		{
+			size: 1.5d
+			description: ["With the craft of this &bInfused Redstonium&r, you are one step closer to heading to Space!"]
+			id: "1E8CA4574A10E12B"
+			x: 2.0d
+			y: 1.5d
+			shape: "pentagon"
+			title: "Infusing your first Infused Redstonium"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "0EE81BB81E910AF0"
+					item: "infused_crystals:block_of_redstonium"
+				}
+				{
+					id: "500A3E495240C833"
+					type: "item"
+					item: "mysticalagradditions:supremium_apple"
+				}
+			]
+			dependencies: ["1AEE7BF9E10A3801"]
+			tasks: [{
+				id: "3DEC10AFBA1B133B"
+				type: "item"
+				item: "infused_crystals:block_of_infused_redstonium"
+			}]
+		}
+		{
+			tasks: [{
+				id: "0017AA52F9724E15"
+				type: "item"
+				item: "mekanism:cardboard_box"
+			}]
+			description: ["&bCardboard Boxes&r let you pack up tile entities such as &6Chests&r and &6Mob Spawners&r and move them elsewhere."]
+			id: "658D1111F335449C"
+			x: -4.0d
+			y: 1.0d
+			title: "Moving Day"
+			rewards: [
+				{
+					id: "5F54BF36F57D0C45"
+					type: "item"
+					team_reward: true
+					item: "cyclic:spawner_seeker"
+				}
+				{
+					id: "2D76D5BCE2507634"
+					type: "item"
+					team_reward: true
+					item: "minecraft:husk_spawn_egg"
+				}
+			]
+			dependencies: ["6CDE27C2D878DAC3"]
+		}
+		{
+			tasks: [{
+				id: "5D00D85359397147"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			description: ["The &bLeadstone Jetpack&r functions a little differently than you might be used to. It is not designed for travel, but for stability. All jetpacks have perfect hover, meaning they will not automatically descend, even at the lowest tier. They additionally have increased power capacity. However, their apparent low speed might not be desirable. Upgrade and you might be able to fix that."]
+			id: "3A0015642C7EDEF4"
+			x: 1.0d
+			y: 0.0d
+			title: "Gotta Jet!"
+			rewards: [
+				{
+					id: "3E8DBED7180AD468"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3EE3FFC353D11417"
+					type: "item"
+					item: "minecraft:firework_rocket"
+				}
+				{
+					id: "1FA98EFDAD7520E4"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "simplyjetpacks:fuel_efficiency"
+							}]
+						}
+					}
+				}
+			]
+			dependencies: ["1730BF2DEE0D057A"]
+		}
+		{
+			tasks: [{
+				id: "0EB3EA74EDA10C7D"
+				type: "checkmark"
+			}]
+			description: [
+				"Since the &bInfusion Altar&r and its pedestals can't be automated with pipes, so you'll need some &6Item Users&r instead."
+				""
+				"I recorded a tutorial for this, if you are a visual learner."
+				""
+				"If this doesn't appeal to you, you'll be able to get away with around 20 total uses of this mechanic, discounting &bEmpowered Oil&r. before you can upgrade to the &6Crafting Core&r."
+				""
+				"{image:ibpdx:textures/questbook/infusion_auto.png width:200 height:125 align:1}"
+			]
+			id: "19547A47A2FE2D09"
+			x: 2.0d
+			y: 3.0d
+			title: "Infusion Automation"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "20C3E54606687E30"
+					item: "cyclic:user"
+				}
+				{
+					id: "671968BC659031A8"
+					type: "item"
+					team_reward: true
+					item: "minecraft:comparator"
+				}
+				{
+					id: "4AE4D67CE4BD1951"
+					type: "item"
+					team_reward: true
+					item: "cyclic:clock"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "5720CEBCFDBE42B5"
+					item: "immersiveengineering:wirecoil_redstone"
+				}
+			]
+			dependencies: ["1AEE7BF9E10A3801"]
+		}
+	]
+}

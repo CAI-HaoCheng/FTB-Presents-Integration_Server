@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	group: ""
+	id: "565299CEC03A66B7"
+	filename: "integration_by_parts_dx"
+	default_quest_shape: ""
+	icon: "ibpdx:infinity_fragment"
+	title: "Welcome!"
+	images: [{
+		rotation: 0.0d
+		image: "avaritia:textures/ascension.png"
+		width: 2.0d
+		click: ""
+		hover: [ ]
+		x: -0.5d
+		y: -0.5d
+		corner: false
+		dev: false
+		height: 2.0d
+	}]
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				id: "0F27CDF08D5DA33E"
+				type: "checkmark"
+			}]
+			description: [
+				""
+				"Welcome to &dIntegrations by Parts DX&r! This is a non-traditional expert pack designed to maximize fun and encourage unorthodox solutions to problems. "
+				"So what can you expect? An \"expert pack\" that's not quite expert. We've eliminated a lot of the grind to make it more accesable to all levels and to prioritize fun. "
+				"Expect lots of weird and interesting recipes, plenty of cross-mod compatibility, and lots more to discover!"
+			]
+			icon: "ibpdx:energized_infinity_chunk"
+			x: -2.5d
+			id: "6C8124F246693A5E"
+			y: -0.5d
+			shape: "gear"
+			title: "Just Enough Explanation"
+			rewards: [{
+				id: "07BBAB92F281235F"
+				type: "item"
+				item: "pamhc2foodcore:chocolatedonutitem"
+			}]
+		}
+		{
+			tasks: [{
+				id: "177E297EE650E017"
+				type: "checkmark"
+			}]
+			description: [
+				"Firstly, thank you for coming back. While attracting newcomers is of course a good feeling, it also means a lot to see people return to my pack having left the original with a positive opinion."
+				""
+				"Now, what makes this so much different from the original? I think the biggest sell is all the new wacky recipe ideas I came up with. Ever smelt a Witch in a smeltery and distill the resulting liquid into its components to automate redstone? Or how about making Dark Iron Blocks from having mobs spawn on Iron Blocks? KubeJS is a wonderful tool that let me do so many things. And I hope you enjoy all of it, or at least most of it."
+				""
+				"A lot of rebalancing and mod changes happened. Not just for things that did not port, but for things I wanted to change as well. I wanted to lean away from void resources as much as I could. The options that are there are options for what they are meant to do. Ore processing has been divided into three processes. The cast of multiblocks is a lot more useful, with very few obsoleted machines. A bunch of them were trimmed, with better ones added instead. There are new custom tools with whatever effects I could scrounge up in a Kube script, and much more! "
+				""
+				"So, enjoy the pack!"
+			]
+			icon: "avaritia:infinity_catalyst"
+			x: 1.5d
+			id: "0D3900E01421136E"
+			y: -0.5d
+			shape: "gear"
+			title: "Hello Again, Veterans!"
+			rewards: [{
+				id: "59264B8765EA7207"
+				type: "item"
+				item: "pamhc2foodcore:chocolaterollitem"
+			}]
+		}
+		{
+			tasks: [{
+				id: "3F421944EAC55DE3"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			description: ["With Botania on the horizon, one can never have too many flowers. "]
+			id: "49F323C7E6C1C915"
+			x: -1.5d
+			y: 1.0d
+			title: "I Need More Flowers!"
+			rewards: [{
+				id: "0F205357283DF337"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+				count: 4
+			}]
+		}
+		{
+			tasks: [{
+				id: "05D461A70C9DA8B7"
+				type: "checkmark"
+			}]
+			description: ["This pack features the food mod Diet, as well as Spice of Life Carrot Edition. Eat a good variety of foods to gain bonus hearts, and keep an eye on your food groups. Keep each of those bars up, and you will get a buff!"]
+			icon: "cookingforblockheads:recipe_book"
+			id: "1C169D27C9348130"
+			x: 0.5d
+			y: 1.0d
+			title: "The Rules of Food"
+			rewards: [{
+				id: "5ED0D43B345A2A58"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+		}
+		{
+			tasks: [{
+				id: "71D58F003A1E8E32"
+				type: "checkmark"
+				title: "Information Quests"
+			}]
+			description: ["These quests are meant to give you more information about the quest and don't usually reflect an actual task for you to perform. "]
+			x: -6.5d
+			id: "77D953555B7575F4"
+			y: -1.0d
+			shape: "gear"
+			rewards: [{
+				id: "52BB48468CA64359"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			tasks: [{
+				id: "456D9E86FBB79488"
+				type: "checkmark"
+				title: "Remix Quests"
+			}]
+			description: ["Remix Quests are meant to take everything you've unlocked and use it to create complex items with a suitable reward. "]
+			x: -6.5d
+			id: "6B8759A0C0B8D3F4"
+			y: 0.0d
+			shape: "octagon"
+			rewards: [{
+				id: "344E847C2B4A151D"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			tasks: [{
+				id: "72E2A5B52F35699F"
+				type: "checkmark"
+				title: "Progression Gates"
+			}]
+			description: ["These quests must be completed to continue to progress through a chapter."]
+			x: -5.5d
+			id: "3665CB5D9234BF79"
+			y: 0.0d
+			shape: "pentagon"
+			rewards: [{
+				id: "44A3CE95AABC4A74"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			tasks: [{
+				id: "02502261777628AE"
+				type: "checkmark"
+				title: "Akashic Tome"
+			}]
+			description: ["The Akashic Tome can store all of those guide books created by various mods. You can look at any one you wish."]
+			icon: "akashictome:tome"
+			id: "2E63A6D2D84E0F88"
+			x: 0.5d
+			y: -2.0d
+			title: "Knowledge is Power"
+			rewards: [{
+				id: "36CB8F2346DDA81C"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+		}
+		{
+			tasks: [{
+				id: "59C2624697B6C55E"
+				type: "checkmark"
+				title: "Optional"
+			}]
+			description: ["These quests may not represent major milestones but they are a path on your journey through the quest. If no other quests are dependent on them they are typically optional and don't count towards chapter completion."]
+			x: -5.5d
+			id: "3E73F1C52D06DA3E"
+			y: -1.0d
+			shape: "circle"
+			title: "Standard Quest"
+			rewards: [{
+				id: "52AE59F1FA374B88"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			tasks: [{
+				id: "581F5042C6C60853"
+				type: "checkmark"
+				title: "Compass"
+			}]
+			description: ["If you want a particular biome, Nature's Compass will guide you in the right direction to the closest one. If you want a tree and can't find it, try &6Alchetree&r instead. More on that in a quest when it becomes available."]
+			icon: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			id: "4C6EADC2006A8B9F"
+			x: -1.5d
+			y: -2.0d
+			title: "Law of the Land"
+			rewards: [{
+				id: "62258BF73ACB1620"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

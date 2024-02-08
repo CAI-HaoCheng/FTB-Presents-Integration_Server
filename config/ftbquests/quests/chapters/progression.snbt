@@ -1,0 +1,1457 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "220480C8ECD94A8B"
+	filename: "progression"
+	default_quest_shape: "circle"
+	icon: "cookingforblockheads:recipe_book"
+	title: "From Humble Beginnings"
+	order_index: 0
+	quests: [
+		{
+			tasks: [
+				{
+					id: "37EAD1A5C7ED30FD"
+					type: "item"
+					item: "botania:mana_spreader"
+				}
+				{
+					id: "7FE63A82C47B530C"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+				{
+					id: "5F87A098860F4D2A"
+					type: "item"
+					item: {
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+				}
+				{
+					id: "2278437B8E240163"
+					type: "item"
+					title: "Generating Flower"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "botania:endoflame"
+									Count: 1b
+								}
+								{
+									id: "botania:hydroangeas"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "69F6267B131A5B8D"
+					type: "item"
+					item: {
+						id: "botania:water_bowl"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:water"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "5486069C2597D3C3"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+			]
+			description: [
+				"This quest is designed to wet your feet (so to speak) in the world of &eBotania&r. "
+				""
+				"To fill the &6Petal Apothecary&r you just made, you'll need a &bWater Bowl&r. You can get one of these by throwing a &6Bowl&r into &6Water&r."
+				""
+				"Now that you have your &6Petal Apothecary&r, it's time to use it. You'll need a handful of your favorite mana-producing flowers. "
+				"Plonk down a &bMana Spreader&r, and use your &bWand of the Forest&r to connect the flowers to the &b Mana Spreader&r. Connect your &b Mana Spreader&r to the &b Mana Pool&r and you're all set. Now all you need to do is fuel your mana flowers, and boom, &6Mana&r!"
+			]
+			icon: "botania:mana_pool"
+			id: "07D35F22FBF6FB0C"
+			x: -1.0d
+			y: 0.0d
+			title: "Flower Power"
+			rewards: [
+				{
+					id: "27EB001EF0005C42"
+					type: "item"
+					item: {
+						id: "minecraft:golden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Pluck Sword\"}"
+							}
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+				{
+					id: "1169F656C3DB7D16"
+					type: "item"
+					item: {
+						id: "minecraft:stick"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"PK Stick\"}"
+							}
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:knockback"
+							}]
+						}
+					}
+				}
+				{
+					id: "69E8D099D5C74EF3"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Coal Collector\"}"
+							}
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+			]
+			dependencies: ["5CF518D3ECA038C1"]
+		}
+		{
+			tasks: [{
+				id: "4AA7F4FAE7C1792D"
+				type: "item"
+				item: "thermal:iron_dust"
+			}]
+			description: ["Now that your &6Mana Pool&r is powered up, you can use it to process base metals into smeltable dusts! It's not the most efficient way to do it. of course, but you have to admit smelting via magic water is pretty cool!"]
+			id: "07C5FB5653809ECC"
+			icon: "minecraft:iron_ingot"
+			x: 1.0d
+			y: 0.0d
+			title: "And Now For Something Completely Different"
+			rewards: [
+				{
+					id: "7549995D711D7BF1"
+					type: "choice"
+					table_id: 9207953850827504287L
+				}
+				{
+					id: "491CEEE4C5E62432"
+					type: "item"
+					team_reward: true
+					item: "minecraft:hopper"
+				}
+			]
+			subtitle: "But also kinda related."
+			dependencies: ["07D35F22FBF6FB0C"]
+		}
+		{
+			tasks: [{
+				id: "1BCB2AACA37A7F88"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			description: ["Make an Iron Pickaxe and go mine a &bDiamond&r... or two. Or three. You'll need a few for crafting. That's it... What, did you expect some strange task for every quest?"]
+			id: "38D0894A4411CD0B"
+			x: 3.0d
+			y: 0.0d
+			title: "Back to the Basics"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "20AFA1983CEA037B"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "422C7ED4D6EBE681"
+					type: "item"
+					item: {
+						id: "constructionwand:diamond_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73AB8AEECE99BB18"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [
+				{
+					id: "2C31F5EAE908F616"
+					type: "item"
+					item: "ibpdx:bog_earth"
+					count: 32L
+				}
+				{
+					id: "3F5CF4530DABDC1E"
+					type: "item"
+					item: "ibpdx:peat"
+					count: 8L
+				}
+				{
+					id: "255DF7122D102F65"
+					type: "item"
+					item: "ibpdx:mixed_brick"
+					count: 4L
+				}
+			]
+			description: ["Make some &bBog Earth&r, then place it next to the &6Pure Daisy&r, and break the resulting &6Peat Bog&r."]
+			icon: "ibpdx:mixed_brick"
+			id: "11DF8FA9D131044C"
+			x: 5.0d
+			y: 0.0d
+			title: "Don't Let This Bog You Down"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1D5ED01B88724E22"
+					item: "ibpdx:bog_earth"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1EA0D550E7D8296D"
+					item: "minecraft:clay"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "45DFA877D0D858F0"
+					item: "mysticalagriculture:prudentium_furnace"
+				}
+			]
+			dependencies: ["38D0894A4411CD0B"]
+		}
+		{
+			size: 1.5d
+			description: ["Finally you can process ores without Mana! The &bSmeltery&r processes your ores into a liquid state which can then be poured into casts for tools, or used to make alloys."]
+			id: "4F87B1CBC7A8E75C"
+			icon: "tconstruct:smeltery_controller"
+			x: 9.0d
+			y: 0.0d
+			shape: "pentagon"
+			title: "Metallurgy Maestro"
+			rewards: [
+				{
+					id: "4132171E480F7D16"
+					type: "item"
+					item: "tconstruct:encyclopedia"
+				}
+				{
+					id: "5C3A0CD9D517FA19"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "mekanism:basic_fluid_tank"
+						Count: 1b
+						tag: {
+							mekData: {
+								owner: [I;
+									1322214020
+									-1310177861
+									-1296886500
+									-1782337265
+								]
+								FluidTanks: [{
+									Tank: 0b
+									stored: {
+										FluidName: "minecraft:lava"
+										Amount: 32000
+									}
+								}]
+								securityMode: 0
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "136FC250FA54660E"
+					item: "mysticalagriculture:earth_seeds"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "6A66119072E04A82"
+					item: "tconstruct:seared_stone"
+				}
+				{
+					id: "1077032DA4089F99"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "basic_smeltery"
+							structureName: "config/capsule/rewards/basic_smeltery"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 5
+						}
+					}
+				}
+				{
+					id: "4ED8C4B97A7C497B"
+					type: "item"
+					team_reward: true
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "39F58E83DB650451"
+					type: "item"
+					team_reward: true
+					item: "tconstruct:seared_basin"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "21FD219D4E34470F"
+					item: "tconstruct:seared_faucet"
+				}
+			]
+			dependencies: ["11DF8FA9D131044C"]
+			tasks: [{
+				type: "item"
+				count: 16L
+				consume_items: true
+				id: "2548D89784974FA1"
+				item: "tconstruct:seared_bricks"
+			}]
+		}
+		{
+			tasks: [{
+				id: "24CEB2F017831159"
+				type: "item"
+				item: "ibpdx:modularium"
+				count: 4L
+			}]
+			description: ["&bModularium&r is an important alloy for &6Masterful Machines&r. You'll have to make it by hand to start, but with what you craft you can build a machine that does it more efficiently."]
+			id: "5451FA3F42D7C004"
+			x: 11.0d
+			y: 0.0d
+			title: "Modular Alloy"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "53F38DEBEE66338D"
+					item: "ibpdx:modularium"
+				}
+				{
+					id: "26E98D72FCD51493"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "24BDD577B2C68EBA"
+					type: "item"
+					team_reward: true
+					item: "pipez:advanced_upgrade"
+				}
+			]
+			dependencies: ["4F87B1CBC7A8E75C"]
+		}
+		{
+			tasks: [{
+				id: "40C899E86B3B187C"
+				type: "item"
+				item: "masterfulmachinery:generic_controller"
+			}]
+			description: [
+				"The &bMachine Controller&r is the heart of every &6Masterful Machine&r. It doesn't have any utility on its own, but is necessary for any &6Masterful Machine &r you make."
+				""
+				"A note about controllers: The placement is usually in the \"center\" of the \"front\" face of a machine with only a couple exceptions. On most machines, the inputs are on the \"left\" and outputs are on the \"right\" when looking at the \"front\"."
+			]
+			id: "23EBF86680398203"
+			x: 13.0d
+			y: 0.0d
+			title: "It Controls Your Life"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "225CC3A34306CD72"
+					item: "masterfulmachinery:generic_controller"
+				}
+				{
+					id: "684144BB80F6B250"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Not really, but it's pretty darn useful."
+			dependencies: ["5451FA3F42D7C004"]
+		}
+		{
+			tasks: [{
+				id: "402E7163358D2D72"
+				type: "item"
+				item: "masterfulmachinery:bedrock_miner_controller"
+				consume_items: true
+			}]
+			description: [
+				"This quest is designed to introduce you to &eMasterful Machines&r. The first multiblock we're tackling is called the &bBedrock Miner&r."
+				""
+				"If you search for the &6Machine Controller&r in JEI and press U for uses, you can click on the &eMasterful Machinery&r tab and see how this is made. "
+				""
+				"The &bBedrock Miner&r produces &6Bedrock Crystals&r from the bedrock layer, using mana as its only input."
+				""
+				"This quest will be a freebie to get you used to the multiblock format, but don't expect any more handouts of entire machines."
+				""
+				"This particular machine requires &6Mana&r as a power source."
+				""
+				"If you ever want to know how to make an item in a machine, press R on its products."
+			]
+			id: "502B3F473498E7AB"
+			icon: "ibpdx:blockcasing_livingrock"
+			x: 15.0d
+			y: 0.0d
+			title: "Leeloo Dallas, Multiblock."
+			rewards: [
+				{
+					id: "4CBDC1CB652DD1EB"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "botania:lens_efficiency"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Long Range Lens\"}"
+							}
+							compositeLens: {
+								id: "botania:lens_speed"
+								Count: 1b
+								tag: { }
+							}
+						}
+					}
+				}
+				{
+					id: "210CE99339DCD068"
+					type: "item"
+					team_reward: true
+					item: "botania:mana_spreader"
+				}
+				{
+					id: "7F706C59EF248E8C"
+					type: "item"
+					team_reward: true
+					item: "botania:blacker_lotus"
+				}
+				{
+					id: "5FC061999975173D"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							mirror: "NONE"
+							oneUse: 1b
+							Damage: 0
+							color: 5544791
+							isReward: 1b
+							RepairCost: 0
+							rotation: "CLOCKWISE_90"
+							author: "?"
+							label: "Bedrock Miner.nbt"
+							structureName: "config/capsule/rewards/bedrock_miner.nbt"
+							display: {
+								color: 13421772
+								Name: "{\"text\":\"Place Me At Bedrock!\"}"
+							}
+							canRotate: 1
+							size: 5
+						}
+					}
+				}
+			]
+			subtitle: "She &oKNOWS&r it's a Multiblock!"
+			dependencies: ["23EBF86680398203"]
+		}
+		{
+			tasks: [
+				{
+					id: "59DB5A90E4443CCF"
+					type: "item"
+					item: "masterfulmachinery:duskstone_mixer_controller"
+					consume_items: true
+				}
+				{
+					id: "3B0741AEC9474900"
+					type: "item"
+					item: "masterfulmachinery:duskstone_mixer_item_port_items_output"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "7BED2BC847DEB514"
+					item: "masterfulmachinery:duskstone_mixer_fluid_port_fluids_input"
+				}
+				{
+					type: "item"
+					count: 28L
+					consume_items: true
+					id: "18AA2D242AE0EEBA"
+					item: "botania:mana_glass"
+				}
+				{
+					type: "item"
+					count: 3L
+					consume_items: true
+					id: "1D6146B6418AB295"
+					item: "ibpdx:molten_gold_casing"
+				}
+				{
+					type: "item"
+					count: 4L
+					consume_items: true
+					id: "0C36E21ABE32F3B6"
+					item: "ibpdx:blockcasing_bedrock"
+				}
+				{
+					id: "230FCAB231411C82"
+					type: "item"
+					item: "masterfulmachinery:duskstone_mixer_mana_port_botania_mana_input"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 3L
+					consume_items: true
+					id: "4594F0FF845C0C6C"
+					item: "minecraft:obsidian"
+				}
+				{
+					type: "item"
+					count: 32L
+					consume_items: true
+					id: "0A186CF1265A9EA4"
+					item: "ibpdx:blockcasing_livingrock"
+				}
+				{
+					id: "710DF0F92235806B"
+					type: "item"
+					item: "minecraft:packed_ice"
+					consume_items: true
+				}
+			]
+			description: [
+				"&bDuskstone&r is an essential alloy for future progress. It combines the durability of obsidian with the magical properties of gold. It also has uses in machinery and tools. Tools constructed by this material are able to be attuned to an element for special attributed properties. However, you only get one of each per player, so choose your attunement for each wisely. Go all in on one element, or spread out for many! They can also be used with special relics later on, as opposed to tinker tools."
+				""
+				"These tools tend to favor the magical side of things, so enchanting and upgrades will fall under those progression lines."
+				""
+				"Also, this machine will be replaced as you progress. Most machines stay useful, but a few of the early ones can eventually be dismantled. This one was primarily kept as it is as a legacy of the original modpack, and is the only one I consider \"too sacred to remove\"."
+			]
+			icon: "ibpdx:duskstone_ingot"
+			id: "1C496F6BB54C2AB8"
+			x: 17.0d
+			y: 0.0d
+			title: "A New Alloy"
+			rewards: [
+				{
+					id: "6538B5112DE48C43"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "veinmining:vein_mining"
+							}]
+						}
+					}
+				}
+				{
+					id: "431A9292A4217FC4"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 7
+							isReward: 1b
+							oneUse: 1b
+							color: 9819623
+							author: "?"
+							label: "Duskstone Mixer.nbt"
+							structureName: "config/capsule/rewards/duskstone_mixer.nbt"
+							display: {
+								color: 9819623
+							}
+							canRotate: 1
+							state: 5
+						}
+					}
+				}
+			]
+			dependencies: ["502B3F473498E7AB"]
+		}
+		{
+			size: 2.0d
+			description: ["You can now make &bManasteel&r. This marks the end of Chapter 1."]
+			id: "04017143CD3E2283"
+			x: 19.0d
+			y: 0.0d
+			shape: "pentagon"
+			title: "End of Chapter"
+			rewards: [
+				{
+					id: "004C7C4186250D09"
+					type: "item"
+					team_reward: true
+					item: "botania:blacker_lotus"
+				}
+				{
+					id: "11ABAAE2654A524F"
+					type: "item"
+					team_reward: true
+					item: "botania:overgrowth_seed"
+				}
+				{
+					id: "7198F756E5B1E58D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "352E75A1FAF5AA08"
+					item: "cyclic:placer"
+				}
+			]
+			dependencies: ["1C496F6BB54C2AB8"]
+			tasks: [{
+				id: "5E42F20D9D787A23"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+		}
+		{
+			tasks: [{
+				id: "14E212B61F14CBA9"
+				type: "item"
+				item: {
+					id: "aiotbotania:livingrock_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			description: [
+				"&bLivingrock Tools&r are great if you want an easy-to-repair tool set early game. They repair themselves with mana. It's just like magic! "
+				""
+				"I mean...it &oIS&r Magic."
+			]
+			id: "2D42BDC843600079"
+			x: 3.0d
+			y: 2.0d
+			title: "Mending Lite"
+			rewards: [
+				{
+					id: "78877E66C1C4A769"
+					type: "item"
+					item: {
+						id: "aiotbotania:livingrock_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "380EACE3758A37F6"
+					item: "mysticalagriculture:stone_seeds"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "37066959BB4D2728"
+				type: "checkmark"
+				title: "Vein Mining?"
+			}]
+			description: [
+				"There are two forms of &bVein Mining&r in this modpack. The first is an enchantment which is restricted to \"resource\" blocks, such as ores, clay, and logs. The second is Ultimine, which can mine anything, but is restricted to the &6Landslide Pickaxe&r. Vein mining stone would trivialize mining, hence why it is unlocked later."
+				""
+				"Note: Make sure you set a keybind for Veinminer specifically, not to be confused with Ultimine."
+				""
+				"The reward pickaxe here can be repaired with mana in exchange for its abysmal mining level."
+			]
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			id: "51931A742B1FDEAC"
+			y: 2.0d
+			shape: "gear"
+			title: "Vein Mining?"
+			rewards: [
+				{
+					id: "4E21074CDF348DD0"
+					type: "item"
+					item: {
+						id: "botania:glass_pickaxe"
+						Count: 1b
+						tag: {
+							RepairCost: 3
+							Enchantments: [
+								{
+									lvl: 1s
+									id: "veinmining:vein_mining"
+								}
+								{
+									lvl: 3s
+									id: "minecraft:unbreaking"
+								}
+							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Crystal Shard\"}"
+							}
+							AS_Amulet_Holder: [I;
+								-921288654
+								1861829095
+								-2014526870
+								864766145
+							]
+						}
+					}
+				}
+				{
+					id: "2EDA54FB375EBB85"
+					type: "item"
+					item: {
+						id: "minecraft:iron_shovel"
+						Count: 1b
+						tag: {
+							RepairCost: 3
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 1s
+									id: "veinmining:vein_mining"
+								}
+								{
+									lvl: 3s
+									id: "minecraft:unbreaking"
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "44D4D390369BAA1F"
+					type: "item"
+					item: "minecraft:blaze_rod"
+				}
+				{
+					id: "3B59AB12431FA8C7"
+					type: "item"
+					item: "thermal:blizz_rod"
+				}
+				{
+					id: "69D84B97322C6921"
+					type: "item"
+					item: "thermal:basalz_rod"
+				}
+				{
+					id: "262851F59070F177"
+					type: "item"
+					item: "thermal:blitz_rod"
+				}
+			]
+			description: [
+				"Duskstone tools can be imbued with elemental power! Craft one with a drop from a &bBlaze/Blizz/Basalz/Blitz&r to obtain one. There is also a second tier available after making the &6Runic Altar&r."
+				""
+				"If you are struggling to find one of &eThermal's&r elemental Blazes, an upcoming quest will help."
+				""
+				"For the first tier of upgrades, &eAir&r Tools increase your running speed, &2Earth&r Tools give you extra armor, &cFire&r Tools give you extra reach, and &9Water&r Tools give you more max HP."
+				""
+				"The second upgrade gives more unique functions, but it will take a bit of magic progress to get there."
+			]
+			icon: "tconstruct:blaze_head"
+			id: "089CE2440485F108"
+			x: 19.0d
+			y: -2.0d
+			title: "Master of the Elements"
+			rewards: [
+				{
+					id: "2F4E9189FA7FA72E"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "botania:lens_firework"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "36A7183FD18DF3C3"
+					type: "item"
+					team_reward: true
+					item: "xreliquary:molten_core"
+				}
+				{
+					id: "4528DC7BF4F523C8"
+					type: "item"
+					team_reward: true
+					item: "xreliquary:frozen_core"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "2A86DE4B6668FFED"
+					item: "thermal:earth_grenade"
+				}
+				{
+					id: "2C57170F392C4530"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["56662F0180D9DD32"]
+		}
+		{
+			size: 2.0d
+			description: ["In Victorian times one could have entire conversations using only flowers to communicate. &eBotania&r uses flowers to create the &6Mana&r to power your devices. "]
+			x: -3.0d
+			id: "5CF518D3ECA038C1"
+			y: 0.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "063BEDA6B2C0E3E0"
+					item: "botania:white_floating_flower"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "64EF876765CEEC55"
+					item: "thermal:apatite"
+				}
+				{
+					id: "68407B87FD8413C8"
+					type: "item"
+					item: {
+						id: "thermal:satchel"
+						Count: 1b
+						tag: {
+							RepairCost: 3
+							ItemInv: {
+								ItemInv: [
+									{
+										Slot: 0b
+										id: "minecraft:oak_log"
+										Count: 64b
+									}
+									{
+										Slot: 1b
+										id: "minecraft:cobblestone"
+										Count: 64b
+									}
+									{
+										Slot: 2b
+										id: "minecraft:cobblestone"
+										Count: 64b
+									}
+									{
+										Slot: 3b
+										id: "minecraft:iron_ore"
+										Count: 8b
+									}
+									{
+										Slot: 4b
+										id: "thermal:copper_ore"
+										Count: 8b
+									}
+									{
+										Slot: 5b
+										id: "botania:fertilizer"
+										Count: 4b
+									}
+									{
+										Slot: 6b
+										id: "minecraft:bone_meal"
+										Count: 8b
+									}
+									{
+										Slot: 7b
+										id: "capsule:capsule"
+										Count: 1b
+										tag: {
+											state: 5
+											isReward: 1b
+											oneUse: 1b
+											color: 16777215
+											label: "tiny_house"
+											structureName: "config/capsule/rewards/tiny_house"
+											display: {
+												color: 16777215
+											}
+											canRotate: 0b
+											size: 9
+										}
+									}
+								]
+							}
+							display: {
+								Name: "{\"text\":\"Starter Pack\"}"
+							}
+							Enchantments: [{
+								lvl: 3s
+								id: "cofh_core:holding"
+							}]
+						}
+					}
+				}
+			]
+			tasks: [{
+				id: "000F0F4D605FE5D6"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			tasks: [{
+				id: "33916CB677403EE3"
+				type: "item"
+				title: "Any Duskstone Tool"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ibpdx:duskstone_pickaxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ibpdx:duskstone_sword"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ibpdx:duskstone_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ibpdx:duskstone_shovel"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			description: ["&bDuskstone Tools&r are very durable and can be elementally attuned. "]
+			icon: {
+				id: "ibpdx:duskstone_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "56662F0180D9DD32"
+			x: 17.0d
+			y: -2.0d
+			title: "Tools For the Job"
+			dependencies: ["1C496F6BB54C2AB8"]
+		}
+		{
+			tasks: [
+				{
+					id: "49AB83BB05BD795F"
+					type: "item"
+					item: "minecraft:bricks"
+					count: 20L
+				}
+				{
+					type: "item"
+					count: 9L
+					id: "68D1812BBD8E851E"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					icon: "minecraft:oak_log"
+					title: "Any Log"
+				}
+				{
+					id: "1FCED58D6CBB5EE1"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+			description: [
+				"The &bCharcoal Pit&r is a method of obtaining Charcoal early on."
+				""
+				"{image:ibpdx:textures/questbook/charcoal_pit.png width:200 height:100 align:1}"
+				""
+				"To form the structure, place down a square of any log with an odd length up to 9x9. Then, cover everything with &bBricks&r (vanilla or chiseled), place a &bDirt&r in the center, and light the Dirt with a Flint and Steel. The amount of time to wait varies with the size of the structure. Each Ashen Charcoal gives 2 &6Ash&r and 4 &6Charcoal&r."
+			]
+			icon: "minecraft:charcoal"
+			id: "5BBABAB0CF8F79D9"
+			x: 1.0d
+			y: -2.0d
+			title: "Pitting Time Against Efficiency"
+			rewards: [
+				{
+					type: "item"
+					count: 64
+					team_reward: true
+					id: "343695E12EB8BDE4"
+					item: "minecraft:charcoal"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "674DC2B26D268711"
+					item: "mysticalagriculture:coal_seeds"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "1F5425B6749A6AE0"
+				type: "item"
+				item: "botania:mutated_seeds"
+			}]
+			description: [
+				"An ancient ritual to transmogrify specific saplings into different saplings. All &6Treemendous&r saplings can be \"mutated\" from the base vanilla saplings or other Treemendous saplings."
+				""
+				""
+				"{image:ibpdx:textures/questbook/alchetree.png width:225 height:125 align:1}"
+				""
+				"To perform &bAlchetree&r, place down a 3x3 of &6Mutated Earth&r (made from right clicking &6Mutated Seeds&r on a &6Grass Block&r away from your base), then place on two ingredient saplings anywhere but the center and right click the center with a &6Wand of the Forest&r."
+			]
+			icon: "treemendous:japanese_sapling"
+			id: "245894493BB8B311"
+			x: -1.0d
+			y: -2.0d
+			title: "Alchetree"
+			rewards: [
+				{
+					id: "25083AFF7C3F937B"
+					type: "item"
+					item: "tconstruct:earth_slime_sapling"
+				}
+				{
+					id: "403D81309E39A7D4"
+					type: "item"
+					item: "tconstruct:earth_vanilla_slime_grass"
+				}
+				{
+					id: "7738FE0E55027151"
+					type: "item"
+					item: "treemendous:pine_sapling"
+				}
+			]
+			dependencies: ["07D35F22FBF6FB0C"]
+		}
+		{
+			tasks: [{
+				id: "2A910109C528DC18"
+				type: "item"
+				item: {
+					id: "treemendous:iron_lumber_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: true
+			}]
+			description: ["A &bLumber Axe&r is an early way of taking down entire trees in one swing. They have a set break speed, so it is much more efficient to chop larger trees than smaller ones."]
+			id: "2FF7B8CD3D0249D8"
+			x: 1.0d
+			y: 2.0d
+			title: "Down With The Trees!"
+			rewards: [{
+				id: "223FDB3D33838AB9"
+				type: "item"
+				item: {
+					id: "treemendous:iron_lumber_axe"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 2s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:unbreaking"
+							}
+						]
+					}
+				}
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "16645779BA421CA8"
+				type: "checkmark"
+				title: "Tinker's or Traditional?"
+			}]
+			description: [
+				"Both &eTinker's Construct&r and &6regular tools&r have their advantages, so whether you use one or both is your decision."
+				""
+				"Tinker's has easier access to modification and easier repair without infrastructure, but regular tools have fancy options such as &6Paxels&r and &6All in One Tools&r, as well as the upcoming &6Duskstone Tools&r, and can be repaired for cheaper with some small infrastructure using &6Mana, Energy, or Mending&r."
+			]
+			icon: {
+				id: "minecraft:wooden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 9.0d
+			id: "4C1628389D234F43"
+			y: -2.0d
+			shape: "gear"
+			rewards: [
+				{
+					id: "13500814E2BC4A07"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:cobalt"
+						}
+					}
+				}
+				{
+					id: "3C2B800F26B39354"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+				{
+					id: "09E390C3D678D30C"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+			]
+			dependencies: ["4F87B1CBC7A8E75C"]
+		}
+		{
+			tasks: [{
+				id: "766A777C47220192"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			description: ["The &bMega Torch&r prevents hostile mobs from spawning within its radius of effect."]
+			id: "06C26AA94BA794D4"
+			x: 3.0d
+			y: -2.0d
+			title: "Mobs, Mobs, Go Away!"
+			rewards: [{
+				id: "64365C997D44A609"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			dependencies: ["38D0894A4411CD0B"]
+		}
+		{
+			tasks: [{
+				id: "1FCD6D64AE1125E5"
+				type: "item"
+				item: {
+					id: "boss_tools:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			description: [
+				"The &bHammer&r can crush a manner of things manually. "
+				""
+				"With a right click, you can get 3 bonus nuggets from &6Iron, Gold, Copper, Tin, Lead, Silver, and Nickel Ores&r, as well as &6Coal Dust&r from &6Blocks of Coal&r."
+			]
+			id: "2B260CB0233EAB3F"
+			x: 5.0d
+			y: 2.0d
+			title: "Simply Smashing"
+			rewards: [{
+				type: "item"
+				count: 6
+				team_reward: true
+				id: "7F3E3C8F16C1F51C"
+				item: "minecraft:iron_ore"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "1E3C04FEAC830BC1"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+			}]
+			description: ["By right clicking a &6Mixed Brick Block&r with &6Coal Dust&r, you can convert it into a &bSeared Brick Block&r."]
+			id: "40154C53301E54BA"
+			x: 7.0d
+			y: 0.0d
+			rewards: [{
+				type: "item"
+				count: 8
+				team_reward: true
+				id: "2B301A34BDFC7AE9"
+				item: "ibpdx:mixed_brick_block"
+			}]
+			dependencies: [
+				"11DF8FA9D131044C"
+				"2B260CB0233EAB3F"
+			]
+		}
+		{
+			tasks: [{
+				id: "59D366829E08B69C"
+				type: "item"
+				item: "minecraft:anvil"
+			}]
+			description: [
+				"The &bAnvil&r is, in a way, a better form of the &6Hammer&r. It processes things if it falls on top of an item. You could automate this now if you really wanted to using some &6Block Breakers, Block Placers, a Redstone Clock, and some other miscellaneous components.&r"
+				""
+				"Or you could just do a big smash manually. Up to you. Beware that the &bAnvil&r should not fall more than one block or it will take damage."
+			]
+			id: "742FC484D6D9F389"
+			x: 7.0d
+			y: 2.0d
+			title: "Super Smash Buddy"
+			rewards: [
+				{
+					id: "01A137989385A625"
+					type: "item"
+					item: "miniutilities:redstone_clock"
+				}
+				{
+					id: "1640645489CC7E12"
+					type: "item"
+					item: "botania:open_crate"
+				}
+				{
+					id: "07112C3227C11A26"
+					type: "item"
+					item: "darkutils:ender_hopper"
+				}
+			]
+			dependencies: ["2B260CB0233EAB3F"]
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 20L
+				consume_items: true
+				id: "69CF41AACCF4F958"
+				item: "tconstruct:seared_bricks"
+			}]
+			description: ["Here's a reusuable quest to get more &bSmelteries&r if you really want them."]
+			id: "03EFDEE020D5366B"
+			icon: "tconstruct:seared_drain"
+			disable_toast: true
+			x: 9.0d
+			y: 2.0d
+			title: "More Smelteries!"
+			rewards: [
+				{
+					id: "76E5481B3F50F590"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "basic_smeltery"
+							structureName: "config/capsule/rewards/basic_smeltery"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 5
+						}
+					}
+				}
+				{
+					id: "623D2B5F8B13BD13"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 03EFDEE020D5366B"
+					player_command: false
+				}
+			]
+			dependencies: ["4F87B1CBC7A8E75C"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "5CC37906F0B923A6"
+				type: "item"
+				item: "tconstruct:rod_cast"
+			}]
+			description: ["Milk makes strong bones, right? Well, if you cast some &6Milk&r in the &6Casting Table&r..."]
+			icon: "minecraft:bone"
+			id: "045CCF53A3E3026E"
+			x: 11.0d
+			y: -2.0d
+			title: "Bad to the Bone"
+			rewards: [{
+				type: "item"
+				count: 16
+				team_reward: true
+				id: "43010678AC29112E"
+				item: "minecraft:bone"
+			}]
+			dependencies: ["4F87B1CBC7A8E75C"]
+		}
+		{
+			tasks: [{
+				id: "00C26063656354D1"
+				type: "item"
+				item: "minecraft:dispenser"
+			}]
+			description: ["The &bDispenser&r is more versatile of a tool than you might expect. It can use &6Bone Meal&r on crops, plant &6Seeds&r, place and pick up fluids with a &6Bucket&r, and more."]
+			id: "45CC748A44A1FB1B"
+			x: 13.0d
+			y: -2.0d
+			title: "Need a Dispenser Here"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "3F7AD9DF3C34B5FE"
+					item: "minecraft:dispenser"
+				}
+				{
+					id: "682BFD6E6E252F86"
+					type: "item"
+					team_reward: true
+					item: "botania:hourglass"
+				}
+			]
+			dependencies: ["045CCF53A3E3026E"]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "controllerId": "remix_generator",
+  "name": "Remix Generator",
+  "textureOverride": "ibpdx:block/blockcasing_steel",
+  "ports": [
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 1000000000
+      }
+    },
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,1930 @@
+{
+	default_hide_dependency_lines: false
+	group: "3838AB5A3188522F"
+	id: "159CFE9400E2643E"
+	filename: "capsule_corp"
+	default_quest_shape: ""
+	icon: {
+		id: "capsule:capsule"
+		Count: 1b
+		tag: {
+			size: 1
+			state: 3
+			label: "Copy Any Capsule"
+			sourceInventory: { }
+			structureName: "generated_blueprint_copy_path"
+			display: {
+				color: 3949738
+			}
+		}
+	}
+	title: "Capsule Corp."
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				id: "4EF2794713169AC5"
+				type: "checkmark"
+				title: "House Hunters"
+			}]
+			description: [
+				"Do you hate taking the time to build your own base? This quest is for you! These are premade bases. They are not massive, you will need to handle big builds yourself, but these are an option if you dislike building but want aesthetic."
+				""
+				"Do note that all of these sample images are \"window dressed\" and only the actual building is included in the capsule."
+				""
+				"Cheesy host not included, either."
+			]
+			icon: "minecraft:cobblestone"
+			id: "622E55E477FBD715"
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "205985054A528D0E"
+				type: "checkmark"
+				title: "Multiblock Madness"
+			}]
+			description: [
+				"Here you can find a catalog for a capsule of one of every Modul- I mean &eMasterful Machine&r!"
+				""
+				"Instruction Manual: Most controls are on the capsule's tooltip, but to rotate, left-click while the hologram is active. To activate the hologram, right-click with the capsule, then right-click again to place it."
+			]
+			icon: "masterfulmachinery:bedrock_miner_controller"
+			id: "1290D6B2716C0297"
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["23EBF86680398203"]
+		}
+		{
+			tasks: [{
+				id: "2C138C7DBFAF948A"
+				type: "checkmark"
+				title: "Cozy Wooden House"
+			}]
+			description: [
+				"Simple, yet endearing, a build that uses little more than vanilla blocks and their chiseled variants."
+				""
+				"{image:ibpdx:textures/questbook/cozy_wooden_house.png width:200 height:125 align:1}"
+			]
+			icon: "minecraft:oak_planks"
+			id: "0E48578F27BF2312"
+			x: 0.5d
+			y: 1.5d
+			rewards: [{
+				id: "18F501FDE485781A"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 21
+						isReward: 1b
+						oneUse: 1b
+						color: 16777215
+						label: "cozy_wooden_house_dx"
+						structureName: "config/capsule/rewards/cozy_wooden_house_dx"
+						display: {
+							color: 16777215
+						}
+						canRotate: 1b
+						state: 5
+					}
+				}
+			}]
+			dependencies: ["622E55E477FBD715"]
+		}
+		{
+			tasks: [{
+				id: "345C3A6E1A7E271F"
+				type: "checkmark"
+				title: "Immersive Factory"
+			}]
+			description: [
+				"A large factory meant to house various Immersive Engineering machines, including space for Coke Ovens and Blast furnaces and space for belts to move items along."
+				""
+				"{image:ibpdx:textures/questbook/immersive_factory.png width:200 height:125 align:1}"
+			]
+			icon: "chisel:bricks/soft_bricks"
+			id: "28AF1F90E95B795E"
+			x: -1.0d
+			y: 1.5d
+			rewards: [{
+				id: "473134C9421FAB32"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 31
+						isReward: 1b
+						oneUse: 1b
+						color: 16777215
+						label: "immersive_factory"
+						structureName: "config/capsule/rewards/immersive_factory"
+						display: {
+							color: 16777215
+						}
+						canRotate: 1b
+						state: 5
+					}
+				}
+			}]
+			dependencies: [
+				"622E55E477FBD715"
+				"5BB511A3BD53616C"
+			]
+		}
+		{
+			tasks: [{
+				id: "5EBB1882A3A7E008"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:duskstone_mixer_controller"
+			id: "1671ED5E38717AFD"
+			x: 4.0d
+			y: 1.5d
+			title: "Duskstone Mixer"
+			rewards: [{
+				id: "3873C3644902AA18"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 7
+						state: 3
+						label: "Duskstone Mixer"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/duskstone_mixer"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "744DA0D040DF1715"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:bedrock_miner_controller"
+			id: "227FCED7B31466C8"
+			x: 2.5d
+			y: 1.5d
+			title: "Bedrock Miner"
+			rewards: [{
+				id: "29241107C3FAF3D5"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Bedrock Miner"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/bedrock_miner"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "3B8BE413EB7D5262"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:plate_presser_controller"
+			id: "6C405F5EF6F3B6A2"
+			x: 6.0d
+			y: 1.5d
+			title: "Plate Presser"
+			rewards: [{
+				id: "78E1136D89F7A568"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Plate Presser"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/plate_presser"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "3E0D1719F04964FF"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:super_alloyer_controller"
+			id: "4BF1281EB18ED476"
+			x: 7.5d
+			y: 1.5d
+			title: "Super Alloyer"
+			rewards: [{
+				id: "2A1047BBE3742D97"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						Damage: 0
+						sourceInventory: { }
+						AS_Amulet_Holder: [I;
+							-921288654
+							1861829095
+							-2014526870
+							864766145
+						]
+						label: "Super Alloyer"
+						structureName: "config/capsule/prefabs/super_alloyer"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "1B3093612ABA726F"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:metal_empowerer_controller"
+			id: "24219129A208F8C8"
+			x: 6.0d
+			y: 3.0d
+			title: "Metal Empowerer"
+			rewards: [{
+				id: "40BC16210E2CA7AF"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 7
+						state: 3
+						Damage: 0
+						sourceInventory: { }
+						spawnPosition: {
+							x: 50
+							y: 56
+							dim: "minecraft:overworld"
+							z: 104
+						}
+						label: "Metal Empowerer"
+						structureName: "config/capsule/prefabs/metal_empowerer"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "4439AB20BBF4F4FB"
+				type: "checkmark"
+			}]
+			description: [""]
+			icon: "masterfulmachinery:liquid_fuel_generator_controller"
+			id: "5444356ACF6D6CBE"
+			x: 7.5d
+			y: 3.0d
+			title: "Liquid Fuel Generator"
+			rewards: [{
+				id: "1804EF51E13B1758"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 9
+						state: 3
+						label: "Liquid Fuel Generator"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/liquid_fuel_generator"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "3A219FD763528ED7"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:starlight_factory_controller"
+			id: "6AEED9AE1E8DA3C5"
+			x: 2.5d
+			y: 4.5d
+			title: "Starlight Factory"
+			rewards: [{
+				id: "56033246C5F837D6"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Starlight Factory"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/starlight_factory"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "58D1BDCBB3D3B5BF"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:starlight_enchanter_controller"
+			id: "0FB118D9E9B02DA1"
+			x: 4.0d
+			y: 4.5d
+			title: "Starlight Enchanter"
+			rewards: [{
+				id: "122D2CE3612C7580"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 7
+						state: 3
+						label: "Starlight Enchanter"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/starlight_enchanter"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "5E8738132029453D"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:block_duplicator_controller"
+			id: "1D71CDE63672478F"
+			x: 2.5d
+			y: 6.0d
+			title: "Block Duplicator"
+			rewards: [{
+				id: "2E09A8F8937DF893"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 3
+						state: 3
+						label: "Block Duplicator"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/block_duplicator"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "14B41FDA585F8409"
+				type: "checkmark"
+			}]
+			description: [""]
+			icon: "masterfulmachinery:ore_washer_controller"
+			id: "05FAD2B16A6FA76C"
+			x: 6.0d
+			y: 4.5d
+			title: "Ore Washer"
+			rewards: [{
+				id: "1528AF21E2E7DCC2"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Ore Washer"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ore_washer"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "19176086BB1A3578"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:precipitator_controller"
+			id: "43034A0FDD7A655B"
+			x: 7.5d
+			y: 4.5d
+			title: "Precipitator"
+			rewards: [{
+				id: "49E295988418C929"
+				type: "item"
+				auto: "enabled"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Precipitator"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/precipitator"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "0307E1504BCE7F6E"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:lunar_satellite_dish_controller"
+			id: "3820250E7BAE1301"
+			x: 4.0d
+			y: 6.0d
+			title: "Lunar Satellite Dish"
+			rewards: [{
+				id: "0C6F7F290B708E32"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 13
+						state: 3
+						label: "Lunar Satellite Dish"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/lunar_satellite_dish"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "7C068884D405D85F"
+				type: "checkmark"
+				title: "MC Diner"
+			}]
+			description: [
+				"A nice diner with space in the back for making food."
+				""
+				"Unfortunately a lot of the things you could put in here are tile entities and therefore block rotation of the capsule, so you will need to add the decorations yourself."
+				""
+				"{image:ibpdx:textures/questbook/mc_diner.png width:200 height:125 align:1}"
+			]
+			icon: "chisel:prismarine/small_bricks"
+			id: "576A353566CEC84D"
+			x: -3.0d
+			y: 1.5d
+			rewards: [{
+				id: "5E1C2D8804E31095"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 27
+						isReward: 1b
+						oneUse: 1b
+						color: 16777215
+						label: "mc_diner"
+						structureName: "config/capsule/rewards/mc_diner"
+						display: {
+							color: 16777215
+						}
+						canRotate: 1b
+						state: 5
+					}
+				}
+			}]
+			dependencies: [
+				"622E55E477FBD715"
+				"45BCF2BB105E1559"
+			]
+		}
+		{
+			tasks: [{
+				id: "60E33BCCC1C41F99"
+				type: "checkmark"
+			}]
+			description: [
+				"A tall castle designed for automating potions, complete with room for IE Mixers and smaller rooms."
+				""
+				"{image:ibpdx:textures/questbook/alchemy_castle.png width:200 height:125 align:1}"
+			]
+			icon: "betterendforge:umbrella_tree_cluster"
+			id: "42003E80E7824377"
+			x: -4.5d
+			y: 1.5d
+			title: "Alchemy Castle"
+			rewards: [{
+				id: "4D6B6F65D14B470B"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 33
+						isReward: 1b
+						oneUse: 1b
+						color: 16777215
+						label: "alchemy_castle"
+						structureName: "config/capsule/rewards/alchemy_castle"
+						display: {
+							color: 16777215
+						}
+						canRotate: 0b
+						state: 5
+					}
+				}
+			}]
+			dependencies: [
+				"622E55E477FBD715"
+				"5BB511A3BD53616C"
+			]
+		}
+		{
+			tasks: [{
+				id: "71D47FBF28A0A958"
+				type: "checkmark"
+			}]
+			description: [
+				"A laboratory suspended off the ground with a room below and stairs."
+				""
+				"{image:ibpdx:textures/questbook/stilted_laboratory.png width:200 height:125 align:1}"
+			]
+			icon: "chisel:laboratory/wallpanel"
+			id: "49B5B46679648ED4"
+			x: 0.5d
+			y: 3.0d
+			title: "Stilted Laboratory"
+			rewards: [{
+				id: "0FBB2D706F6EFFAF"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 23
+						isReward: 1b
+						oneUse: 1b
+						color: 16777215
+						label: "stilted_laboratory"
+						structureName: "config/capsule/rewards/stilted_laboratory"
+						display: {
+							color: 16777215
+						}
+						canRotate: 1b
+						state: 5
+					}
+				}
+			}]
+			dependencies: ["622E55E477FBD715"]
+		}
+		{
+			tasks: [{
+				id: "57161C7F710FECB1"
+				type: "checkmark"
+				title: "Marble Tower"
+			}]
+			description: [
+				"A tall structure for seeing the stars better."
+				""
+				"{image:ibpdx:textures/questbook/marble_tower.png width:200 height:125 align:1}"
+			]
+			icon: "astralsorcery:marble_runed"
+			id: "26D9660B64699040"
+			x: -1.0d
+			y: 3.0d
+			title: "Marble Tower"
+			rewards: [{
+				id: "424BD08B5CDAED8C"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 21
+						isReward: 1b
+						oneUse: 1b
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-921288654
+							1861829095
+							-2014526870
+							864766145
+						]
+						author: "?"
+						color: 6196919
+						label: "Marble Tower.nbt"
+						structureName: "config/capsule/rewards/marble_tower.nbt"
+						display: {
+							color: 10076989
+						}
+						canRotate: 1b
+						state: 5
+					}
+				}
+			}]
+			dependencies: [
+				"622E55E477FBD715"
+				"5FD6DC6712D24FA7"
+			]
+		}
+		{
+			tasks: [{
+				id: "4CCB4373BBB079FE"
+				type: "checkmark"
+			}]
+			description: ["Note- RS Controllers do not get placed. Place them manually."]
+			icon: "masterfulmachinery:boss_fight_simulator_controller"
+			id: "1303A7FA4C8DA2C6"
+			x: 6.0d
+			y: 6.0d
+			title: "Boss Fight Simulator"
+			rewards: [{
+				id: "697C8654CDBFAAAC"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 9
+						state: 3
+						label: "Boss Fight Simulator"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/boss_fight_simulator"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "73304374AC974498"
+				type: "checkmark"
+				title: "Mossy Manor"
+			}]
+			description: [
+				"A 3-story manor with a large floorspace."
+				""
+				"Primarily just to look nice, unless you want to work on the interior."
+				""
+				"{image:ibpdx:textures/questbook/mossy_manor.png width:200 height:125 align:1}"
+			]
+			icon: "architects_palette:olivestone_tiles"
+			id: "455A69FB0C33B613"
+			x: -3.0d
+			y: 3.0d
+			rewards: [{
+				id: "3EFDAE732C642E65"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 29
+						isReward: 1b
+						oneUse: 1b
+						color: 16777215
+						label: "mossy_manor"
+						structureName: "config/capsule/rewards/mossy_manor"
+						display: {
+							color: 16777215
+						}
+						canRotate: 1b
+						state: 5
+					}
+				}
+			}]
+			dependencies: ["622E55E477FBD715"]
+		}
+		{
+			tasks: [{
+				id: "1F45ABEE63530681"
+				type: "checkmark"
+				title: "9x9 Deluxe"
+			}]
+			description: [
+				"This quest introduces an upgraded living space that eliminates the need for torches on the floor. It offers essential features for early-game builders, including Stone Bricks, Cobblestone, and a special addition of Deepslate. With this structure, you can keep pesky mobs out of your base effectively."
+				""
+				"Before placing this build, it's important to note that it includes a basement. To accommodate it, you'll need to make some preparations. Dig down a total of 6 blocks and place the structure on the 7th block. Additionally, ensure that there is a sufficient surrounding space of 19x6x19 blocks to allow for proper placement. It's worth mentioning that dealing with basements can be a hassle, which is why they are often omitted."
+				""
+				"{image:ibpdx:textures/questbook/9x9_deluxe.png width:200 height:150 align:1}"
+			]
+			icon: "minecraft:stone_bricks"
+			id: "35170F0774925B16"
+			x: -4.5d
+			y: 3.0d
+			rewards: [{
+				id: "61C00CEB15B5B959"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						state: 5
+						isReward: 1b
+						oneUse: 1b
+						color: 16777215
+						label: "9x9_deluxe"
+						structureName: "config/capsule/rewards/9x9_deluxe"
+						display: {
+							color: 16777215
+						}
+						canRotate: 1b
+						size: 29
+					}
+				}
+			}]
+			dependencies: ["622E55E477FBD715"]
+		}
+		{
+			hide_text_until_complete: false
+			description: [
+				"A very large warehouse with space for many chests, barrels, and drawers. Comes with space behind where chests go so you can place cables, Item Routers, and other stuff for logistics."
+				""
+				"{image:ibpdx:textures/questbook/wooden_warehouse.png width:200 height:125 align:1}"
+			]
+			icon: "minecraft:dark_oak_log"
+			id: "6E8FF6871F854B11"
+			x: -1.0d
+			y: 4.5d
+			rewards: [{
+				id: "76490A005784D108"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 29
+						isReward: 1b
+						oneUse: 1b
+						color: 16777215
+						label: "wooden_warehouse"
+						structureName: "config/capsule/rewards/wooden_warehouse"
+						display: {
+							color: 16777215
+						}
+						canRotate: 1
+						state: 5
+					}
+				}
+			}]
+			dependencies: [
+				"10D744D11DCA269F"
+				"622E55E477FBD715"
+			]
+			tasks: [{
+				id: "61BEA9FAC5C1BE44"
+				type: "checkmark"
+				title: "Wooden Warehouse"
+			}]
+		}
+		{
+			tasks: [{
+				id: "2042542C21A81F1A"
+				type: "item"
+				item: "botania:terraform_rod"
+			}]
+			description: [
+				"Man, these prebuilt structures sure are large and require so much flat space! If only there was a way to smooth out the terrain to fit such edifices."
+				""
+				"With the &bRod of Terra Firma&r you can hold right click to smooth out the terrain to the  level you are standing on. It will only remove dirt, stone, and their derivates. You also have to be standing on or near some dirt for the created dirt to form."
+				""
+				"Wear &6Manaweave Robes&r to increase the range and decrease the mana cost."
+				""
+				"Also, it only works above y=64, in case you were thinking about using it for mining."
+			]
+			id: "165E10C5B8217CFD"
+			x: -2.0d
+			y: -1.5d
+			title: "Flatter than a Pancake"
+			dependencies: ["622E55E477FBD715"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "00C5C965F03D2D6D"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:carpenter_controller"
+			id: "62DCA685D291F0E6"
+			x: 2.5d
+			y: 3.0d
+			title: "Carpenter"
+			rewards: [{
+				id: "51996D0E23CB7AE6"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 3
+						state: 3
+						Damage: 0
+						sourceInventory: { }
+						AS_Amulet_Holder: [I;
+							-921288654
+							1861829095
+							-2014526870
+							864766145
+						]
+						label: "Carpenter"
+						structureName: "config/capsule/prefabs/carpenter"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "35A1C9D7D55FA9E5"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:peat_engine_controller"
+			id: "0C9FE377E0414787"
+			x: 4.0d
+			y: 3.0d
+			title: "Peat Engine"
+			rewards: [{
+				id: "6A3EC866681B6F44"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 3
+						state: 3
+						label: "Peat Engine"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/peat_engine"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "3989D2E33F63FA3C"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:processor_cutter_controller"
+			id: "06F0F604C95915E4"
+			x: 7.5d
+			y: 6.0d
+			title: "Processor Cutter"
+			rewards: [{
+				id: "27ED6F2217D97E99"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						Damage: 0
+						sourceInventory: { }
+						AS_Amulet_Holder: [I;
+							-921288654
+							1861829095
+							-2014526870
+							864766145
+						]
+						label: "Processor Cutter"
+						structureName: "config/capsule/prefabs/processor_cutter"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "48BBC04043818CC7"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 1
+						state: 3
+						label: "Copy Any Capsule"
+						sourceInventory: { }
+						structureName: "generated_blueprint_copy_path"
+						display: {
+							color: 3949738
+						}
+					}
+				}
+			}]
+			description: ["&bBlueprint Capsules&r are an easy way to place many of the same structure around your world. If you have the materials on hand, simply left-click to fill the &bCapsule&r and right click to deploy."]
+			id: "74C921CAECC43405"
+			x: 5.0d
+			y: -1.5d
+			title: "Copy and Paste"
+			dependencies: ["1290D6B2716C0297"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "5C012B32C78E1EBC"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			description: ["&bBuilding Wands&r allow many blocks to be placed at once as long as they are connected to the same block."]
+			id: "4EDC3284A5C673F6"
+			x: 12.0d
+			y: -1.5d
+			title: "Build Faster"
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "2145637922FA8B39"
+				type: "item"
+				item: "capsule:capsulemarker"
+			}]
+			description: ["Want to take your setup somewhere else? Make an empty Capsule, place the &bCapture Base&r facing the structure, right-click the Capsule, and drop it into the area."]
+			id: "141BC0066AEC7091"
+			x: 19.0d
+			y: -1.5d
+			title: "Base In A Box"
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "17B9D7F8D2466AD8"
+				type: "checkmark"
+			}]
+			icon: "masterfulmachinery:advanced_chemical_plant_controller"
+			id: "380BCB03E6B6A280"
+			x: 4.0d
+			y: 7.5d
+			title: "Advanced Chemical Plant"
+			rewards: [{
+				id: "25292E301C9D0453"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Advanced Chemical Plant"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/advanced_chemical_plant"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [{
+				id: "6BDE26E32EAE9FF8"
+				type: "checkmark"
+				title: "The Engineer"
+			}]
+			description: [
+				"The entire arsenal of &eImmersive Engineering&r multiblocks are yours for the blueprinting."
+				""
+				"Or at least the relevant and relatively complex ones."
+			]
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "786E2AA9F24455F9"
+			x: 12.0d
+			y: 0.0d
+			dependencies: ["5BB511A3BD53616C"]
+		}
+		{
+			tasks: [{
+				id: "13D07ECCC8D9A004"
+				type: "checkmark"
+				title: "Crusher"
+			}]
+			icon: "thermal:iron_dust"
+			id: "1D359C2A4F573419"
+			x: 9.5d
+			y: 3.0d
+			rewards: [{
+				id: "012351E14611A68E"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Ie Crusher"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_crusher"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "2536DB0F79EB7273"
+				type: "checkmark"
+				title: "Arc Furnace"
+			}]
+			icon: {
+				id: "immersiveengineering:graphite_electrode"
+				Count: 1b
+				tag: {
+					graphDmg: 0
+				}
+			}
+			id: "573B27F95F064903"
+			x: 9.5d
+			y: 1.5d
+			rewards: [{
+				id: "186F0D1BF46310C9"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Ie Arc Furnace"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_arc_furnace"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "27782611A38D6256"
+				type: "checkmark"
+				title: "Assembler"
+			}]
+			icon: "minecraft:crafting_table"
+			id: "7877F218F23A65B7"
+			x: 11.0d
+			y: 1.5d
+			rewards: [{
+				id: "0F4CC9562C591BCD"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 3
+						state: 3
+						label: "Ie Assembler"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_assembler"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "3B98D0D4530D6060"
+				type: "checkmark"
+				title: "Auto Workbench"
+			}]
+			icon: "immersiveengineering:workbench"
+			id: "4570B0520CB7EA60"
+			x: 13.0d
+			y: 1.5d
+			rewards: [{
+				id: "2D33D11261488A76"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 3
+						state: 3
+						label: "Ie Auto Workbench"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_auto_workbench"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "0BBAE104F20AD0CF"
+				type: "checkmark"
+				title: "Bottler"
+			}]
+			icon: "immersiveengineering:fluid_pump"
+			id: "6E3139F098FFE40D"
+			x: 14.5d
+			y: 1.5d
+			rewards: [{
+				id: "497906C12A050F48"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 3
+						state: 3
+						label: "Ie Bottler"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_bottler"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "6F9E7EA0BAD91D24"
+				type: "checkmark"
+				title: "Diesel Generator"
+			}]
+			icon: "immersiveengineering:generator"
+			id: "7313F6AAEE27C7AD"
+			x: 11.0d
+			y: 3.0d
+			rewards: [{
+				id: "363E7221A6BE6AAD"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Ie Diesel Generator"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_diesel_generator"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "30635EDC6F971F66"
+				type: "checkmark"
+				title: "Distillation Tower"
+			}]
+			icon: "immersiveengineering:sheetmetal_iron"
+			id: "14D45DA44A90D686"
+			x: 13.0d
+			y: 3.0d
+			rewards: [{
+				id: "254AD4F7E4DB766D"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 17
+						state: 3
+						Damage: 0
+						sourceInventory: { }
+						AS_Amulet_Holder: [I;
+							-921288654
+							1861829095
+							-2014526870
+							864766145
+						]
+						spawnPosition: {
+							x: 51
+							y: 56
+							dim: "minecraft:overworld"
+							z: 139
+						}
+						label: "Ie Distillation Tower"
+						structureName: "config/capsule/prefabs/ie_distillation_tower"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "62FFAAE22684C483"
+				type: "checkmark"
+				title: "Excavator (Base)"
+			}]
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6CA5E22B7B278937"
+			x: 14.5d
+			y: 3.0d
+			rewards: [{
+				id: "1E8C8C04099B2A3E"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 7
+						state: 3
+						label: "Ie Excavator Base"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_excavator_base"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "52307F8B81F2E520"
+				type: "checkmark"
+				title: "Fermenter"
+			}]
+			icon: "minecraft:melon_slice"
+			id: "5BB7930DFD6D0DAD"
+			x: 9.5d
+			y: 4.5d
+			rewards: [{
+				id: "555B45B7BBD98E42"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 3
+						state: 3
+						label: "Ie Fermenter"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_fermenter"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "29B502F001849750"
+				type: "checkmark"
+				title: "Fluid Tank"
+			}]
+			icon: "minecraft:water_bucket"
+			id: "163B4974F3FD52CC"
+			x: 11.0d
+			y: 4.5d
+			rewards: [{
+				id: "79EBBB210DF5175A"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Ie Fluid Tank"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_fluid_tank"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "5E6F574DACBAD389"
+				type: "checkmark"
+				title: "Item Silo"
+			}]
+			icon: "minecraft:chest"
+			id: "4A2DB25E2A76927A"
+			x: 13.0d
+			y: 4.5d
+			rewards: [{
+				id: "77104822A8332CA9"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 7
+						state: 3
+						label: "Ie Item Silo"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_item_silo"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "2DAA55747E4F92CC"
+				type: "checkmark"
+				title: "Metal Press"
+			}]
+			icon: "immersiveengineering:mold_plate"
+			id: "4B3E44FD1B757B8F"
+			x: 14.5d
+			y: 4.5d
+			rewards: [{
+				id: "108DF77B0ED02143"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 3
+						state: 3
+						label: "Ie Metal Press"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_metal_press"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "20F858CC8268B9C4"
+				type: "checkmark"
+				title: "Mixer"
+			}]
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			}
+			id: "529D4533C061293F"
+			x: 9.5d
+			y: 6.0d
+			rewards: [{
+				id: "297A8E77FE89FA18"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 3
+						state: 3
+						label: "Ie Mixer"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_mixer"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "702DD92268B0FD17"
+				type: "checkmark"
+				title: "Pumpjack"
+			}]
+			icon: "thermal:crude_oil_bucket"
+			id: "49FC81D13C35F405"
+			x: 11.0d
+			y: 6.0d
+			rewards: [{
+				id: "1532FEAE348A0C62"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 7
+						state: 3
+						label: "Ie Pumpjack"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_pumpjack"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "79EF894642C9F37B"
+				type: "checkmark"
+				title: "Refinery"
+			}]
+			icon: "immersiveengineering:biodiesel_bucket"
+			id: "5FD74B9C7C6178D7"
+			x: 13.0d
+			y: 6.0d
+			rewards: [{
+				id: "136A9D9BA35D8AE8"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Ie Refinery"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_refinery"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "33C4442F575EFE7F"
+				type: "checkmark"
+				title: "Sawmill"
+			}]
+			icon: "minecraft:oak_planks"
+			id: "06F99A337EE20C85"
+			x: 14.5d
+			y: 6.0d
+			rewards: [{
+				id: "334765BC4CB3834C"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Ie Sawmill"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_sawmill"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "7DEC384010DB6828"
+				type: "checkmark"
+				title: "Squeezer"
+			}]
+			icon: "minecraft:wheat_seeds"
+			id: "249E3D54489F9104"
+			x: 11.0d
+			y: 7.5d
+			rewards: [{
+				id: "508419C0E2B132CA"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 3
+						state: 3
+						label: "Ie Squeezer"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_squeezer"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "6D28E3CC89BDFEFB"
+				type: "checkmark"
+				title: "Steam Turbine"
+			}]
+			icon: "mekanism:steam_bucket"
+			id: "456D0A01E95FDE24"
+			x: 13.0d
+			y: 7.5d
+			rewards: [{
+				id: "47EB94F18CCAEE44"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 7
+						state: 3
+						label: "Ie Steam Turbine"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/ie_steam_turbine"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [{
+				id: "46D196BDFE5B6587"
+				type: "checkmark"
+				title: "Astral Sorcery"
+			}]
+			description: ["All relevant structures for &eAstral Sorcery&r can be found here."]
+			icon: "astralsorcery:wand"
+			id: "5C2B4C08CACEA43B"
+			x: 19.0d
+			y: 0.0d
+			title: "Stargazer"
+			dependencies: ["078E195012579DE3"]
+		}
+		{
+			tasks: [{
+				id: "47AC02183D40D51A"
+				type: "checkmark"
+				title: "Celestial Altar"
+			}]
+			icon: "astralsorcery:altar_constellation"
+			id: "5FB6419EAC1B1C4A"
+			x: 18.0d
+			y: 1.5d
+			rewards: [{
+				id: "5213705443F4DA58"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 11
+						state: 3
+						label: "Starlight Celestial Altar"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/starlight_celestial_altar"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["5C2B4C08CACEA43B"]
+		}
+		{
+			tasks: [{
+				id: "6D7228A42D5A6FCE"
+				type: "checkmark"
+				title: "Starlight Crafting Altar"
+			}]
+			icon: "astralsorcery:altar_attunement"
+			id: "385B66A75E4079EE"
+			x: 16.5d
+			y: 1.5d
+			rewards: [{
+				id: "2C1BB243477883FC"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 9
+						state: 3
+						label: "Starlight Crafting Altar"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/starlight_crafting_altar"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["5C2B4C08CACEA43B"]
+		}
+		{
+			tasks: [{
+				id: "039804D7C39F5420"
+				type: "checkmark"
+				title: "Iridescent Altar"
+			}]
+			icon: "astralsorcery:altar_radiance"
+			id: "28D7F86632F450CE"
+			x: 20.0d
+			y: 1.5d
+			rewards: [{
+				id: "00F7F4655CD695D1"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 11
+						state: 3
+						label: "Starlight Iridescent Altar"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/starlight_iridescent_altar"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["5C2B4C08CACEA43B"]
+		}
+		{
+			tasks: [{
+				id: "5171BBF12E3E5A46"
+				type: "checkmark"
+				title: "Starlight Infuser"
+			}]
+			description: ["Reminder that this can be converted into a multiblock machine with a controller and some ports."]
+			icon: "astralsorcery:infuser"
+			id: "0ED33020C795E838"
+			x: 21.5d
+			y: 1.5d
+			rewards: [{
+				id: "2F2636BDE84AD495"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 7
+						state: 3
+						label: "Starlight Infuser"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/starlight_infuser"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["5C2B4C08CACEA43B"]
+		}
+		{
+			tasks: [{
+				id: "3AA8784E2C586CB6"
+				type: "checkmark"
+				title: "Tower of Industry"
+			}]
+			description: [
+				"A massive tower suitable for businessmen wanting to make a tech startup. Four stories with five block tall interiors, and space inbetween floors for running pipes and cables."
+				""
+				"{image:ibpdx:textures/questbook/tower_of_industry.png width:200 height:150 align:1}"
+			]
+			icon: "minecraft:nether_bricks"
+			id: "4B8A6DF1B310893E"
+			x: -3.0d
+			y: 4.5d
+			rewards: [{
+				id: "7EFA65F413484CE2"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						rotation: "COUNTERCLOCKWISE_90"
+						mirror: "NONE"
+						oneUse: 1b
+						Damage: 0
+						color: 16777215
+						canRotate: 1
+						state: 5
+						label: "tower_of_industry"
+						structureName: "config/capsule/rewards/tower_of_industry"
+						display: {
+							color: 16777215
+						}
+						size: 41
+						isReward: 1b
+					}
+				}
+			}]
+			dependencies: [
+				"622E55E477FBD715"
+				"48639F567DBAD564"
+			]
+		}
+		{
+			tasks: [{
+				id: "4D3B06CB33EAF400"
+				type: "checkmark"
+				title: "Attunement Altar"
+			}]
+			icon: "astralsorcery:attunement_altar"
+			id: "687BEC2AC9C41AF7"
+			x: 18.0d
+			y: 3.0d
+			rewards: [{
+				id: "146FF90E630AF2EE"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 19
+						state: 3
+						label: "Starlight Attune"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/starlight_attune"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["5C2B4C08CACEA43B"]
+		}
+		{
+			tasks: [{
+				id: "4A8F417468B8329E"
+				type: "checkmark"
+				title: "Celestial Crystal Collector"
+			}]
+			icon: {
+				id: "astralsorcery:celestial_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:discidia"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.discidia"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+			}
+			id: "724CFE60023C7BDA"
+			x: 20.0d
+			y: 3.0d
+			rewards: [{
+				id: "08E7922A43777E1A"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Starlight Celes Collector"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/starlight_celes_collector"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["5C2B4C08CACEA43B"]
+		}
+	]
+}

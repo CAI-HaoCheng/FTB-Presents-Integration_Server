@@ -1,0 +1,841 @@
+{
+	default_hide_dependency_lines: false
+	group: "3838AB5A3188522F"
+	id: "0FA2EC24603F3845"
+	filename: "the_next_generation"
+	default_quest_shape: "circle"
+	icon: "thermal:dynamo_compression"
+	title: "The Next Generation"
+	order_index: 3
+	quests: [
+		{
+			tasks: [{
+				id: "3E91BCEBA63F5F9E"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			description: ["The &bKinetic Dynamo&r is the connector block for the passive IE power generators."]
+			id: "14F656CCEFC13ABF"
+			x: -3.0d
+			disable_toast: true
+			y: -0.5d
+			title: "Dynamic Dynamo"
+			rewards: [{
+				id: "461EB26B47A563C9"
+				type: "item"
+				team_reward: true
+				item: "immersiveengineering:dynamo"
+			}]
+			dependencies: ["57FC1A4080F94580"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "40BC379E3E6864D7"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+			description: ["Water Wheels generate energy using what other than water. Well, I suppose any fluid that will not burn the Water Wheel will work. But still. It is passively generated RF, though it isn't too much."]
+			id: "5DA4F6786A7FED53"
+			x: -4.0d
+			y: 1.0d
+			title: "Water You Waiting For?"
+			rewards: [{
+				type: "item"
+				count: 3
+				team_reward: true
+				id: "26C32AFB71320F21"
+				item: "immersiveengineering:watermill"
+			}]
+			dependencies: ["14F656CCEFC13ABF"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "17D320116D95C59D"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+			description: ["The Windmill generates power from an unknown source, nobody has any idea what makes it move but it sure has nothing to do with its name."]
+			id: "76FEF72E00C5EF63"
+			x: -2.0d
+			y: 1.0d
+			title: "This Generator Blows"
+			rewards: [{
+				type: "item"
+				count: 16
+				team_reward: true
+				id: "4F8ECB852E05C647"
+				item: "immersiveengineering:windmill_blade"
+			}]
+			dependencies: ["14F656CCEFC13ABF"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "3926DE27A1EDF6BB"
+				type: "item"
+				item: "powah:reactor_basic"
+				count: 36L
+			}]
+			description: ["Powah's reactors can build themselves! You also need redstone, any coolant, and uraninite to power this cool-looking reactor."]
+			id: "08FEDFF4F949DFB1"
+			x: 4.5d
+			y: 2.5d
+			title: "To The Extreme!"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1A1A44B1996D4C96"
+					item: "powah:dielectric_paste"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "4663D570C1341F38"
+					item: "mysticalagriculture:uranium_seeds"
+				}
+			]
+			dependencies: ["52FA70D9AED9D8EA"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "4B3688EB883F3EF6"
+					type: "item"
+					item: "masterfulmachinery:liquid_fuel_generator_controller"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "4FDB920EDF34B66F"
+					item: "masterfulmachinery:liquid_fuel_generator_fluid_port_fluids_input"
+				}
+				{
+					id: "2D17BB8D7C1C5B4D"
+					type: "item"
+					item: "masterfulmachinery:liquid_fuel_generator_energy_port_energy_output"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 17L
+					consume_items: true
+					id: "2841145FB2A456EA"
+					item: "ibpdx:blockcasing_steel"
+				}
+				{
+					type: "item"
+					count: 27L
+					consume_items: true
+					id: "786FB6A58F8C1E17"
+					item: "ibpdx:blockcasing_empowered_steel"
+				}
+				{
+					type: "item"
+					count: 40L
+					consume_items: true
+					id: "58CECF17381ED97D"
+					item: "minecraft:glass"
+				}
+			]
+			description: [
+				"Consumes a fuel and a coolant. Accepts Diesel, Biodiesel, Resin, Gasoline, and Empowered Oil."
+				""
+				"Base generation rate is 400 RF/tick, better coolants improve generation rate, better fuels have higher total energy output."
+				""
+				"Note that to extract power you will need a &6Universal Cable&r, &6Energy Cell&r, or some other device capable of extracting energy."
+				""
+				"https://docs.google.com/spreadsheets/d/1J5DsDqdXiHqAyvK7DTlURfGuXRqa1CSy0sZhqtxaA2M/edit?usp=sharing"
+			]
+			id: "3ECD76EE10339502"
+			icon: "ibpdx:blockcasing_empowered_steel"
+			x: 2.0d
+			y: -2.0d
+			title: "Big, Cool, and Powerful"
+			rewards: [{
+				id: "0BC92187405E8590"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 9
+						isReward: 1b
+						oneUse: 1b
+						color: 9819623
+						author: "?"
+						label: "Liquid Fuel Generator.nbt"
+						structureName: "config/capsule/rewards/liquid_fuel_generator.nbt"
+						display: {
+							color: 9819623
+						}
+						canRotate: 1
+						state: 5
+					}
+				}
+			}]
+			dependencies: ["3131EB7D90DA7B29"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "54252566660532CB"
+				type: "item"
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+			description: ["&bGas-Burning Generators&r make use of a burnable gas. Hydrogen and Ethylene are its primary fuel sources."]
+			id: "228868115A59A1FA"
+			x: 1.0d
+			y: 4.0d
+			title: "Gas Gas Gas"
+			rewards: [
+				{
+					id: "11FC7AFF49BC086E"
+					type: "item"
+					item: "immersiveengineering:cloche"
+				}
+				{
+					id: "6F524C2CA309747F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["3F253C572189EBDD"]
+		}
+		{
+			tasks: [{
+				id: "04D3FA578E4F64CB"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+			description: ["Things that generate power passively with minimal player interaction."]
+			id: "57FC1A4080F94580"
+			y: -2.0d
+			x: -3.0d
+			title: "Passive Power"
+		}
+		{
+			tasks: [{
+				id: "0611DCA85D877CA7"
+				type: "item"
+				item: "immersiveengineering:ingot_uranium"
+			}]
+			description: ["Things that generate power from radioactive materials."]
+			id: "518F46A89F27C4A6"
+			y: -2.0d
+			x: 5.0d
+			title: "Nuclear Power"
+		}
+		{
+			tasks: [{
+				id: "170327394EAC9C83"
+				type: "checkmark"
+			}]
+			description: [
+				"Things that generate power from various Oils."
+				""
+				"Also includes any potential coolants that might improve operation."
+			]
+			icon: "thermal:crude_oil_bucket"
+			id: "3131EB7D90DA7B29"
+			x: 1.0d
+			y: -2.0d
+			title: "Liquid Fuels"
+		}
+		{
+			tasks: [{
+				id: "7DEA8BC16C886472"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+			description: ["Things that use a solid fuel of sorts. Not necessarily all fuels."]
+			id: "7C4F4813827D3E66"
+			x: -7.0d
+			y: -2.0d
+			title: "Burnables"
+			rewards: [{
+				id: "0EE3CAD49B3FBCAA"
+				type: "item"
+				item: "mysticalagriculture:nature_seeds"
+				count: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "4D475772E3F619E5"
+				type: "item"
+				item: "powah:furnator_starter"
+			}]
+			description: ["Produces forge energy by consuming burnables."]
+			x: -7.5d
+			id: "190236B70565362A"
+			disable_toast: true
+			y: -0.5d
+			rewards: [{
+				type: "item"
+				count: 16
+				team_reward: true
+				id: "18F30DB5AD446D7B"
+				item: "minecraft:charcoal"
+			}]
+			dependencies: ["7C4F4813827D3E66"]
+		}
+		{
+			tasks: [{
+				id: "64D248232FCDA461"
+				type: "item"
+				item: "ftbic:lv_solar_panel"
+			}]
+			description: ["Solar energy only works on the Moon. Higher tier panels are quite effective, though."]
+			id: "48C98B37C8F9B6ED"
+			x: -3.0d
+			y: 2.5d
+			title: "Taste the Sun"
+			rewards: [{
+				type: "item"
+				count: 8
+				team_reward: true
+				id: "3E96472D8BFA0CC5"
+				item: "ftbic:advanced_alloy"
+			}]
+			dependencies: [
+				"57FC1A4080F94580"
+				"7BB144AFA4E6D52E"
+			]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "24C3C623617E371B"
+				type: "item"
+				item: "ftbic:basic_generator"
+			}]
+			description: [
+				"Produces Zaps energy by consuming burnables."
+				""
+				"Note: Zaps energy cables can directly power Forge Energy machines at a rate of 1 Zaps to 4 FE."
+			]
+			x: -6.5d
+			id: "6D12B8510F7C67DC"
+			disable_toast: true
+			y: -0.5d
+			rewards: [{
+				type: "item"
+				count: 16
+				team_reward: true
+				id: "46A914B455A002F0"
+				item: "thermal:coal_coke"
+			}]
+			dependencies: ["7C4F4813827D3E66"]
+		}
+		{
+			tasks: [{
+				id: "33FABD67E9414623"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+			description: ["Generators that use lava to operate."]
+			id: "24B0B04CAA9C3EC9"
+			y: -2.0d
+			x: 9.0d
+			title: "Lava Power"
+		}
+		{
+			tasks: [{
+				id: "538EBB832261A111"
+				type: "item"
+				item: "mekanismgenerators:fission_fuel_assembly"
+			}]
+			description: ["See more in the quest in the Mekanism chapter."]
+			id: "13D42BA6D41DD053"
+			x: 5.5d
+			y: 2.5d
+			title: "Fun with Fission"
+			rewards: [
+				{
+					id: "207B33DBE9B01F80"
+					type: "item"
+					team_reward: true
+					item: "pipez:infinity_upgrade"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "7803637C7761BF7A"
+					item: "pipez:fluid_pipe"
+				}
+			]
+			dependencies: ["52FA70D9AED9D8EA"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "74844F7FCDAC829F"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			description: ["The &bFractionating Still&r refines Oil into different byproducts. Alternatively, you can use Space-BossTools' refinery."]
+			id: "49AD48536C56D3B1"
+			x: 2.0d
+			y: 1.0d
+			title: "A Fraction of its Potential"
+			rewards: [{
+				id: "515F588393A840F5"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								1322214020
+								-1310177861
+								-1296886500
+								-1782337265
+							]
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "thermal:crude_oil"
+									Amount: 32000
+								}
+							}]
+							securityMode: 0
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			dependencies: ["23B771776F2ACAD4"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "10CF52B26F8E2CE6"
+				type: "item"
+				item: "ibpdx:empowered_flax_seeds"
+			}]
+			description: ["Empowered Oil is both a fuel source and a crafting fluid."]
+			x: 0.0d
+			id: "2918C4DB605D6026"
+			y: 2.5d
+			shape: "pentagon"
+			title: "Superpowered Oil"
+			rewards: [
+				{
+					id: "2AEE719BCF2F5E20"
+					type: "item"
+					item: "ibpdx:empowered_flax_seeds"
+					count: 3
+				}
+				{
+					id: "086FC8555F053A43"
+					type: "item"
+					team_reward: true
+					item: "industrialforegoing:fluid_collector"
+				}
+			]
+			dependencies: ["681E0B8B98E00C0C"]
+		}
+		{
+			tasks: [{
+				id: "73A0B8E923E18D8B"
+				type: "item"
+				item: "ibpdx:crystallized_flax_seeds"
+			}]
+			description: [
+				"&bCrystallized Seeds&r can be dropped into Seed Oil to make Crystallized Oil."
+				""
+				"Pro Tip: Want to automate this? You'll need a way of dropping items in the world, a way of placing fluids, a way of picking up fluids, a sensor of some kind to detect the fluid, and some redstone to make it run automatically."
+			]
+			id: "681E0B8B98E00C0C"
+			x: 0.0d
+			y: 1.0d
+			title: "Wait, Wasn't This From Another Mod?"
+			rewards: [
+				{
+					id: "750A2612A5B57AC8"
+					type: "item"
+					item: "ibpdx:crystallized_flax_seeds"
+					count: 3
+				}
+				{
+					id: "0C9CF1F09FAE6161"
+					type: "item"
+					team_reward: true
+					item: "industrialforegoing:fluid_placer"
+				}
+			]
+			dependencies: ["7BD3E2F9D901C261"]
+		}
+		{
+			tasks: [{
+				id: "219BDCD0324A1A28"
+				type: "item"
+				item: "ibpdx:seed_oil_bucket"
+			}]
+			description: ["Seed Oil makes for a good base for power generation. Don't ask why."]
+			id: "7BD3E2F9D901C261"
+			x: 0.0d
+			y: -0.5d
+			title: "What? Seeds?"
+			rewards: [{
+				id: "37DC3E59E3F19989"
+				type: "item"
+				team_reward: true
+				item: "rftoolsutility:sensor"
+			}]
+			dependencies: ["3131EB7D90DA7B29"]
+		}
+		{
+			tasks: [{
+				id: "6743F73847E19CF3"
+				type: "item"
+				item: "ftbic:geothermal_generator"
+			}]
+			description: ["&bGeothermal Generators&r produce Zaps from lava."]
+			x: 8.5d
+			id: "66D5566AF1252D2B"
+			disable_toast: true
+			y: -0.5d
+			dependencies: ["24B0B04CAA9C3EC9"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "58104EC00613B88B"
+				type: "item"
+				item: "powah:magmator_starter"
+			}]
+			description: ["&bMagmators&r essentially eat lava to produce power."]
+			x: 9.5d
+			id: "4429B556618DE544"
+			disable_toast: true
+			y: -0.5d
+			dependencies: ["24B0B04CAA9C3EC9"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "4460D48B338F00D4"
+				type: "item"
+				item: "powah:thermo_generator_starter"
+			}]
+			description: ["&bThermo Generators&r operate off of touching a \"hot\" surface and consuming a \"cold\" coolant. Better coolants produce more power, as do higher heat sources."]
+			id: "25CB8E9C02E152E8"
+			x: 9.5d
+			y: 1.0d
+			rewards: [
+				{
+					id: "783AC0E4B7D1B95C"
+					type: "item"
+					team_reward: true
+					item: "kubejs:molten_pyrotheum_bucket"
+				}
+				{
+					id: "4D2F9061D62352B1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["4429B556618DE544"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "2678CC3877BC63F3"
+				type: "item"
+				item: "ftbic:nuclear_reactor"
+			}]
+			description: ["&eFTBIC's&r &bNuclear Reactor&r produces the most energy of any individual generator from the mod so long as you set it up properly."]
+			id: "052AA388B6198B00"
+			x: 5.0d
+			y: 1.0d
+			title: "Warm Glow"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "54CA428E60B75133"
+					item: {
+						id: "ftbic:reactor_heat_exchanger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 6
+					team_reward: true
+					id: "224ED38ACC9BE1FF"
+					item: "ftbic:iridium_neutron_reflector"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "41201C98FCE8AA1A"
+					item: {
+						id: "ftbic:reactor_heat_vent"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			dependencies: ["52FA70D9AED9D8EA"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "438A8CD2ADA515BD"
+				type: "item"
+				item: "immersiveengineering:fluid_pump"
+			}]
+			description: ["Pumpjacks are used to extract oil from the world. You will need to find it with a Core Sample Drill. Alternatively, the Neromantic Prime might be of assistance."]
+			id: "23B771776F2ACAD4"
+			x: 2.0d
+			y: -0.5d
+			title: "Knock Knock, It's the United States"
+			rewards: [{
+				id: "1B547A1D37C1F909"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+			dependencies: ["3131EB7D90DA7B29"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "3A66460AA4DEF45C"
+				type: "item"
+				item: "thermal:refined_fuel_bucket"
+			}]
+			description: ["For dynamo-powered fuels, this is as good as it will get."]
+			id: "013066566CEBB96D"
+			x: 2.0d
+			y: 2.5d
+			title: "Redefining Refining"
+			rewards: [{
+				id: "21B12EBE66D36360"
+				type: "item"
+				item: "immersivepetroleum:gas_generator"
+			}]
+			dependencies: ["49AD48536C56D3B1"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "5C878E70C16D7DC2"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+			description: ["Water is the most basic and easy to get coolant available."]
+			x: 1.0d
+			id: "0080FF2B4EDDE296"
+			disable_toast: true
+			y: -0.5d
+			title: "Watered Down"
+			dependencies: ["3131EB7D90DA7B29"]
+		}
+		{
+			tasks: [{
+				id: "449511FB0B4929B0"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+			description: ["Liquid Starlight is pretty cold. It acts well as a coolant."]
+			x: 1.0d
+			id: "5F3F9BCC2C6A4945"
+			disable_toast: true
+			y: 1.0d
+			title: "Chill Out"
+			rewards: [{
+				id: "264417E64DEA7A31"
+				type: "item"
+				item: "mysticalagriculture:aquamarine_seeds"
+				count: 2
+			}]
+			dependencies: ["0080FF2B4EDDE296"]
+		}
+		{
+			tasks: [{
+				id: "3E74FFE0755766E0"
+				type: "item"
+				item: "kubejs:molten_cryotheum_bucket"
+			}]
+			description: ["Cryotheum is the coldest stuff around."]
+			id: "33E7ABE230FE0C20"
+			x: 1.0d
+			y: 2.5d
+			title: "Feel Freeze"
+			rewards: [{
+				id: "198E19B2BBF82815"
+				type: "item"
+				item: "mysticalagriculture:blizz_seeds"
+				count: 2
+			}]
+			dependencies: ["5F3F9BCC2C6A4945"]
+		}
+		{
+			tasks: [{
+				id: "5EC8CDEE9268CA92"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			description: ["&bCompression Dynamos&r can burn various oils as a fuel source, but do not accept coolants."]
+			id: "5B1BB683679A9FD4"
+			x: 0.0d
+			y: -2.0d
+			title: "Oily Dynamos"
+			rewards: [
+				{
+					id: "789552B2C248F1A5"
+					type: "item"
+					item: "thermal:dynamo_compression"
+				}
+				{
+					id: "415A2963DF4DCE2D"
+					type: "item"
+					item: "astralsorcery:perk_gem_night"
+				}
+			]
+			dependencies: ["3131EB7D90DA7B29"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "71743C915575D744"
+				type: "item"
+				item: "powah:uraninite"
+			}]
+			description: ["You'll need to make some magical progress before harnessing the power of the unstable atom. That U-238 you're mining is too stable. Time to destabilize it! Or, energize it, I suppose."]
+			id: "52FA70D9AED9D8EA"
+			x: 5.0d
+			y: -0.5d
+			title: "Whose Raninite?"
+			rewards: [{
+				id: "3D0EF4D090B7865F"
+				type: "item"
+				item: "powah:uraninite"
+				count: 8
+			}]
+			dependencies: [
+				"0FFF395FFEB4BA29"
+				"518F46A89F27C4A6"
+			]
+		}
+		{
+			tasks: [{
+				id: "3B84893AD1FF4EB7"
+				type: "checkmark"
+			}]
+			description: ["Stuff that's a bit more off the wall. But hey, power is power, right?"]
+			id: "78876A146E59996D"
+			y: -2.0d
+			x: 12.0d
+			title: "Weird Power Generation"
+		}
+		{
+			tasks: [
+				{
+					id: "30A64F81504C577E"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 13L
+				}
+				{
+					id: "4AC2BDEAE343410E"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 15L
+				}
+				{
+					id: "122418D2CC1CDBF5"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 6L
+				}
+				{
+					id: "454AFEF2AAD04472"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 6L
+				}
+				{
+					id: "4ADCC0D62A32C7D5"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "28A992C94DFCD12B"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 3L
+				}
+				{
+					id: "37CA11FA75B2F795"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 3L
+				}
+			]
+			description: ["Producing &bSteam&r is a great way to get power. To generate some, you will need to damage a &bBlaze&r with &bWater&r to form &bSteam&r in the world above the &bBlaze's&r head. You will need to collect the fluid somehow."]
+			id: "23F7936619939DB8"
+			icon: "mekanism:steam_bucket"
+			x: 11.5d
+			y: -0.5d
+			title: "Steam For The Steamed Clams"
+			rewards: [{
+				type: "item"
+				count: 2
+				team_reward: true
+				id: "7E886A31F351429F"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+			dependencies: ["78876A146E59996D"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "09C5CDA4CE7F2BD5"
+				type: "item"
+				item: "redstone_arsenal:flux_gem_block"
+			}]
+			description: ["Kinetic energy from a crash could be useful, right? If a mob takes fall damage on a Flux-Infused Crystal Block, it will convert into a Diamond Block and drop 9 Energy Shards, which can be used in the Lapidary Dynamo."]
+			id: "7740CB0A70EF451C"
+			x: 12.5d
+			y: -0.5d
+			title: "Smash!"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "515DD0B043C6D512"
+					item: "ibpdx:energy_shard"
+				}
+				{
+					id: "66243A25C19DD03D"
+					type: "item"
+					team_reward: true
+					item: "thermal:dynamo_lapidary"
+				}
+			]
+			dependencies: ["78876A146E59996D"]
+			optional: true
+		}
+	]
+}

@@ -1,0 +1,1403 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "4E1B32C17DA62F29"
+	filename: "reach_for_the_stars"
+	default_quest_shape: ""
+	icon: {
+		id: "boss_tools:rocket_t1"
+		Count: 1b
+		tag: { }
+	}
+	title: "Reach For The Stars"
+	order_index: 4
+	quests: [
+		{
+			tasks: [{
+				id: "37DB6481BCD3175D"
+				type: "item"
+				item: "boss_tools:compressor"
+			}]
+			description: ["The &bCompressor&r makes Compressed materials."]
+			id: "709C80BDE255ABD7"
+			x: -6.5d
+			y: -5.5d
+			title: "No More Clanging?"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "590C3867E4DA0CB9"
+					item: "ftbic:electronic_circuit"
+				}
+				{
+					id: "18354CEBB0D53D54"
+					type: "item"
+					item: "pamhc2foodcore:appleyogurtitem"
+				}
+				{
+					id: "58CA696FB34CCF6B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["301BB7E56A9DC2C4"]
+		}
+		{
+			tasks: [{
+				id: "4B9C0E23EEF3B606"
+				type: "item"
+				item: "boss_tools:nasa_workbench"
+			}]
+			description: ["Rockets are crafted in here."]
+			id: "458C424C18D38DE9"
+			x: -4.0d
+			y: -3.5d
+			title: "Rocketmaker 9000"
+			rewards: [{
+				type: "item"
+				count: 8
+				team_reward: true
+				id: "09DB31C17C8E0416"
+				item: "boss_tools:compressed_steel"
+			}]
+			dependencies: ["709C80BDE255ABD7"]
+		}
+		{
+			tasks: [{
+				id: "5C6F9D9F6CA6A48D"
+				type: "item"
+				item: "boss_tools_giselle_addon:advanced_compressor"
+			}]
+			description: ["Needs no explanation."]
+			id: "7F390FF27F539B13"
+			x: -6.5d
+			y: -3.5d
+			title: "Electric, but no Clang"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "4C046EBA1E84ECA8"
+					item: "ibpdx:empowered_steel_ingot"
+				}
+				{
+					id: "5ACC19B7D1C5D372"
+					type: "item"
+					item: "miniutilities:experience_pearl_3x"
+				}
+			]
+			dependencies: ["709C80BDE255ABD7"]
+		}
+		{
+			tasks: [{
+				id: "61444EBBECD0F349"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			description: ["A suitable vessel for space travel."]
+			id: "62176204D51D00EE"
+			x: -2.0d
+			y: -3.5d
+			title: "Space Space Wanna Go to Space"
+			dependencies: ["458C424C18D38DE9"]
+		}
+		{
+			tasks: [{
+				id: "38F346B25E774EA1"
+				type: "item"
+				item: "boss_tools_giselle_addon:fuel_loader"
+			}]
+			description: ["Take a guess what this does. Place it near a Rocket on a Launch Pad."]
+			id: "5E91B1B59FB15F0D"
+			x: -2.0d
+			y: -5.5d
+			rewards: [
+				{
+					id: "592F64D834595801"
+					type: "item"
+					item: {
+						id: "rftoolsutility:fluidplus_module"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A44BE3A591183AA"
+					type: "item"
+					item: "rftoolsbase:information_screen"
+				}
+				{
+					id: "3497C32BA037176E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["64074C73A8547F81"]
+		}
+		{
+			tasks: [
+				{
+					id: "1F3EBA8BCBA6CC87"
+					type: "item"
+					item: {
+						id: "boss_tools:oxygen_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C5889673EF1C5BA"
+					type: "item"
+					item: {
+						id: "boss_tools:space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77BE565241620483"
+					type: "item"
+					item: {
+						id: "boss_tools:space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7FB9981116CD37A2"
+					type: "item"
+					item: {
+						id: "boss_tools:space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			description: ["Space requires a &bSpace Suit&r. You can upgrade it later to be more protective or replace it with the &6MekaSuit&r and some appropriate modules."]
+			icon: {
+				id: "boss_tools:space_suit"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "59126A874108902B"
+			x: -2.0d
+			y: -7.5d
+			title: "Hey Jimmy, How Come We Don't Need Helmets in Outer Space?"
+			rewards: [
+				{
+					id: "1E2BAE3A9339CC7C"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "boss_tools_giselle_addon:space_breathing"
+							}]
+						}
+					}
+				}
+				{
+					id: "3BD57BE15E87DA5E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["2D3FC1AA31308EDA"]
+		}
+		{
+			size: 1.5d
+			description: ["Land on the Moon. Hold Space to slow down!"]
+			id: "553CFEB6F30A29ED"
+			icon: "boss_tools:moon_sand"
+			x: 1.0d
+			y: -5.5d
+			shape: "pentagon"
+			title: "Moon Moon Moon, Spoon Spoon Spoon"
+			rewards: [
+				{
+					id: "625EBCDD020DC374"
+					type: "item"
+					team_reward: true
+					item: "ftbic:mv_solar_panel"
+				}
+				{
+					id: "11F9B85BC3C2BCBF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: [
+				"62176204D51D00EE"
+				"5E91B1B59FB15F0D"
+				"59126A874108902B"
+			]
+			tasks: [{
+				id: "11F7EB589EF4EE0F"
+				type: "dimension"
+				dimension: "boss_tools:moon"
+			}]
+		}
+		{
+			tasks: [{
+				id: "31E4CB00C533CDF9"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			description: ["A vessel suitable to reach Mars."]
+			id: "17A02FF4F6CDEA0E"
+			x: 5.0d
+			y: -5.5d
+			title: "I'm in Space"
+			rewards: [
+				{
+					id: "733F209C6E9EE02C"
+					type: "item"
+					item: "pamhc2foodcore:marshmellowchicksitem"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "025C363B6E7C7694"
+					item: "minecraft:glass_bottle"
+				}
+				{
+					id: "697159226A829C56"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["403D6674FC7151B5"]
+		}
+		{
+			tasks: [{
+				id: "315FAE93792E603D"
+				type: "item"
+				item: "boss_tools:desh_ingot"
+			}]
+			description: ["&bDesh&r is a material found on the Moon. Perhaps set up a Solar-powered Quarry? It's important to note that it only spawns below Y-Level 20. Keep that in mind when setting up your quarry."]
+			id: "403D6674FC7151B5"
+			x: 3.5d
+			y: -5.5d
+			title: "Desh Esh Very Nesh"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "5000C2C811B3ACEA"
+					item: "boss_tools:desh_ingot"
+				}
+				{
+					id: "5F96BAA1555F13A0"
+					type: "item"
+					item: {
+						id: "cyclic:charm_luck"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			dependencies: ["553CFEB6F30A29ED"]
+		}
+		{
+			tasks: [{
+				id: "3ED715E67303A090"
+				type: "item"
+				item: "boss_tools:fuel_refinery"
+			}]
+			description: [
+				"The Fuel Refinery refines Oil into fuel but does not provide any useful byproducts."
+				""
+				"Alternatively, you can use IE Diesel."
+			]
+			icon: "boss_tools:fuel_refinery"
+			id: "64074C73A8547F81"
+			x: -4.0d
+			y: -5.5d
+			rewards: [
+				{
+					id: "023E3A4FD6875F23"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "industrialforegoing:efficiency_addon_2"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+				}
+				{
+					id: "602FE536111931FE"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "industrialforegoing:range_addon3"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 3.0f
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["709C80BDE255ABD7"]
+		}
+		{
+			tasks: [{
+				id: "691A9765AB67967D"
+				type: "item"
+				item: "boss_tools:oxygen_loader"
+			}]
+			description: ["Turns &6Water&r into &6Oxygen&r and fills your &6Space Suit&r with &6Oxygen&r."]
+			id: "2D3FC1AA31308EDA"
+			x: -4.0d
+			y: -7.5d
+			title: "Air Tanking"
+			rewards: [{
+				type: "item"
+				count: 2
+				team_reward: true
+				id: "12142A506FA64FC5"
+				item: "industrialforegoing:fluid_transporter_type"
+			}]
+			dependencies: ["709C80BDE255ABD7"]
+		}
+		{
+			size: 2.0d
+			description: [
+				"The &bMetal Empowerer&r takes an input of &6Empowered Oil&r &6 Infused Crystals&r and an ingot and returns an empowered version of that ingot."
+				""
+				"With it, you can craft various &6Empowered Ingots&r which have uses in crafting."
+			]
+			id: "301BB7E56A9DC2C4"
+			icon: "masterfulmachinery:metal_empowerer_controller"
+			x: -8.5d
+			y: -5.5d
+			shape: "pentagon"
+			rewards: [
+				{
+					id: "5C402DD1ED474738"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "metal_empowerer"
+							structureName: "config/capsule/rewards/metal_empowerer"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 7
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "2D7636C4E7091909"
+					item: "immersiveengineering:ingot_steel"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "67C11C28960800DE"
+					item: "ibpdx:speed_gear"
+				}
+				{
+					id: "5C83B6F9B9F4A36F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: [
+				"2918C4DB605D6026"
+				"1AEE7BF9E10A3801"
+				"37A68731A0417C1D"
+			]
+			tasks: [
+				{
+					id: "44F444FFB02F731F"
+					type: "item"
+					item: "masterfulmachinery:metal_empowerer_controller"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 28L
+					consume_items: true
+					id: "04A16CC39E1ECB12"
+					item: "ibpdx:blockcasing_black_quartz"
+				}
+				{
+					type: "item"
+					count: 57L
+					consume_items: true
+					id: "236D18FCC4E18DAB"
+					item: "ibpdx:blockcasing_steel"
+				}
+				{
+					id: "41A54B63C0915A59"
+					type: "item"
+					item: "masterfulmachinery:metal_empowerer_fluid_port_fluids_input"
+					consume_items: true
+				}
+				{
+					id: "3218449F38EA3D82"
+					type: "item"
+					item: "masterfulmachinery:metal_empowerer_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "7ACBBBDE1D430260"
+					type: "item"
+					item: "masterfulmachinery:metal_empowerer_item_port_items_output"
+					consume_items: true
+				}
+				{
+					id: "021ADAB366368F9B"
+					type: "item"
+					item: "masterfulmachinery:metal_empowerer_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "5BA8F34BE48856A8"
+					item: "infused_crystals:block_of_redstonium"
+				}
+				{
+					id: "4639FDD1DF06C8CC"
+					type: "item"
+					item: "infused_crystals:block_of_infused_redstonium"
+					consume_items: true
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "6CC6301E6C654BDA"
+				type: "item"
+				item: "boss_tools:silicon_ingot"
+			}]
+			description: ["A material used in higher grade machinery."]
+			id: "18EDCBEF9DD689DA"
+			x: 8.0d
+			y: -5.5d
+			title: "Computery Materials"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "519E0FA48B010609"
+					item: "boss_tools:silicon_ingot"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "6C448D5C93744987"
+					item: "mysticalagriculture:silicon_seeds"
+				}
+				{
+					id: "3C50E18A4D46F2EB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["65ED6F4A23AF275B"]
+		}
+		{
+			tasks: [{
+				id: "70810C7D80D79CAB"
+				type: "dimension"
+				dimension: "boss_tools:mars"
+			}]
+			description: ["Going to Mars will require a better rocket than it took to get to the Moon."]
+			icon: "boss_tools:mars_stone"
+			id: "65ED6F4A23AF275B"
+			x: 6.5d
+			y: -5.5d
+			title: "King (or Queen) of Mars"
+			rewards: [
+				{
+					id: "4C89DB352E593147"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "tconstruct:seared_fuel_tank"
+						Count: 1b
+						tag: {
+							tank: {
+								FluidName: "boss_tools:fuel"
+								Amount: 4000
+							}
+						}
+					}
+				}
+				{
+					id: "110C3793628B756E"
+					type: "item"
+					item: {
+						id: "botania:cosmetic_alien_antenna"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "04952846DB0CCDE1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "025F4C0C97305EBD"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+			]
+			dependencies: ["17A02FF4F6CDEA0E"]
+		}
+		{
+			tasks: [{
+				id: "56FAD9DFE13C3BA7"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			description: ["A vessel capable of landing on Venus."]
+			id: "76B708B779324859"
+			x: 9.5d
+			y: -5.5d
+			title: "I'm the Best at Space"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "737BB1765193D0C1"
+					item: "mysticalagriculture:netherite_seeds"
+				}
+				{
+					id: "6C55A11117E77EE5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "12842D9D42B8A6B5"
+					item: "ibpdx:stainless_steel_ingot"
+				}
+			]
+			dependencies: ["18EDCBEF9DD689DA"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "26B8FEC0550436A8"
+				type: "item"
+				item: "ftbic:lv_solar_panel"
+			}]
+			description: [
+				"&bSolar Panels&r only work on the Moon, as there is far too much atmospheric intereference and general low efficiency on Earth."
+				""
+				"It's important to use a sufficiently sized battery to keep them going throughout the night."
+			]
+			id: "7BB144AFA4E6D52E"
+			x: 3.5d
+			y: -3.5d
+			title: "Sunny Day"
+			rewards: [
+				{
+					id: "5FC70D5177564C4D"
+					type: "item"
+					item: "ftbic:hv_battery_box"
+				}
+				{
+					id: "401D35C0DA044D98"
+					type: "item"
+					item: "ftbic:transformer_upgrade"
+					count: 2
+				}
+			]
+			dependencies: ["403D6674FC7151B5"]
+		}
+		{
+			tasks: [
+				{
+					id: "15D145AF3DDA0BA1"
+					type: "item"
+					item: "masterfulmachinery:lunar_satellite_dish_controller"
+					consume_items: true
+				}
+				{
+					id: "7B6764CAD262F160"
+					type: "item"
+					item: "masterfulmachinery:lunar_satellite_dish_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "15EE5B4BAA301141"
+					type: "item"
+					item: "masterfulmachinery:lunar_satellite_dish_item_port_items_output"
+					consume_items: true
+				}
+				{
+					id: "7A3179E3BF9EF5F4"
+					type: "item"
+					item: "masterfulmachinery:lunar_satellite_dish_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "4F4FBBB11CEE42BF"
+					item: "boss_tools:blue_iron_plating_block"
+				}
+				{
+					type: "item"
+					count: 33L
+					consume_items: true
+					id: "0A2B29E255684A63"
+					item: "immersiveengineering:sheetmetal_aluminum"
+				}
+				{
+					type: "item"
+					count: 29L
+					consume_items: true
+					id: "265ABB7C9188A7EE"
+					item: "immersiveengineering:slab_sheetmetal_aluminum"
+				}
+				{
+					type: "item"
+					count: 5L
+					consume_items: true
+					id: "6AB90FDFF00E3399"
+					item: "immersiveengineering:steel_fence"
+				}
+				{
+					id: "0DDF32B0490CFB91"
+					type: "item"
+					item: "minecraft:redstone_torch"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 36L
+					consume_items: true
+					id: "400E50A979CC1DA5"
+					item: "boss_tools:iron_plating_block"
+				}
+			]
+			description: [
+				"The &bMoonagers&r claim to be stuck here. Perhaps we could help them communicate with their home world? They might have something good to give you in return if you assist."
+				""
+				"With this, you can make &eRefined Storage&r drives, process &6Ability Discs&r, and get &6Coordinate Data&r."
+			]
+			icon: "masterfulmachinery:lunar_satellite_dish_controller"
+			id: "49C9842EDF5D85DF"
+			x: 3.5d
+			y: -9.0d
+			rewards: [
+				{
+					id: "297F98C9EB311761"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							rotation: "NONE"
+							mirror: "NONE"
+							oneUse: 1b
+							Damage: 0
+							color: 16777215
+							canRotate: 1
+							state: 5
+							label: "lunar_satellite_dish"
+							structureName: "config/capsule/rewards/lunar_satellite_dish"
+							display: {
+								color: 16777215
+							}
+							size: 13
+							isReward: 1b
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "0A30E4B1E824A371"
+					item: "immersiveengineering:ingot_aluminum"
+				}
+				{
+					id: "7AEB353714737C62"
+					type: "item"
+					item: "thermal:cheese_wedge"
+					count: 4
+				}
+			]
+			dependencies: ["25B3D9DCF9A6BEFF"]
+		}
+		{
+			tasks: [{
+				id: "30393D258274B990"
+				type: "item"
+				item: "thermal:enderium_coin"
+			}]
+			description: [
+				"&bMoon Villagers&r have many useful items to trade for that you might not have expected!"
+				""
+				"Currently, the following have custom trade tables:"
+				"Fletcher: Sells special arrows at low levels, and special quivers at high levels. Why are there bows and arrows in space? You got us, man. "
+				"Farmer: Specializes in giving you money for food."
+				"Cleric: Sells Charms and buys Circuits."
+				"Toolsmith: Provides unique utility tools."
+				"Shepherd: Buys animal products."
+			]
+			id: "25B3D9DCF9A6BEFF"
+			x: 3.5d
+			y: -7.5d
+			title: "Moonagers"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "3EE30E103F5CA4F1"
+					item: "mysticalagriculture:emerald_seeds"
+				}
+				{
+					id: "360C9C0F7E16342A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "03D31F954A4F272E"
+					type: "item"
+					item: "environmental:truffle_pie"
+				}
+			]
+			dependencies: ["403D6674FC7151B5"]
+		}
+		{
+			tasks: [{
+				id: "4203BF7C45D8E1A8"
+				type: "item"
+				item: "boss_tools:venus_sandstone"
+			}]
+			id: "0780187E52D874B6"
+			x: 11.0d
+			y: -5.5d
+			title: "The Hot Planet"
+			rewards: [
+				{
+					id: "63FEB22700CD4A72"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "boss_tools_giselle_addon:venus_acid_proof"
+							}]
+						}
+					}
+				}
+				{
+					id: "3592F41AFEE55283"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+			]
+			dependencies: ["76B708B779324859"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "0C652D2AE885F90D"
+				type: "item"
+				item: "chemlib:compound_carbon_dioxide"
+			}]
+			description: ["Mars' atmosphere is mostly &bCarbon Dioxide&r! This could be very useful for making acid for ore processing."]
+			id: "7D6E097AA46AF3CE"
+			x: 6.5d
+			y: -6.5d
+			title: "Harvesting Mars Air"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1DCA2995C59DCE03"
+					item: "chemlib:compound_carbon_dioxide"
+				}
+				{
+					id: "01ECFCD981AEE00D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "08904506427BDDF4"
+					item: "ftbic:carbon_fiber_mesh"
+				}
+			]
+			dependencies: ["65ED6F4A23AF275B"]
+		}
+		{
+			tasks: [{
+				id: "3DC6AB76E5377D96"
+				type: "checkmark"
+			}]
+			description: ["The locals seem about as friendly as their Nether counterparts."]
+			id: "00645689882ECCF3"
+			icon: "boss_tools:pygro_spawn_egg"
+			x: 11.0d
+			y: -4.0d
+			title: "Men of Bartering"
+			rewards: [{
+				id: "7DDA9526AF5CEB54"
+				type: "xp"
+				xp: 10
+			}]
+			dependencies: ["0780187E52D874B6"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "72124DB73FFD5AD9"
+				type: "item"
+				item: "prettypipes:crafting_terminal"
+			}]
+			description: ["The &bCrafting Terminal&r can craft items from your storage network."]
+			id: "7DC4AEB5885FDE56"
+			x: -8.5d
+			y: -3.5d
+			rewards: [
+				{
+					id: "64FE467544A6C44E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "292F88E92CEE77F2"
+					item: "immersiveengineering:reinforced_crate"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "3F0A94A5C339D07A"
+					item: "prettypipes:pipe"
+				}
+			]
+			dependencies: ["301BB7E56A9DC2C4"]
+		}
+		{
+			tasks: [{
+				id: "2A381A06A0932FB1"
+				type: "item"
+				item: "ibpdx:carbonic_acid_bucket"
+			}]
+			description: [" You can get a much higher yield processing your gems and dust this way."]
+			id: "12F54FF533B915E3"
+			x: 6.5d
+			y: -7.5d
+			rewards: [
+				{
+					id: "3A6BFC918C54F9B5"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "tconstruct:seared_fuel_tank"
+						Count: 1b
+						tag: {
+							tank: {
+								FluidName: "ibpdx:carbonic_acid"
+								Amount: 4000
+							}
+						}
+					}
+				}
+				{
+					id: "796647848982AA67"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["7D6E097AA46AF3CE"]
+		}
+		{
+			tasks: [{
+				id: "54D0951DB2637604"
+				type: "item"
+				item: "ibpdx:decrypted_disc"
+			}]
+			description: ["You may or may not have encountered an &bEncrypted Disc&r or two across your travels. Perhaps the &6Moonagers&r know more? Let them take a look at it through the &6Lunar Satellite Dish&r."]
+			id: "1C247C27BEED3BED"
+			x: 5.0d
+			y: -9.0d
+			rewards: [
+				{
+					id: "1DD123CC32B0D520"
+					type: "item"
+					team_reward: true
+					item: "quark:music_disc_endermosh"
+				}
+				{
+					id: "65DBE690A30F42EF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["49C9842EDF5D85DF"]
+		}
+		{
+			tasks: [{
+				id: "6A947059CBE7B630"
+				type: "item"
+				item: "ibpdx:spirit_charge"
+			}]
+			description: [
+				"Well that's interesting... It seems there are several different discs out there! You may want to collect them all and see which you like best."
+				""
+				"However, beware that you can only have one on you at a time. These items also seem to take &bSpirit Charges&r to function, so keep some on hand at all times!"
+				""
+				"You will need Spirit Charges in your inventory to use them as well. The consumption per use varies with the effects."
+				""
+				""
+			]
+			id: "2E277327DB94599B"
+			x: 6.5d
+			y: -9.0d
+			title: "The Power Within"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "20B3E6BA376894D5"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 1.0d
+						}
+					}
+				}
+				{
+					id: "137B84039A44838C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: [
+				"12F54FF533B915E3"
+				"1C247C27BEED3BED"
+			]
+		}
+		{
+			tasks: [{
+				id: "3919BD333C5B6A89"
+				type: "checkmark"
+				title: "I Don't Like That! Not At All!"
+			}]
+			description: ["If you don't like the disks you have, fear not! Just send two of them back through the satellite dish and try again!"]
+			id: "6B1203A09A587EC7"
+			x: 8.0d
+			y: -9.0d
+			title: "That's a No From Me, Dog"
+			rewards: [
+				{
+					id: "5FF41EF657052F23"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5141DD22CEF2D028"
+					type: "item"
+					item: "betterendforge:chorus_mushroom_raw"
+				}
+			]
+			dependencies: ["2E277327DB94599B"]
+		}
+		{
+			tasks: [{
+				id: "73050B7B98C78840"
+				type: "item"
+				item: "ibpdx:on_the_moon"
+			}]
+			description: ["The mobs can't hit you if they're 30 blocks in the air!"]
+			id: "49B66510C487DE51"
+			x: 6.5d
+			y: -11.5d
+			subtitle: "Why does it feel like I can never break the ceiling?"
+			dependencies: ["2E277327DB94599B"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "757BB5B26BF67DCD"
+				type: "item"
+				item: "ibpdx:ufo_lover"
+			}]
+			description: ["A brief charge of flight."]
+			id: "1C330CE52FF4800D"
+			x: 7.5d
+			y: -11.5d
+			subtitle: "Let's go for a crazy ride, a galactic rendezvous..."
+			dependencies: ["2E277327DB94599B"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "706B8B4D2BD342BD"
+				type: "item"
+				item: "ibpdx:china_gal"
+			}]
+			description: ["Nothing can stop you at night now!"]
+			id: "24B1DE4F96AB0487"
+			x: 4.5d
+			y: -11.5d
+			subtitle: "You are the star I survive by in the night..."
+			dependencies: ["2E277327DB94599B"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "32BD9439C11CDDF7"
+				type: "item"
+				item: "ibpdx:phantom_fantasy"
+			}]
+			description: ["Because who needs doors when walls are your doors?"]
+			id: "1F90B40724321715"
+			x: 5.5d
+			y: -11.5d
+			subtitle: "Vanish in the moment of the blinking of an eye."
+			dependencies: ["2E277327DB94599B"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "47BD7E74B818F3C4"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+			description: ["Need &bAncient Debris&r? You can make some from &6Venus Coal Ore&r."]
+			id: "5895AB20B1559BFE"
+			x: 11.0d
+			y: -7.5d
+			title: "Not the Nether"
+			rewards: [
+				{
+					id: "3C5D7CABE960EEBC"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "2B32D652B7EFDC46"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+				}
+			]
+			dependencies: ["0780187E52D874B6"]
+			optional: true
+		}
+		{
+			size: 1.5d
+			description: [
+				"Those villagers are finally ready to leave! Better send them off with the essentials."
+				""
+				"Tip: You can craft Alien spawn eggs using Mob Fragments! These are for sale by Shepherds."
+			]
+			id: "36806CE3DAD3DF05"
+			x: 8.0d
+			y: -7.5d
+			shape: "octagon"
+			title: "Space Remix"
+			rewards: [
+				{
+					id: "316060101DA39627"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "639EAA43FA31C28D"
+					type: "item"
+					item: "cyclic:chorus_flight"
+					count: 16
+				}
+				{
+					id: "02F394C7EC837FBB"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "boss_tools_giselle_addon:space_breathing"
+							}]
+						}
+					}
+					count: 4
+				}
+				{
+					id: "4B91BB36E16659C0"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "boss_tools_giselle_addon:gravity_normalizing"
+							}]
+						}
+					}
+					count: 4
+				}
+				{
+					id: "3721E8180778A092"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "boss_tools_giselle_addon:space_fire_proof"
+							}]
+						}
+					}
+					count: 4
+				}
+				{
+					id: "27485AA3920C2FE2"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "boss_tools_giselle_addon:venus_acid_proof"
+							}]
+						}
+					}
+					count: 4
+				}
+				{
+					id: "6F54E2206BAB4972"
+					type: "item"
+					team_reward: true
+					item: "mekanism:digital_miner"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "588AA0DB4E9F70B1"
+					item: "mekanism:quantum_entangloporter"
+				}
+			]
+			dependencies: ["18EDCBEF9DD689DA"]
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "4E5C7ADC07C067C7"
+				item: "ibpdx:space_survival_kit"
+			}]
+		}
+		{
+			tasks: [{
+				id: "13AFD2B63FDD8897"
+				type: "item"
+				item: "miniutilities:magical_egg"
+			}]
+			description: [
+				"&bMagical Eggs&r are a fascinating piece of Alien Biotechnology. They let you store a mob back in its spawn egg form. Perhaps you could reroll villagers?"
+				""
+				"To get one, trade with an alien shepherd."
+				""
+				"Note that mob eggs can change spawners."
+			]
+			id: "75018BB19D892ED7"
+			x: 2.0d
+			y: -7.5d
+			title: "One Egg"
+			rewards: [{
+				id: "53046941ADC3A3C5"
+				type: "item"
+				team_reward: true
+				item: "miniutilities:magical_egg"
+			}]
+			dependencies: ["25B3D9DCF9A6BEFF"]
+		}
+		{
+			tasks: [{
+				id: "7C451FE0824946F8"
+				type: "item"
+				item: "ibpdx:uninstall_love"
+			}]
+			description: ["Stone into Netherrack, Bricks into Nether Bricks, Redstone Ore into Nether Quartz Ore, Oak Log into Crimson Stem, Birch Log into Warped Stem, Sea Lantern into Glowstone, and Emerald Ore into Ancient Debris."]
+			id: "6D41182DDD855AFD"
+			x: 8.5d
+			y: -11.5d
+			subtitle: "I can send your soul back to the nether."
+			dependencies: ["2E277327DB94599B"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "52784B5407FC8D77"
+					type: "item"
+					item: "ibpdx:speed_gearbox"
+				}
+				{
+					id: "328E6293A30059C4"
+					type: "item"
+					item: "ibpdx:power_gearbox"
+				}
+			]
+			description: [
+				"&bGearboxes&r are a way of augmenting your multiblock machines to be faster or more efficient. &bPower Gearboxes&r also sometimes allow for more recipes than the machine can normally handle."
+				""
+				"To install a gearbox, press \"U\" on the controller of the machine you want to upgrade, then put the gearbox into the shown position."
+			]
+			id: "509E7BE0BA695DBD"
+			x: -8.5d
+			y: -7.5d
+			rewards: [
+				{
+					id: "5EE217E9FAB5681A"
+					type: "item"
+					team_reward: true
+					item: "ibpdx:speed_gearbox"
+				}
+				{
+					id: "267DF90C15076584"
+					type: "item"
+					team_reward: true
+					item: "ibpdx:power_gearbox"
+				}
+			]
+			dependencies: ["301BB7E56A9DC2C4"]
+		}
+		{
+			tasks: [{
+				id: "4853D6525D2655D2"
+				type: "item"
+				item: "ibpdx:catch_us"
+			}]
+			description: ["Are your constellations not out tonight? What about tomorrow night?"]
+			id: "312845B5ABBEED0D"
+			x: 3.5d
+			y: -11.5d
+			subtitle: "It should be a crime wasting our time waiting for the planets to align..."
+			dependencies: ["2E277327DB94599B"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "71790ABDE23C38EB"
+				type: "checkmark"
+				title: "Oil"
+			}]
+			description: ["Progression check. Go to \"The Next Generation\" and make sure you have finished the quests requiring Empowered Seeds."]
+			icon: "ibpdx:empowered_oil_bucket"
+			id: "37A68731A0417C1D"
+			x: -10.5d
+			y: -5.5d
+			title: "Empowered Oil"
+			dependencies: ["2918C4DB605D6026"]
+		}
+	]
+}

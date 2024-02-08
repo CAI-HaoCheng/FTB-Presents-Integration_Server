@@ -1,0 +1,396 @@
+{
+	default_hide_dependency_lines: false
+	group: "3838AB5A3188522F"
+	id: "42E0B17692E9F69C"
+	filename: "gourmet_race"
+	default_quest_shape: ""
+	icon: "pamhc2foodcore:skilletitem"
+	title: "Gourmet Race"
+	order_index: 5
+	quests: [
+		{
+			tasks: [{
+				id: "1A7452A2E4A2F495"
+				type: "item"
+				item: "minecraft:anvil"
+			}]
+			description: [
+				"To grind things up, instead of your classic kitchen equipment, you will be using an &bAnvil&r in place of the Roller, Grinder, and Juicer!"
+				""
+				"Just let it fall onto the intended ingredient(s)."
+			]
+			id: "296E43A9E3C6D7D6"
+			x: -7.0d
+			y: -3.0d
+			title: "Excessive? Of Course Not!"
+			rewards: [{
+				id: "6697D985A10E333F"
+				type: "item"
+				team_reward: true
+				item: "minecraft:anvil"
+			}]
+			dependencies: ["1C169D27C9348130"]
+		}
+		{
+			size: 1.5d
+			description: [
+				"The &bCooking Plate&r places a hot variant of the fluid it is right clicked with on top of it. It cools when it performs this action, needing to be resmelted to be used again. Perhaps automate this process? "
+				""
+				"If breaking and replacing the plate feels like a lot of work, perhaps some mod has a way of smelting blocks in the world..."
+				""
+				"{image:ibpdx:textures/questbook/cooking_plate.png width:275 height:150 align:1}"
+			]
+			id: "5B6047D852139380"
+			x: -10.0d
+			y: 1.0d
+			shape: "pentagon"
+			title: "It's Hot in Topeka"
+			rewards: [
+				{
+					id: "5D28E8931B72D0C0"
+					type: "item"
+					team_reward: true
+					item: "cookingforblockheads:tool_rack"
+				}
+				{
+					id: "2AA4BED363145159"
+					type: "item"
+					item: "ibpdx:cool_cooking_plate"
+				}
+			]
+			dependencies: ["1C169D27C9348130"]
+			tasks: [{
+				id: "6AFFFFCA80AD0501"
+				type: "item"
+				item: "ibpdx:hot_cooking_plate"
+			}]
+		}
+		{
+			tasks: [{
+				id: "07909A17B4CB09BB"
+				type: "item"
+				item: "ibpdx:cooking_oil_bucket"
+			}]
+			description: [
+				"For fried goods, you will want to use oil as your fluid."
+				""
+				"Right click with &bCooking Oil&r."
+			]
+			id: "78EA0724366659D3"
+			x: -7.0d
+			y: -1.0d
+			title: "Now You're Cooking with Oil!"
+			rewards: [{
+				id: "342578DF8270B439"
+				type: "item"
+				item: "pamhc2foodcore:batteritem"
+				count: 8
+			}]
+			dependencies: [
+				"5B6047D852139380"
+				"296E43A9E3C6D7D6"
+			]
+		}
+		{
+			tasks: [{
+				id: "0C82C238FAAD1971"
+				type: "item"
+				item: "ibpdx:stock_bucket"
+			}]
+			description: ["A base for soups."]
+			id: "23DD403D374EEA4B"
+			x: -5.0d
+			y: 2.0d
+			rewards: [{
+				id: "2C9706341FA64E94"
+				type: "item"
+				item: "pamhc2foodcore:pastaitem"
+				count: 8
+			}]
+			dependencies: ["414D6EB06126E595"]
+		}
+		{
+			tasks: [{
+				id: "4BE88D63B2A60B56"
+				type: "item"
+				item: "ibpdx:hot_water_bucket"
+			}]
+			description: [
+				"Water, but hot!"
+				""
+				"Right click with a &bFresh Water&r."
+			]
+			id: "414D6EB06126E595"
+			x: -7.0d
+			y: 2.0d
+			rewards: [{
+				id: "17D71EB16EE21A79"
+				type: "item"
+				item: "minecraft:bone"
+				count: 8
+			}]
+			dependencies: ["5B6047D852139380"]
+		}
+		{
+			tasks: [{
+				id: "287F86DD0DE8AC57"
+				type: "item"
+				item: "ibpdx:milk_bucket"
+			}]
+			description: [
+				"Warm Milk has a few recipes of its own."
+				""
+				"Right click with a &bFresh Milk&r."
+			]
+			id: "5427B4A43C19E281"
+			x: -7.0d
+			y: 3.5d
+			rewards: [{
+				id: "104CC84EFBAABF47"
+				type: "item"
+				item: "pamhc2foodcore:cocoapowderitem"
+				count: 8
+			}]
+			dependencies: ["5B6047D852139380"]
+		}
+		{
+			tasks: [{
+				id: "7A8CD64FED3D5456"
+				type: "item"
+				item: "ibpdx:fake_air_bucket"
+			}]
+			description: [
+				"This is most certainly not a method of pretending that the cooking plate works without any fluid. Just pretend it works as normal."
+				""
+				"Right click with a &bGlass Bottle&r."
+			]
+			id: "7878220AB63770F5"
+			x: -7.0d
+			y: 0.5d
+			title: "Wait, What?"
+			rewards: [{
+				id: "4631CE823BBB64CB"
+				type: "item"
+				item: "pamhc2foodcore:doughitem"
+				count: 8
+			}]
+			dependencies: ["5B6047D852139380"]
+		}
+		{
+			tasks: [{
+				id: "2F814C64357E4D29"
+				type: "item"
+				item: "pamhc2foodcore:noodlesoupitem"
+			}]
+			dependencies: ["23DD403D374EEA4B"]
+			id: "1A29BAF4D746B033"
+			y: 2.0d
+			x: -3.0d
+			rewards: [{
+				id: "5CE64FF3619DE0D1"
+				type: "item"
+				item: "pamhc2foodcore:noodlesoupitem"
+				count: 8
+			}]
+		}
+		{
+			size: 1.5d
+			description: [
+				"Congrats! you unlocked the \"MC Diner\""
+				""
+				"Head over to the Capsule Corp. Chapter and get the Capsule!"
+			]
+			id: "45BCF2BB105E1559"
+			icon: "pamhc2foodcore:friedchickenitem"
+			x: 0.0d
+			y: 1.0d
+			shape: "pentagon"
+			title: "Can I have some Fries with that?"
+			rewards: [{
+				id: "281A7DF5F21B90D9"
+				type: "item"
+				item: "pamhc2foodcore:friedchickenitem"
+				count: 8
+			}]
+			dependencies: [
+				"1A29BAF4D746B033"
+				"74C8EA5B30A944EF"
+				"3333BA9C047FEA15"
+				"67F9665726D7078E"
+			]
+			subtitle: "MC Diner Unlocked"
+			tasks: [{
+				id: "72A20D7E6B8AFD61"
+				type: "checkmark"
+				title: "Build Unlocked"
+			}]
+		}
+		{
+			tasks: [{
+				id: "3FDFEA67D55EAC68"
+				type: "item"
+				item: "pamhc2foodcore:jellydonutitem"
+			}]
+			id: "67F9665726D7078E"
+			x: -3.0d
+			y: -1.0d
+			title: "Jelly Filled Donuts Are The Best"
+			rewards: [{
+				id: "7A547F6888E7F8B2"
+				type: "item"
+				item: "pamhc2foodcore:jellydonutitem"
+				count: 8
+			}]
+			dependencies: ["78EA0724366659D3"]
+		}
+		{
+			tasks: [{
+				id: "6CECE37D268AF109"
+				type: "item"
+				item: "pamhc2foodcore:grilledcheeseitem"
+			}]
+			dependencies: ["7878220AB63770F5"]
+			id: "74C8EA5B30A944EF"
+			y: 0.5d
+			x: -3.0d
+			rewards: [{
+				id: "031D0099F91D009D"
+				type: "item"
+				item: "pamhc2foodcore:grilledcheeseitem"
+				count: 8
+			}]
+		}
+		{
+			tasks: [{
+				id: "507B8163822E19A0"
+				type: "item"
+				item: "pamhc2foodcore:hotchocolateitem"
+			}]
+			dependencies: ["5427B4A43C19E281"]
+			id: "3333BA9C047FEA15"
+			y: 3.5d
+			x: -3.0d
+			rewards: [{
+				id: "37F23FF7D910D5EF"
+				type: "item"
+				item: "pamhc2foodcore:hotchocolateitem"
+				count: 8
+			}]
+		}
+		{
+			tasks: [{
+				id: "2CF37585469DE04B"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+			}]
+			description: ["A storage block for your kitchen that allows for connectable storage to your Cooking Table."]
+			id: "367EB7A3CF79287B"
+			x: 3.5d
+			y: 1.0d
+			title: "Refrigerator-Refrigerador-Freezerator"
+			rewards: [
+				{
+					id: "04A0E932516381F5"
+					type: "item"
+					team_reward: true
+					item: "cookingforblockheads:ice_unit"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "29F783938C36E6A0"
+					item: "cookingforblockheads:cabinet"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "2DC607D3EF785994"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			description: ["The &bCooking Table&r can make any possible food from connecting inventories. However, due to the slightly altered processing of a lot of things, it will not work for many recipes. Still here for anything crafted, though."]
+			id: "1F2FD8D0FC6AAF08"
+			x: 3.5d
+			y: 3.0d
+			title: "A Good Chef Always Follows the Recipe"
+			rewards: [
+				{
+					id: "45EB249B240E6DA4"
+					type: "item"
+					team_reward: true
+					item: "cookingforblockheads:heating_unit"
+				}
+				{
+					id: "701B9368DB546D2B"
+					type: "item"
+					team_reward: true
+					item: "cookingforblockheads:oven"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "68FEC2676FCD9FAD"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			description: ["Produces Milk on its own. Though machine options have higher production rates."]
+			id: "65840B92DEF07688"
+			x: 3.5d
+			y: -1.0d
+			title: "How Does It Fit?"
+			rewards: [{
+				id: "4CF432A16EA7E56C"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "75F6187F104F14B2"
+				type: "item"
+				item: "ibpdx:multivitamins"
+			}]
+			description: ["&bMultivitamins&r completely fill all dietary stats and can be consumed at full hunger."]
+			id: "7835B19013A992C5"
+			x: 0.0d
+			y: -1.0d
+			title: "Super Supplements"
+			rewards: [{
+				id: "3FF34CA990B31A58"
+				type: "item"
+				item: "ibpdx:multivitamins"
+				count: 8
+			}]
+			dependencies: ["45BCF2BB105E1559"]
+		}
+		{
+			tasks: [{
+				id: "118AD1BDE8A42778"
+				type: "item"
+				item: "miniutilities:healing_axe"
+			}]
+			description: ["The &bHealing Axe&r restores the hunger bar when it is held. Requires &6Antimatter&r to make, though."]
+			id: "761B969425AA1E45"
+			x: 0.0d
+			y: 3.5d
+			title: "No More Eating"
+			rewards: [{
+				type: "item"
+				count: 8
+				team_reward: true
+				id: "7BB648F0E1000DBA"
+				item: "ftbic:antimatter"
+			}]
+			dependencies: [
+				"45BCF2BB105E1559"
+				"2E1C4FB599BF92BF"
+			]
+		}
+	]
+}

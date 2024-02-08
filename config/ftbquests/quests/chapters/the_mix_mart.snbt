@@ -1,0 +1,2799 @@
+{
+	default_hide_dependency_lines: false
+	group: "3838AB5A3188522F"
+	id: "0717CF56B3530D68"
+	filename: "the_mix_mart"
+	default_quest_shape: ""
+	icon: "thermal:lumium_coin"
+	title: "The Mix Mart"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				type: "item"
+				count: 200L
+				consume_items: true
+				id: "46DA040CC5C51FC2"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			description: [
+				"Makes Thermal machines much faster, and removes their need for power."
+				""
+				"Due to how strong this is, it is a one time purchase."
+			]
+			id: "5F30CF64EF230192"
+			icon: "thermal:machine_efficiency_creative_augment"
+			x: -11.0d
+			y: -3.0d
+			title: "Creative Flux Efficiency"
+			rewards: [{
+				id: "21ACD1CB8E6FE3FD"
+				type: "item"
+				team_reward: true
+				item: "thermal:machine_efficiency_creative_augment"
+			}]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 200L
+				consume_items: true
+				id: "04D41CEEE6F43506"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			description: ["Removes need for production of catalysts."]
+			id: "1E3B3097ACF8D64B"
+			icon: "thermal:machine_catalyst_creative_augment"
+			x: -9.0d
+			y: -3.0d
+			title: "Creative Reclamation Chamber"
+			rewards: [
+				{
+					id: "42D2071BB140F004"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_catalyst_creative_augment"
+				}
+				{
+					id: "666126AB0714A432"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 1E3B3097ACF8D64B"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "2A5A2B727C7D9BC4"
+				type: "checkmark"
+				title: "Welcome to the Mix Mart!"
+			}]
+			description: [
+				"The &bMix Mart&r is where you can sell your &bRemix Items&r to gain &bAugments, Machines, Upgrades, and other stuff of that nature&r. It does not replace the need for infrastructure, and it does have a fair price to it, but it offers a use for the remix items you might have been making."
+				""
+				"Do note that you cannot purchase these items before completing the respective remix."
+			]
+			id: "4AB0855AB2C392AC"
+			y: -6.5d
+			x: -6.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "1F553D5C8785B304"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			icon: "thermal:machine_pulverizer"
+			id: "3AF8F1EB3F09483F"
+			x: -11.0d
+			y: -1.5d
+			title: "Pulverizer"
+			rewards: [
+				{
+					id: "438C55E167DED595"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_pulverizer"
+				}
+				{
+					id: "45B3ACBC6AFEBC9D"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 3AF8F1EB3F09483F"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "6DFF2F20BE4E5998"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			icon: "thermal:machine_furnace"
+			id: "2A77E9A03E160EE0"
+			x: -9.0d
+			y: -1.5d
+			title: "Redstone Furnace"
+			rewards: [
+				{
+					id: "5C4B66C10DDEB11B"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_furnace"
+				}
+				{
+					id: "439C9ADBBE65E309"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 2A77E9A03E160EE0"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "43F503E749EEF5A5"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			icon: "thermal:machine_smelter"
+			id: "0F7F2E661EB1824A"
+			x: -11.0d
+			y: 0.0d
+			title: "Induction Smelter"
+			rewards: [
+				{
+					id: "3833C2E6777B626B"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_smelter"
+				}
+				{
+					id: "6C38466CF2B7AB1A"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 0F7F2E661EB1824A"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "0E9D5D2302D8F78D"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			icon: "thermal:machine_press"
+			id: "5BB32DF0EDD75BC6"
+			x: -9.0d
+			y: 0.0d
+			title: "Multiservo Press"
+			rewards: [
+				{
+					id: "507C3079F7E950C9"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_press"
+				}
+				{
+					id: "0F656C382773AF75"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5BB32DF0EDD75BC6"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "3420B07EFAD71337"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			icon: "thermal:machine_crucible"
+			id: "2BACB0AB17D43627"
+			x: -11.0d
+			y: 1.5d
+			title: "Magma Crucible"
+			rewards: [
+				{
+					id: "42D9623C746A9D1E"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_crucible"
+				}
+				{
+					id: "3943277CF3C32711"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 2BACB0AB17D43627"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "45C217F713FF3F2F"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			icon: "thermal:machine_bottler"
+			id: "00CD7F5484E92F5A"
+			x: -9.0d
+			y: 1.5d
+			title: "Fluid Encapsulator"
+			rewards: [
+				{
+					id: "59C2CFF7E243BA05"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_bottler"
+				}
+				{
+					id: "23306FC532A81144"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 00CD7F5484E92F5A"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "7D1A9AC3567976C0"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			icon: "thermal:machine_chiller"
+			id: "606466B70D6ED6B7"
+			x: -11.0d
+			y: 3.0d
+			title: "Blast Chiller"
+			rewards: [
+				{
+					id: "34487F44F54FF741"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_chiller"
+				}
+				{
+					id: "67CB726F9FBD4E8C"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 606466B70D6ED6B7"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "4AC5F1DB39412636"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			icon: "thermal:machine_brewer"
+			id: "062B49ADC8CC0ABD"
+			x: -9.0d
+			y: 3.0d
+			title: "Alchemical Imbuer"
+			rewards: [
+				{
+					id: "3EC26A37C4F041AA"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_brewer"
+				}
+				{
+					id: "554A46C017EE02D7"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 062B49ADC8CC0ABD"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "3BDB7C52DD0EB025"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			icon: "thermal:machine_crafter"
+			id: "089914EFECD23AEC"
+			x: -11.0d
+			y: 4.5d
+			title: "Sequential Fabricator"
+			rewards: [
+				{
+					id: "2649F93CAB4D1C25"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_crafter"
+				}
+				{
+					id: "559BF24BC2F632F1"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 089914EFECD23AEC"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "3802D601CBAF8F9F"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			icon: "thermal:machine_insolator"
+			id: "015EA119B4E54937"
+			x: -9.0d
+			y: 4.5d
+			title: "Phytogenic Insolator"
+			rewards: [
+				{
+					id: "33E64878F323FFC6"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_insolator"
+				}
+				{
+					id: "3A2B378B1DF50B5D"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 015EA119B4E54937"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "29B8B366415F0A09"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			icon: "thermal:machine_centrifuge"
+			id: "247630CA05E35868"
+			x: -11.0d
+			y: 6.0d
+			title: "Centrifugal Separator"
+			rewards: [
+				{
+					id: "1E1217F80D7B4EC0"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_centrifuge"
+				}
+				{
+					id: "1DEA69DDC35A08A9"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 247630CA05E35868"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "0811E075F4E5D9C9"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			icon: "thermal:machine_sawmill"
+			id: "79580298FCE45AE4"
+			x: -9.0d
+			y: 6.0d
+			title: "Sawmill"
+			rewards: [
+				{
+					id: "181D297BCA416DC4"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_sawmill"
+				}
+				{
+					id: "79E8F89971418370"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 79580298FCE45AE4"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "2D655E146692B72D"
+				type: "checkmark"
+				title: "Thermal Remix"
+			}]
+			dependencies: [
+				"4AB0855AB2C392AC"
+				"425AEF2694262F3A"
+			]
+			id: "200B18FF1A2A05CD"
+			y: -4.5d
+			x: -10.0d
+			icon: "ibpdx:bio_napalm_cell"
+		}
+		{
+			tasks: [{
+				id: "466526CAB486C338"
+				type: "checkmark"
+				title: "Astral Remix"
+			}]
+			icon: "ibpdx:resonated_plated_growth_lens"
+			id: "6658F0F79D033DFF"
+			x: -2.0d
+			y: -4.5d
+			title: "Astral Remix"
+			dependencies: [
+				"4AB0855AB2C392AC"
+				"21024F4FAE314904"
+			]
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 4L
+				consume_items: true
+				id: "57580973E94D7CBE"
+				item: "ibpdx:resonated_plated_growth_lens"
+			}]
+			description: [""]
+			id: "6D35283AFF9D5C74"
+			icon: {
+				id: "astralsorcery:lens"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+			}
+			x: -3.0d
+			y: -3.0d
+			title: "Crystal Lens"
+			rewards: [
+				{
+					id: "217B438087EA08B5"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:lens"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "25CFEBD20E63B57F"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 6D35283AFF9D5C74"
+					player_command: false
+				}
+			]
+			dependencies: ["6658F0F79D033DFF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 4L
+				consume_items: true
+				id: "7D6BDE705F060430"
+				item: "ibpdx:resonated_plated_growth_lens"
+			}]
+			icon: {
+				id: "astralsorcery:prism"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+			}
+			id: "5EB8EC17DF5BD62A"
+			x: -1.0d
+			y: -3.0d
+			title: "Crystal Prism"
+			rewards: [
+				{
+					id: "1C863C5833944300"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:prism"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "4D4134C9E05BC0D3"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5EB8EC17DF5BD62A"
+					player_command: false
+				}
+			]
+			dependencies: ["6658F0F79D033DFF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 64L
+				consume_items: true
+				id: "03CF7D60D0A84E02"
+				item: "ibpdx:resonated_plated_growth_lens"
+			}]
+			icon: {
+				id: "astralsorcery:celestial_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+			id: "3F8D5FD6F7B9017A"
+			x: -3.0d
+			y: -1.5d
+			title: "Optimal Collector Crystal"
+			rewards: [
+				{
+					id: "33D011DFE53ECCC4"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:celestial_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:collector.rate"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "23CF2DCCED5FCCB9"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 3F8D5FD6F7B9017A"
+					player_command: false
+				}
+			]
+			dependencies: ["6658F0F79D033DFF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 64L
+				consume_items: true
+				id: "6D97AB5657754ABD"
+				item: "ibpdx:resonated_plated_growth_lens"
+			}]
+			icon: {
+				id: "astralsorcery:celestial_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+			id: "4F769A12BBBA7493"
+			x: -1.0d
+			y: -1.5d
+			title: "Optimal Ritual Crystal"
+			rewards: [
+				{
+					id: "587F3DE37081D1E3"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:celestial_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:ritual.effect"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "62F299FAE1439D17"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 4F769A12BBBA7493"
+					player_command: false
+				}
+			]
+			dependencies: ["6658F0F79D033DFF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 128L
+				consume_items: true
+				id: "35EC351CA408DDED"
+				item: "ibpdx:resonated_plated_growth_lens"
+			}]
+			icon: "astralsorcery:ritual_pedestal"
+			id: "54D49D0A33DB6515"
+			x: -3.0d
+			y: 0.0d
+			title: "Ritual Pedestal"
+			rewards: [
+				{
+					id: "14CF0B4429F24997"
+					type: "item"
+					team_reward: true
+					item: "astralsorcery:ritual_pedestal"
+				}
+				{
+					id: "1E6E09B564051979"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 54D49D0A33DB6515"
+					player_command: false
+				}
+			]
+			dependencies: ["6658F0F79D033DFF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 4L
+				consume_items: true
+				id: "1B280857563D6C1D"
+				item: "ibpdx:resonated_plated_growth_lens"
+			}]
+			icon: "astralsorcery:well"
+			id: "5719CB51CE6EAD0A"
+			x: -1.0d
+			y: 0.0d
+			title: "Lightwell"
+			rewards: [
+				{
+					id: "1239FC661CE80AA8"
+					type: "item"
+					team_reward: true
+					item: "astralsorcery:well"
+				}
+				{
+					id: "0388946297B22819"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5719CB51CE6EAD0A"
+					player_command: false
+				}
+			]
+			dependencies: ["6658F0F79D033DFF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 64L
+				consume_items: true
+				id: "560E753F3E07EC4B"
+				item: "ibpdx:wispy_petal"
+			}]
+			icon: "botania:overgrowth_seed"
+			id: "5C43D808A007D133"
+			x: 1.0d
+			y: -3.0d
+			title: "Overgrowth Seed"
+			rewards: [
+				{
+					id: "19EF408C587FCC7E"
+					type: "item"
+					team_reward: true
+					item: "botania:overgrowth_seed"
+				}
+				{
+					id: "326E2C6416FAD0C4"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5C43D808A007D133"
+					player_command: false
+				}
+			]
+			dependencies: ["6782F29B7A2B2900"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 16L
+				consume_items: true
+				id: "705A6A333600A929"
+				item: "ibpdx:wispy_petal"
+			}]
+			icon: "botania:blacker_lotus"
+			id: "5D2014BC855EEAAE"
+			x: 3.0d
+			y: -3.0d
+			title: "Blacker Lotus"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "425C4CD97B2F8CA9"
+					item: "botania:blacker_lotus"
+				}
+				{
+					id: "520E1C0C3DB25F27"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5D2014BC855EEAAE"
+					player_command: false
+				}
+			]
+			dependencies: ["6782F29B7A2B2900"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "5D933034CCC65F93"
+				type: "checkmark"
+				title: "Botanic Remix"
+			}]
+			dependencies: [
+				"4AB0855AB2C392AC"
+				"4A178AD6FECE3181"
+			]
+			id: "6782F29B7A2B2900"
+			y: -4.5d
+			x: 2.0d
+			icon: "ibpdx:wispy_petal"
+		}
+		{
+			tasks: [{
+				id: "1E7CDC988FADA5EC"
+				type: "checkmark"
+				title: "Blood Remix"
+			}]
+			dependencies: [
+				"4AB0855AB2C392AC"
+				"0CCC62DD7C8DFC5A"
+			]
+			id: "762B7E44A9D8F225"
+			y: -4.5d
+			x: 6.0d
+			icon: "ibpdx:life_infused_cooler"
+		}
+		{
+			tasks: [{
+				id: "19D0879065DC7B9E"
+				type: "item"
+				item: "ibpdx:life_infused_cooler"
+				consume_items: true
+			}]
+			icon: "bloodmagic:itemroutingnode"
+			id: "593575EA25A3422A"
+			x: 5.0d
+			y: -3.0d
+			title: "Routing Node"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "7610FD31D16F490A"
+					item: "bloodmagic:itemroutingnode"
+				}
+				{
+					id: "146C80C7752C20AE"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 593575EA25A3422A"
+					player_command: false
+				}
+			]
+			dependencies: ["762B7E44A9D8F225"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "1EDEEBFF5D44525C"
+				type: "item"
+				item: "ibpdx:life_infused_cooler"
+				consume_items: true
+			}]
+			icon: "bloodmagic:masterroutingnode"
+			id: "46A63615BF2FC58E"
+			x: 7.0d
+			y: -3.0d
+			title: "Master Routing Node"
+			rewards: [
+				{
+					id: "32D5E26FC5209E86"
+					type: "item"
+					team_reward: true
+					item: "bloodmagic:masterroutingnode"
+				}
+				{
+					id: "68544417D97C5729"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 46A63615BF2FC58E"
+					player_command: false
+				}
+			]
+			dependencies: ["762B7E44A9D8F225"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "278A1810AB7CF323"
+				type: "item"
+				item: "ibpdx:life_infused_cooler"
+				consume_items: true
+			}]
+			icon: "bloodmagic:inputroutingnode"
+			id: "5943F80BEC5C1FDA"
+			x: 5.0d
+			y: -1.5d
+			title: "Input Routing Node"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "1199B1D9F3F445D0"
+					item: "bloodmagic:inputroutingnode"
+				}
+				{
+					id: "31FCE2D990CCA271"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5943F80BEC5C1FDA"
+					player_command: false
+				}
+			]
+			dependencies: ["762B7E44A9D8F225"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "33E9A92EE6D008F8"
+				type: "item"
+				item: "ibpdx:life_infused_cooler"
+				consume_items: true
+			}]
+			icon: "bloodmagic:outputroutingnode"
+			id: "3623A3CBB9FC1BBD"
+			x: 7.0d
+			y: -1.5d
+			title: "Output Routing Node"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "250F188B3EC3C65E"
+					item: "bloodmagic:outputroutingnode"
+				}
+				{
+					id: "528CBBFE31F799E6"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 3623A3CBB9FC1BBD"
+					player_command: false
+				}
+			]
+			dependencies: ["762B7E44A9D8F225"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				consume_items: true
+				id: "2A25EF3CAA48A961"
+				item: "ibpdx:life_infused_cooler"
+			}]
+			icon: "bloodmagic:teleposer"
+			id: "019C90437CDEF407"
+			x: 5.0d
+			y: 0.0d
+			title: "Teleposer"
+			rewards: [
+				{
+					id: "136016E7847B203B"
+					type: "item"
+					team_reward: true
+					item: "bloodmagic:teleposer"
+				}
+				{
+					id: "2AF6B6EC7BBDB47C"
+					type: "item"
+					team_reward: true
+					item: "bloodmagic:teleposerfocus"
+				}
+				{
+					id: "035A3195701AD09F"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 019C90437CDEF407"
+					player_command: false
+				}
+			]
+			dependencies: ["762B7E44A9D8F225"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 2L
+				consume_items: true
+				id: "18ABE808DDD4B3A0"
+				item: "ibpdx:life_infused_cooler"
+			}]
+			icon: "bloodmagic:demoncrystallizer"
+			id: "0AB8E558D4FFE5F5"
+			x: 7.0d
+			y: 0.0d
+			title: "Demon Crystallizer"
+			rewards: [
+				{
+					id: "3AED520AC597408B"
+					type: "item"
+					item: "bloodmagic:demoncrystallizer"
+				}
+				{
+					id: "3C8AAD93E96F3CA1"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 0AB8E558D4FFE5F5"
+					player_command: false
+				}
+			]
+			dependencies: ["762B7E44A9D8F225"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "1F2FA4C2CA2C5DA1"
+				type: "checkmark"
+				title: "Industrial Remix"
+			}]
+			dependencies: [
+				"4AB0855AB2C392AC"
+				"3095414D402F5142"
+			]
+			id: "336DBDEE324849F1"
+			y: -4.5d
+			x: -18.0d
+			icon: "ibpdx:bioenriched_circuit"
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				consume_items: true
+				id: "49354EC8FA1200BE"
+				item: "ibpdx:bioenriched_circuit"
+			}]
+			icon: "ftbic:macerator"
+			id: "2E86E93914196723"
+			x: -19.0d
+			y: -1.5d
+			title: "Macerator"
+			rewards: [
+				{
+					id: "25ED610B51D56D2D"
+					type: "item"
+					team_reward: true
+					item: "ftbic:macerator"
+				}
+				{
+					id: "64B8F9E93CAAA961"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 2E86E93914196723"
+					player_command: false
+				}
+			]
+			dependencies: ["336DBDEE324849F1"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				consume_items: true
+				id: "3AAD5F13C1467738"
+				item: "ibpdx:bioenriched_circuit"
+			}]
+			icon: "ftbic:powered_furnace"
+			id: "690AE2D7E80D6959"
+			x: -17.0d
+			y: -1.5d
+			title: "Powered Furnace"
+			rewards: [
+				{
+					id: "0AE9AE756880003B"
+					type: "item"
+					team_reward: true
+					item: "ftbic:powered_furnace"
+				}
+				{
+					id: "63F7DA1D1FA67F95"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 690AE2D7E80D6959"
+					player_command: false
+				}
+			]
+			dependencies: ["336DBDEE324849F1"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 4L
+				consume_items: true
+				id: "6B8B01993DDCBEC6"
+				item: "ibpdx:coordinate_data_module"
+			}]
+			icon: "ftbic:mv_solar_panel"
+			id: "568AF09726494BF4"
+			x: -13.0d
+			y: -3.0d
+			title: "MV Solar Panel"
+			rewards: [
+				{
+					id: "03A8CB3ADB789A77"
+					type: "item"
+					team_reward: true
+					item: "ftbic:mv_solar_panel"
+				}
+				{
+					id: "109AF9A7476E15F3"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 568AF09726494BF4"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				consume_items: true
+				id: "7E8D4FA331B6FD95"
+				item: "ibpdx:coordinate_data_module"
+			}]
+			icon: "boss_tools:mars_silicon_ore"
+			id: "303C955253B9E4CF"
+			x: -13.0d
+			y: -1.5d
+			title: "Silicon Ore"
+			rewards: [
+				{
+					type: "item"
+					count: 64
+					team_reward: true
+					id: "1B36D36BBDD4746A"
+					item: "boss_tools:mars_silicon_ore"
+				}
+				{
+					id: "71EBE95527B7B02A"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 303C955253B9E4CF"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				consume_items: true
+				id: "0E9ED5650B95C0B2"
+				item: "ibpdx:coordinate_data_module"
+			}]
+			icon: "boss_tools:moon_desh_ore"
+			id: "20E65577A2A513BE"
+			x: -15.0d
+			y: -1.5d
+			title: "Desh Ore"
+			rewards: [
+				{
+					type: "item"
+					count: 64
+					team_reward: true
+					id: "32DEACCB0735710B"
+					item: "boss_tools:moon_desh_ore"
+				}
+				{
+					id: "54224B07D423E7D6"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 20E65577A2A513BE"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "3ED3E0B6E44E0EB6"
+				type: "checkmark"
+				title: "Space Remix"
+			}]
+			dependencies: [
+				"4AB0855AB2C392AC"
+				"36806CE3DAD3DF05"
+			]
+			id: "7C22B75EEEFCC11F"
+			y: -4.5d
+			x: -14.0d
+			icon: "ibpdx:coordinate_data_module"
+		}
+		{
+			tasks: [{
+				id: "59541EFCDAB499E3"
+				type: "item"
+				item: "ibpdx:coordinate_data_module"
+				consume_items: true
+			}]
+			icon: "miniutilities:magical_egg"
+			id: "4956E590D2D6118B"
+			x: -15.0d
+			y: -3.0d
+			title: "Magical Egg"
+			rewards: [
+				{
+					id: "0C0D1E92B59D367F"
+					type: "item"
+					team_reward: true
+					item: "miniutilities:magical_egg"
+				}
+				{
+					id: "3270A4BBFE35E590"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 4956E590D2D6118B"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				consume_items: true
+				id: "3DF9EC351E65E839"
+				item: "ibpdx:bioenriched_circuit"
+			}]
+			icon: "ftbic:transformer_upgrade"
+			id: "2943ADF872ECAAAE"
+			x: -17.0d
+			y: -3.0d
+			title: "Transformer Upgrade"
+			rewards: [
+				{
+					id: "67CD36C3CCBACD82"
+					type: "item"
+					team_reward: true
+					item: "ftbic:transformer_upgrade"
+				}
+				{
+					id: "4AD2305502197F41"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 2943ADF872ECAAAE"
+					player_command: false
+				}
+			]
+			dependencies: ["336DBDEE324849F1"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 4L
+				consume_items: true
+				id: "6A56BB5A554C0A8D"
+				item: "ibpdx:bioenriched_circuit"
+			}]
+			icon: "ftbic:overclocker_upgrade"
+			id: "7030D20E04730683"
+			x: -19.0d
+			y: -3.0d
+			title: "Overclocker Upgrade"
+			rewards: [
+				{
+					id: "32C062AC80F0C38B"
+					type: "item"
+					team_reward: true
+					item: "ftbic:overclocker_upgrade"
+				}
+				{
+					id: "72D73891B78AF258"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 7030D20E04730683"
+					player_command: false
+				}
+			]
+			dependencies: ["336DBDEE324849F1"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "5A40394FCC93CA10"
+				type: "item"
+				item: "ibpdx:circuit_case"
+				consume_items: true
+			}]
+			icon: "mekanism:upgrade_speed"
+			id: "4EF38B17F7825D94"
+			x: -7.0d
+			y: -3.0d
+			title: "Speed Upgrade"
+			rewards: [
+				{
+					id: "5C8C6F4601338F10"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_speed"
+				}
+				{
+					id: "6B4AA014E73B0761"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 4EF38B17F7825D94"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "533776872577D1B5"
+				type: "item"
+				item: "ibpdx:circuit_case"
+				consume_items: true
+			}]
+			icon: "mekanism:upgrade_energy"
+			id: "4D83D3ED8F357A1E"
+			x: -5.0d
+			y: -3.0d
+			title: "Energy Upgrade"
+			rewards: [
+				{
+					id: "72FF3C53BC9C3DEF"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_energy"
+				}
+				{
+					id: "7553428BF6541FEE"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 4D83D3ED8F357A1E"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "137763B0E494586F"
+				type: "checkmark"
+				title: "Mekanical Remix"
+			}]
+			dependencies: [
+				"4AB0855AB2C392AC"
+				"53CE64D64736807F"
+			]
+			id: "5107CBE99F5872EF"
+			y: -4.5d
+			x: -6.0d
+			icon: "ibpdx:circuit_case"
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 4L
+				consume_items: true
+				id: "60D5391FB4B8C2C4"
+				item: "ibpdx:coordinate_data_module"
+			}]
+			icon: "ibpdx:singular_speed_gearbox"
+			id: "3B0B0B7B4AB60CF8"
+			x: -15.0d
+			y: 0.0d
+			title: "Singular Torsion Speed Gearbox"
+			rewards: [
+				{
+					id: "4875A227FE79CD14"
+					type: "item"
+					team_reward: true
+					item: "ibpdx:singular_speed_gearbox"
+				}
+				{
+					id: "75A223A18EA4E402"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 3B0B0B7B4AB60CF8"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 4L
+				consume_items: true
+				id: "229E7431E409B47A"
+				item: "ibpdx:coordinate_data_module"
+			}]
+			icon: "ibpdx:singular_power_gearbox"
+			id: "4F6F7AB34B4C3D1B"
+			x: -13.0d
+			y: 0.0d
+			title: "Singular Torsion Power Gearbox"
+			rewards: [
+				{
+					id: "0D40956E5A6C389A"
+					type: "item"
+					team_reward: true
+					item: "ibpdx:singular_power_gearbox"
+				}
+				{
+					id: "1DCA9B8D4998876D"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 4F6F7AB34B4C3D1B"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "0C41CCDC0E80E103"
+				type: "item"
+				item: "ibpdx:circuit_case"
+				consume_items: true
+			}]
+			icon: "mekanism:metallurgic_infuser"
+			id: "11F0C697674638D0"
+			x: -7.0d
+			y: -1.5d
+			title: "Metallurgic Infuser"
+			rewards: [
+				{
+					id: "1E8E1B684E9329CD"
+					type: "item"
+					team_reward: true
+					item: "mekanism:metallurgic_infuser"
+				}
+				{
+					id: "79B3F0FCC496AE86"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 11F0C697674638D0"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "5BB4B9FD83BCD79C"
+				type: "item"
+				item: "ibpdx:circuit_case"
+				consume_items: true
+			}]
+			icon: "mekanism:enrichment_chamber"
+			id: "60B557AC82674D52"
+			x: -5.0d
+			y: -1.5d
+			title: "Enrichment Chamber"
+			rewards: [
+				{
+					id: "1676B59115C1161F"
+					type: "item"
+					team_reward: true
+					item: "mekanism:enrichment_chamber"
+				}
+				{
+					id: "6280B0333A045A62"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 60B557AC82674D52"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "4242F014EEDCB194"
+				type: "item"
+				item: "ibpdx:circuit_case"
+				consume_items: true
+			}]
+			icon: "mekanism:purification_chamber"
+			id: "107D1BC32D162C47"
+			x: -7.0d
+			y: 0.0d
+			title: "Purification Chamber"
+			rewards: [
+				{
+					id: "52886D56C4931AEA"
+					type: "item"
+					team_reward: true
+					item: "mekanism:purification_chamber"
+				}
+				{
+					id: "3D0AD1FB378351AF"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 107D1BC32D162C47"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "5A6C7BE34D0CEFD6"
+				type: "item"
+				item: "ibpdx:circuit_case"
+				consume_items: true
+			}]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "563D436F90740292"
+			x: -5.0d
+			y: 0.0d
+			title: "Chemical Injection Chamber"
+			rewards: [
+				{
+					id: "1B5F0627681E3AB1"
+					type: "item"
+					team_reward: true
+					item: "mekanism:chemical_injection_chamber"
+				}
+				{
+					id: "3D3C342C1A4F8FF2"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 563D436F90740292"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				consume_items: true
+				id: "298939B6C3F5DE18"
+				item: "ibpdx:bioenriched_circuit"
+			}]
+			icon: "ftbic:centrifuge"
+			id: "03AB53E45937208F"
+			x: -19.0d
+			y: 0.0d
+			title: "Centrifuge"
+			rewards: [
+				{
+					id: "760A06760B0C9F5E"
+					type: "item"
+					team_reward: true
+					item: "ftbic:centrifuge"
+				}
+				{
+					id: "556B777EF1009FC1"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 03AB53E45937208F"
+					player_command: false
+				}
+			]
+			dependencies: ["336DBDEE324849F1"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				consume_items: true
+				id: "6DC86C94A1ECDDC3"
+				item: "ibpdx:bioenriched_circuit"
+			}]
+			icon: "ftbic:compressor"
+			id: "77CC3B6FEE9D34AE"
+			x: -17.0d
+			y: 0.0d
+			title: "Compressor"
+			rewards: [
+				{
+					id: "519E156E9442C0FC"
+					type: "item"
+					team_reward: true
+					item: "ftbic:compressor"
+				}
+				{
+					id: "1E6D12F0D7AE5412"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 77CC3B6FEE9D34AE"
+					player_command: false
+				}
+			]
+			dependencies: ["336DBDEE324849F1"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				consume_items: true
+				id: "409A2766C36A41B7"
+				item: "ibpdx:bioenriched_circuit"
+			}]
+			icon: "ftbic:reprocessor"
+			id: "389B28FFB4B31C7B"
+			x: -19.0d
+			y: 1.5d
+			title: "Reprocessor"
+			rewards: [
+				{
+					id: "2E137994F40A31FE"
+					type: "item"
+					team_reward: true
+					item: "ftbic:reprocessor"
+				}
+				{
+					id: "31B29BF2AA26B7C7"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 389B28FFB4B31C7B"
+					player_command: false
+				}
+			]
+			dependencies: ["336DBDEE324849F1"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				consume_items: true
+				id: "05ACD2F35BCF8D08"
+				item: "ibpdx:bioenriched_circuit"
+			}]
+			icon: "ftbic:roller"
+			id: "2ABF90B3965002CE"
+			x: -17.0d
+			y: 1.5d
+			title: "Roller"
+			rewards: [
+				{
+					id: "1E43688D3D2CCB04"
+					type: "item"
+					team_reward: true
+					item: "ftbic:roller"
+				}
+				{
+					id: "3101525C6531E32C"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 2ABF90B3965002CE"
+					player_command: false
+				}
+			]
+			dependencies: ["336DBDEE324849F1"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "6A5B59B2E987C7AE"
+				type: "item"
+				item: "ibpdx:coordinate_data_module"
+				consume_items: true
+			}]
+			icon: "masterfulmachinery:generic_controller"
+			id: "62749E7DD359FC74"
+			x: -15.0d
+			y: 1.5d
+			title: "Machine Controller"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "09C10BEC7CE02C9C"
+					item: "masterfulmachinery:generic_controller"
+				}
+				{
+					id: "1B0D5B2F6BA8DEA9"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 62749E7DD359FC74"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 4L
+				consume_items: true
+				id: "0C14B574ED28F1F0"
+				item: "ibpdx:coordinate_data_module"
+			}]
+			icon: "ibpdx:double_gearbox"
+			id: "57EFCB5915D77ABA"
+			x: -13.0d
+			y: 1.5d
+			title: "Double Gearbox"
+			rewards: [
+				{
+					id: "74EDE8FBC6E20D27"
+					type: "item"
+					team_reward: true
+					item: "ibpdx:double_gearbox"
+				}
+				{
+					id: "1DE62FE2224A17F5"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 57EFCB5915D77ABA"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "3266C54D78EE3D71"
+				type: "item"
+				item: "ibpdx:coordinate_data_module"
+				consume_items: true
+			}]
+			icon: "masterfulmachinery:generic_item_port_items_input"
+			id: "021DF5B6EA562545"
+			x: -15.0d
+			y: 3.0d
+			title: "Machine Item Input Port"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "54FDD02ED1C51AEF"
+					item: "masterfulmachinery:generic_item_port_items_input"
+				}
+				{
+					id: "724D26ACDDD9611F"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 021DF5B6EA562545"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "092C425063FA644E"
+				type: "item"
+				item: "ibpdx:coordinate_data_module"
+				consume_items: true
+			}]
+			icon: "masterfulmachinery:generic_item_port_items_output"
+			id: "0F0D4916A82E1D68"
+			x: -13.0d
+			y: 3.0d
+			title: "Machine Item Output Port"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "4180AEECEDED8170"
+					item: "masterfulmachinery:generic_item_port_items_output"
+				}
+				{
+					id: "35A931B996567108"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 0F0D4916A82E1D68"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "4BDA6D56EFFB6294"
+				type: "item"
+				item: "ibpdx:coordinate_data_module"
+				consume_items: true
+			}]
+			icon: "masterfulmachinery:generic_fluid_port_fluids_input"
+			id: "3447C0C9A445945C"
+			x: -15.0d
+			y: 4.5d
+			title: "Machine Fluid Input Port"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "549A53E46BA4AB66"
+					item: "masterfulmachinery:generic_fluid_port_fluids_input"
+				}
+				{
+					id: "798E02171B0786C4"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 3447C0C9A445945C"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "38FB002E4A8D5A11"
+				type: "item"
+				item: "ibpdx:coordinate_data_module"
+				consume_items: true
+			}]
+			icon: "masterfulmachinery:generic_fluid_port_fluids_output"
+			id: "3EE251E3C6190F5D"
+			x: -13.0d
+			y: 4.5d
+			title: "Machine Fluid Output Port"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "2AF83DF007DADB95"
+					item: "masterfulmachinery:generic_fluid_port_fluids_output"
+				}
+				{
+					id: "06004B78A35B8D3D"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 3EE251E3C6190F5D"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "5DC38CED79ED3F27"
+				type: "item"
+				item: "ibpdx:coordinate_data_module"
+				consume_items: true
+			}]
+			icon: "masterfulmachinery:generic_energy_port_energy_input"
+			id: "3C01179EDAFA294F"
+			x: -15.0d
+			y: 6.0d
+			title: "Machine Energy Input Port"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "5E8B7036156D2E3C"
+					item: "masterfulmachinery:generic_energy_port_energy_input"
+				}
+				{
+					id: "6EDB296F0E71E013"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 3C01179EDAFA294F"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "19BB322924625A37"
+				type: "item"
+				item: "ibpdx:coordinate_data_module"
+				consume_items: true
+			}]
+			icon: "masterfulmachinery:generic_energy_port_energy_output"
+			id: "30485C8FADB381D9"
+			x: -13.0d
+			y: 6.0d
+			title: "Machine Energy Output Port"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "61735F2AC299CFD3"
+					item: "masterfulmachinery:generic_energy_port_energy_output"
+				}
+				{
+					id: "31780B762633A79E"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 30485C8FADB381D9"
+					player_command: false
+				}
+			]
+			dependencies: ["7C22B75EEEFCC11F"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 25L
+				consume_items: true
+				id: "46B0549ABCF38183"
+				item: "ibpdx:bio_napalm_cell"
+			}]
+			icon: "thermal:area_radius_augment"
+			id: "266EECA910A735E1"
+			x: -11.0d
+			y: 7.5d
+			title: "Radial Enhancement"
+			rewards: [
+				{
+					id: "0A2299B198A388A4"
+					type: "item"
+					team_reward: true
+					item: "thermal:area_radius_augment"
+				}
+				{
+					id: "128C3E9DDAF1ECC2"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 266EECA910A735E1"
+					player_command: false
+				}
+			]
+			dependencies: ["200B18FF1A2A05CD"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 16L
+				consume_items: true
+				id: "766090A58ADC0A05"
+				item: "ibpdx:resonated_plated_growth_lens"
+			}]
+			icon: {
+				id: "astralsorcery:celestial_gateway"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+			id: "28DD9AFB66FD25E9"
+			x: -3.0d
+			y: 1.5d
+			title: "Celestial Gateway"
+			rewards: [
+				{
+					id: "2EFCF3F6C1D98EB4"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "1FA6665D2D8663CB"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 28DD9AFB66FD25E9"
+					player_command: false
+				}
+			]
+			dependencies: ["6658F0F79D033DFF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				consume_items: true
+				id: "2C3971487A059549"
+				item: "ibpdx:resonated_plated_growth_lens"
+			}]
+			icon: "astralsorcery:chalice"
+			id: "04C58B86FA920F92"
+			x: -1.0d
+			y: 1.5d
+			title: "Containment Chalice"
+			rewards: [
+				{
+					id: "3BD4C5C58F11CEDB"
+					type: "item"
+					team_reward: true
+					item: "astralsorcery:chalice"
+				}
+				{
+					id: "07D4E2F28AEF452D"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 04C58B86FA920F92"
+					player_command: false
+				}
+			]
+			dependencies: ["6658F0F79D033DFF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 2L
+				consume_items: true
+				id: "29946948F88EEFC4"
+				item: "ibpdx:circuit_case"
+			}]
+			icon: "mekanism:rotary_condensentrator"
+			id: "6A7824A276B27FAB"
+			x: -7.0d
+			y: 1.5d
+			title: "Rotary Condensentrator"
+			rewards: [
+				{
+					id: "207DEB3EAA5DAF68"
+					type: "item"
+					team_reward: true
+					item: "mekanism:rotary_condensentrator"
+				}
+				{
+					id: "13754944CB036563"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 6A7824A276B27FAB"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "07BE315CB42198EC"
+				type: "item"
+				item: "ibpdx:circuit_case"
+				consume_items: true
+			}]
+			icon: "mekanism:chemical_crystallizer"
+			id: "2BBFB0781C11AC31"
+			x: -5.0d
+			y: 1.5d
+			title: "Chemical Crystallizer"
+			rewards: [
+				{
+					id: "28FB39C8D08C65C5"
+					type: "item"
+					team_reward: true
+					item: "mekanism:chemical_crystallizer"
+				}
+				{
+					id: "18830AA96453B5B3"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 2BBFB0781C11AC31"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 16L
+				consume_items: true
+				id: "0B9EEB8138464EE5"
+				item: "ibpdx:bioenriched_circuit"
+			}]
+			icon: "ftbic:quarry"
+			id: "43628363F5B024E8"
+			x: -19.0d
+			y: 3.0d
+			title: "Quarry"
+			rewards: [
+				{
+					id: "57ADD111DAB1D811"
+					type: "item"
+					team_reward: true
+					item: "ftbic:quarry"
+				}
+				{
+					id: "01D9B3633D91C447"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 43628363F5B024E8"
+					player_command: false
+				}
+			]
+			dependencies: ["336DBDEE324849F1"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				consume_items: true
+				id: "303727AEA24A2144"
+				item: "ibpdx:bioenriched_circuit"
+			}]
+			icon: "ftbic:extruder"
+			id: "7884587DAAC47559"
+			x: -17.0d
+			y: 3.0d
+			title: "Extruder"
+			rewards: [
+				{
+					id: "6465EA2A81F435FF"
+					type: "item"
+					team_reward: true
+					item: "ftbic:extruder"
+				}
+				{
+					id: "0B6FDCB6AD8B1114"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 7884587DAAC47559"
+					player_command: false
+				}
+			]
+			dependencies: ["336DBDEE324849F1"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 64L
+				consume_items: true
+				id: "1C6717D118C0493A"
+				item: "ibpdx:wispy_petal"
+			}]
+			icon: "mysticalagriculture:iron_seeds"
+			id: "5AB822CD455F6C69"
+			x: 1.0d
+			y: -1.5d
+			title: "Iron Seeds"
+			rewards: [
+				{
+					id: "12D4036B3297AF26"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:iron_seeds"
+				}
+				{
+					id: "20190D7F1743C628"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5AB822CD455F6C69"
+					player_command: false
+				}
+			]
+			dependencies: ["6782F29B7A2B2900"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 64L
+				consume_items: true
+				id: "7469EA5D22E3464E"
+				item: { id: "ibpdx:wispy_petal", Count: 64b }
+			}]
+			icon: "mysticalagriculture:gold_seeds"
+			id: "7071A7B92C291DF7"
+			x: 3.0d
+			y: -1.5d
+			title: "Gold Seeds"
+			rewards: [
+				{
+					id: "1320877CC86213D1"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:gold_seeds"
+				}
+				{
+					id: "6628B34ECCDDDFEA"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 7071A7B92C291DF7"
+					player_command: false
+				}
+			]
+			dependencies: ["6782F29B7A2B2900"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 64L
+				consume_items: true
+				id: "38751A1B5C22CF44"
+				item: "ibpdx:wispy_petal"
+			}]
+			icon: "mysticalagriculture:copper_seeds"
+			id: "47A83F9624AC06FB"
+			x: 1.0d
+			y: 0.0d
+			title: "Copper Seeds"
+			rewards: [
+				{
+					id: "39A9AC82B364FFAA"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:copper_seeds"
+				}
+				{
+					id: "21C8673ED9F05F6D"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 47A83F9624AC06FB"
+					player_command: false
+				}
+			]
+			dependencies: ["6782F29B7A2B2900"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 64L
+				consume_items: true
+				id: "64BF8460B4641EE1"
+				item: "ibpdx:wispy_petal"
+			}]
+			icon: "mysticalagriculture:tin_seeds"
+			id: "7CAF44333452291E"
+			x: 3.0d
+			y: 0.0d
+			title: "Tin Seeds"
+			rewards: [
+				{
+					id: "45894F5DA3755D12"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:tin_seeds"
+				}
+				{
+					id: "3497FD22F93966B4"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 7CAF44333452291E"
+					player_command: false
+				}
+			]
+			dependencies: ["6782F29B7A2B2900"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 64L
+				consume_items: true
+				id: "5B6E6E089CB77B38"
+				item: "ibpdx:wispy_petal"
+			}]
+			icon: "mysticalagriculture:lead_seeds"
+			id: "7F8FF802CC9E9AF0"
+			x: 1.0d
+			y: 1.5d
+			title: "Lead Seeds"
+			rewards: [
+				{
+					id: "13EB40B98A30EE0C"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:lead_seeds"
+				}
+				{
+					id: "6319E771030E308E"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 7F8FF802CC9E9AF0"
+					player_command: false
+				}
+			]
+			dependencies: ["6782F29B7A2B2900"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 64L
+				consume_items: true
+				id: "1E83A3CC0E549A4B"
+				item: "ibpdx:wispy_petal"
+			}]
+			icon: "mysticalagriculture:silver_seeds"
+			id: "05F2B117944750EB"
+			x: 3.0d
+			y: 1.5d
+			title: "Silver Seeds"
+			rewards: [
+				{
+					id: "0E68ADDB136F25CD"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:silver_seeds"
+				}
+				{
+					id: "5303604F70CDE05E"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 05F2B117944750EB"
+					player_command: false
+				}
+			]
+			dependencies: ["6782F29B7A2B2900"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 16L
+				consume_items: true
+				id: "38CB3CC23FB73FE6"
+				item: "ibpdx:wispy_petal"
+			}]
+			icon: "mysticalagriculture:prudentium_essence"
+			id: "5FE1C6CDDF620E6D"
+			x: 1.0d
+			y: 3.0d
+			title: "Prudentium Essence"
+			rewards: [
+				{
+					id: "5DAB71DF35C26D8A"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:prudentium_essence"
+				}
+				{
+					id: "71F5FAF14549C4AA"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5FE1C6CDDF620E6D"
+					player_command: false
+				}
+			]
+			dependencies: ["6782F29B7A2B2900"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "31AF1A8C0887F10D"
+				type: "item"
+				item: "ibpdx:circuit_case"
+				consume_items: true
+			}]
+			icon: {
+				id: "mekanism:basic_chemical_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						securityMode: 0
+						owner: [I;
+							-921288654
+							1861829095
+							-2014526870
+							864766145
+						]
+						Items: [ ]
+						InfusionTanks: [ ]
+						componentEjector: {
+							color2: -1
+							color0: -1
+							color1: -1
+							strictInput: 0b
+							color5: -1
+							color3: -1
+							color4: -1
+						}
+						SlurryTanks: [ ]
+						PigmentTanks: [ ]
+						componentConfig: {
+							eject4: 1b
+							config3: {
+								side3: 1
+								side4: 1
+								side5: 1
+								side0: 4
+								side1: 1
+								side2: 1
+							}
+							eject5: 1b
+							eject6: 0b
+							config4: {
+								side3: 1
+								side4: 1
+								side5: 1
+								side0: 4
+								side1: 1
+								side2: 1
+							}
+							config2: {
+								side3: 1
+								side4: 1
+								side5: 1
+								side0: 4
+								side1: 1
+								side2: 1
+							}
+							config5: {
+								side3: 1
+								side4: 1
+								side5: 1
+								side0: 4
+								side1: 1
+								side2: 1
+							}
+							config6: {
+								side3: 1
+								side4: 1
+								side5: 1
+								side0: 4
+								side1: 1
+								side2: 1
+							}
+							eject3: 1b
+							eject2: 1b
+						}
+						dumping: 0
+						controlType: 0
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								gasName: "mekanism:fissile_fuel"
+								amount: 64000L
+							}
+						}]
+					}
+				}
+			}
+			id: "3D5104A72611F56A"
+			x: -7.0d
+			y: 3.0d
+			title: "Fissile Fuel Tank"
+			rewards: [
+				{
+					id: "7487B930210DEA15"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "mekanism:basic_chemical_tank"
+						Count: 1b
+						tag: {
+							mekData: {
+								securityMode: 0
+								owner: [I;
+									-921288654
+									1861829095
+									-2014526870
+									864766145
+								]
+								Items: [ ]
+								InfusionTanks: [ ]
+								componentEjector: {
+									color2: -1
+									color0: -1
+									color1: -1
+									strictInput: 0b
+									color5: -1
+									color3: -1
+									color4: -1
+								}
+								SlurryTanks: [ ]
+								PigmentTanks: [ ]
+								componentConfig: {
+									eject4: 1b
+									config3: {
+										side3: 1
+										side4: 1
+										side5: 1
+										side0: 4
+										side1: 1
+										side2: 1
+									}
+									eject5: 1b
+									eject6: 0b
+									config4: {
+										side3: 1
+										side4: 1
+										side5: 1
+										side0: 4
+										side1: 1
+										side2: 1
+									}
+									config2: {
+										side3: 1
+										side4: 1
+										side5: 1
+										side0: 4
+										side1: 1
+										side2: 1
+									}
+									config5: {
+										side3: 1
+										side4: 1
+										side5: 1
+										side0: 4
+										side1: 1
+										side2: 1
+									}
+									config6: {
+										side3: 1
+										side4: 1
+										side5: 1
+										side0: 4
+										side1: 1
+										side2: 1
+									}
+									eject3: 1b
+									eject2: 1b
+								}
+								controlType: 0
+								dumping: 0
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										gasName: "mekanism:fissile_fuel"
+										amount: 64000L
+									}
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "59A92D1562EB28B5"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 3D5104A72611F56A"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "53A9A698A96A279A"
+				type: "item"
+				item: "ibpdx:circuit_case"
+				consume_items: true
+			}]
+			icon: "mekanism:teleporter"
+			id: "118BEEE6F3EEE4D3"
+			x: -5.0d
+			y: 3.0d
+			title: "Teleporter"
+			rewards: [
+				{
+					id: "3DE2EC29616EFA85"
+					type: "item"
+					team_reward: true
+					item: "mekanism:teleporter"
+				}
+				{
+					type: "item"
+					count: 9
+					team_reward: true
+					id: "2ADAB9A65B65D936"
+					item: "mekanism:teleporter_frame"
+				}
+				{
+					id: "293DBB1195B45C6F"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 118BEEE6F3EEE4D3"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "524835DA28141838"
+				type: "item"
+				item: "ibpdx:circuit_case"
+				consume_items: true
+			}]
+			icon: "mekanism:basic_tier_installer"
+			id: "1831CB1167832E3B"
+			x: -7.0d
+			y: 4.5d
+			title: "Basic Tier Installer"
+			rewards: [
+				{
+					id: "02B259C6E1A17B0C"
+					type: "item"
+					team_reward: true
+					item: "mekanism:basic_tier_installer"
+				}
+				{
+					id: "435DAFBC5838F0F3"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 1831CB1167832E3B"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 2L
+				consume_items: true
+				id: "31820499CFBE059D"
+				item: "ibpdx:circuit_case"
+			}]
+			icon: "mekanism:advanced_tier_installer"
+			id: "7FA36D5AF0C00772"
+			x: -5.0d
+			y: 4.5d
+			title: "Advanced Tier Installer"
+			rewards: [
+				{
+					id: "79A69715AC0B7F06"
+					type: "item"
+					team_reward: true
+					item: "mekanism:advanced_tier_installer"
+				}
+				{
+					id: "694733F0A75DCF82"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 7FA36D5AF0C00772"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 4L
+				consume_items: true
+				id: "71476DC8AA084912"
+				item: "ibpdx:circuit_case"
+			}]
+			icon: "mekanism:elite_tier_installer"
+			id: "0EE0F7DA7E5DF9D0"
+			x: -7.0d
+			y: 6.0d
+			title: "Elite Tier Installer"
+			rewards: [
+				{
+					id: "68097AD00138B508"
+					type: "item"
+					team_reward: true
+					item: "mekanism:elite_tier_installer"
+				}
+				{
+					id: "272929C56B033C7F"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 0EE0F7DA7E5DF9D0"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 8L
+				consume_items: true
+				id: "53BE600CF3780442"
+				item: "ibpdx:circuit_case"
+			}]
+			icon: "mekanism:ultimate_tier_installer"
+			id: "0C215F2FB776E8FD"
+			x: -5.0d
+			y: 6.0d
+			title: "Ultimate Tier Installer"
+			rewards: [
+				{
+					id: "76354BA4D792586E"
+					type: "item"
+					team_reward: true
+					item: "mekanism:ultimate_tier_installer"
+				}
+				{
+					id: "48F3E827C74392AE"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 0C215F2FB776E8FD"
+					player_command: false
+				}
+			]
+			dependencies: ["5107CBE99F5872EF"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 4L
+				consume_items: true
+				id: "25A63BF3CA4A2418"
+				item: "ibpdx:life_infused_cooler"
+			}]
+			icon: "bloodmagic:masterritualstone"
+			id: "1797FDABEF9D0D16"
+			x: 5.0d
+			y: 1.5d
+			title: "Master Ritual Stone"
+			rewards: [
+				{
+					id: "145DE869D35446DE"
+					type: "item"
+					team_reward: true
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "4FE1A63EB6B23972"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 1797FDABEF9D0D16"
+					player_command: false
+				}
+			]
+			dependencies: ["762B7E44A9D8F225"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "71C46356404065C0"
+				type: "item"
+				item: "ibpdx:resonated_plated_growth_lens"
+				consume_items: true
+			}]
+			icon: "comforts:hammock_white"
+			id: "38851F85A5D1AAF1"
+			x: -3.0d
+			y: 3.0d
+			title: "Hammock"
+			rewards: [
+				{
+					id: "0CC8285913AB4E21"
+					type: "item"
+					item: "comforts:hammock_white"
+				}
+				{
+					id: "3A179085132B49F9"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 38851F85A5D1AAF1"
+					player_command: false
+				}
+			]
+			dependencies: ["6658F0F79D033DFF"]
+			hide_dependency_lines: true
+		}
+	]
+}

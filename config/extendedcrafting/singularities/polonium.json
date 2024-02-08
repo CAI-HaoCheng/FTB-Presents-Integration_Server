@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.polonium",
+  "colors": [
+    "4aedd9",
+    "20c5b5"
+  ],
+  "ingredient": {
+    "item": "chemlib:element_polonium"
+  }
+}

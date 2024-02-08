@@ -1,0 +1,906 @@
+{
+	default_hide_dependency_lines: false
+	group: "3838AB5A3188522F"
+	id: "03F0053F5F6AFBAC"
+	filename: "automation_station"
+	default_quest_shape: ""
+	icon: "industrialforegoing:machine_frame_advanced"
+	title: "Automation Station"
+	order_index: 4
+	quests: [
+		{
+			tasks: [{
+				id: "317ADC5042E199CA"
+				type: "item"
+				item: "industrialforegoing:plant_sower"
+			}]
+			description: [
+				"Seedy Seed Boy"
+				""
+				"Grassoline's burning in"
+				"Seedy Seed Boy"
+				"As fast as I can breed"
+				"Seedy Seed Boy"
+				"Every night and day"
+				"Wind is on my space"
+				""
+				"The &bPlant Sower&r plants seeds, saplings, and crops."
+				""
+				"I guess you don't really breed seeds anymore without &eAgricraft&e, huh?"
+			]
+			id: "3124E37676006FD3"
+			x: -8.0d
+			y: -7.0d
+			title: "Seedy Seed Boy"
+			rewards: [{
+				id: "1279F457A07DE7CD"
+				type: "item"
+				team_reward: true
+				item: "industrialforegoing:plant_sower"
+			}]
+			dependencies: ["235DB436082A44A6"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "6412C1045834F1D3"
+				type: "item"
+				item: "industrialforegoing:plant_gatherer"
+			}]
+			description: ["The &bPlant Gatherer&r harvests trees and crops."]
+			id: "3AC819DC30F417F5"
+			x: -8.0d
+			y: -5.5d
+			title: "Harvest Block"
+			rewards: [{
+				id: "7F2AD7CC7447D174"
+				type: "item"
+				team_reward: true
+				item: "industrialforegoing:plant_gatherer"
+			}]
+			dependencies: ["235DB436082A44A6"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "5AF5D237205D44E7"
+				type: "item"
+				item: "industrialforegoing:animal_rancher"
+			}]
+			description: ["The &bAnimal Rancher&r milks cows, shears sheep, and other related animal harvestings."]
+			id: "7E9E6F76C1A91639"
+			x: -4.5d
+			y: -5.5d
+			title: "Animal Farm"
+			rewards: [{
+				type: "item"
+				count: 16
+				team_reward: true
+				id: "4EEBA7D3D6974DA7"
+				item: "minecraft:leather"
+			}]
+			dependencies: ["798E5A73F1F60454"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "2A96C603E21EF44C"
+				type: "item"
+				item: "industrialforegoing:animal_baby_separator"
+			}]
+			description: ["The &bAnimal Separator&r splits the young from the mature."]
+			id: "2FF972EAAA6A446F"
+			x: -1.5d
+			y: -2.5d
+			title: "Animal or Manimal?"
+			dependencies: ["603E749714219178"]
+			optional: true
+		}
+		{
+			size: 1.5d
+			description: [
+				"An introductory automation-based machine frame."
+				""
+				"Note that not all machines are listed, as you might not want to use all of them."
+			]
+			id: "235DB436082A44A6"
+			x: -8.0d
+			y: -4.0d
+			shape: "pentagon"
+			title: "Pitiful but Powerful"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "7C51075D7CBF06C0"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			dependencies: ["529414CD46D51846"]
+			tasks: [{
+				id: "6061D8748575036F"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			size: 1.5d
+			description: ["Middle-tier frame for medium-complexity machines."]
+			id: "798E5A73F1F60454"
+			x: -4.5d
+			y: -4.0d
+			shape: "pentagon"
+			title: "It's Quite Simple"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "360D22F744CA43FB"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+			dependencies: [
+				"235DB436082A44A6"
+				"709C80BDE255ABD7"
+			]
+			tasks: [{
+				id: "665687928783B2DD"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		}
+		{
+			size: 1.5d
+			description: ["A top-tier machine frame for high-end machines. Typically features Potion Crystals in recipes."]
+			id: "603E749714219178"
+			x: -1.5d
+			y: -4.0d
+			shape: "pentagon"
+			title: "Automatic Advancement"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "3550E7251A899D34"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			dependencies: [
+				"798E5A73F1F60454"
+				"3F253C572189EBDD"
+			]
+			tasks: [{
+				id: "6DE7DD237608C805"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			tasks: [{
+				id: "21F0992CC0C89003"
+				type: "item"
+				item: "industrialforegoing:sewer"
+			}]
+			description: ["Sewage is a passively obtained animal drop that can be used for crop fertilizer or as fuel in the Compression Dynamo."]
+			id: "1002E848F892E4F1"
+			x: -8.0d
+			y: -2.5d
+			rewards: [{
+				id: "0899AE2CCC37E990"
+				type: "item"
+				team_reward: true
+				item: "industrialforegoing:sewer"
+			}]
+			dependencies: ["235DB436082A44A6"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "6B367A8617AE89B6"
+				type: "item"
+				item: "industrialforegoing:sewage_composter"
+			}]
+			description: ["Creates Fertilizer from Sewage."]
+			id: "4AD6948F9A9D1FC9"
+			x: -8.0d
+			y: -1.0d
+			rewards: [{
+				id: "0D100706104154DD"
+				type: "item"
+				team_reward: true
+				item: "industrialforegoing:sewage_composter"
+			}]
+			dependencies: ["1002E848F892E4F1"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "2524073B9EDE0D74"
+				type: "item"
+				item: "industrialforegoing:mechanical_dirt"
+			}]
+			description: ["&bMechanical Dirt&r is a fairly efficient method of spawning mobs. You know, in case you don't like the other methods of farming mob drops."]
+			id: "3A57BB842D9C36F6"
+			x: -1.5d
+			y: -5.5d
+			title: "Corrupt Machine"
+			rewards: [{
+				type: "item"
+				count: 8
+				team_reward: true
+				id: "2A7C75FE17F081E5"
+				item: "industrialforegoing:mechanical_dirt"
+			}]
+			dependencies: ["603E749714219178"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "13A462A7B722C646"
+				type: "item"
+				item: "industrialforegoing:animal_feeder"
+			}]
+			description: ["The &bAnimal Feeder&r auto-feeds animals."]
+			id: "51EDEEEEEBFC7ACE"
+			x: -4.5d
+			y: -2.5d
+			title: "Lunchtime"
+			rewards: [{
+				type: "item"
+				count: 128
+				team_reward: true
+				id: "698B4208C0580892"
+				item: "minecraft:wheat"
+			}]
+			dependencies: ["798E5A73F1F60454"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "1E261BD8C3595AB7"
+				type: "item"
+				item: "xnet:controller"
+			}]
+			description: [
+				"The &bController&r is an extremely useful tool for handling advanced automation logistics."
+				""
+				"In layman's terms, you can set precise amounts of what items/fluids/energy you want and where it is going."
+				""
+				"This is especially useful if you want to rate-limit recipes for fluids or in-world operations."
+			]
+			id: "52FF7BCDD59E873F"
+			x: -11.0d
+			y: -7.0d
+			title: "XNet.exe, Transmit!"
+			rewards: [
+				{
+					id: "46B49BECB2CA14A1"
+					type: "item"
+					team_reward: true
+					item: "xnet:advanced_connector_blue"
+				}
+				{
+					id: "5EF82B6B60879ECA"
+					type: "item"
+					team_reward: true
+					item: "xnet:netcable_blue"
+				}
+				{
+					type: "item"
+					count: 3
+					team_reward: true
+					id: "4191289EBFC70FDE"
+					item: "xnet:connector_blue"
+				}
+			]
+			dependencies: ["1730BF2DEE0D057A"]
+		}
+		{
+			tasks: [{
+				id: "253F0479D2550F18"
+				type: "item"
+				item: "industrialforegoing:fluid_collector"
+			}]
+			description: ["The &bFluid Collector&r picks up fluids from the world without the drawback the IE pump has where it replaces the fluid with cobble."]
+			id: "4C5D5039962F7B89"
+			x: -9.5d
+			y: -2.5d
+			title: "Scoop It Up With Your Hands"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "45DF6351AA29AA85"
+				item: "powah:capacitor_blazing"
+			}]
+			dependencies: ["3B56A5F6EA8F7C91"]
+		}
+		{
+			tasks: [{
+				id: "1D342A1E5D1F86F5"
+				type: "item"
+				item: "immersiveengineering:fluid_pump"
+			}]
+			description: ["Pumps of various types are all useful for removing fluids from the world."]
+			x: -9.5d
+			id: "3B56A5F6EA8F7C91"
+			disable_toast: true
+			y: -4.0d
+			title: "Pump It Up"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "21D8C71A7C611B44"
+					item: "pipez:fluid_pipe"
+				}
+				{
+					id: "6C0A41A0918EF163"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["6334684B1260186A"]
+		}
+		{
+			tasks: [{
+				id: "651FD431A21E1653"
+				type: "item"
+				item: "minecraft:dispenser"
+			}]
+			description: ["Reminder that &bDispensers&r can pick up and place fluids with buckets and redstone signals."]
+			id: "6334684B1260186A"
+			x: -9.5d
+			y: -5.5d
+			title: "It's Better Than Nothing..."
+			rewards: [
+				{
+					id: "3CA169F2199B3E51"
+					type: "item"
+					team_reward: true
+					item: "minecraft:observer"
+				}
+				{
+					id: "419F76837F796ED4"
+					type: "item"
+					team_reward: true
+					item: "minecraft:bucket"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "762CBC2024FBD359"
+				type: "item"
+				item: "industrialforegoing:fluid_placer"
+			}]
+			description: ["The &bFluid Placer&r might be useful if you want to move away from buckets for your fluid automations."]
+			id: "2D3E160A2C470771"
+			x: -9.5d
+			y: -7.0d
+			title: "Splashdown"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "2A9FA1A5BFA2E59D"
+				item: "powah:capacitor_blazing"
+			}]
+			dependencies: ["6334684B1260186A"]
+		}
+		{
+			tasks: [
+				{
+					id: "59803F0B2AFBBA5B"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "023B47CF54DA61AD"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 4L
+				}
+				{
+					id: "66CD1FA34818EC4B"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "60D87A5EBFBA6CE4"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "05283057AEF0367C"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+				}
+				{
+					id: "0624BEB017070360"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 3L
+				}
+			]
+			description: ["The Mixer is your first step into potionmaking on an industrial scale."]
+			icon: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			}
+			id: "453FB98851457BD8"
+			x: -11.0d
+			y: -5.5d
+			title: "Schmix-0"
+			rewards: [{
+				type: "item"
+				count: 32
+				team_reward: true
+				id: "37E2D1425151448C"
+				item: "minecraft:sugar"
+			}]
+			dependencies: ["5BB511A3BD53616C"]
+		}
+		{
+			tasks: [
+				{
+					id: "7DA957A6177B56D0"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 2L
+				}
+				{
+					id: "1B4D3826432E7F97"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 3L
+				}
+				{
+					id: "44B9E4BCF61092C7"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "6D4B9D5B1F37AE05"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "2FE57ABA661FF81A"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 3L
+				}
+				{
+					id: "1054823AE12A6B68"
+					type: "item"
+					item: "immersiveengineering:fluid_pump"
+				}
+			]
+			description: ["The Bottler is a method for turning your potion fluids into a usable form."]
+			icon: "minecraft:glass_bottle"
+			id: "2209F8ADDEC5B9C4"
+			x: -11.0d
+			y: -4.0d
+			title: "Fillbots"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "2AD43F9DA401494A"
+					item: "immersiveengineering:steel_scaffolding_standard"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "2B3F2274A6A82033"
+					item: "immersiveengineering:light_engineering"
+				}
+			]
+			dependencies: ["453FB98851457BD8"]
+		}
+		{
+			tasks: [{
+				id: "26768F1041D35696"
+				type: "item"
+				item: "thermal:device_potion_diffuser"
+			}]
+			description: [
+				"The &bDecoctive Diffuser&r is useful for auto-using potions. Pump a potion from an &6Alchemic Imbuer&r in here and it will automatically disperse it to entities in its range."
+				""
+				"It even accepts &eImmersive Engineering's&r potions!"
+			]
+			id: "7F1C793881E67543"
+			x: -11.0d
+			y: -2.5d
+			title: "Splash and Smash"
+			rewards: [{
+				id: "3A53FD2E4D081A3D"
+				type: "item"
+				team_reward: true
+				item: "thermal:device_potion_diffuser"
+			}]
+			dependencies: ["2209F8ADDEC5B9C4"]
+		}
+		{
+			tasks: [{
+				id: "6B30111FFF14C97A"
+				type: "item"
+				item: "rftoolsutility:sensor"
+			}]
+			description: ["The &bSensor&r can detect any block or fluid in front of it (on the \"input\" end) and emits a redstone signal on the \"output\" end if the filter matches the object. Perhaps in-world fluid crafting with redstone signals would be of use."]
+			id: "3E8BAA6BC3920AAB"
+			x: -14.0d
+			y: -7.0d
+			title: "I Sense Routing Troubles"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "0514965EF3BCEDB9"
+				item: "rftoolsutility:sensor"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "5DF793D191A8F5CC"
+				type: "checkmark"
+			}]
+			description: [
+				"Many mobs can be melted in the smeltery to obtain various fluids. You will have to heal most of them yourself if you want it to be sustainable, though."
+				""
+				"Most fluids turn back into their original mob's item drops, with a few exceptions."
+				""
+				"Particularly useful mobs include:"
+				"Witches, who produce Magical Mixture (can be processed in the Distillation Tower to make Redstone, Glowstone, and Glass)"
+				"Blazes and their derivatives can be turned back into their drops, useful for elemental fluids."
+				""
+			]
+			icon: "tconstruct:smeltery_controller"
+			id: "150A8407182B9B6E"
+			x: -12.5d
+			y: -5.5d
+			title: "Mob Juice"
+			rewards: [{
+				id: "72521280467CE471"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+			dependencies: ["7F1CCF50B6C504CA"]
+		}
+		{
+			tasks: [{
+				id: "63698D598F0093C4"
+				type: "checkmark"
+				title: "XNet Quick Start Guide"
+			}]
+			description: [
+				"Here is a quick guide to get you started with &eXNet&r."
+				""
+				"{image:ibpdx:textures/questbook/xnet_info_1.png width:200 height:200 align:1 fit:true}"
+				""
+				"Place down your items from the previous quest reward in the configuration above. Be sure to put the &6Advanced Connector&r on the &6Furnace&r. Note that colors must match, you cannot link red to blue."
+				""
+				"Give your &6Controller&r some external power and open the GUI. In box 1 on the graphic, click the main selection box until it says \"xnet.item\". Then click \"Create\" and give it a name. You have now set up an item channel on Channel 1. Next, in box 3, select the box where your input chest and Channel 1 overlap. Click \"Create\" in box 2, and a new menu opens. Change \"Ins\" to \"Ext\", meaning you are setting the chest as an \"extract\" source for items. Then, go to the furnace's box in the same column, repeat, but make sure it says \"Ins\" for \"insert\". Change the direction to \"Up\". Finally, go to the chest's box again, and in the grid at the bottom, place &6Cobblestone&r."
+				""
+				"Was that a lot? Don't worry, you will be doing the same steps again on different channels with different conditions. Put some &6Cobblestone&r in the &6Chest&r and it should move to the &6Furnace's&r top slot. Now repeat what you did, but this time with &6Coal&r. Be sure to set the input to any of the horizontal directions. Finally, make an extract channel for the furnace to extract &6Stone&r from the bottom and input it into the final chest. This should automatically smelt &6Cobblestone&r into &6Stone&r. Hopefully this provided enough for you to figure out how the &6Controller&r works. If not, a video might help."
+			]
+			dependencies: ["52FF7BCDD59E873F"]
+			id: "0C4D5D5CB914CD93"
+			y: -7.0d
+			x: -12.5d
+		}
+		{
+			tasks: [{
+				id: "2DE47D84E85BF85A"
+				type: "item"
+				item: "industrialforegoing:item_transporter_type"
+			}]
+			description: ["&bTransporters&r are a simple way to move items between two close inventories. As long as the inventories are only one block apart, you can place one on each. Right click on the \"destination\" transporter so that the nub is going inward, and items or fluids will flow. The &bWorld Transporter&r places items in the world instead."]
+			id: "0051F4274D8EA79C"
+			x: -8.0d
+			y: 0.5d
+			title: "P2P, Short but Quickly"
+			rewards: [{
+				type: "item"
+				count: 2
+				team_reward: true
+				id: "5F2A4BEA43A0C648"
+				item: "industrialforegoing:fluid_transporter_type"
+			}]
+			dependencies: ["235DB436082A44A6"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "4D1F558E2754C776"
+				type: "item"
+				item: "rftoolsutility:sequencer"
+			}]
+			description: ["The &bSequencer&r takes redstone input and sets the output based on the internal configured pattern."]
+			id: "73F2DB3068D15298"
+			x: -14.0d
+			y: -5.5d
+			title: "Easy as 1-2-3"
+			rewards: [
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "510145E4BB7E0D05"
+					item: "minecraft:redstone_torch"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "38AAD728EE4DB7C0"
+					item: "minecraft:repeater"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "4519238BFDBDC0E7"
+				type: "item"
+				item: "rftoolsutility:invchecker"
+			}]
+			description: ["If you need a way to check if an inventory has a specific number of a specifc item, the &bInventory Checker&r is the tool for the job."]
+			id: "5B59E0E39B18D158"
+			x: -14.0d
+			y: -4.0d
+			title: "Taking Inventory"
+			rewards: [{
+				id: "7C489D4F5B5F86F6"
+				type: "item"
+				team_reward: true
+				item: "ironchest:iron_chest"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [
+				{
+					id: "43F4F97AED3E1ECD"
+					type: "item"
+					item: "rftoolsutility:redstone_receiver"
+				}
+				{
+					id: "45505E7C48E078E0"
+					type: "item"
+					item: "rftoolsutility:redstone_transmitter"
+				}
+			]
+			description: ["&bRedstone Transmitters and Receivers&r will wirelessly connect to each other to send redstone signals. Useful to signal if you want an autocrafting process to stop based on your storage network."]
+			id: "79322B47C8FC68E0"
+			x: -15.5d
+			y: -2.5d
+			title: "Signals Over Infinite Distance"
+			rewards: [{
+				type: "item"
+				count: 16
+				team_reward: true
+				id: "6285AC131F40E685"
+				item: "immersiveengineering:wirecoil_redstone"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "7F7768D05438A8C2"
+				type: "item"
+				item: "rftoolsutility:timer"
+			}]
+			description: ["The &bTimer&r outputs redstone at a controllable interval. Can be disabled with a redstone input as well."]
+			id: "7D52A2CCA894167D"
+			x: -15.5d
+			y: -4.0d
+			title: "Time to Automate"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "4140A02D26187D11"
+				item: "rftoolsutility:timer"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "3F9BB42C235A0B23"
+				type: "item"
+				item: "rftoolspower:power_monitor"
+			}]
+			description: [
+				"The &bPower Monitor&r emits redstone based off of energy inside of a machine."
+				""
+				"If there is ever a time you want a particular energy range in a generator or machine, this works."
+			]
+			id: "7FB6482373D0BBC8"
+			x: -15.5d
+			y: -5.5d
+			title: "Now I've Got Your Power"
+			rewards: [{
+				id: "573602004AE1BDD2"
+				type: "item"
+				item: "powah:energy_cell_starter"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "06EC5582925977E2"
+				type: "item"
+				item: "rftoolsutility:wire"
+			}]
+			description: [
+				"The &bWire&r is simply a straight, one-way redstone line. It behaves identical to &6Redstone Dust&r, but produces less lag, and can be used in applications where connectivity is undesired."
+				""
+				"Or you could use &6Powered Rails&r and &6Observers&r for your straight wiring. Just a neat trick I came across."
+			]
+			id: "21D5ABFAFCEAC7EE"
+			x: -15.5d
+			y: -7.0d
+			title: "Redstone Reduction"
+			rewards: [{
+				type: "item"
+				count: 32
+				team_reward: true
+				id: "6524D1DB3AE5F5D2"
+				item: "rftoolsutility:wire"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "025C2F042130806D"
+				type: "item"
+				item: "industrialforegoing:potion_brewer"
+			}]
+			description: ["The &bPotion Brewer&r condenses all of that potion automation into one block."]
+			id: "597207A18183ABE9"
+			x: -1.5d
+			y: -1.0d
+			title: "Stands No More"
+			rewards: [{
+				id: "5A1B8A30B05944EC"
+				type: "item"
+				item: "industrialforegoing:potion_brewer"
+			}]
+			dependencies: ["603E749714219178"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "70B699796A1F650A"
+				type: "item"
+				item: "cyclic:dropper"
+			}]
+			description: ["Drops items, but without random falling directions, and can even place at an offset. Useful for setups inside sealed containers."]
+			id: "2B347A4F76A47D7D"
+			x: -9.5d
+			y: -1.0d
+			title: "Put It Over There"
+			rewards: [{
+				id: "79D74CB93E0DF774"
+				type: "item"
+				item: "cyclic:dropper"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "4CE766687ADAEFB4"
+				type: "item"
+				item: "cyclic:user"
+			}]
+			description: ["Uses items by right or left click. Can do many player-only interactions."]
+			id: "28A9FC6CE9A9612E"
+			x: -11.0d
+			y: -1.0d
+			title: "Clicky Buddy"
+			rewards: [{
+				id: "572BBCBB0F44EDA4"
+				type: "item"
+				item: "cyclic:user"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "38D9BA9B43004D1E"
+				type: "item"
+				item: "cyclic:collector"
+			}]
+			description: ["The Item Collector has a configurable range on top of being filterable."]
+			id: "273B0E587B5BAF16"
+			x: -12.5d
+			y: -1.0d
+			title: "Big Grabber"
+			rewards: [{
+				id: "65C3E8C40E133EFD"
+				type: "item"
+				item: "cyclic:collector"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "6D164B73FBC3ACFF"
+				type: "item"
+				item: "cyclic:breaker"
+			}]
+			description: ["Breaks blocks. Doesn't collect what it breaks or have silk touch options or anything. Toggleable to whether or not redstone affects it."]
+			id: "396F743970832EFB"
+			x: -12.5d
+			y: -2.5d
+			title: "Unblocker"
+			rewards: [{
+				id: "267937807D154360"
+				type: "item"
+				item: "cyclic:breaker"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "3902D438C6170C8E"
+				type: "item"
+				item: "cyclic:placer"
+			}]
+			description: ["Places blocks. Needn't say more. Can toggle between constnat action and redstone control."]
+			id: "6DE36FDBDF786495"
+			x: -12.5d
+			y: -4.0d
+			title: "Blocker"
+			rewards: [{
+				id: "74142D7A46B99EA3"
+				type: "item"
+				item: "cyclic:placer"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [
+				{
+					id: "20A8FAF91B8BE854"
+					type: "item"
+					item: "immersiveengineering:connector_redstone"
+				}
+				{
+					id: "204148AF85AE25FC"
+					type: "item"
+					item: "immersiveengineering:wirecoil_redstone"
+				}
+			]
+			description: ["&bRedstone Wire&r is an extremely useful tool for managing redstone. It operates using colored channels that all carry a separate signal along the wire network. Use an &6Engineer's Screwdriver&r to change the channel or whether a connector is an input or output."]
+			icon: "immersiveengineering:wirecoil_redstone"
+			id: "050194A7A03DE51C"
+			x: -14.0d
+			y: -2.5d
+			title: "Wire You Not Using These?"
+			rewards: [{
+				id: "752A87595708E260"
+				type: "item"
+				item: "immersiveengineering:connector_redstone"
+				count: 4
+			}]
+			dependencies: ["00447C8DC955FE54"]
+		}
+	]
+}

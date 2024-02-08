@@ -1,0 +1,13 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = ["draconium"]
+
+[recipes]
+	#The materials that should not have crushing recipes added.
+	toDustMaterialBlacklist = ["draconium"]
+	#The materials that should not have enriching recipes added.
+	toCrystalMaterialBlacklist = ["draconium"]
+	#The materials that should not have combining recipes added.
+	toOreMaterialBlacklist = ["draconium"]
+

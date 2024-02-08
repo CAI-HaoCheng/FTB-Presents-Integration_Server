@@ -1,0 +1,115 @@
+{
+  "profession": "immersiveengineering:engineer",
+  "removeOtherTrades": true,
+    "trades": [
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:treated_wood_horizontal",
+        "amount": 8,
+        "priceModifier": 0,
+        "enchantments": [
+        ]
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+        {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+        ]
+      },
+      "request": {
+        "itemKey": "immersiveengineering:stick_iron",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:steel_scaffolding_standard",
+        "amount": 3,
+        "priceModifier": 0,
+        "enchantments": [
+        ]
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:alu_scaffolding_standard",
+        "amount": 5,
+        "priceModifier": 0,
+        "enchantments": [
+        ]
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:sheetmetal_colored_white",
+        "amount": 8,
+        "priceModifier": 0,
+        "enchantments": [
+        ]
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+        ]
+      },
+      "request": {
+        "itemKey": "immersiveengineering:conveyor_basic",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 3
+    }
+    
+  ]
+}

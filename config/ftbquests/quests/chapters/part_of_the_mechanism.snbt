@@ -1,0 +1,1273 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "1AF3E6ACA35FDADE"
+	filename: "part_of_the_mechanism"
+	default_quest_shape: ""
+	icon: "mekanism:configurator"
+	title: "Part Of The Mechanism"
+	order_index: 8
+	quests: [
+		{
+			size: 2.0d
+			description: ["The &bSteel Casing&r does the exact same thing as any other case block. Only it's steel."]
+			id: "3F253C572189EBDD"
+			x: -2.5d
+			y: -9.5d
+			shape: "pentagon"
+			title: "Steel Making Cases"
+			rewards: [{
+				type: "item"
+				count: 2
+				team_reward: true
+				id: "0DD5BE7D4006779D"
+				item: "ftbic:iridium_alloy"
+			}]
+			dependencies: ["18EDCBEF9DD689DA"]
+			tasks: [{
+				id: "7D00C39577EEFC9C"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			tasks: [{
+				id: "5D07BE1B0975A78F"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			description: ["The &bMetallurgic Infuser&r is useful for creating &6Mekanism's Alloys&r, which are used in most of &eMekanism's&r machines and their upgrades."]
+			x: 0.0d
+			id: "67F710FD61796B92"
+			y: -9.5d
+			shape: "hexagon"
+			title: "Infusion Confusion"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "61091C457D81F488"
+					item: "mekanism:alloy_infused"
+				}
+				{
+					id: "52B072C6E7A012CC"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+			]
+			dependencies: ["3F253C572189EBDD"]
+		}
+		{
+			tasks: [{
+				id: "3171941FAB331C07"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+			description: ["The &bEnergized Smelter&r is a good powered smelter that can both be fast and do up to 7 operations at once."]
+			id: "2B8D98E409F8BE6A"
+			x: 0.0d
+			y: -11.5d
+			title: "Energize and Smelterize"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "4D4465DE7D5287C4"
+					item: "mekanism:dust_osmium"
+				}
+				{
+					id: "428A2AE288FCD9D8"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+			]
+			dependencies: ["67F710FD61796B92"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "3C89090301C658B7"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			description: ["Other than its factory utility, the &bEnrichment Chamber&r is not unique in its ore processing. It is, however, able to enrich components for the &6Metallurgic Infuser&r octupling their strength. In addition, it will be necessary for the &eMekanism&r processing chain."]
+			id: "7A9F15DDA99431C8"
+			x: 2.0d
+			y: -9.5d
+			title: "Extra Enrichment"
+			rewards: [
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "202837ACDB313704"
+					item: "mekanism:enriched_carbon"
+				}
+				{
+					id: "0E68A6EDD69225A0"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+			]
+			dependencies: ["67F710FD61796B92"]
+		}
+		{
+			tasks: [{
+				id: "0DE01C471382E619"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+			description: ["&bInstallers&r upgrade your machines to factories. That simple. Basic tier gives 3 slots."]
+			id: "018DCC5C5A7A4511"
+			x: 0.0d
+			y: -8.0d
+			title: "My Factory Reloaded"
+			rewards: [{
+				id: "514259F5A74CDCF6"
+				type: "item"
+				team_reward: true
+				item: "mekanism:basic_tier_installer"
+			}]
+			dependencies: ["67F710FD61796B92"]
+		}
+		{
+			tasks: [{
+				id: "1DBD9D6D0808049B"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+			description: ["Advanced Factories have 5 slots."]
+			id: "30A61769E8CFEC6D"
+			x: 0.0d
+			y: -6.5d
+			title: "Factory Advance SP"
+			rewards: [{
+				id: "07EEA6E01AF95A13"
+				type: "item"
+				team_reward: true
+				item: "mekanism:advanced_tier_installer"
+			}]
+			dependencies: ["018DCC5C5A7A4511"]
+		}
+		{
+			tasks: [{
+				id: "77808D9D486B2805"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+			description: ["Elite Factories have 7 slots."]
+			id: "2211FE12DD3B5DFF"
+			x: 0.0d
+			y: -5.0d
+			title: "The Elite Battle Factory"
+			rewards: [{
+				id: "016AA2718113512F"
+				type: "item"
+				team_reward: true
+				item: "mekanism:elite_tier_installer"
+			}]
+			dependencies: ["30A61769E8CFEC6D"]
+		}
+		{
+			size: 1.5d
+			description: [
+				"&5Welcome to the Remix!"
+				""
+				"&bMekanical Remix&r is slightly different from the other ones. Instead of a direct reward, the Concentrated Nital you've been using will be an assistant in the simplified processing of other items if you so desire."
+			]
+			id: "53CE64D64736807F"
+			x: 14.0d
+			y: -11.5d
+			shape: "octagon"
+			title: "Mekanical Remix"
+			rewards: [
+				{
+					id: "65674FB3AB056E77"
+					type: "item"
+					team_reward: true
+					item: "draconicevolution:draconium_chest"
+				}
+				{
+					id: "58CB1A5003DE6627"
+					type: "item"
+					team_reward: true
+					item: "pipez:infinity_upgrade"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "5AF337E90744EB5F"
+					item: "mysticalagriculture:nether_star_seeds"
+				}
+				{
+					id: "61D12B33ACE3F56A"
+					type: "item"
+					team_reward: true
+					item: "mysticalagradditions:nether_star_crux"
+				}
+				{
+					id: "31365D8A87690A65"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			dependencies: ["044A811B78C23F21"]
+			tasks: [{
+				type: "item"
+				count: 500L
+				consume_items: true
+				id: "51B9A75DED81D363"
+				item: "ibpdx:circuit_case"
+			}]
+		}
+		{
+			tasks: [{
+				id: "3A99E6B1F786379A"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			description: ["The &bElectrolytic Separator&r separates water into Hydrogen and Oxygen. Hydrogen is more commonly used as a fuel or to make fuel, while Oxygen is more useful for processing."]
+			id: "580DE03B36FF15F1"
+			x: 4.0d
+			y: -9.5d
+			title: "Scientific Splicer"
+			rewards: [
+				{
+					id: "248E82F37AA5B327"
+					type: "item"
+					team_reward: true
+					item: "mekanism:basic_chemical_tank"
+				}
+				{
+					id: "01B36164FA004B7B"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+			]
+			dependencies: ["7A9F15DDA99431C8"]
+		}
+		{
+			tasks: [{
+				id: "65F3BA20FEA7DD41"
+				type: "item"
+				item: {
+					id: "mekanism:atomic_disassembler"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			description: ["The &bAtomic Disassembler&r is an &oOmnitool&r and a melee weapon all in one! It can even hoe the ground."]
+			id: "0A831DD6C2B81311"
+			x: 2.0d
+			y: -8.0d
+			title: "Disassemble and Reassemble"
+			rewards: [
+				{
+					id: "2EA25436039C8230"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "mekanism:energy_tablet"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "1000000"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "6D0EF9968184EB1C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["67F710FD61796B92"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "7D37E70565863CB6"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "008789AC81857F85"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+					count: 2L
+				}
+				{
+					id: "6020AFF519524D9A"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+					count: 37L
+				}
+			]
+			description: ["The &bThermal Evaporation Tower&r is a complex multiblock that creates &6Brine&r from Water and some form of heat. You can pipe heat in through a valve, as well as water in and the produced Brine out. It gains heat from the environment as well, so if you have access to a hot biome, it would be beneficial to set it up there."]
+			icon: "mekanism:thermal_evaporation_controller"
+			id: "61804D092DFE9198"
+			x: 6.0d
+			y: -3.5d
+			title: "Welcome to the Salty Spitoon "
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "3AE5A8EBCBC6F975"
+					item: "mekanism:thermal_evaporation_block"
+				}
+				{
+					id: "4378ED6B645929AA"
+					type: "item"
+					team_reward: true
+					item: "mekanism:resistive_heater"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "7EECA6EB37D901BA"
+					item: "mysticalagriculture:salt_seeds"
+				}
+			]
+			dependencies: ["15F30BC6CC74DA0A"]
+		}
+		{
+			tasks: [{
+				id: "32FA5B4C7D8099B5"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+			description: ["The &bChemical Infuser&r is used to turn gaseous chemicals into other gaseous chemicals by reacting them together. Most of the products are some form of acid, mostly used for ore processing. "]
+			id: "6759DBC0CF1E21F2"
+			x: 8.0d
+			y: -3.5d
+			title: "Acid Burns"
+			rewards: [{
+				id: "2D617A9971A7121C"
+				type: "item"
+				team_reward: true
+				item: "mekanism:upgrade_muffling"
+			}]
+			dependencies: ["61804D092DFE9198"]
+		}
+		{
+			tasks: [{
+				id: "354953CAA5A4778D"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+			description: ["The &bPressurized Reaction Chamber&r, or PRC, uses &eMekanism&r gases as well as fluids and solids to create new products."]
+			id: "6A39CF1A9E6BF932"
+			x: 6.0d
+			y: -8.0d
+			title: "Purposeful Recipe Crafter"
+			rewards: [
+				{
+					id: "3CC13D48D2DA0169"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "523E223363F92970"
+					item: "ftbic:iridium_circuit"
+				}
+			]
+			dependencies: ["39CFFB6C147D0EF8"]
+		}
+		{
+			tasks: [{
+				id: "617DDDAEA6F645A9"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+			description: ["The &bSolar Neutron Activator&r is responsible for creating &6Lithium&r from Brine. It is useful for creating Tritium, to be used in &6Fusion Reactors&r."]
+			id: "089C7F036D912048"
+			x: 8.0d
+			y: -8.0d
+			title: "Neutron!"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "30E64E3F0E9DB8F2"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "570BB081C8D9698E"
+					item: "mysticalagriculture:steel_seeds"
+				}
+				{
+					id: "4204B34320702F21"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["6A39CF1A9E6BF932"]
+		}
+		{
+			tasks: [{
+				id: "1DC41A4B597473EF"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			description: ["The &bDigital Miner&r is an upgrade to your previous mining implements. It can whitelist what you want it to mine instead of just mining everything or even all ores."]
+			id: "2DD8BAB643EF4344"
+			x: 6.0d
+			y: -6.5d
+			title: "It's All Mine"
+			rewards: [
+				{
+					type: "item"
+					count: 10
+					team_reward: true
+					id: "3A48A267F841B5AF"
+					item: "ftbic:iridium_alloy"
+				}
+				{
+					id: "2B0C5D59CB4AFB7D"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_anchor"
+				}
+			]
+			dependencies: ["339867861185A852"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "3641B030AEDA5F92"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+			description: ["The &bChemical Crystallizer&r takes your ore cleansed ore slurries and converts them into crystals."]
+			id: "108B50CAB0B4C0AA"
+			x: 6.0d
+			y: -5.0d
+			title: "Crystal Crossing"
+			rewards: [
+				{
+					id: "5B286B0D36EEA14A"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+				{
+					id: "31CA3ABA5814E707"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_gas"
+				}
+				{
+					id: "05E277EC58D5A6A4"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["15F30BC6CC74DA0A"]
+		}
+		{
+			tasks: [
+				{
+					id: "2FC99FDA1CDED36C"
+					type: "item"
+					item: "mekanism:induction_port"
+					count: 2L
+				}
+				{
+					id: "514B2D3C3CF7E568"
+					type: "item"
+					item: "mekanism:basic_induction_provider"
+				}
+				{
+					id: "7246B5C68EBBFCA1"
+					type: "item"
+					item: "mekanism:basic_induction_cell"
+				}
+				{
+					id: "409A10C763DC6C4F"
+					type: "item"
+					item: "mekanism:induction_casing"
+					count: 34L
+				}
+			]
+			description: ["The &bInduction Matrix&r is a multiblock huge capacity RF storage option. That being said, they don't do well with performance, so you might not want to upscale too much."]
+			icon: "mekanism:basic_induction_cell"
+			id: "0553780B5EE3E630"
+			x: 8.0d
+			y: -9.5d
+			title: "Solve the Matrices"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "684C88297B5E25AD"
+					item: "mekanism:advanced_induction_cell"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "3DA30AE206A43FCB"
+					item: "mekanism:advanced_induction_provider"
+				}
+				{
+					id: "67F28DBAF1DB0119"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "rftoolsutility:energyplus_module"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70533F8B2465A449"
+					type: "item"
+					team_reward: true
+					item: "rftoolsbase:information_screen"
+				}
+			]
+			dependencies: ["089C7F036D912048"]
+		}
+		{
+			tasks: [{
+				id: "05E9AF0880A9B977"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+			description: ["The &bQuantum Entangoloporter&r can transport Power, Items, Fluids, Gases, and even Heat! All wirelessly between two points!"]
+			id: "721F8178011367B7"
+			x: 10.0d
+			y: -6.5d
+			title: "Quantum Transportation"
+			rewards: [
+				{
+					id: "3ACCAE48643A23D0"
+					type: "item"
+					team_reward: true
+					item: "mekanism:quantum_entangloporter"
+				}
+				{
+					id: "3A394E9FF419BD14"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["339867861185A852"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "33CDB52C5599DB6F"
+				type: "item"
+				item: "mekanism:basic_pressurized_tube"
+			}]
+			description: [
+				"Gas transportation is somewhat restrictive compared to Liquid transportation."
+				""
+				"Gas reactions are faster than liquid reactions, but liquid transport can be done in bulk much easier. Up to you, really. Also, do note that swapping between them is decently expensive."
+			]
+			id: "39CFFB6C147D0EF8"
+			x: 4.0d
+			y: -8.0d
+			title: "Tiny Gas Tube"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "4C5039974ECE0685"
+					item: "mekanism:basic_pressurized_tube"
+				}
+				{
+					id: "457EC49A240D3083"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["580DE03B36FF15F1"]
+		}
+		{
+			size: 1.25d
+			description: ["Potion Crystals are exactly what they sound like, crystallized potions."]
+			id: "339867861185A852"
+			x: 8.0d
+			y: -5.0d
+			shape: "pentagon"
+			title: "Chunks of Magic"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "04F9F4A99A76DBF4"
+					item: "mysticalagriculture:gold_seeds"
+				}
+				{
+					id: "7EA34C8046F79399"
+					type: "item"
+					item: "pamhc2foodcore:melonjellytoastitem"
+				}
+				{
+					id: "39B898FBED6BCDDF"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["108B50CAB0B4C0AA"]
+			tasks: [{
+				id: "77F500A2650D14A0"
+				type: "item"
+				item: "ibpdx:crystal_of_life"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "3BD2B3A68E179B33"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+				}
+				{
+					id: "1E8489492CD3E04C"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+				}
+			]
+			description: [
+				"&bFission Reactors&r produce a lot of steam, but can also make Nuclear Waste, which can be reprocessed into Polonium."
+				""
+				"If you do not want to make a reactor, you can simply create nuclear waste using the &6Pressurized Reaction Chamber&r."
+				""
+				"If you are worried about not having sufficient power production, there will be an option later in this chapter to circumvent the Mekanism reactors."
+			]
+			icon: "mekanismgenerators:fission_fuel_assembly"
+			id: "0F722778DCE35AB1"
+			x: 11.5d
+			y: -5.0d
+			rewards: [
+				{
+					type: "item"
+					count: 3
+					team_reward: true
+					id: "4096558277804BBE"
+					item: "mekanismgenerators:fission_fuel_assembly"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "7C11CE98C4CE254E"
+					item: "mekanismgenerators:fission_reactor_casing"
+				}
+			]
+			dependencies: ["5AB8958D3FA3FD79"]
+		}
+		{
+			tasks: [
+				{
+					id: "02BAC1F9D83AC8F4"
+					type: "item"
+					item: "masterfulmachinery:advanced_chemical_plant_controller"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "4D752AA70EDC9917"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+				}
+				{
+					type: "item"
+					count: 12L
+					consume_items: true
+					id: "2347AD6FE1ABA006"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:fences/steel"
+						}
+					}
+					title: "Any #forge:fences/steel"
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "77C8E182B7A207D7"
+					item: "masterfulmachinery:advanced_chemical_plant_fluid_port_fluids_output"
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "04869B3F8C0DC47D"
+					item: "ibpdx:stainless_steel_casing"
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "6233A74FC86FEBF0"
+					item: "ibpdx:blockcasing_steel"
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "447C2CBCD4ED4F1F"
+					item: "masterfulmachinery:advanced_chemical_plant_fluid_port_fluids_input"
+				}
+				{
+					id: "2F792A74D402EF43"
+					type: "item"
+					item: "masterfulmachinery:advanced_chemical_plant_energy_port_energy_input"
+					consume_items: true
+				}
+			]
+			description: [
+				"The &bAdvanced Chemical Plant Controller&r is a chemical reactor that uses liquid-form ingredients, as opposed to gases for the same recipes."
+				""
+				"Whether or not you want to make this will depend on if you want higher throughput with fluids or to just use your gas machinery which is easier to work with and takes less space."
+			]
+			id: "12BB4A2563D6D15F"
+			icon: "masterfulmachinery:advanced_chemical_plant_controller"
+			x: 4.0d
+			y: -3.5d
+			title: "CSTR or Batch?"
+			rewards: [
+				{
+					id: "6F411F4322B64DDB"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "advanced_chemical_plant"
+							structureName: "config/capsule/rewards/advanced_chemical_plant"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 5
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "3B16F7ACA69C6EBE"
+					item: "mysticalagriculture:diamond_seeds"
+				}
+				{
+					id: "7C8713F66C9681E5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["15F30BC6CC74DA0A"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "746E0504A45A5E46"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+			description: ["Switches between gases and liquids."]
+			id: "15F30BC6CC74DA0A"
+			x: 4.0d
+			y: -5.0d
+			title: "Reduce the Pressure"
+			rewards: [
+				{
+					id: "3EE07E557EFAE13D"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+				{
+					id: "28B08DC43B8798CC"
+					type: "item"
+					team_reward: true
+					item: "cookingforblockheads:sink"
+				}
+			]
+			dependencies: ["39CFFB6C147D0EF8"]
+		}
+		{
+			tasks: [{
+				id: "229DEEB62F726FB4"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+			description: ["&bPolonium&r is a lategame crafting material good for making use of nuclear waste."]
+			x: 11.5d
+			id: "6563F73606F8C62D"
+			y: -8.0d
+			shape: "circle"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "3790C9970700A779"
+					item: "mysticalagriculture:supremium_essence"
+				}
+				{
+					id: "6152F486DD7FFBD2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: [
+				"0F722778DCE35AB1"
+				"089C7F036D912048"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "2EB36D33B2B984A4"
+					type: "item"
+					item: "mekanism:sps_casing"
+					count: 60L
+				}
+				{
+					id: "348374ADDBB4D03E"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 123L
+				}
+				{
+					id: "0CEA15C89CA0A92A"
+					type: "item"
+					item: "mekanism:sps_port"
+					count: 3L
+				}
+				{
+					id: "313B0B0B820D85B9"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+				}
+			]
+			description: ["The &bSupercritical Phase Shifter&r is a multiblock capable of creating antimatter, which can transmute materials into other materials."]
+			icon: "mekanism:sps_casing"
+			id: "268656F8FDEAA9B8"
+			x: 14.0d
+			y: -8.0d
+			title: "Critical Machinery"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "30D73EBB53677BFD"
+					item: "mysticalagriculture:magma_cube_seeds"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "699DCED13C837C31"
+					item: "mekanism:pellet_polonium"
+				}
+				{
+					id: "1AA914ADFE4EE9B9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "012E80534F030182"
+					type: "item"
+					item: "pamhc2foodcore:noodlesoupitem"
+				}
+			]
+			dependencies: ["6563F73606F8C62D"]
+		}
+		{
+			size: 2.0d
+			description: [
+				"To get &6Draconium&r in large quantities, you will need to process it from Manyullyn."
+				""
+				"The &bNucleosynthesizer&r also can max out various types of upgrade augments!"
+			]
+			x: 17.0d
+			id: "3A8ABC877E3FE656"
+			y: -8.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "2603B51B514DBA5D"
+					item: "mysticalagriculture:netherite_seeds"
+				}
+				{
+					id: "76764C5602BCAB0E"
+					type: "xp"
+					team_reward: true
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "6C67221B70C790C4"
+					item: "mekanism:module_energy_unit"
+				}
+				{
+					id: "2B7BB0B643C10686"
+					type: "item"
+					team_reward: true
+					item: "mekanism:module_radiation_shielding_unit"
+				}
+			]
+			dependencies: ["268656F8FDEAA9B8"]
+			tasks: [{
+				id: "0FB1EFAFC3114B5B"
+				type: "item"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+			}]
+		}
+		{
+			tasks: [{
+				id: "0A647B3187AA1238"
+				type: "item"
+				item: "mekanism:fluorite_gem"
+			}]
+			description: ["&bFluorite&r is a resource used in production of &6Fissile Fuel&r."]
+			id: "5AB8958D3FA3FD79"
+			x: 10.0d
+			y: -5.0d
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "2C759D77BB0AC248"
+					item: "mysticalagriculture:imperium_essence"
+				}
+				{
+					id: "113AC886D859DCE8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: [
+				"339867861185A852"
+				"3F4A4B9F578858F8"
+			]
+		}
+		{
+			tasks: [{
+				id: "1650576E0998A352"
+				type: "item"
+				item: "mekanism:yellow_cake_uranium"
+			}]
+			description: ["&bYellowcake&r is the first step in turning Uranium into Fissile Fuel."]
+			id: "3F4A4B9F578858F8"
+			x: 10.0d
+			y: -3.5d
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "3C3DF1BA2FC69976"
+					item: "powah:uraninite"
+				}
+				{
+					id: "0C1BBA36E7F2E478"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["6759DBC0CF1E21F2"]
+		}
+		{
+			tasks: [{
+				id: "185745550EBC2710"
+				type: "item"
+				item: "mekanism:ultimate_tier_installer"
+			}]
+			description: ["Ultimate Factories have 9 slots per machine."]
+			id: "356EB4BEA5250F99"
+			x: 0.0d
+			y: -3.5d
+			title: "Factory-O"
+			rewards: [{
+				id: "286250B2499F2713"
+				type: "item"
+				team_reward: true
+				item: "mekanism:ultimate_tier_installer"
+			}]
+			dependencies: ["2211FE12DD3B5DFF"]
+		}
+		{
+			tasks: [{
+				id: "4E2B6D9BFFCB42E6"
+				type: "item"
+				item: "ibpdx:liquid_nitrogen_bucket"
+			}]
+			description: ["&bLiquid Nitrogen&r can be made in the &6Blast Chiller&r."]
+			id: "044A811B78C23F21"
+			x: 14.0d
+			y: -9.5d
+			rewards: [{
+				id: "6EAD709A9EC6D16B"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			dependencies: ["268656F8FDEAA9B8"]
+		}
+		{
+			tasks: [
+				{
+					id: "3CB76ED502A4CEE8"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+				}
+				{
+					id: "2CBD9C742637CAD4"
+					type: "item"
+					item: "fluxnetworks:flux_plug"
+				}
+			]
+			description: ["&eFlux Networks&r allows you to not require nearly as much wiring to keep all of your machines powered. By using &bFlux Plugs&r and &bFlux Points&r, you can input and output from a wireless RF network."]
+			icon: "fluxnetworks:flux_point"
+			id: "4D71B7B92B591EE7"
+			x: 8.0d
+			y: -6.5d
+			title: "Plug In, Plug Out"
+			rewards: [{
+				id: "1CE4B39B5A4CE6D0"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+				count: 4
+			}]
+			dependencies: ["339867861185A852"]
+		}
+		{
+			tasks: [
+				{
+					id: "00922EF81581BFE7"
+					type: "item"
+					item: "masterfulmachinery:remix_generator_controller"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 3L
+					consume_items: true
+					id: "4E8AA7953606A273"
+					item: "quark:blue_crystal"
+				}
+				{
+					type: "item"
+					count: 3L
+					consume_items: true
+					id: "1648B34209899397"
+					item: "quark:red_crystal"
+				}
+				{
+					type: "item"
+					count: 3L
+					consume_items: true
+					id: "3085268F08A62670"
+					item: "quark:orange_crystal"
+				}
+				{
+					type: "item"
+					count: 3L
+					consume_items: true
+					id: "49EB23FC00A14993"
+					item: "quark:violet_crystal"
+				}
+				{
+					type: "item"
+					count: 3L
+					consume_items: true
+					id: "53CFE45D903C01E8"
+					item: "quark:indigo_crystal"
+				}
+				{
+					type: "item"
+					count: 3L
+					consume_items: true
+					id: "5765ADA33618FC59"
+					item: "quark:yellow_crystal"
+				}
+				{
+					type: "item"
+					count: 3L
+					consume_items: true
+					id: "557E5333CB0AEBA6"
+					item: "quark:green_crystal"
+				}
+				{
+					id: "3D3EEDB450E3533A"
+					type: "item"
+					item: "masterfulmachinery:remix_generator_energy_port_energy_output"
+					consume_items: true
+				}
+				{
+					id: "1C17A05B6FD32D9F"
+					type: "item"
+					item: "masterfulmachinery:remix_generator_item_port_items_input"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 32L
+					consume_items: true
+					id: "144FAB287AEFB6C1"
+					item: "ibpdx:blockcasing_steel"
+				}
+				{
+					type: "item"
+					count: 18L
+					consume_items: true
+					id: "2A03D6B3E79FB231"
+					item: "ibpdx:stainless_steel_casing"
+				}
+				{
+					type: "item"
+					count: 11L
+					consume_items: true
+					id: "70E32FBC145FA211"
+					item: "immersiveengineering:alu_fence"
+				}
+			]
+			description: ["The &bRemix Generator&r is a reward for automating all remix components. It produces 50M RF/t, to stay on par with Mekanism's lategame power generation."]
+			icon: "masterfulmachinery:remix_generator_controller"
+			id: "77ABD06B77CBF4DB"
+			x: 17.0d
+			y: -11.5d
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "5A8F603A91D51FAE"
+					item: "ibpdx:coordinate_data_module"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "247FCD483EFBBA20"
+					item: "ibpdx:life_infused_cooler"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "6E93A6D03FF1A905"
+					item: "ibpdx:bioenriched_circuit"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "06CE07A03445711E"
+					item: "ibpdx:bio_napalm_cell"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "1835C932E4A9CB1D"
+					item: "ibpdx:resonated_plated_growth_lens"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "34C9A923C2FCA6A1"
+					item: "ibpdx:wispy_petal"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "3242D483156DE1D2"
+					item: "ibpdx:circuit_case"
+				}
+				{
+					id: "50797EDEC009B78C"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-921288654
+								1861829095
+								-2014526870
+								864766145
+							]
+							color: 16777215
+							label: "remix_generator"
+							structureName: "config/capsule/rewards/remix_generator"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 7
+						}
+					}
+				}
+			]
+			dependencies: [
+				"53CE64D64736807F"
+				"425AEF2694262F3A"
+				"21024F4FAE314904"
+				"4A178AD6FECE3181"
+				"0CCC62DD7C8DFC5A"
+				"3095414D402F5142"
+				"36806CE3DAD3DF05"
+			]
+		}
+	]
+}

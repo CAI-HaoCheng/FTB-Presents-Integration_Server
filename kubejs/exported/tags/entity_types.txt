@@ -1,0 +1,207 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 30, 2022 2:29:23 AM
+
+#neapolitan:milkable
+- environmental:yak
+
+#carryon:stacking_whitelist
+
+#tconstruct:rare_mobs
+- minecraft:wither
+- minecraft:ender_dragon
+- minecraft:elder_guardian
+- minecraft:evoker
+- minecraft:player
+
+#botania:cocoon/common
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
+
+#carryon:stacking_blacklist
+
+#forge:endermen
+- minecraft:enderman
+- mekanismadditions:baby_enderman
+
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin
+
+#tconstruct:melting/show_in_default
+- minecraft:iron_golem
+- minecraft:snow_golem
+- minecraft:villager
+- minecraft:player
+
+#boss_tools:entities/venus_fire
+- boss_tools:pygro
+- boss_tools:mogler
+
+#botania:cocoon/rare
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- quark:frog?
+
+#tconstruct:piggybackpack_blacklist
+
+#botania:shaded_mesa_blacklist
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:item_frame
+- minecraft:end_crystal
+- minecraft:painting
+- botania:corporea_spark
+- botania:doppleganger
+- botania:flame_ring
+- botania:magic_landmine
+- botania:magic_missile
+- botania:mana_burst
+- botania:pink_wither
+- botania:spark
+- botania:player_mover
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+
+#tconstruct:melting/hide_in_default
+- minecraft:giant
+
+#carryon:entity_whitelist
+
+#forge:slimes
+- minecraft:slime
+- tconstruct:earth_slime
+- tconstruct:sky_slime
+- tconstruct:ender_slime
+- tconstruct:terracube
+
+#botania:cocoon/common_aquatic
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- quark:crab?
+
+#miniutilities:blacklisted
+
+#per-viam-invenire:replace_vanilla_navigator
+- mekanismadditions:baby_creeper
+- mekanismadditions:baby_enderman
+- mekanismadditions:baby_skeleton
+- mekanismadditions:baby_stray
+- mekanismadditions:baby_wither_skeleton
+- mekanism:robit
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- environmental:mud_ball
+- environmental:duck_egg
+- mekanism:flame
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+- resourcefulbees:kitten_bee
+- resourcefulbees:yeti_bee
+- resourcefulbees:zombie_bee
+- resourcefulbees:diamond_bee
+- resourcefulbees:slimy_bee
+- resourcefulbees:dungeon_bee
+- resourcefulbees:dragon_bee
+- resourcefulbees:redstone_bee
+- resourcefulbees:starry_bee
+- resourcefulbees:rgbee_bee
+- resourcefulbees:iron_bee
+- resourcefulbees:netherite_bee
+- resourcefulbees:nether_quartz_bee
+- resourcefulbees:ender_bee
+- resourcefulbees:wither_bee
+- resourcefulbees:gold_bee
+- resourcefulbees:pigman_bee
+- resourcefulbees:lapis_bee
+- resourcefulbees:icy_bee
+- resourcefulbees:creeper_bee
+- resourcefulbees:abbee_bee
+- resourcefulbees:skeleton_bee
+- resourcefulbees:oreo_bee
+- resourcefulbees:emerald_bee
+- resourcefulbees:coal_bee
+- resourcefulbees:rainbow_glass_bee
+
+#environmental:unaffected_by_serenity
+
+#forge:creepers
+- minecraft:creeper
+- mekanismadditions:baby_creeper
+- minecraft:creeper
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- mekanismadditions:baby_skeleton
+- mekanismadditions:baby_stray
+- mekanismadditions:baby_wither_skeleton
+
+#boss_tools:entities/venus_rain
+- boss_tools:pygro
+- boss_tools:mogler
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#carryon:entity_blacklist
+
+#tconstruct:bacon_producer
+- minecraft:pig
+- minecraft:piglin
+- minecraft:hoglin
+
+#boss_tools:entities/oxygen
+- minecraft:bat
+- minecraft:bee
+- minecraft:cat
+- minecraft:chicken
+- minecraft:cod
+- minecraft:cow
+- minecraft:donkey
+- minecraft:dolphin
+- minecraft:fox
+- minecraft:horse
+- minecraft:llama
+- minecraft:mule
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:parrot
+- minecraft:pig
+- minecraft:polar_bear
+- minecraft:rabbit
+- minecraft:sheep
+- minecraft:trader_llama
+- minecraft:turtle
+- minecraft:villager
+- minecraft:wolf

@@ -1,0 +1,24 @@
+{
+  "controllerId": "processor_cutter",
+  "name": "Processor Cutter",
+  "textureOverride": "ibpdx:block/blockcasing_empowered_diamond",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 100000
+      }
+    }
+  ]
+}

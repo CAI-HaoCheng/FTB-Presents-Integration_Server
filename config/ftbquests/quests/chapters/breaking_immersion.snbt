@@ -1,0 +1,1001 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "39055D30E8C27F17"
+	filename: "breaking_immersion"
+	default_quest_shape: ""
+	icon: "immersiveengineering:blastbrick"
+	title: "Breaking Immersion"
+	order_index: 1
+	quests: [
+		{
+			size: 2.0d
+			description: [
+				"Regular &6Nether Quartz&r is simply not sufficient for machine structures. Lets light it up... with maybe a hundred million volts or so."
+				""
+				"Check the bottom following quest for how to use this &bManasteel Sword&r to summon lightning."
+			]
+			id: "091E1E0C922050E9"
+			icon: {
+				id: "botania:manasteel_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: -2.0d
+			shape: "pentagon"
+			title: "The God of Lightning Descends..."
+			rewards: [{
+				id: "0743227B5E303DCE"
+				type: "xp"
+				xp: 10
+			}]
+			dependencies: ["04017143CD3E2283"]
+			tasks: [{
+				id: "1EF7BD7B8343F756"
+				type: "item"
+				item: {
+					id: "botania:manasteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "5FB145D1BECEF8DA"
+				type: "item"
+				item: "botania:quartz_dark"
+			}]
+			description: ["When struck by lightning, &6Nether Quartz&r turns into &bSmokey Quartz&r. Now, you could wait for a thunderstorm and get extremely lucky, but it would be much easier to summon some by right-clicking a &bManasteel Sword&r on &6Livingrock&r. This will convert as many &6Nether Quartz&r as are on the block, but the sword gets consumed in the process, so make a bunch at once."]
+			id: "43C39702FE00E750"
+			x: -1.0d
+			y: -0.5d
+			title: "Run For Your Life, Smokey!"
+			rewards: [{
+				id: "59D17F6866385512"
+				type: "item"
+				item: "thermal:lightning_charge"
+				count: 4
+			}]
+			dependencies: ["091E1E0C922050E9"]
+		}
+		{
+			tasks: [{
+				id: "41CDC4FDE9E826ED"
+				type: "item"
+				item: "ibpdx:iron_casing"
+			}]
+			description: ["The first proper structural material you have access to is &6Iron&r. Some casing recipes might nest a little, but never more than a couple times per casing set."]
+			x: 0.5d
+			id: "05FCFCBA18EF8B21"
+			y: -2.0d
+			shape: "circle"
+			title: "In Case You Were Wondering..."
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "05E1AEE49F0C140F"
+					item: "ibpdx:iron_casing"
+				}
+				{
+					id: "171FDD1E7025C87B"
+					type: "xp"
+					xp: 5
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "75E0EE787BA4E1CA"
+					item: "mysticalagriculture:nether_quartz_seeds"
+				}
+			]
+			dependencies: [
+				"43C39702FE00E750"
+				"102FFE60B6953B5E"
+			]
+		}
+		{
+			tasks: [{
+				id: "42F1BEA0BA32AEF9"
+				type: "item"
+				item: "powah:dielectric_casing"
+			}]
+			description: ["The &bDielectric Casing&r is a crafting ingredient for Powah generators, and maybe a few other things here and there."]
+			id: "3369EF0C6AB619C6"
+			x: 2.0d
+			y: -0.5d
+			title: "More of a Frame, Really"
+			rewards: [{
+				type: "item"
+				count: 16
+				team_reward: true
+				id: "20ED995799CF1251"
+				item: "powah:dielectric_paste"
+			}]
+			dependencies: ["05FCFCBA18EF8B21"]
+		}
+		{
+			tasks: [
+				{
+					id: "2ADC01CF492E8E38"
+					type: "item"
+					item: "powah:energizing_orb"
+				}
+				{
+					id: "6B126CCA0D3700EC"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+			]
+			description: ["The &bAtomic Reco&r- I mean, &bEnergizing Orb&r, infuses items with energy to change their state, any flavor of RF (or FE if you aren't from back in the day) will do. You need to attach &bEnergizing Rods&r to a power source, then place the items you want to use in the orb itself. Almost remniscent of the BuildCraft Assembly Table from days of old. More Rods will craft items faster, of course."]
+			icon: "powah:energizing_orb"
+			id: "144871AFDCF9F014"
+			x: 2.0d
+			y: -3.5d
+			title: "Energetic Infuser"
+			rewards: [
+				{
+					type: "item"
+					count: 3
+					team_reward: true
+					id: "0E43A297C0B5468B"
+					item: "powah:energizing_rod_starter"
+				}
+				{
+					id: "4081A6F4BCECC35D"
+					type: "item"
+					item: "immersiveengineering:manual"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "3E673B3E1CBE7336"
+					item: "pipez:advanced_upgrade"
+				}
+			]
+			dependencies: ["05FCFCBA18EF8B21"]
+		}
+		{
+			tasks: [{
+				id: "529414CD46D51846"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			description: ["The &bCoke Oven&r is a 3x3x3 multiblock that is formed by right clicking said assembly with an &6Engineer's Hammer&r."]
+			id: "3A8964900FEA64AD"
+			x: 5.0d
+			y: -3.5d
+			title: "Turn On Your Oven"
+			rewards: [
+				{
+					type: "item"
+					count: 27
+					team_reward: true
+					id: "1AC096098D2C44F9"
+					item: "immersiveengineering:cokebrick"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "34E799BA6FA2E636"
+					item: "industrialforegoing:fluid_transporter_type"
+				}
+				{
+					id: "7C0EF37CC52073AA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["144871AFDCF9F014"]
+		}
+		{
+			tasks: [{
+				id: "11EE4C2AE7FC1DF9"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			description: [
+				"The &bBlast Furnace&r serves two purposes."
+				""
+				"The first is that it simply allows you to make &6Steel Ingots&r while using &6Coal Coke&r as a fuel."
+				""
+				"The second is that it smelts ore dusts much more efficiently and quickly per fuel than a regular furnace. Whether or not you want to use this or the &6Smeltery&r is up to you."
+				""
+				"Reminder that you can make the &bImproved Blast Furnace&r can be made by replacing all of the &6Blast Bricks&r with &6Improved Blast Bricks&r and reforming the structure with a &6Hopper&r on the top middle block."
+			]
+			id: "395EFC76FCA9EAB7"
+			x: 6.5d
+			y: -3.5d
+			title: "Blast These Bricks!"
+			rewards: [
+				{
+					type: "item"
+					count: 27
+					team_reward: true
+					id: "5270C41DFD534DE1"
+					item: "immersiveengineering:blastbrick"
+				}
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "43C91C9A12422993"
+					item: "thermal:coal_coke"
+				}
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "5BBF467DD02B6DF2"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "4A1DAAB784FA1A21"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "021D253E476C2893"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 3
+				}
+			]
+			dependencies: ["3A8964900FEA64AD"]
+		}
+		{
+			tasks: [
+				{
+					id: "04405C896BE4070E"
+					type: "item"
+					item: "masterfulmachinery:super_alloyer_controller"
+					consume_items: true
+				}
+				{
+					id: "0DD39143198DB8F7"
+					type: "item"
+					item: "masterfulmachinery:super_alloyer_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "2B92703B870033E0"
+					type: "item"
+					item: "masterfulmachinery:super_alloyer_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					id: "6B06E758A79986FA"
+					type: "item"
+					item: "masterfulmachinery:super_alloyer_item_port_items_output"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "26D1E572F6EDF994"
+					item: "infused_crystals:block_of_redstonium"
+				}
+				{
+					type: "item"
+					count: 7L
+					consume_items: true
+					id: "5165D2AE44C46AB7"
+					item: "ibpdx:blockcasing_duskstone"
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "42F45C1AB080A64C"
+					item: "mekanism:superheating_element"
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "6BFD3E0339601CC6"
+					item: "minecraft:glass"
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "25CD57FF4C72A963"
+					item: "cyclic:mason_iron"
+				}
+				{
+					type: "item"
+					count: 4L
+					consume_items: true
+					id: "203DCBED406D0775"
+					item: "immersiveposts:fence_iron"
+				}
+				{
+					type: "item"
+					count: 4L
+					consume_items: true
+					id: "1E7B11D69C634030"
+					item: "ibpdx:iron_casing"
+				}
+			]
+			description: ["The &bSuper Alloyer&r is your first true alloying machine. It is capable of processing &6Modularium&r cheaper, as well as the other basic alloys."]
+			id: "00447C8DC955FE54"
+			icon: "masterfulmachinery:super_alloyer_controller"
+			x: 6.5d
+			y: -2.0d
+			shape: "circle"
+			title: "Super Powered?"
+			rewards: [
+				{
+					id: "68CDA57A72578409"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "super_alloyer"
+							structureName: "config/capsule/rewards/super_alloyer"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1
+							size: 5
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "2D893D57494BC98E"
+					item: "immersiveengineering:ingot_steel"
+				}
+				{
+					id: "3C7C7F366A4CB1E0"
+					type: "item"
+					item: "pamhc2foodcore:meatloafitem"
+				}
+				{
+					id: "472201E1A28D1506"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: [
+				"395EFC76FCA9EAB7"
+				"6B0B1ED522363D26"
+			]
+		}
+		{
+			tasks: [{
+				id: "3E83DD6C3866293E"
+				type: "item"
+				item: "powah:furnator_starter"
+			}]
+			description: ["The &bFurnator&r is your stock standard coal-powered generator. Not much to say about it, other than that it cannot be upgraded to higher tiers like most of the other &ePowah&r generators."]
+			id: "6B0B1ED522363D26"
+			x: 5.0d
+			y: -0.5d
+			title: "Behold, Perry the Platypus... THE FURNATOR!"
+			rewards: [{
+				id: "77773ADB6E3A6B5F"
+				type: "item"
+				item: "thermal:coal_coke"
+				count: 16
+			}]
+			dependencies: ["3369EF0C6AB619C6"]
+		}
+		{
+			tasks: [{
+				id: "33137FFEC3D6AB1F"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+			description: [
+				"&eImmersive Engineering&r has many of its own multiblocks. However, since there are many multiblocks in the progression already, a large number of the machines in this mod are optional. But this does not mean they are useless! They are required for some of the more esoteric recipes. This is also your earliest method of auto-brewing."
+				""
+				"In addition, the mod's machines are generally the most energy-efficient per process, despite being gigantic. This is to set them apart from &eThermal&r, which has the augments and highest raw speed, and &eMekanism&r, which has factories that allow for simultaneous processing and higher throughputs."
+			]
+			id: "5BB511A3BD53616C"
+			x: 6.5d
+			y: -5.0d
+			title: "Immerse Yourself"
+			rewards: [{
+				type: "item"
+				count: 8
+				team_reward: true
+				id: "2EDC0F67F6695941"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+			dependencies: ["395EFC76FCA9EAB7"]
+		}
+		{
+			size: 2.0d
+			description: ["With the &bMachine Block&r made you should have a pretty good grasp on industrializing your setup. Good Job! You get a cookie."]
+			id: "117BBECA8864CAB1"
+			x: 9.0d
+			y: -2.0d
+			shape: "pentagon"
+			title: "Onward, to Industry!"
+			rewards: [
+				{
+					id: "4789F87E549FACB5"
+					type: "item"
+					item: "botania:mana_cookie"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1221C3A49A5C73CB"
+					item: "ftbic:industrial_grade_metal"
+				}
+				{
+					id: "31E6702A5B816504"
+					type: "xp"
+					xp: 30
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "2CCFA9281972DD3D"
+					item: "mysticalagriculture:aluminum_seeds"
+				}
+			]
+			dependencies: ["00447C8DC955FE54"]
+			tasks: [{
+				id: "1A9473BCE1DB9AF7"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "6D5F463B615E7778"
+					type: "item"
+					item: "pipez:item_pipe"
+				}
+				{
+					id: "6CDAF63D3C87F300"
+					type: "item"
+					item: "powah:energy_cable_starter"
+				}
+				{
+					id: "4ACFEED450A79FFE"
+					type: "item"
+					item: "immersiveengineering:sorter"
+				}
+			]
+			description: [
+				"You have many logistical options available, several having their own benefits and drawbacks."
+				""
+				"&ePipez&r is fairly simple and straightforward. They allow for basic transport, filtering, and eventually have an upgrade which permits all types of transport in one block space."
+				""
+				"&eImmersive Engineering&r offers &6Conveyor Belts&r and &6Fluid Pipes&r that have the ability to be routed using &bItem Routers&r and &bFluid Routers&r. These blocks also work on most other types of piping, though fluids work best with the &eIE&r pipes. In addition, &eIE&r pipes require a pump somewhere on the line to allow fluids to move."
+				"IE also has its own wiring to transport energy, using Connectors on objects that transfer energy and Relays to connect the &6Connectors&r over longer distances."
+				""
+				"&ePowah&r has its own tiered energy cables, allowing for high energy transfer."
+				""
+				"&eMekanism&r has options for everything, but tiers are unlocked progressively (with the exception of gases, more on that later)."
+				""
+				"&eBotania&r's &6Luminizers&r excel at long-range flights without needing pipes in between. Connect them with a &6Wand of the Forest&r, place a Luminizer Launcher under the \"input\", fire a redstone signal, and the item will move along the designated path. It only works in one direction, and you will need the items to be picked up by a &6Hopper&r, &6Hopperhock,&r &6Vacuumulator&r, etc. to insert the items into inventories. Each one has a range of 20 blocks, and the chunks traveled must be loaded."
+			]
+			icon: "pipez:item_pipe"
+			id: "2C2DE27BFA1D56C3"
+			x: 6.5d
+			y: -0.5d
+			title: "Pipes or Pipez?"
+			rewards: [
+				{
+					id: "0BBE4AC3F4724221"
+					type: "item"
+					team_reward: true
+					item: "pipez:wrench"
+				}
+				{
+					id: "33628597EAA53489"
+					type: "item"
+					team_reward: true
+					item: "botania:light_launcher"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "49A2E6E6150A2029"
+					item: "botania:light_relay"
+				}
+				{
+					id: "788820BC1F539A9D"
+					type: "item"
+					team_reward: true
+					item: "pipez:advanced_upgrade"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1A012DE02DF3252D"
+					item: "pipez:item_pipe"
+				}
+				{
+					id: "4B617CED13054689"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["00447C8DC955FE54"]
+		}
+		{
+			tasks: [
+				{
+					id: "3A081A0C4099E9D4"
+					type: "item"
+					item: "masterfulmachinery:plate_presser_controller"
+					consume_items: true
+				}
+				{
+					id: "62C114179C670A78"
+					type: "item"
+					item: "masterfulmachinery:plate_presser_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "451D0FEB42C76E49"
+					type: "item"
+					item: "masterfulmachinery:plate_presser_item_port_items_output"
+					consume_items: true
+				}
+				{
+					id: "24C1572BA69F357E"
+					type: "item"
+					item: "masterfulmachinery:plate_presser_mana_port_botania_mana_input"
+					consume_items: true
+				}
+				{
+					id: "133674CCE8ECC18E"
+					type: "item"
+					item: "minecraft:piston"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 5L
+					consume_items: true
+					id: "01C72C43008315E9"
+					item: "minecraft:nether_brick_fence"
+				}
+				{
+					type: "item"
+					count: 9L
+					consume_items: true
+					id: "6BD6607475430381"
+					item: "ibpdx:blockcasing_bedrock"
+				}
+			]
+			description: [
+				"The &bPlate Presser&r is a mana-powered, somewhat inefficient, machine that creates plates from ingots."
+				""
+				"Remember, if you don't have the resources for new parts, you can always salvage them from other machines and put them back later."
+			]
+			icon: "masterfulmachinery:plate_presser_controller"
+			id: "102FFE60B6953B5E"
+			x: -1.0d
+			y: -3.5d
+			title: "Stamping Stuff"
+			rewards: [
+				{
+					id: "7B3F5F455A758AC6"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							mirror: "NONE"
+							oneUse: 1b
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-921288654
+								1861829095
+								-2014526870
+								864766145
+							]
+							color: 7105644
+							isReward: 1b
+							rotation: "CLOCKWISE_90"
+							author: "?"
+							label: "Plate Presser.nbt"
+							structureName: "config/capsule/rewards/plate_presser.nbt"
+							display: {
+								color: 7105644
+							}
+							canRotate: 1
+							size: 5
+						}
+					}
+				}
+				{
+					id: "708BB39062FEB5DA"
+					type: "item"
+					item: "immersiveengineering:conveyor_extract"
+				}
+			]
+			dependencies: ["091E1E0C922050E9"]
+		}
+		{
+			tasks: [{
+				id: "350162F350062C0D"
+				type: "checkmark"
+				title: "Where Is It Going?"
+			}]
+			description: [
+				"Let's talk about how to make a sorting system using &eIE&r's &6Item Routers&r:"
+				"First, it is somewhat limited, as each receptacle can only receive up to 8 item types per router face."
+				""
+				"To sort items, the router has to \"see\" a location to put an item being put into it."
+				""
+				"Items can be inserted with anything, such as a &6Hopper&r. The router will look for any \"destination\" for the item. In order to \"chain\" routers together, have them form a linear path. This may require disabling undesired faces from interacting  using a \"dead\" item that you do not expect to need."
+				""
+				"Filters can be drawn from JEI, so just pick Bedrock as your dummy item or something."
+			]
+			icon: "immersiveengineering:sorter"
+			id: "10D744D11DCA269F"
+			x: 6.5d
+			y: 1.0d
+			rewards: [
+				{
+					id: "2CF770391B0797E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0EBE2F49CD980E35"
+					type: "item"
+					item: "pamhc2foodcore:carrotsoupitem"
+				}
+			]
+			dependencies: ["2C2DE27BFA1D56C3"]
+		}
+		{
+			tasks: [
+				{
+					id: "65C991937C3BF8C5"
+					type: "item"
+					item: "masterfulmachinery:peat_engine_controller"
+					consume_items: true
+				}
+				{
+					id: "4B9A0563955C4F1B"
+					type: "item"
+					item: "masterfulmachinery:peat_engine_energy_port_energy_output"
+					consume_items: true
+				}
+				{
+					id: "255023B9B8807E60"
+					type: "item"
+					item: "masterfulmachinery:peat_engine_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "2AB30063D971B65B"
+					type: "item"
+					item: "masterfulmachinery:peat_engine_item_port_items_output"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 9L
+					consume_items: true
+					id: "7169A26BD1EA2798"
+					item: "immersiveengineering:sheetmetal_copper"
+				}
+				{
+					type: "item"
+					count: 4L
+					consume_items: true
+					id: "179F98CFFBE41156"
+					item: "immersiveengineering:light_engineering"
+				}
+				{
+					type: "item"
+					count: 4L
+					consume_items: true
+					id: "1ACCA57E24BA5F13"
+					item: "minecraft:glass"
+				}
+				{
+					id: "27E223803A820F33"
+					type: "item"
+					item: "minecraft:campfire"
+					consume_items: true
+				}
+			]
+			description: [
+				"The &bPeat Engine&r is a multiblock generator that produces 80 RF/tick from &6Peat&r and 160 RF/tick from &6Bitumunous Peat&r."
+				""
+				"It produces all of the energy at once over a span of about 15 seconds."
+				""
+				"You will need to extract the energy using some form of extracting pipe, such as &ePipez&r' &6Energy Pipe&r."
+			]
+			icon: "masterfulmachinery:peat_engine_controller"
+			id: "43C608ECA7CFCC40"
+			x: 5.0d
+			y: -2.0d
+			title: "Peater Griffin"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "3B5B2519BD666847"
+					item: "immersiveengineering:light_engineering"
+				}
+				{
+					id: "202A4B917EFAAB18"
+					type: "item"
+					team_reward: true
+					item: "immersiveengineering:conveyor_extract"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "100B9F6631DCB6F4"
+					item: "immersiveengineering:conveyor_basic"
+				}
+				{
+					id: "4B109FCA010D9F71"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 3
+							isReward: 1b
+							oneUse: 1b
+							color: 8072841
+							author: "?"
+							label: "Peat Engine.nbt"
+							structureName: "config/capsule/rewards/peat_engine.nbt"
+							display: {
+								color: 7105644
+							}
+							canRotate: 0b
+							state: 5
+						}
+					}
+				}
+			]
+			dependencies: ["00447C8DC955FE54"]
+		}
+		{
+			tasks: [
+				{
+					id: "3AC6ED980D2719A6"
+					type: "item"
+					item: "littlelogistics:tug"
+				}
+				{
+					id: "487F01C7590208A8"
+					type: "item"
+					item: "littlelogistics:fishing_barge"
+				}
+				{
+					id: "45377217995714D7"
+					type: "item"
+					item: "littlelogistics:barge"
+				}
+			]
+			description: [
+				"&bTugs&r allow you to auto-fish along a defined route."
+				""
+				"They work best over deep water, and will slow down in fishing speed if the area is not wide enough."
+				""
+				"A &6Chunk Loader Barge&r will allow your &bTug&r to work far away from your base."
+				""
+				"A &6Chest Barge&r is a method of moving items along waterways. Perhaps you have a place where you are gathering resources downstream and want to move them in bulk automatically?"
+			]
+			icon: "littlelogistics:tug"
+			id: "7376954F8B6805EE"
+			x: 5.0d
+			y: 1.0d
+			title: "Whatever Floats Your Boat"
+			rewards: [
+				{
+					id: "57C018C5382AEC4F"
+					type: "item"
+					team_reward: true
+					item: "littlelogistics:chunk_loader_barge"
+				}
+				{
+					id: "658B89F5D28A1A01"
+					type: "item"
+					team_reward: true
+					item: "littlelogistics:tug_dock"
+				}
+				{
+					id: "23F11D46B5A01FA4"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "littlelogistics:guide"
+						}
+					}
+				}
+			]
+			dependencies: ["6B0B1ED522363D26"]
+		}
+		{
+			tasks: [{
+				id: "496B6DC130E4186F"
+				type: "checkmark"
+				title: "Need More Nuggets"
+			}]
+			description: ["Your &6Fishing Barges&r can pull up a wide array of common metal nuggets if you need a small passive source of them. They also catch a lot of the standard fishing junk alongside the fish and nuggets."]
+			icon: "minecraft:iron_nugget"
+			id: "7BB3D6473D02BF0C"
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["7376954F8B6805EE"]
+		}
+		{
+			tasks: [{
+				id: "37FAA0AF7F1EEDD3"
+				type: "item"
+				item: "botania:dark_quartz"
+			}]
+			description: [
+				"You can summon Mobs by right-clicking on a block of &bSmokey Quartz&r. The mob is summoned on top of the block and depends on the 4 blocks adjacent to the Quartz."
+				""
+				"The blocks will always be in a symmetrical layout and works in both orientations."
+				""
+				"Zombie: 4 Blocks of Rotten Flesh"
+				"Skeleton: 4 Bone Blocks"
+				"Creeper: 4 Blocks of Gunpowder (Thermal)"
+				"Spider: 4 Wool"
+				"Witch: 2 Redstone Blocks and 2 Glowstone Blocks"
+				"Blaze: 4 Blaze Lanterns (Quark)"
+				"Blizz: 2 Blaze Lanterns and 2 Packed Ice"
+				"Blitz: 2 Blaze Lanterns and 2 Glowstone Blocks"
+				"Basalz: 2 Blaze Lanterns and 2 Coal Blocks"
+				""
+				"Conveyors, water, etc might be useful to transport these mobs."
+			]
+			id: "7F1CCF50B6C504CA"
+			x: 0.5d
+			y: -0.5d
+			title: "Shazzam!"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "0622C2F2BC27384A"
+					item: "quark:blaze_lantern"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "5C544FE9E327EF23"
+					item: "minecraft:packed_ice"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "09E57430A147B628"
+					item: "architects_palette:rotten_flesh_block"
+				}
+				{
+					id: "7B493C8C73BEED03"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["43C39702FE00E750"]
+		}
+		{
+			tasks: [
+				{
+					id: "6F800AC7351593B7"
+					type: "item"
+					item: "mekanism:logistical_sorter"
+				}
+				{
+					id: "10DAA160F300EA90"
+					type: "item"
+					item: "mekanism:basic_logistical_transporter"
+				}
+			]
+			description: ["The &bLogistical Sorter&r is an early way of sorting your &6Chests&r and &6Barrels&r. Each pipe has a color you can set for sorting purposes, and the &bSorter&r sends items with a particular color down the line until it reaches the right destination."]
+			icon: "mekanism:logistical_sorter"
+			id: "5B5953A4EB85DFFC"
+			x: 0.5d
+			y: -3.5d
+			title: "Spoons Go in the Spoon Drawer, Forks in the Fork Drawer"
+			rewards: [
+				{
+					id: "2C65BF20FA567056"
+					type: "item"
+					item: "mekanism:basic_logistical_transporter"
+					count: 16
+				}
+				{
+					id: "0916B3103C11974A"
+					type: "item"
+					item: "mekanism:configurator"
+				}
+			]
+			dependencies: ["102FFE60B6953B5E"]
+		}
+		{
+			tasks: [{
+				id: "4CB7988EE3F147CF"
+				type: "item"
+				item: "cyclic:harvester"
+			}]
+			description: [
+				"The &bHarvester&r will gently break crops in front of it, so they won't need to be replanted, but do not pick up their products. You'll need an item collector of some sort for that."
+				""
+				"This might be a bit outside your price range at the moment, so perhaps it should wait."
+				""
+				"You also need &6Walnut Leaves&r specifically, so remember that Alchetree exists."
+			]
+			id: "5FE7D825E170A7D4"
+			x: 3.5d
+			y: -5.0d
+			title: "Fun Farm"
+			rewards: [{
+				id: "2A5290B910C5E014"
+				type: "item"
+				team_reward: true
+				item: "cyclic:collector"
+			}]
+			dependencies: ["144871AFDCF9F014"]
+		}
+		{
+			tasks: [{
+				id: "23F301FB837CD307"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			description: ["The &bGarden Cloche&r is a powerful alternative to the &6Harvester&r for any crops it is compatible with. Instead of farming in the world, it uses power, water, and fertilizer to grow crops. Perhaps some automatic bone meal would help give you more product?"]
+			id: "288C5471478B8EA1"
+			x: 5.0d
+			y: -5.0d
+			title: "Farm in a Bottle"
+			rewards: [{
+				id: "18DAD3369E396F4F"
+				type: "item"
+				team_reward: true
+				item: "immersiveengineering:cloche"
+			}]
+			dependencies: ["5FE7D825E170A7D4"]
+		}
+	]
+}

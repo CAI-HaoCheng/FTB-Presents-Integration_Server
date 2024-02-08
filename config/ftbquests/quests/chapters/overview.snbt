@@ -1,0 +1,947 @@
+{
+	default_hide_dependency_lines: false
+	group: ""
+	id: "74D51D852362B805"
+	filename: "overview"
+	default_quest_shape: ""
+	icon: {
+		id: "botania:cosmetic_questgiver_mark"
+		Count: 1b
+		tag: { }
+	}
+	title: "Overview"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				id: "730F56278888D259"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			description: [
+				"The &bMana Pool&r will generate mana for you using a &6Mana Spreader&r a &6Wand of the Forest&r and the mana-producing flower of your choice."
+				""
+				"Opens into your first method of processing metals."
+			]
+			icon: "botania:mana_pool"
+			id: "74E844EE60DB77B9"
+			x: -12.0d
+			y: 1.0d
+			rewards: [{
+				id: "4E31B7E701C7F9C8"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			tasks: [{
+				id: "2312D6A70D5076D8"
+				type: "item"
+				item: "powah:energizing_orb"
+			}]
+			description: ["The &bEnergizing Orb&r brings items into an energized state, mainly focusing on power applications, but also for miscellaneous types of equipment upgrades."]
+			icon: "powah:energizing_orb"
+			id: "7B5341681B6C6882"
+			x: -8.5d
+			y: 2.5d
+			title: "Energizing Orb"
+			rewards: [{
+				id: "1AF06ED3EB0D4ED7"
+				type: "xp"
+				xp: 20
+			}]
+			dependencies: ["29ABC4B2DF472B9E"]
+		}
+		{
+			tasks: [{
+				id: "1AF35674CE5F4573"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+			description: ["&eImmersive Engineering&r has many multiblocks which have similar functions to the other tech mods. However, since &eFTBIC&r uses its own power, you might want to use your &eIE&r machines if you prefer to just use RF-based energy. You will need a few of these multiblocks, but most of them are simply options and all capsules are available in Capsule Corp."]
+			icon: "immersiveengineering:heavy_engineering"
+			id: "77EDFCCD349C7F6F"
+			x: -8.5d
+			y: 4.0d
+			rewards: [
+				{
+					id: "16DF68C273B0C045"
+					type: "xp"
+					xp: 20
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "524C267E6232E9AD"
+					item: "immersiveengineering:plate_steel"
+				}
+			]
+			dependencies: ["7B5341681B6C6882"]
+		}
+		{
+			tasks: [{
+				id: "6D97F13CC28C4D82"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
+			description: ["&eFTBIC&r has many general-use processing machines that tackle issues such as ore processing, material refinement, and alternative crafting recipes, as well as components for further progression."]
+			icon: "ftbic:machine_block"
+			id: "526CF3ABCD5EDD89"
+			x: -6.5d
+			y: 2.5d
+			rewards: [
+				{
+					id: "3FE986C9FD06F71F"
+					type: "item"
+					team_reward: true
+					item: "ftbic:machine_block"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "19ED696C4E7792CF"
+					item: "ftbic:lv_cable"
+				}
+			]
+			dependencies: ["7B5341681B6C6882"]
+		}
+		{
+			tasks: [{
+				id: "2A3A82D696EEB479"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			description: ["Your first major step into &eAstral Sorcery&r. Some neat &eBotania&r baubles are available as a bonus."]
+			id: "22DD44F698EFA1CB"
+			x: -8.5d
+			y: -0.5d
+			rewards: [{
+				id: "29E3DE3F8B701384"
+				type: "xp"
+				xp: 20
+			}]
+			dependencies: ["29ABC4B2DF472B9E"]
+		}
+		{
+			tasks: [{
+				id: "28D5C36153BF3105"
+				type: "item"
+				item: "betterendforge:infusion_pedestal"
+			}]
+			description: ["The Infusion Altar allows for empowering a core item with many additional items. While it makes a lot of crafting stuff, it can also act as a bonus way of obtaining enchanted books."]
+			id: "4FC0D1A25318A114"
+			x: -4.5d
+			y: 2.5d
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "69F8A048132DF5B3"
+					item: "ftbic:advanced_alloy"
+				}
+				{
+					id: "2962D87E81A4FB55"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1314E703083D18E5"
+					type: "item"
+					team_reward: true
+					item: "minecraft:ender_eye"
+				}
+			]
+			dependencies: ["526CF3ABCD5EDD89"]
+		}
+		{
+			tasks: [{
+				id: "7A65D84FEDF57758"
+				type: "item"
+				item: "masterfulmachinery:metal_empowerer_controller"
+			}]
+			description: [
+				"The &bMetal Empowerer&r makes superior crystal-infused metal ingots. With them, you can upgrade your multiblock machines with gearboxes, as well as construct rocket components."
+				""
+			]
+			icon: "masterfulmachinery:metal_empowerer_controller"
+			id: "7F0856C80FECBA22"
+			x: -2.5d
+			y: 2.5d
+			title: "Metal Empowerer"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "7031FC1F6F67AD3D"
+				item: "ibpdx:speed_gear"
+			}]
+			dependencies: ["4FC0D1A25318A114"]
+		}
+		{
+			tasks: [{
+				id: "1B5C0DEDE421C2CB"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			description: ["Go to the Moon, where you can utilize solar energy, trade with aliens for unique items, and eventually work towards higher-grade machinery."]
+			icon: {
+				id: "boss_tools:rocket_t1"
+				Count: 1b
+				tag: { }
+			}
+			id: "784129F2A3F7B244"
+			x: -0.5d
+			y: 2.5d
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "643FF7E54208E0A1"
+					item: "boss_tools:compressed_steel"
+				}
+				{
+					id: "4E9E1E9F38AB0338"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "boss_tools_giselle_addon:space_breathing"
+							}]
+						}
+					}
+				}
+			]
+			dependencies: ["7F0856C80FECBA22"]
+		}
+		{
+			tasks: [{
+				id: "168502E748ED647C"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			description: ["&eThermal&r allows for some easier processing of prior materials, as well as a faster and smaller alternative to the &eIE&r machines.  However, they also take a decent amount of power infrastructure."]
+			icon: "thermal:machine_frame"
+			id: "041984A3E03FFF6C"
+			x: 1.5d
+			y: 2.5d
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "3B7444DC952803A8"
+					item: "thermal:machine_frame"
+				}
+				{
+					id: "32EBAB5D11599A37"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["784129F2A3F7B244"]
+		}
+		{
+			tasks: [{
+				id: "6DE8024B5B5F52E4"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			description: ["&eIndustrial Foregoing&r has many machines to assist in automation. This unlocks the first set of them."]
+			icon: "industrialforegoing:machine_frame_pity"
+			id: "5D899FC6EAC09AEB"
+			x: -6.5d
+			y: 4.0d
+			rewards: [
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "727585BD6C649BC1"
+					item: "immersiveengineering:treated_wood_horizontal"
+				}
+				{
+					id: "43047BE092D984C8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["77EDFCCD349C7F6F"]
+		}
+		{
+			tasks: [{
+				id: "1EDCA6F4C4E16C99"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+			description: ["This is your second set of machines for &eIndustrial Foregoing&r."]
+			icon: "industrialforegoing:machine_frame_simple"
+			id: "494461DF4CC248FC"
+			x: -2.5d
+			y: 4.0d
+			rewards: [{
+				id: "6F3B1C7BB06BE656"
+				type: "item"
+				team_reward: true
+				item: "ftbic:mv_solar_panel"
+			}]
+			dependencies: ["7F0856C80FECBA22"]
+		}
+		{
+			tasks: [{
+				id: "4F884543C4868FB7"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			description: ["The top tier of &eIndustrial Foregoing&r machines."]
+			icon: "industrialforegoing:machine_frame_advanced"
+			id: "0F5CD55D09556A4A"
+			x: 3.5d
+			y: 4.0d
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "7620C6EB93D0130B"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "456B89022820EA66"
+					item: "thermal:signalum_ingot"
+				}
+				{
+					id: "06B427AEDC62D55D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["27CEF4A50405D540"]
+		}
+		{
+			tasks: [{
+				id: "4662B51DEB14E033"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+			description: ["&eMekanism&r machines uses many gases and fluids in their chemical-focused recipes, but also have factories which prioritize processing multiple recipes in one block of space."]
+			icon: "mekanism:steel_casing"
+			id: "27CEF4A50405D540"
+			x: 3.5d
+			y: 2.5d
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "0A3FB5959AC10441"
+					item: "mekanism:steel_casing"
+				}
+				{
+					type: "item"
+					count: 64
+					team_reward: true
+					id: "1EAAD1DF45E80E7C"
+					item: "mekanism:enriched_redstone"
+				}
+				{
+					id: "6E3667077C323491"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: [
+				"041984A3E03FFF6C"
+				"2F8A088CEED1D78D"
+			]
+		}
+		{
+			tasks: [{
+				id: "2FC3F3BBF3E7A7DA"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			description: ["A number of &eBotania's&r more complex flowers require &6Runes&r in their recipes. There are also other useful things crafted on the &bRunic Altar&r."]
+			icon: "botania:runic_altar"
+			id: "581859F226EBA57D"
+			x: -4.5d
+			y: -0.5d
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "36D52E15947B2F4B"
+					item: "botania:livingrock"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "49766786E8EDE080"
+					item: "botania:livingwood"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "102B61A55EBF62ED"
+					item: "botania:mana_powder"
+				}
+				{
+					id: "6361C09F5FA22754"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["7FDBB2DDAAC7B4ED"]
+		}
+		{
+			tasks: [{
+				id: "4A426FDA232B7F42"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+			description: ["The &bCelestial Altar&r makes for a nice checkpoint in your starlight-related endeavors. You can either move on to &eBotania&r or make the &6Iridescent Altar&r for some bonus stuff."]
+			icon: "astralsorcery:altar_constellation"
+			id: "7FDBB2DDAAC7B4ED"
+			x: -6.5d
+			y: -0.5d
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "3D1741CF6035FC40"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+				{
+					id: "43055F59EF6C96FF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3CA57146518F1434"
+					type: "item"
+					item: {
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+			]
+			dependencies: ["22DD44F698EFA1CB"]
+		}
+		{
+			tasks: [{
+				id: "0EAB20CCC1DB776D"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			description: ["&bWaystones&r are a more MP-friendly alternative to &6Celestial Gateways&r. Use what suits your situation best. "]
+			icon: "waystones:waystone"
+			id: "7883A646B2FE3ED6"
+			x: -6.5d
+			y: -2.0d
+			rewards: [{
+				id: "76563A2C1BF00309"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7FDBB2DDAAC7B4ED"]
+		}
+		{
+			tasks: [{
+				id: "5A6842FB781FCEE3"
+				type: "item"
+				item: "botania:alfheim_portal"
+			}]
+			description: [
+				"Congratulations, you've reached what is roughly the halfway mark in the modpack. This is also a merge point of sorts, to ensure you have been progressing in both tech and magic. "
+				""
+				"A lot of useful automation strategies are open to you at this point, so be sure to look at all of your options!"
+			]
+			icon: "botania:alfheim_portal"
+			x: -2.5d
+			id: "2F8A088CEED1D78D"
+			y: -0.5d
+			shape: "circle"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "3B5F30D1CB0FD58C"
+					item: "botania:terrasteel_ingot"
+				}
+				{
+					id: "1D51B3E29A7D3F59"
+					type: "xp"
+					xp: 30
+				}
+			]
+			dependencies: [
+				"581859F226EBA57D"
+				"4CDF9FBBD38CE85C"
+				"4FC0D1A25318A114"
+			]
+		}
+		{
+			tasks: [{
+				id: "01DCAEB1300073C8"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "astralsorcery:mantle"
+								Count: 1b
+								tag: {
+									astralsorcery: {
+										constellationName: "astralsorcery:vicio"
+									}
+									Damage: 0
+								}
+							}
+							{
+								id: "botania:flight_tiara"
+								Count: 1b
+								tag: {
+									variant: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			description: ["Want creative mode flight? The &bFlugel Tiara&r and &bMantle of Stars&r are both available to you at this point. Be wary that you need to attune to Vicio and get the correpsponding perk for the Mantle to work, though."]
+			icon: {
+				id: "botania:flight_tiara"
+				Count: 1b
+				tag: {
+					variant: 0
+				}
+			}
+			id: "798086AD53CCF913"
+			x: -2.5d
+			y: 1.0d
+			title: "Flight"
+			rewards: [
+				{
+					id: "5693D61B80B363B4"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:attuned_celestial_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								constellationName: "astralsorcery:vicio"
+							}
+						}
+					}
+				}
+				{
+					id: "16A5FCC758EBC6F2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["2F8A088CEED1D78D"]
+		}
+		{
+			tasks: [{
+				id: "561919790DEFAD2C"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			description: ["&eBlood Magic&r opens up some powerful automation techniques. You can run machines to simulate boss fights for you, as well as use rituals to acquire resources in different ways."]
+			icon: "bloodmagic:altar"
+			id: "1E2DAEBE3A2D4F40"
+			x: -0.5d
+			y: -0.5d
+			title: "Blood Altar"
+			rewards: [
+				{
+					id: "1E0C20FE828CCCEB"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "65EDC5D6AC009ACF"
+					type: "item"
+					item: "bloodmagic:bloodlightsigil"
+				}
+			]
+			dependencies: ["2F8A088CEED1D78D"]
+		}
+		{
+			tasks: [{
+				id: "1634425099BD4650"
+				type: "item"
+				item: "ftbic:antimatter"
+			}]
+			description: ["&bAntimatter&r is used for otherworldly crafting techniques, such as material duplication."]
+			icon: "ftbic:antimatter"
+			id: "056DB4E5C233C6CD"
+			x: -0.5d
+			y: 4.0d
+			title: "Ore Generation"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "2293A9C295E9307A"
+					item: "ftbic:antimatter"
+				}
+				{
+					id: "13D421C8EE873E0C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "24FEBFBCFB7EF00F"
+					item: "ftbic:electronic_circuit"
+				}
+			]
+			dependencies: ["784129F2A3F7B244"]
+		}
+		{
+			tasks: [{
+				id: "2C49FEA588C541BB"
+				type: "item"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+			}]
+			description: [
+				"A fancy material modifier that transmutes items into related, yet different items."
+				""
+			]
+			icon: "mekanism:antiprotonic_nucleosynthesizer"
+			id: "072E342F1F9C403D"
+			x: 3.5d
+			y: 1.0d
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "2447C208DBA7FD3D"
+					item: "ftbic:antimatter_crystal"
+				}
+				{
+					id: "2E83290DC5E57F96"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["27CEF4A50405D540"]
+		}
+		{
+			tasks: [{
+				id: "331E1DD3E1DDE223"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+			}]
+			description: ["The tech and magic merge from here to the finish line."]
+			icon: "draconicevolution:wyvern_core"
+			id: "083F27E0E05907B7"
+			x: 3.5d
+			y: -0.5d
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "47EC4400F95BE796"
+					item: {
+						id: "draconicevolution:dislocator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "798FA1B0DA27AC8D"
+					item: "draconicevolution:dislocator_pedestal"
+				}
+				{
+					id: "705086A99AB22270"
+					type: "xp"
+					xp: 100
+				}
+			]
+			dependencies: [
+				"35FD8111A74D7478"
+				"072E342F1F9C403D"
+			]
+		}
+		{
+			tasks: [{
+				id: "081F274115698EC3"
+				type: "item"
+				item: "ibpdx:bloodshine_ingot"
+			}]
+			description: ["Simply an ending crafting ingredient goal for moving into the endgame mods. If you are behind on your tech, don't worry about this yet."]
+			icon: "ibpdx:bloodshine_ingot"
+			id: "35FD8111A74D7478"
+			x: 1.5d
+			y: -0.5d
+			rewards: [
+				{
+					id: "2D7CE96EE70B9CB8"
+					type: "item"
+					team_reward: true
+					item: "ibpdx:wither_base"
+				}
+				{
+					id: "511D4840520CDEB5"
+					type: "item"
+					team_reward: true
+					item: "bloodmagic:weak_tau"
+				}
+			]
+			dependencies: ["1E2DAEBE3A2D4F40"]
+		}
+		{
+			tasks: [{
+				id: "055AA825AE26EE0C"
+				type: "item"
+				item: "ibpdx:hot_cooking_plate"
+			}]
+			description: ["Better foods require better cooking methods. The &bCooking Plate&r might be of assistance."]
+			icon: "ibpdx:hot_cooking_plate"
+			id: "4CDF9FBBD38CE85C"
+			x: -4.5d
+			y: 1.0d
+			rewards: [{
+				id: "19290EA8B295219E"
+				type: "item"
+				item: "pamhc2foodcore:chickendinneritem"
+			}]
+			dependencies: ["526CF3ABCD5EDD89"]
+		}
+		{
+			tasks: [{
+				id: "614E621BDB798FA6"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			description: ["If you want to grow any resources you're lacking, now is the time to do so."]
+			icon: {
+				id: "mysticalagriculture:infusion_crystal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E1C3E1AB51599D4"
+			x: 5.5d
+			y: 2.5d
+			rewards: [
+				{
+					id: "2BB63B23B757A51B"
+					type: "item"
+					team_reward: true
+					item: "xreliquary:fertile_lily_pad"
+				}
+				{
+					id: "080CD3302C09E40E"
+					type: "item"
+					item: {
+						id: "bloodmagic:growthsigil"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "416D27E0C1E2B672"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["27CEF4A50405D540"]
+		}
+		{
+			tasks: [{
+				id: "26EC55A91757869D"
+				type: "item"
+				item: "ibpdx:inert_infinity_ingot"
+			}]
+			description: ["Combine all of the various metals you've obtained!"]
+			icon: "ibpdx:inert_infinity_ingot"
+			id: "32FD469ABA75CD41"
+			x: 5.5d
+			y: 1.0d
+			title: "Inert Infinity Ingot"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "02E9B0521CB8D560"
+					item: "botania:overgrowth_seed"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "5C47994CE30C6D21"
+					item: "mysticalagriculture:enderium_seeds"
+				}
+				{
+					id: "1D415BF03A936BD4"
+					type: "xp"
+					xp: 30
+				}
+			]
+			dependencies: ["3E1C3E1AB51599D4"]
+		}
+		{
+			tasks: [{
+				id: "4D99E2C6908C722B"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+			description: ["Your final challenge."]
+			icon: "avaritia:infinity_catalyst"
+			id: "7E44361730C6C289"
+			x: 5.5d
+			y: -0.5d
+			rewards: [
+				{
+					id: "4A178B06373E47B1"
+					type: "item"
+					item: "avaritia:ultimate_stew"
+				}
+				{
+					id: "3D6193D0599611BC"
+					type: "item"
+					item: "avaritia:cosmic_meatballs"
+				}
+				{
+					id: "6498D771258C850E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			dependencies: [
+				"32FD469ABA75CD41"
+				"083F27E0E05907B7"
+			]
+		}
+		{
+			tasks: [{
+				id: "64E66D4B6C1FEA4E"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			description: ["While you may think it would go over like a Lead Balloon, the &bLeadstone Jetpack&r will have you soaring the skies in no time. "]
+			icon: {
+				id: "simplyjetpacks:jetpack_te1"
+				Count: 1b
+				tag: { }
+			}
+			id: "28296ACC5433AEC3"
+			x: -6.5d
+			y: 1.0d
+			title: "Jetpacks"
+			rewards: [{
+				id: "088FE4187396F9E3"
+				type: "item"
+				team_reward: true
+				item: "mekanism:basic_energy_cube"
+			}]
+			dependencies: ["526CF3ABCD5EDD89"]
+		}
+		{
+			tasks: [{
+				id: "7BC1D7990F746907"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			description: [
+				"You can now make &bManasteel&r. This marks the end of the first chapter. "
+				""
+				"From here, two paths emerge. You'll need to pursue both, but start with the one you are more interested in doing."
+			]
+			id: "29ABC4B2DF472B9E"
+			x: -10.0d
+			y: 1.0d
+			rewards: [{
+				id: "344420420AB9CF78"
+				type: "xp"
+				xp: 10
+			}]
+			dependencies: ["74E844EE60DB77B9"]
+		}
+		{
+			tasks: [{
+				id: "06BCD65E74F3B008"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			description: ["&eRefined Storage&r is your one-stop shop for accessing entire storage systems from one block."]
+			id: "09C0F5CE3E9DA0B6"
+			x: 1.5d
+			y: 4.0d
+			rewards: [
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "4D884AB0E0230F28"
+					item: "refinedstorage:cable"
+				}
+				{
+					id: "4A9CABBBDBF9BE91"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:silicon_seeds"
+				}
+			]
+			dependencies: ["041984A3E03FFF6C"]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.iridium",
+  "colors": [
+    "caccda",
+    "caccda"
+  ],
+  "ingredient": {
+    "item": "chemlib:element_iridium"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "replace": false,
+  "values": ["thermal:pbj_sandwich", "pamhc2foodcore:meatloafitem", "pamhc2foodcore:fishandchipsitem", "pamhc2foodcore:basicfishsandwichitem", "pamhc2foodcore:basicchickensandwichitem", "pamhc2foodcore:basichamburgeritem", "pamhc2foodcore:basiccheeseburgeritem", "pamhc2foodcore:baconcheeseburgeritem", "pamhc2foodcore:groundrabbititem", "pamhc2foodcore:groundmuttonitem", "pamhc2foodcore:groundbeefitem", "pamhc2foodcore:groundchickenitem", "pamhc2foodcore:groundporkitem", "pamhc2foodcore:groundfishitem", "pamhc2foodcore:baconandeggsitem", "pamhc2foodcore:fishsticksitem", "pamhc2foodcore:hotdogitem", "pamhc2foodcore:chickenpotpieitem", "pamhc2foodcore:cheeseitem", "pamhc2foodcore:icecreamitem", "pamhc2foodcore:chocolateicecreamitem", "pamhc2foodcore:caramelicecreamitem", "pamhc2foodcore:hotchocolateitem", "pamhc2foodcore:friedchickenitem", "ibpdx:spaghetti_and_meatballs"]
+}
