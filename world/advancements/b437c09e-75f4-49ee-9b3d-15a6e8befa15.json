@@ -17,19 +17,20 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2024-02-08 22:07:45 +0800",
-      "minecraft:creeper": "2024-02-08 21:55:54 +0800",
-      "minecraft:zombie": "2024-02-08 22:11:46 +0800"
-    },
-    "done": false
-  },
   "botania:main/root": {
     "criteria": {
       "flower": "2024-02-08 21:53:00 +0800"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2024-02-08 22:07:45 +0800",
+      "minecraft:creeper": "2024-02-08 21:55:54 +0800",
+      "minecraft:enderman": "2024-02-09 21:05:41 +0800",
+      "minecraft:zombie": "2024-02-08 22:11:46 +0800"
+    },
+    "done": false
   },
   "naturescompass:natures_compass": {
     "criteria": {
@@ -45,6 +46,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-02-09 21:21:26 +0800",
       "sweet_berries": "2024-02-08 22:48:09 +0800"
     },
     "done": false
@@ -61,15 +63,15 @@
     },
     "done": true
   },
-  "botania:main/pure_daisy_pickup": {
-    "criteria": {
-      "lexicon": "2024-02-08 22:25:43 +0800"
-    },
-    "done": true
-  },
   "botania:main/apothecary_pickup": {
     "criteria": {
       "lexicon": "2024-02-08 21:53:50 +0800"
+    },
+    "done": true
+  },
+  "botania:main/pure_daisy_pickup": {
+    "criteria": {
+      "lexicon": "2024-02-08 22:25:43 +0800"
     },
     "done": true
   },
@@ -93,6 +95,12 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2024-02-08 22:08:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2024-02-09 21:07:59 +0800"
     },
     "done": true
   },
@@ -153,6 +161,12 @@
   "botania:main/mana_pool_pickup": {
     "criteria": {
       "default": "2024-02-08 22:29:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-02-09 21:21:02 +0800"
     },
     "done": true
   },

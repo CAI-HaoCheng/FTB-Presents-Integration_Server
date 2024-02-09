@@ -5,6 +5,6 @@
 	teleport_history: [ ]
 	homes: { }
 	recording: 0
-	last_seen: { dim: "minecraft:overworld", time: 1707406776732L, z: -44, y: 79, x: -339 }
+	last_seen: { dim: "minecraft:overworld", time: 1707485029448L, z: -37, y: 79, x: -338 }
 	nick: ""
 }

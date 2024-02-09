@@ -1,7 +1,7 @@
-[23:53:44] [INFO ] Loaded script startup_scripts:block_register.js in 0.143 s
-[23:53:44] [INFO ] Loaded script startup_scripts:fluid_register.js in 0.006 s
-[23:53:44] [INFO ] Loaded script startup_scripts:gas_register.js in 0.0 s
-[23:53:44] [INFO ] Loaded script startup_scripts:item_register.js in 0.011 s
-[23:53:44] [INFO ] Loaded script startup_scripts:javaclassloaders.js in 0.004 s
-[23:53:44] [INFO ] Loaded 5/5 KubeJS startup scripts in 0.324 s
-[23:53:50] [ERR  ] Error occurred while handling event 'postinit': Class 'com.therandomlabs.randompatches.RandomPatches' is not allowed! (startup_scripts:javaclassloaders.js#8)
+[20:44:02] [INFO ] Loaded script startup_scripts:block_register.js in 0.152 s
+[20:44:02] [INFO ] Loaded script startup_scripts:fluid_register.js in 0.012 s
+[20:44:02] [INFO ] Loaded script startup_scripts:gas_register.js in 0.001 s
+[20:44:02] [INFO ] Loaded script startup_scripts:item_register.js in 0.015 s
+[20:44:02] [INFO ] Loaded script startup_scripts:javaclassloaders.js in 0.006 s
+[20:44:02] [INFO ] Loaded 5/5 KubeJS startup scripts in 0.433 s
+[20:44:14] [ERR  ] Error occurred while handling event 'postinit': Class 'com.therandomlabs.randompatches.RandomPatches' is not allowed! (startup_scripts:javaclassloaders.js#8)
